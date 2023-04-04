@@ -1,9 +1,12 @@
+namespace STKBC.Stats.Data;
+
 using Microsoft.EntityFrameworkCore;
 
-class TodoDb : DbContext
+class StatsDb : DbContext
 {
-    public TodoDb(DbContextOptions<TodoDb> options)
+    public StatsDb(DbContextOptions<StatsDb> options)
         : base(options) { }
 
-    public DbSet<Todo> Todos => Set<Todo>();
+    // public DbSet<Todo> Todos => Set<Todo>();
+    
 }

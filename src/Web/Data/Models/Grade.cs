@@ -1,1 +1,1 @@
-.keep
+namespace STKBC.Stats.Data.Models;
