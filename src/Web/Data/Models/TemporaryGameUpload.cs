@@ -31,22 +31,26 @@ public class TemporaryPlayer
 
 public class TemporaryPlayerBattingStats
 {
-    public int Pa { get; set; }
-    public int Ab { get; set; }
-    public int Hits { get; set; }
-    public int Singles { get; set; }
-    public int Doubles { get; set; }
-    public int Triples { get; set; }
-    public int Hr { get; set; }
-    public int RChErr { get; set; }
-    public int Bb { get; set; }
-    public int Hbp { get; set; }
-    public int So { get; set; }
-    public int SacFly { get; set; }
-    public int Cs { get; set; }
-    public int Runs { get; set; }
-    public int Rbi { get; set; }
-    public int Sb { get; set; }
+            public int Ab { get; set; }
+            public int Bb { get; set; }
+            public int Cs { get; set; }
+            public int Double { get; set; }
+            public int Gdp { get; set; }
+            public int Ground { get; set; }
+            public int H { get; set; }
+            public int Hbp { get; set; }
+            public int Hr { get; set; }
+            public int Kl { get; set; }
+            public int Pickoff { get; set; }
+            public int R { get; set; }
+            public int Rbi { get; set; }
+            public int Rchci { get; set; }
+            public int Rcherr { get; set; }
+            public int Sb { get; set; }
+            public int Sf { get; set; }
+            public int Sh { get; set; }
+            public int So { get; set; }
+            public int Triple { get; set; }
 }
 
 public class TemporaryTeam

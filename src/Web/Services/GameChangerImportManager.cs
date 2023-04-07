@@ -1,4 +1,3 @@
-using System;
 using System.Globalization;
 using System.Xml;
 using STKBC.Stats.Data.Models;
@@ -37,11 +36,21 @@ public class GameChangerImportManager
         var peeker = new GameChangerXmlPeeker();
         var overview = peeker.GetFileOverviewFromXml(fileXml);
 
+        return MapToFileImportRequest(file, overview, _idGenerator, _clock);
+    }
+
+    internal static FileImportRequest MapToFileImportRequest(
+        FileObject file,
+        GameChangerFileOverview overview,
+        IIdGenerator idGenerator,
+        IClock clock
+        )
+    {
 
 
         return new FileImportRequest
         {
-            Id = _idGenerator.NewGuid(),
+            Id = idGenerator.NewDeterministicGuid(file.Id!.Value, "import-request-id").Id,
             FileId = file.Id,
             FileName = file.Name,
             FileHash = file.Hash,
@@ -49,13 +58,9 @@ public class GameChangerImportManager
             AwayTeam = overview.AwayTeam,
             ExternalRef = overview.GameId,
             GameDate = overview.GameDate,
-            UploadedAt = _clock.GetUtcNow(),
+            UploadedAt = clock.GetUtcNow(),
             ImportType = $"GameChanger_{overview.Format}"
         };
-
-
-
-
     }
 
     public TemporaryGameUpload GetTemporaryGameUploadFromImportRequest(FileImportRequest importRequest)
@@ -112,7 +117,29 @@ public class GameChangerImportManager
             PlayerId = tempTeamId.NewGuid(x.Name).Id,
             DisplayName = x.Name,
             Pitching = null,
-            Batting = null,
+            Batting = new TemporaryPlayerBattingStats
+            {
+                Ab = x.Hitting.Ab,
+                Bb = x.Hitting.Bb,
+                Cs = x.Hitting.Cs,
+                Double = x.Hitting.Double,
+                Gdp = x.Hitting.Gdp,
+                Ground = x.Hitting.Ground,
+                H = x.Hitting.H,
+                Hbp = x.Hitting.Hbp,
+                Hr = x.Hitting.Hr,
+                Kl = x.Hitting.Kl,
+                Pickoff = x.Hitting.Pickoff,
+                R = x.Hitting.R,
+                Rbi = x.Hitting.Rbi,
+                Rchci = x.Hitting.Rchci,
+                Rcherr = x.Hitting.Rcherr,
+                Sb = x.Hitting.Sb,
+                Sf = x.Hitting.Sf,
+                Sh = x.Hitting.Sh,
+                So = x.Hitting.So,
+                Triple = x.Hitting.Triple,
+            },
             Fielding = null,
             Found = false,
         }).ToList();
