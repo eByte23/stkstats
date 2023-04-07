@@ -10,8 +10,14 @@ public class FileObject
     public string? Location { get; set; }
 }
 
+public interface IFileObjectStream
+{
+    string GetText();
+    Stream Stream { get; }
+}
 
-public class FileObjectStream : IDisposable
+
+public class FileObjectStream : IFileObjectStream, IDisposable
 {
     private readonly Stream _fileStream;
     private readonly StreamReader _reader;
@@ -49,27 +55,27 @@ public class FileObjectStream : IDisposable
 
 public interface IFileService
 {
-    public FileObject? GetFileObject(Guid fileId);
+    public FileObject? GetFileObject(Guid? fileId);
 
-    public FileObjectStream GetFileObjectStream(Guid fileId);
+    public IFileObjectStream GetFileObjectStream(Guid? fileId);
 
-    public FileObjectStream GetFileObjectStream(FileObject fileObject);
+    public IFileObjectStream GetFileObjectStream(FileObject? fileObject);
 }
 
 
 public class FileService : IFileService
 {
-    public FileObject? GetFileObject(Guid fileId)
+    public FileObject? GetFileObject(Guid? fileId)
     {
         throw new NotImplementedException();
     }
 
-    public FileObjectStream GetFileObjectStream(Guid fileId)
+    public IFileObjectStream GetFileObjectStream(Guid? fileId)
     {
         throw new NotImplementedException();
     }
 
-    public FileObjectStream GetFileObjectStream(FileObject fileObject)
+    public IFileObjectStream GetFileObjectStream(FileObject? fileObject)
     {
         throw new NotImplementedException();
     }

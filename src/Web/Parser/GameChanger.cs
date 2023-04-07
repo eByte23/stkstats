@@ -16,8 +16,10 @@ namespace STKBC.Stats.Parser
             public string Date { get; set; }
             [XmlAttribute(AttributeName = "gameid")]
             public string Gameid { get; set; }
+
             [XmlAttribute(AttributeName = "homeid")]
             public string Homeid { get; set; }
+
             [XmlAttribute(AttributeName = "homename")]
             public string Homename { get; set; }
             [XmlAttribute(AttributeName = "leaguegame")]
@@ -267,12 +269,16 @@ namespace STKBC.Stats.Parser
         {
             [XmlElement(ElementName = "linescore")]
             public Linescore Linescore { get; set; }
+
             [XmlElement(ElementName = "starters")]
-            public Starters Starters { get; set; }
+            public Starters StartersList { get; set; }
+            
             [XmlElement(ElementName = "totals")]
             public Totals Totals { get; set; }
+
             [XmlElement(ElementName = "player")]
-            public List<Player> Player { get; set; }
+            public List<Player> Players { get; set; }
+
             [XmlAttribute(AttributeName = "code")]
             public string Code { get; set; }
             [XmlAttribute(AttributeName = "id")]
@@ -386,18 +392,25 @@ namespace STKBC.Stats.Parser
         {
             [XmlElement(ElementName = "venue")]
             public Venue Venue { get; set; }
+
             [XmlElement(ElementName = "team")]
-            public List<Team> Team { get; set; }
+            public List<Team> Teams { get; set; }
+
             [XmlElement(ElementName = "plays")]
             public Plays Plays { get; set; }
+
             [XmlElement(ElementName = "status")]
             public Status Status { get; set; }
+
             [XmlAttribute(AttributeName = "generated")]
             public string Generated { get; set; }
+
             [XmlAttribute(AttributeName = "source")]
             public string Source { get; set; }
+
             [XmlAttribute(AttributeName = "source_format")]
             public string Source_format { get; set; }
+
             [XmlAttribute(AttributeName = "version")]
             public string Version { get; set; }
         }
