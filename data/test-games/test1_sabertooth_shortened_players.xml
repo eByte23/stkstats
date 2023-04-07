@@ -60,17 +60,23 @@
       <psitsummary fly="0" ground="5" />
     </totals>
     <player gp="1" name="SNTS-Player 1" shortname="1" spot="1">
-      <hitting ab="1" bb="0" cs="0" double="0" gdp="0" ground="0" h="1" hbp="3" hr="0" kl="0" pickoff="0" r="4" rbi="2" rchci="0" rcherr="0" sb="2" sf="0" sh="0" so="0" triple="0" />
+      <hitting ab="1" bb="0" cs="0" double="0" gdp="0" ground="0" h="1" 
+        hbp="3" hr="0" kl="0" pickoff="0" r="4" rbi="2" rchci="0" rcherr="0" 
+        sb="2" sf="0" sh="0" so="0" triple="0" />
       <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="0" sba="0" />
       <hsitsummary lob="0" rbi-2out="2" rchci="0" rcherr="0" wrbiops="1" />
     </player>
     <player atpos="ss" gp="1" name="SNTS-Player 2" pos="ss" shortname="2" spot="2">
-      <hitting ab="3" bb="1" cs="0" double="2" gdp="0" ground="0" h="2" hbp="0" hr="0" kl="0" pickoff="0" r="2" rbi="6" rchci="0" rcherr="0" sb="0" sf="0" sh="0" so="0" triple="0" />
+      <hitting ab="3" bb="1" cs="0" double="2" gdp="0" ground="0" h="2"
+       hbp="0" hr="0" kl="0" pickoff="0" r="2" rbi="6" rchci="0" rcherr="0" 
+       sb="0" sf="0" sh="0" so="0" triple="0" />
       <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="0" sba="0" />
       <hsitsummary lob="0" rbi-2out="4" rchci="0" rcherr="0" wrbiops="3" />
     </player>
     <player atpos="cf" gp="1" name="SNTS-Player 3" pos="cf" shortname="3" spot="3">
-      <hitting ab="2" bb="2" cs="0" double="1" gdp="0" ground="0" h="2" hbp="0" hr="0" kl="0" pickoff="0" r="3" rbi="3" rchci="0" rcherr="0" sb="1" sf="0" sh="0" so="0" triple="0" />
+      <hitting ab="2" bb="2" cs="0" double="1" gdp="0" ground="0" h="2"
+       hbp="0" hr="0" kl="0" pickoff="0" r="3" rbi="3" rchci="0" rcherr="0" 
+       sb="1" sf="0" sh="0" so="0" triple="0" />
       <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="0" sba="0" />
       <hsitsummary lob="0" rbi-2out="2" rchci="0" rcherr="0" wrbiops="2" />
     </player>
@@ -197,7 +203,7 @@
           <batter name="Sheehan" out="1" scored="0" tobase="1" />
           <runner name="D’Avoine" out="0" scored="0" tobase="2" />
           <narrative text="Sheehan grounds out, pitcher Bate to first baseman Mena" />
-        </play>
+        </play>`
         <play>
           <batter name="Wray" out="0" scored="0" tobase="1" />
           <runner name="D’Avoine" out="0" scored="0" tobase="3" />
