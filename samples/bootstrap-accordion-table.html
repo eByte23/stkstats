@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table with Collapsible Rows (Accordion)</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .accordion-toggle {
+      cursor: pointer;
+    }
+  </style>
+  <!-- Include jQuery and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Add click event to accordion toggle
+      $('.accordion-toggle').click(function() {
+        // Toggle the icon
+        $(this).find('.toggle-icon').toggleClass('fa-chevron-down fa-chevron-up');
+        // Toggle the row visibility
+        $(this).closest('tr').next('.accordion-body').collapse('toggle');
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Header 1</th>
+          <th>Header 2</th>
+          <th>Header 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-toggle="collapse" data-target="#row1" class="accordion-toggle">
+          <td>Row 1, Column 1</td>
+          <td>Row 1, Column 2</td>
+          <td>Row 1, Column 3</td>
+        </tr>
+        <tr id="row1" class="accordion-body collapse">
+          <td colspan="3">
+            <p>Content for Row 1, Collapsible Row 1</p>
+            <p>Content for Row 1, Collapsible Row 2</p>
+            <!-- Add more content as needed -->
+          </td>
+        </tr>
+        <tr data-toggle="collapse" data-target="#row2" class="accordion-toggle">
+          <td>Row 2, Column 1</td>
+          <td>Row 2, Column 2</td>
+          <td>Row 2, Column 3</td>
+        </tr>
+        <tr id="row2" class="accordion-body collapse">
+          <td colspan="3">
+            <p>Content for Row 2, Collapsible Row 1</p>
+            <p>Content for Row 2, Collapsible Row 2</p>
+            <!-- Add more content as needed -->
+          </td>
+        </tr>
+        <!-- Add more rows and collapsible rows as needed -->
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

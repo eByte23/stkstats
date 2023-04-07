@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Condensed Bootstrap Table with Fixed First Column</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Set max height for table to enable scrolling */
+    .table-container {
+      max-height: 300px;
+      overflow-y: auto;
+    }
+
+    /* Set width for first column and make it fixed */
+    .fixed-column {
+      position: sticky;
+      left: 0;
+      z-index: 1;
+      background-color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="table-container">
+      <table class="table table-condensed table-bordered">
+        <thead>
+          <tr>
+            <th class="fixed-column">Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+            <th>Header 4</th>
+            <!-- Add more headers as needed -->
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="fixed-column">Row 1, Column 1</td>
+            <td>Row 1, Column 2</td>
+            <td>Row 1, Column 3</td>
+            <td>Row 1, Column 4</td>
+            <!-- Add more cells as needed -->
+          </tr>
+          <tr>
+            <td class="fixed-column">Row 2, Column 1</td>
+            <td>Row 2, Column 2</td>
+            <td>Row 2, Column 3</td>
+            <td>Row 2, Column 4</td>
+            <!-- Add more cells as needed -->
+          </tr>
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
