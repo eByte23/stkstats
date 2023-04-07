@@ -54,8 +54,6 @@ public class GameChangerImportManagerTests
             .Setup(x => x.GetFileObjectStream(It.Is<Guid>(x => x == fileObject.Id)))
             .Returns(fakeFileObjectStream.Object);
 
-
-        // var gameChangerImportManager = new GameChangerImportManager(new FakeIdGenerator(), new FrozenClock(), fakeFileService);
         var gameChangerImportManager = new GameChangerImportManager(
             fakeIdGenerator.Object,
             fakeFrozenClock.Object,
