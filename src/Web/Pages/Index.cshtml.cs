@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Web.Pages;
+namespace STKBC.Stats.Pages;
 
 public class IndexModel : PageModel
 {

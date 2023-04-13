@@ -1,0 +1,23 @@
+@page "games"
+@model IndexModel
+
+
+<table class="table table-condensed">
+    <thead>
+        <tr>
+            <td>Game Date</td>
+            <td>Grade Name</td>
+            <td>League Name</td>
+            <td>Home Team Name</td>
+            <td>Away Team Name</td>
+            <td>Result</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Games)
+        {
+
+            <tr></tr>
+        }
+    </tbody>
+</table>

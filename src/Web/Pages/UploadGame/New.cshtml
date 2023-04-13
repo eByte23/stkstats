@@ -1,0 +1,66 @@
+@page "~/upload-game/new"
+@model NewModel
+
+
+<form asp-page="./" method="post">
+    <input asp-for="ImportRequestId" type="hidden" value="@Model.ImportRequestId" />
+    <!-- Read only to show context -->
+    <table class="table table-condensed table-striped">
+        <thead>
+            <tr>
+                <td>Import Request ID</td>
+                <td>File Name</td>
+                <td>Home Team</td>
+                <td>Away Team</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.ImportRequestId</td>
+                <td>@Model.ImportRequest.FileName</td>
+                <td>@Model.ImportRequest.HomeTeam</td>
+                <td>@Model.ImportRequest.AwayTeam</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- END -->
+
+    <div class="row mb-2">
+        <div class="form-group col-6">
+            <label>League</label>
+            <select name="LeagueId" asp-items="Model.Leagues" class="form-control">
+            </select>
+            <span asp-validation-for="LeagueId" class="text-danger"></span>
+        </div>
+        <div class="form-group col-6">
+            <label>Grade</label>
+            <select name="GradeId" asp-items="Model.Grades" class="form-control">
+            </select>
+            <span asp-validation-for="GradeId" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="form-group col-6">
+            <label>Home Team</label>
+            <select name="HomeTeamId" asp-items="Model.HomeTeams" class="form-control">
+            </select>
+            <span asp-validation-for="HomeTeamId" class="text-danger"></span>
+        </div>
+        <div class="form-group col-6">
+            <label>Away Team</label>
+            <select name="AwayTeamId" asp-items="Model.AwayTeams" class="form-control">
+            </select>
+            <span asp-validation-for="AwayTeamId" class="text-danger"></span>
+        </div>
+    </div>
+
+
+
+    <button class="btn btn-primary">Add</button>
+
+</form>
+
+@section scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

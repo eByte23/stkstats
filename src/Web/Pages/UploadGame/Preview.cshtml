@@ -1,0 +1,15 @@
+@page "~/upload-game/preview"
+@model PreviewModel
+
+<h2>Home Team</h2>
+@await Html.PartialAsync("_TeamStatsPreview", Model.Game!.HomeTeam)
+
+<h2>Away Team</h2>
+@await Html.PartialAsync("_TeamStatsPreview", Model.Game!.AwayTeam)
+
+
+@section Scripts {
+
+    <script src="~/js/UploadGame/_TeamStatsPreview.js"></script>
+
+}

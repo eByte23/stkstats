@@ -1,0 +1,81 @@
+@using Models.Partials
+@model TeamPreview
+<table class="table table-condensed">
+    <thead>
+        <tr>
+            <td>Player Name</td>
+            <td>AB</td>
+            <td>R</td>
+            <td>H</td>
+            <td>2B</td>
+            <td>3B</td>
+            <td>HR</td>
+            <td>RBI</td>
+            <td>BB</td>
+            <td>SO</td>
+            <td>SB</td>
+            <td>CS</td>
+            <td>AVG</td>
+            <td>OBP</td>
+            <td>SLG</td>
+            <td>OPS</td>
+            <td>...</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var player in Model.Players)
+        {
+            <tr data-playerid="@player.TempId" data-role="stat">
+                <td>
+
+                    @if (!player.MatchedId.HasValue)
+                    {
+                        <span>@player.DisplayName</span>
+                        <button type="button" class="btn btn-primary btn-sm js-display-playerlink"
+                            data-target="@player.TempId">Link</button>
+                    }
+                    else
+                    {
+                        <a asp-page="../Player" asp-route-id="@player.MatchedId" target="_blank" >@player.DisplayName</a>
+                    }
+                </td>
+                <td>@player.Hitting?.AB</td>
+                <td>@player.Hitting?.Runs</td>
+                <td>@player.Hitting?.H</td>
+                <td>@player.Hitting?.Doubles</td>
+                <td>@player.Hitting?.Triples</td>
+                <td>@player.Hitting?.HR</td>
+                <td>@player.Hitting?.RBI</td>
+                <td>@player.Hitting?.BB</td>
+                <td>@player.Hitting?.SO</td>
+                <td>@player.Hitting?.SB</td>
+                <td>@player.Hitting?.CS</td>
+                <td>@player.Hitting?.AVG</td>
+                <td>@player.Hitting?.OBP</td>
+                <td>@player.Hitting?.SLG</td>
+                <td>@player.Hitting?.OPS</td>
+                <td>...</td>
+            </tr>
+            <tr class="d-none" data-playerid="@player.TempId" data-role="player-linker">
+                <td colspan="17">
+                    <div class="" style="height: 100px;">
+                        <form asp-page="./Preview" asp-page-handler="LinkPlayer" method="post">
+                            <div>
+                                <h3>Link Player</h3>
+                            </div>
+                            <input type="hidden" name="PlayerTempId" value="@player.TempId" />
+                            <input type="hidden" name="TeamId" value="@Model.TeamId" />
+                            <select name="PlayerId" id="PlayerId" required>
+                                <option value="">Select Player</option>
+                                <option value="cf03257f-0c05-4cee-8f62-b8d635f30ca2">Elijah B</option>
+                            </select>
+                            <button type="submit" class="btn btn-primary">Link</button>
+                            <button type="button" class="btn btn-secondary js-cancel-link">Cancel</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>
