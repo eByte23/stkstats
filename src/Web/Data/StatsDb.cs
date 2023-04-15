@@ -1,12 +1,13 @@
 namespace STKBC.Stats.Data;
 
 using Microsoft.EntityFrameworkCore;
+using STKBC.Stats.Data.Models;
 
-class StatsDb : DbContext
+public class StatsDb : DbContext
 {
     public StatsDb(DbContextOptions<StatsDb> options)
         : base(options) { }
 
-    // public DbSet<Todo> Todos => Set<Todo>();
+    public DbSet<FileUpload> FileUploads => Set<FileUpload>();
     
 }

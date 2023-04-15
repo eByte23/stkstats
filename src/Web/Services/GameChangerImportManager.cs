@@ -19,18 +19,18 @@ public class GameChangerImportManager
         this._fileService = fileService;
     }
 
-    public FileImportRequest CreateImportRequestFromFileId(Guid? fileId)
+    public async Task<GameUpload> CreateImportRequestFromFileId(Guid? fileId)
     {
         if (!fileId.HasValue)
             throw new ArgumentNullException(nameof(fileId));
 
-        var file = _fileService.GetFileObject(fileId);
+        var file = await _fileService.GetFileObjectAsync(fileId);
 
         if (file is null)
             throw new Exception($"File with Id: `{fileId}` could not be found");
 
 
-        var fileObjectStream = _fileService.GetFileObjectStream(file.Id);
+        var fileObjectStream = await _fileService.GetFileObjectStream(file.Id);
         var fileXml = fileObjectStream.GetText();
 
         var peeker = new GameChangerXmlPeeker();
@@ -39,7 +39,7 @@ public class GameChangerImportManager
         return MapToFileImportRequest(file, overview, _idGenerator, _clock);
     }
 
-    internal static FileImportRequest MapToFileImportRequest(
+    internal static GameUpload MapToFileImportRequest(
         FileObject file,
         GameChangerFileOverview overview,
         IIdGenerator idGenerator,
@@ -48,9 +48,9 @@ public class GameChangerImportManager
     {
 
 
-        return new FileImportRequest
+        return new GameUpload
         {
-            Id = idGenerator.NewDeterministicGuid(file.Id!.Value, "import-request-id").Id,
+            Id = idGenerator.NewDeterministicId(file.Id!.Value, "import-request-id").Id,
             FileId = file.Id,
             FileName = file.Name,
             FileHash = file.Hash,
@@ -63,15 +63,15 @@ public class GameChangerImportManager
         };
     }
 
-    public TemporaryGameUpload GetTemporaryGameUploadFromImportRequest(FileImportRequest importRequest)
+    public async Task<TemporaryGameUpload> GetTemporaryGameUploadFromImportRequest(GameUpload importRequest)
     {
 
 
-        var fileObjectStream = _fileService.GetFileObjectStream(importRequest.FileId);
+        var fileObjectStream = await _fileService.GetFileObjectStream(importRequest.FileId);
         var fileXml = fileObjectStream.GetText();
 
         var parsedGame = Stats.Parser.ParserUtil.Deserialize(fileXml);
-        var tempGameId = _idGenerator.NewDeterministicGuid(importRequest.Id!.Value, "temp-game-upload");
+        var tempGameId = _idGenerator.NewDeterministicId(importRequest.Id!.Value, "temp-game-upload");
 
         var homeTeamName = parsedGame.Venue.Homename;
         var awayTeamName = parsedGame.Venue.Visname;

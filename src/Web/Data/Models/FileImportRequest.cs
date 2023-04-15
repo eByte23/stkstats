@@ -1,7 +1,7 @@
 namespace STKBC.Stats.Data.Models;
 
 
-public class FileImportRequest
+public class GameUpload
 {
     public Guid? Id { get; set; }
     public DateTime? GameDate { get; set; }

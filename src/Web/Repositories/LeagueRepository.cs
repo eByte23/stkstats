@@ -1,10 +1,16 @@
+using STKBC.Stats.Data.Models;
+
 namespace STKBC.Stats.Repositories;
 
 
-
-
-public class LeagueRepository
+public interface ILeagueRepository
 {
+    List<Stats.Data.Models.League> GetLeagues();
+}
+
+public class InMemoryLeagueRepository : ILeagueRepository
+{
+
 
     public static Stats.Data.Models.League MWBL => new()
     {
@@ -22,10 +28,16 @@ public class LeagueRepository
         Key = "vsbl"
     };
 
-    private static List<Stats.Data.Models.League> _memory = new() {
-        LeagueRepository.MWBL,
-        LeagueRepository.VSBL,
-    };
+
+    private readonly List<League> _memory;
+
+    public InMemoryLeagueRepository(List<Stats.Data.Models.League>? memory = null)
+    {
+        this._memory = memory ?? new List<Data.Models.League>{
+            InMemoryLeagueRepository.MWBL,
+            InMemoryLeagueRepository.VSBL,
+        };
+    }
 
 
     public List<Stats.Data.Models.League> GetLeagues()

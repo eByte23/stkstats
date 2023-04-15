@@ -7,17 +7,24 @@ public interface IIdGenerator
 {
     string NewId();
     Guid NewGuid();
-    DeterministicGuid NewDeterministicGuid(Guid namespaceId, string value);
+    DeterministicGuid NewDeterministicId(Guid namespaceId, string value);
 }
 
 public class UniqueIdGenerator : IIdGenerator
 {
+    public static readonly Guid NamespaceId = new Guid("0bd0b193-a448-4b22-b426-3eab22d4bb98");
+
     public string NewId() => Guid.NewGuid().ToString();
     public Guid NewGuid() => Guid.NewGuid();
 
-    public DeterministicGuid NewDeterministicGuid(Guid namespaceId, string value)
+    public DeterministicGuid NewDeterministicId(Guid namespaceId, string value)
     {
         return DeterministicGuid.New(namespaceId, value);
+    }
+
+    public DeterministicGuid NewDeterministicId(string value)
+    {
+        return DeterministicGuid.New(UniqueIdGenerator.NamespaceId, value);
     }
 }
 
@@ -32,6 +39,8 @@ public class DeterministicGuid
     }
 
     public Guid Id => this._namespaceId;
+
+    public string String() => this._namespaceId.ToString();
 
     public DeterministicGuid NewGuid(string value)
     {

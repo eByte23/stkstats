@@ -7,7 +7,7 @@ public class LeagueRepositoryTests
     [Fact]
     public void GetLeagues_Should_ReturnTwoLeagues()
     {
-        var repo = new LeagueRepository();
+        var repo = new InMemoryLeagueRepository();
 
         var leagues = repo.GetLeagues();
 

@@ -1,0 +1,29 @@
+@page "~/games/upload-requests"
+@model IndexModel
+
+
+<table class="table table-condensed table-striped">
+    <thead>
+        <tr>
+            <td>Id</td>
+            <td>Home team</td>
+            <td>Away Team</td>
+            <td>File Name</td>
+            <td>File Name</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.GameUploads)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.HomeTeam</td>
+                <td>@item.AwayTeam</td>
+                <td>@item.FileName</td>
+                <td>@item.FileName</td>
+            </tr>
+
+        }
+
+    </tbody>
+</table>

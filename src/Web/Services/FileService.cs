@@ -1,3 +1,6 @@
+using STKBC.Stats.Repositories;
+using STKBC.Stats.Services.FileStorage;
+
 namespace STKBC.Stats.Services;
 
 public class FileObject
@@ -55,27 +58,71 @@ public class FileObjectStream : IFileObjectStream, IDisposable
 
 public interface IFileService
 {
-    public FileObject? GetFileObject(Guid? fileId);
+    public Task<FileObject?> GetFileObjectAsync(Guid? fileId);
 
-    public IFileObjectStream GetFileObjectStream(Guid? fileId);
+    public Task<IFileObjectStream> GetFileObjectStream(Guid? fileId);
 
-    public IFileObjectStream GetFileObjectStream(FileObject? fileObject);
+    public Task<IFileObjectStream> GetFileObjectStream(FileObject? fileObject);
 }
 
 
 public class FileService : IFileService
 {
-    public FileObject? GetFileObject(Guid? fileId)
+    private readonly IFileStore _store;
+    private readonly IFileUploadRepository _fileUploadRepository;
+
+    public FileService(IFileStore fileStore, IFileUploadRepository fileUploadRepository)
     {
-        throw new NotImplementedException();
+        this._store = fileStore;
+        this._fileUploadRepository = fileUploadRepository;
     }
 
-    public IFileObjectStream GetFileObjectStream(Guid? fileId)
+    public async Task<FileObject?> GetFileObjectAsync(Guid? fileId)
     {
-        throw new NotImplementedException();
+        if (fileId == null)
+        {
+            return null;
+        }
+
+        var file = await _fileUploadRepository.GetAsync(fileId.Value);
+
+        if (file == null)
+        {
+            return null;
+        }
+
+        return new FileObject
+        {
+            Id = file.Id,
+            Name = file.Name,
+            Extension = file.Extension,
+            Size = file.Size,
+            Hash = file.Hash,
+            Location = file.Location
+        };
     }
 
-    public IFileObjectStream GetFileObjectStream(FileObject? fileObject)
+    public async Task<IFileObjectStream> GetFileObjectStream(Guid? fileId)
+    {
+
+        if (fileId == null)
+        {
+            throw new ArgumentNullException(nameof(fileId));
+        }
+
+        var file = await _fileUploadRepository.GetAsync(fileId.Value);
+
+        if (file == null)
+        {
+            throw new ArgumentNullException(nameof(file));
+        }
+
+        Stream? fileStream = await _store.GetFileStreamAsync(file.Location!);
+        
+        return new FileObjectStream(fileStream!);
+    }
+
+    public Task<IFileObjectStream> GetFileObjectStream(FileObject? fileObject)
     {
         throw new NotImplementedException();
     }

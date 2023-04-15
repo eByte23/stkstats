@@ -1,11 +1,22 @@
-@page "games"
+@page "~/games"
 @model IndexModel
 
+@if (Model.PendingGameImports.HasValue && Model.PendingGameImports > 0)
+{
+    <div class="alert alert-warning" role="alert">
+        <p>
+            There are <strong>@Model.PendingGameImports.Value</strong> pending game imports. 
+            <a asp-page="game-imports">Click here</a> to view them.
+        </p>
+    </div>
+}
 
-<table class="table table-condensed">
+
+<table id="games-list-table" class="table table-condensed">
     <thead>
         <tr>
             <td>Game Date</td>
+            <td>Season Name</td>
             <td>Grade Name</td>
             <td>League Name</td>
             <td>Home Team Name</td>
@@ -16,8 +27,23 @@
     <tbody>
         @foreach (var item in Model.Games)
         {
-
-            <tr></tr>
+            <tr id="game-row-@item.GameId">
+                <td data-testid="game-date">
+                    <a asp-page="games" asp-route-id="@item.GameId">
+                        @item.GameDate
+                    </a>
+                </td>
+                <td data-testid="season-name">@item.SeasonName</td>
+                <td data-testid="grade-name">@item.GradeName</td>
+                <td data-testid="league-name">@item.LeagueName</td>
+                <td data-testid="home-team-name">
+                    <a asp-page="teams" asp-route-id="@item.HomeTeamId">@item.HomeTeamName</a>
+                </td>
+                <td data-testid="away-team-name">
+                    <a asp-page="teams" asp-route-id="@item.AwayTeamId">@item.AwayTeamName</a>
+                </td>
+                <td data-testid="result">@item.Result</td>
+            </tr>
         }
     </tbody>
 </table>

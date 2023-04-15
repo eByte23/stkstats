@@ -26,10 +26,10 @@ public class SabertoothFormatImportTests
             .Returns(new Guid("771e2e3c-3eae-42ef-a8c7-b407724846d1"));
 
         fakeIdGenerator
-        .Setup(x => x.NewDeterministicGuid(It.IsAny<Guid>(), It.IsAny<string>()))
+        .Setup(x => x.NewDeterministicId(It.IsAny<Guid>(), It.IsAny<string>()))
         .Returns((Guid id, string val) =>
         {
-            return uniqueIdGenerator.NewDeterministicGuid(id, val);
+            return uniqueIdGenerator.NewDeterministicId(id, val);
         });
 
         fakeFrozenClock
@@ -43,8 +43,8 @@ public class SabertoothFormatImportTests
         Guid fileId = new Guid("0f33944b-5598-4a7c-aa5e-e602b38f29a7");
 
         fakeFileService
-            .Setup(x => x.GetFileObject(It.Is<Guid>(x => x == fileId)))
-            .Returns(new FileObject
+            .Setup(x => x.GetFileObjectAsync(It.Is<Guid>(x => x == fileId)))
+            .Returns(Task.FromResult<FileObject?>(new FileObject
             {
                 Id = fileId,
                 Name = "St.Kilda 2019 MWBL C Resv Grade vs Doncaster 05_04_19 Stats.xml",
@@ -52,11 +52,11 @@ public class SabertoothFormatImportTests
                 Size = 123456,
                 Hash = "file-hash",
                 Location = "/bucket/random/location/filename",
-            });
+            }));
 
         fakeFileService
             .Setup(x => x.GetFileObjectStream(It.Is<Guid>(x => x == fileId)))
-            .Returns(fakeFileObjectStream.Object);
+            .Returns(Task.FromResult(fakeFileObjectStream.Object));
 
         var gameChangerImportManager = new GameChangerImportManager(
             fakeIdGenerator.Object,
@@ -66,9 +66,9 @@ public class SabertoothFormatImportTests
 
         var importRequest = gameChangerImportManager.CreateImportRequestFromFileId(new Guid("0f33944b-5598-4a7c-aa5e-e602b38f29a7"));
 
-        Assert.Equivalent(new FileImportRequest
+        Assert.Equivalent(new GameUpload
         {
-            Id = uniqueIdGenerator.NewDeterministicGuid(fileId, "import-request-id").Id,
+            Id = uniqueIdGenerator.NewDeterministicId(fileId, "import-request-id").Id,
             GameDate = new DateTime(2019, 5, 4, 0, 0, 0),
             ExternalRef = "5cccbb850cd201f5ec000008",
             FileName = "St.Kilda 2019 MWBL C Resv Grade vs Doncaster 05_04_19 Stats.xml",
@@ -98,13 +98,13 @@ public class SabertoothFormatImportTests
 
         fakeIdGenerator
             .Setup(x => x.NewGuid())
-            .Returns(idGen.NewDeterministicGuid(namespaceGuid, "temp-game-upload").Id);
+            .Returns(idGen.NewDeterministicId(namespaceGuid, "temp-game-upload").Id);
 
         fakeIdGenerator
-            .Setup(x => x.NewDeterministicGuid(It.IsAny<Guid>(), It.IsAny<string>()))
+            .Setup(x => x.NewDeterministicId(It.IsAny<Guid>(), It.IsAny<string>()))
             .Returns((Guid id, string val) =>
             {
-                return idGen.NewDeterministicGuid(id, val);
+                return idGen.NewDeterministicId(id, val);
             });
 
         fakeFrozenClock
@@ -119,7 +119,7 @@ public class SabertoothFormatImportTests
 
         fakeFileService
             .Setup(x => x.GetFileObjectStream(It.Is<Guid>(x => x == fileId)))
-                .Returns(fakeFileObjectStream.Object);
+                .Returns(Task.FromResult(fakeFileObjectStream.Object));
 
 
 
@@ -129,7 +129,7 @@ public class SabertoothFormatImportTests
            fakeFileService.Object
        );
 
-        var importRequest = new FileImportRequest
+        var importRequest = new GameUpload
         {
             Id = new Guid("771e2e3c-3eae-42ef-a8c7-b407724846d1"),
             GameDate = new DateTime(2019, 5, 4, 0, 0, 0),
@@ -145,7 +145,7 @@ public class SabertoothFormatImportTests
 
         var temp = gameChangerImportManager.GetTemporaryGameUploadFromImportRequest(importRequest);
 
-        var tempGameId = idGen.NewDeterministicGuid(namespaceGuid, "temp-game-upload");
+        var tempGameId = idGen.NewDeterministicId(namespaceGuid, "temp-game-upload");
         var homeTeamGuid = tempGameId.NewGuid("home-team");
         var awayTeamGuid = tempGameId.NewGuid("away-team");
 

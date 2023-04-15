@@ -1,0 +1,17 @@
+@page "~/games/file-upload"
+@model UploadModel
+
+
+<h2>Upload Game File</h2>
+
+<form method="POST" enctype="multipart/form-data">
+    <input type="hidden" asp-for="FileId" />
+    <input type="file" asp-for="GameFile" />
+
+    <select asp-for="@Model.FileType" required>
+        <option value="">Select a file type</option>
+        <option value="GameChanger">Game Changer</option>
+    </select>
+
+    <button class="btn btn-primary">Upload</button>
+</form>

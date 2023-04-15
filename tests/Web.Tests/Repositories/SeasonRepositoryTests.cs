@@ -8,7 +8,7 @@ public class SeasonRepositoryTests
     [Fact]
     public void GetSeasons_Should_ReturnThreeSeasons()
     {
-        var repo = new SeasonRepository();
+        var repo = new InMemorySeasonRepository();
 
         var seasons = repo.GetSeasons();
 
@@ -21,7 +21,7 @@ public class SeasonRepositoryTests
             Key = "winter-2022",
             Name = "Winter 2022",
             StartDate = new DateTime(2022, 04, 23),
-            LeagueId = LeagueRepository.MWBL.Id,
+            LeagueId = InMemoryLeagueRepository.MWBL.Id,
         }, winter2022);
 
         var summer2022_2023 = seasons.SingleOrDefault(x => x.Key == "summer-2022-2023");
@@ -33,7 +33,7 @@ public class SeasonRepositoryTests
             Key = "summer-2022-2023",
             Name = "Summer 2022/23",
             StartDate = new DateTime(2022, 10, 1),
-            LeagueId = LeagueRepository.VSBL.Id,
+            LeagueId = InMemoryLeagueRepository.VSBL.Id,
         }, summer2022_2023);
 
 
@@ -46,14 +46,14 @@ public class SeasonRepositoryTests
             Key = "winter-2023",
             Name = "Winter 2023",
             StartDate = new DateTime(2023, 04, 23),
-            LeagueId = LeagueRepository.MWBL.Id,
+            LeagueId = InMemoryLeagueRepository.MWBL.Id,
         }, winter2023);
     }
 
     [Fact]
     public void GetSeasons_Should_ReturnSeasonsInOrderNewestToOldest()
     {
-        var repo = new SeasonRepository();
+        var repo = new InMemorySeasonRepository();
 
         var seasons = repo.GetSeasons();
 

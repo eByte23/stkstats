@@ -2,7 +2,12 @@ using STKBC.Stats.Data.Models;
 
 namespace STKBC.Stats.Repositories;
 
-public class SeasonRepository
+public interface ISeasonRepository
+{
+    List<Season> GetSeasons();
+}
+
+public class InMemorySeasonRepository : ISeasonRepository
 {
     public static Season Summer2022_2023 => new()
     {
@@ -10,7 +15,7 @@ public class SeasonRepository
         Key = "summer-2022-2023",
         Name = "Summer 2022/23",
         StartDate = new DateTime(2022, 10, 1),
-        LeagueId = LeagueRepository.VSBL.Id,
+        LeagueId = InMemoryLeagueRepository.VSBL.Id,
     };
 
     public static Season Winter2022 => new()
@@ -20,7 +25,7 @@ public class SeasonRepository
         Key = "winter-2022",
         Name = "Winter 2022",
         StartDate = new DateTime(2022, 04, 23),
-        LeagueId = LeagueRepository.MWBL.Id,
+        LeagueId = InMemoryLeagueRepository.MWBL.Id,
     };
 
     public static Season Winter2023 => new()
@@ -29,16 +34,20 @@ public class SeasonRepository
         Key = "winter-2023",
         Name = "Winter 2023",
         StartDate = new DateTime(2023, 04, 23),
-        LeagueId = LeagueRepository.MWBL.Id,
+        LeagueId = InMemoryLeagueRepository.MWBL.Id,
     };
 
+    private readonly List<Season> _memory;
 
-    private static List<Season> _memory = new()
+    public InMemorySeasonRepository(List<Season>? memory = null)
     {
-        SeasonRepository.Summer2022_2023,
-        SeasonRepository.Winter2022,
-        SeasonRepository.Winter2023,
-    };
+        this._memory = memory ?? new()
+        {
+            InMemorySeasonRepository.Summer2022_2023,
+            InMemorySeasonRepository.Winter2022,
+            InMemorySeasonRepository.Winter2023,
+        };
+    }
 
     public List<Season> GetSeasons()
     {
