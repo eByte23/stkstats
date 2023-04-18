@@ -1,5 +1,5 @@
 @using Models.Partials
-@model TeamPreview
+@model TeamPreviewView
 <table class="table table-condensed">
     <thead>
         <tr>
@@ -26,17 +26,17 @@
         @foreach (var player in Model.Players)
         {
             <tr data-playerid="@player.TempId" data-role="stat">
-                <td>
+                <td style="flex-direction: row;display: flex;justify-content: space-between;">
 
                     @if (!player.MatchedId.HasValue)
                     {
                         <span>@player.DisplayName</span>
-                        <button type="button" class="btn btn-primary btn-sm js-display-playerlink"
+                        <button type="button" class="btn btn-primary btn-sm js-display-playerlink "
                             data-target="@player.TempId">Link</button>
                     }
                     else
                     {
-                        <a asp-page="../Player" asp-route-id="@player.MatchedId" target="_blank" >@player.DisplayName</a>
+                        <a asp-page="../Player" asp-route-id="@player.MatchedId" target="_blank">@player.DisplayName</a>
                     }
                 </td>
                 <td>@player.Hitting?.AB</td>
@@ -59,7 +59,7 @@
             <tr class="d-none" data-playerid="@player.TempId" data-role="player-linker">
                 <td colspan="17">
                     <div class="" style="height: 100px;">
-                        <form asp-page="./Preview" asp-page-handler="LinkPlayer" method="post">
+                        <form asp-page="./Preview" asp-route-GameId="@Model.GameId" asp-page-handler="LinkPlayer" method="post">
                             <div>
                                 <h3>Link Player</h3>
                             </div>
@@ -70,8 +70,13 @@
                                 <option value="cf03257f-0c05-4cee-8f62-b8d635f30ca2">Elijah B</option>
                             </select>
                             <button type="submit" class="btn btn-primary">Link</button>
-                            <button type="button" class="btn btn-secondary js-cancel-link">Cancel</button>
                         </form>
+                        <form asp-page="./Preview" asp-route-GameId="@Model.GameId" asp-page-handler="CreateAndLinkPlayer" method="post">
+                            <input type="hidden" name="PlayerTempId" value="@player.TempId" />
+                            <input type="hidden" name="TeamId" value="@Model.TeamId" />
+                            <button type="submit" class="btn btn-primary">Create & Link Player</button>
+                        </form>
+                        <button type="button" class="btn btn-secondary js-cancel-link">Cancel</button>
                     </div>
                 </td>
             </tr>

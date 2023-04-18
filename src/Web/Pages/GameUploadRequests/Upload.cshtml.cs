@@ -13,6 +13,7 @@ public class UploadModel : PageModel
     private readonly IClock _clock;
     private readonly IFileService _fileService;
     private readonly IGameUploadRepository _gameUploadRepository;
+    private readonly GameChangerImportManager gameChangerImportManager;
     private FileUploadService fileUploadService;
 
     public UploadModel(
@@ -20,7 +21,8 @@ public class UploadModel : PageModel
         IIdGenerator idGenerator,
         IClock clock,
         IFileService fileService,
-        IGameUploadRepository gameUploadRepository
+        IGameUploadRepository gameUploadRepository,
+        GameChangerImportManager gameChangerImportManager
         )
     {
         this._fileUploadService = fileUploadService;
@@ -28,6 +30,7 @@ public class UploadModel : PageModel
         this._clock = clock;
         this._fileService = fileService;
         this._gameUploadRepository = gameUploadRepository;
+        this.gameChangerImportManager = gameChangerImportManager;
     }
 
     public IActionResult OnGet()
@@ -56,8 +59,7 @@ public class UploadModel : PageModel
 
         if (FileType == GameType.GameChanger)
         {
-            var gameChangerService = new GameChangerImportManager(_idGenerator, _clock, _fileService);
-            var gameUpload = await gameChangerService.CreateImportRequestFromFileId(FileId!.Value);
+            var gameUpload = await gameChangerImportManager.CreateImportRequestFromFileId(FileId!.Value);
 
             await _gameUploadRepository.AddGameUploadAsync(gameUpload);
         }

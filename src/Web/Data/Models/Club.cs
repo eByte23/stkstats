@@ -1,7 +1,7 @@
 namespace STKBC.Stats.Data.Models;
 
 
-public class Team
+public class Club
 {
     public Guid? Id { get; set; }
     public string? Key { get; set; }

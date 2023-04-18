@@ -5,9 +5,9 @@ namespace STKBC.Tests.Repositories;
 
 public class TeamRepositoryTests
 {
-    private static List<Team> _memory = new List<Team>();
+    private static List<Club> _memory = new List<Club>();
 
-    public List<Team> GetTeams()
+    public List<Club> GetTeams()
     {
         return _memory;
     }

@@ -3,58 +3,141 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
+using STKBC.Stats.Data.Models;
 using STKBC.Stats.Pages.Infra;
+using STKBC.Stats.Repositories;
+using STKBC.Stats.Services;
 
 namespace STKBC.Stats.Pages.UploadGame;
 
 public class NewModel : PageModel
 {
+    private readonly IGameUploadRepository _gameUploadRepository;
+    private readonly IGamePreviewRepository _gamePreviewRepository;
+    private readonly ISeasonRepository _seasonRepository;
+    private readonly ILeagueRepository _leagueRepository;
+    private readonly IGradeRepository _gradeRepository;
+    private readonly GameChangerImportManager gameChangerImportManager;
     private readonly ILogger<NewModel> _logger;
 
-    public NewModel(ILogger<NewModel> logger)
+    public NewModel(
+        IGameUploadRepository gameUploadRepository,
+        IGamePreviewRepository gamePreviewRepository,
+        ISeasonRepository seasonRepository,
+        ILeagueRepository leagueRepository,
+        IGradeRepository gradeRepository,
+        GameChangerImportManager gameChangerImportManager,
+        ILogger<NewModel> logger
+        )
     {
+        _gameUploadRepository = gameUploadRepository;
+        _gamePreviewRepository = gamePreviewRepository;
+        _seasonRepository = seasonRepository;
+        _leagueRepository = leagueRepository;
+        _gradeRepository = gradeRepository;
+        this.gameChangerImportManager = gameChangerImportManager;
         _logger = logger;
     }
 
-    public void OnGet()
+    public async Task<IActionResult> OnGet()
     {
         BindPropertiesFromState();
 
-        ImportRequestId = ImportRequestId ?? Guid.NewGuid();
+        ImportRequestId = ImportRequestId; // ?? Guid.NewGuid();
 
-        Leagues = MapLeaguesToSelectList(new List<League>(){
-            new League(){ Id = new Guid("1e4c827f-eaae-4ea0-b38e-0ea67c9f4fb8"), Name = "League 1" },
-            new League(){ Id = new Guid("5f70df94-e87c-403e-a4d0-7bb83fce2899"), Name = "League 2" },
-            new League(){ Id = new Guid("489a1705-25c6-408e-a52c-29d93091e1cf"), Name = "League 3" },
-        }, LeagueId);
+        var gameUpload = await _gameUploadRepository.GetGameUploadAsync(ImportRequestId!.Value);
 
-        HomeTeams = MapTeamsToSelectList(new List<Team>(){
-            new Team(){ Id = new Guid("a797916c-d0e3-4b37-82c2-8c1a210928bd"), Name = "Team 1" },
-            new Team(){ Id = new Guid("646bfb15-885c-45ec-a16f-a749bf5491fa"), Name = "Team 2" },
-            new Team(){ Id = new Guid("e0c76b43-988b-4d75-9106-381eb3ec5c32"), Name = "Team 3" },
+        ImportRequest = new ImportRequestViewModel
+        {
+            FileName = gameUpload!.FileName,
+            AwayTeam = gameUpload!.AwayTeam,
+            HomeTeam = gameUpload!.HomeTeam,
+        };
+
+        Leagues = MapLeaguesToSelectList(_leagueRepository.GetLeagues(), LeagueId);
+
+        HomeTeams = MapTeamsToSelectList(new List<Club>(){
+            new Club(){ Id = new Guid("a797916c-d0e3-4b37-82c2-8c1a210928bd"), Name = "Team 1" },
+            new Club(){ Id = new Guid("646bfb15-885c-45ec-a16f-a749bf5491fa"), Name = "Team 2" },
+            new Club(){ Id = new Guid("e0c76b43-988b-4d75-9106-381eb3ec5c32"), Name = "Team 3" },
         }, HomeTeamId);
 
-        AwayTeams = MapTeamsToSelectList(new List<Team>(){
-            new Team(){ Id = new Guid("d0f1a26e-ef2e-4e5a-9513-6efed8776a48"), Name = "Team 1" },
-            new Team(){ Id = new Guid("842821f4-15ba-40b6-8ab9-c7c756146f5a"), Name = "Team 2" },
-            new Team(){ Id = new Guid("b403e947-be3a-4d42-92b3-71acf08bf516"), Name = "Team 3" },
+        AwayTeams = MapTeamsToSelectList(new List<Club>(){
+            new Club(){ Id = new Guid("d0f1a26e-ef2e-4e5a-9513-6efed8776a48"), Name = "Team 1" },
+            new Club(){ Id = new Guid("842821f4-15ba-40b6-8ab9-c7c756146f5a"), Name = "Team 2" },
+            new Club(){ Id = new Guid("b403e947-be3a-4d42-92b3-71acf08bf516"), Name = "Team 3" },
         }, AwayTeamId);
 
-        Grades = MapGradesToSelectList(new List<Grade>(){
-            new Grade(){ Id = new Guid("8b13e8e9-67dd-4c68-8e3e-d2a6a9ed631a"), Name = "Grade 1" },
-            new Grade(){ Id = new Guid("d2878855-3f18-4a50-8841-ade16c69c507"), Name = "Grade 2" },
-            new Grade(){ Id = new Guid("6d2680d0-3f90-44c8-bb3b-a2c59cd43743"), Name = "Grade 3" },
-        }, GradeId);
+        Grades = MapGradesToSelectList(_gradeRepository.GetGrades(), GradeId);
+
+        return Page();
     }
 
-    public IActionResult OnPost()
+    public async Task<IActionResult> OnPostAsync()
     {
         if (!ModelState.IsValid)
         {
             return RedirectToPage("./New").WithModelStateOf(this);
         }
 
-        return RedirectToPage("./Preview", new { GameId = Guid.NewGuid() });
+        var gameUpload = await _gameUploadRepository.GetGameUploadAsync(ImportRequestId!.Value);
+        var a = await gameChangerImportManager.GetTemporaryGameUploadFromImportRequest(gameUpload);
+
+        Guid? id = a.Id;
+        await _gamePreviewRepository.CreateGamePreviewAsync(new GamePreview
+        {
+            GameId = id,
+            AwayTeam = new TeamPreview
+            {
+                TeamId = a.AwayTeam.Id,
+                TeamName = a.AwayTeam.Name,
+                Players = MapToPlayers(a.AwayTeam)
+
+            },
+            HomeTeam = new TeamPreview
+            {
+                TeamId = a.HomeTeam.Id,
+                TeamName = a.HomeTeam.Name,
+                Players = MapToPlayers(a.HomeTeam)
+
+            },
+        });
+
+        return RedirectToPage("./Preview", new { GameId = id });
+    }
+
+    private static List<PlayerPreview> MapToPlayers(TemporaryTeam a)
+    {
+        return a.Players.Select(x => new PlayerPreview
+        {
+            DisplayName = x.DisplayName,
+            Hitting = new HittingStatPreview
+            {
+                AB = x.Batting.Ab,
+                BB = x.Batting.Bb,
+                CS = x.Batting.Cs,
+                // AVG = x.Batting.,
+                // HBP = x.Batting.Hbp,
+                H = x.Batting.H,
+                HR = x.Batting.Hr,
+                RBI = x.Batting.Rbi,
+                Runs = x.Batting.R,
+                SB = x.Batting.Sb,
+                // SF = x.Batting.Sf,
+                // SLG = x.Batting.,
+                SO = x.Batting.So,
+
+                // OBP = x.Batting.Obp,
+                // OPS = x.Batting.Ops,
+                Doubles = x.Batting.Double,
+                Triples = x.Batting.Triple,
+            },
+            Matched = x.Found,
+            MatchedId = null,
+            TempId = x.PlayerId,
+
+
+        }).ToList();
     }
 
     internal void BindPropertiesFromState()
@@ -81,15 +164,10 @@ public class NewModel : PageModel
     }
 
     [Required]
-    [BindProperty]
+    [FromQuery]
     public Guid? ImportRequestId { get; set; }
 
-    public ImportRequestViewModel ImportRequest { get; set; } = new ImportRequestViewModel
-    {
-        FileName = "test.csv",
-        HomeTeam = "Team 1",
-        AwayTeam = "Team 2"
-    };
+    public ImportRequestViewModel? ImportRequest { get; set; }
 
 
     public List<SelectListItem>? Leagues { get; set; }
@@ -117,23 +195,23 @@ public class NewModel : PageModel
     public Guid? AwayTeamId { get; set; }
 
 
-    public class League
-    {
-        public Guid? Id { get; set; }
-        public string? Name { get; set; }
-    }
+    // public class League
+    // {
+    //     public Guid? Id { get; set; }
+    //     public string? Name { get; set; }
+    // }
 
-    public class Grade
-    {
-        public Guid? Id { get; set; }
-        public string? Name { get; set; }
-    }
+    // public class Grade
+    // {
+    //     public Guid? Id { get; set; }
+    //     public string? Name { get; set; }
+    // }
 
-    public class Team
-    {
-        public Guid? Id { get; set; }
-        public string? Name { get; set; }
-    }
+    // public class Team
+    // {
+    //     public Guid? Id { get; set; }
+    //     public string? Name { get; set; }
+    // }
 
 
 
@@ -148,7 +226,7 @@ public class NewModel : PageModel
         return listItems;
     }
 
-    internal List<SelectListItem> MapTeamsToSelectList(List<Team> Teams, Guid? selectedTeamId)
+    internal List<SelectListItem> MapTeamsToSelectList(List<Club> Teams, Guid? selectedTeamId)
     {
         var listItems = new List<SelectListItem>(){
             new SelectListItem("Select Team", "", !selectedTeamId.HasValue, false)

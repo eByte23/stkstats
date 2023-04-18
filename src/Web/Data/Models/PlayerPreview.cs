@@ -1,15 +1,15 @@
-namespace STKBC.Stats.Pages.Models.Partials
+namespace STKBC.Stats.Data.Models
 {
-    public class PlayerPreviewView
+    public class PlayerPreview
     {
         public string? DisplayName { get; set; }
         public bool? Matched { get; set; }
-        public HittingStatPreviewView? Hitting { get; set; }
+        public HittingStatPreview? Hitting { get; set; }
         public Guid? TempId { get; set; }
         public Guid? MatchedId { get;  set; }
     }
 
-    public class HittingStatPreviewView
+    public class HittingStatPreview
     {
 
         public int? AB { get; set; }
