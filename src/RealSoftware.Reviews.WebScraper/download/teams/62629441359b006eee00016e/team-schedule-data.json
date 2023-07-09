@@ -1,0 +1,2033 @@
+{
+  "create_new": false,
+  "type": "game",
+  "team_events": [
+    {
+      "event_type": "game",
+      "arrival_ts": 1650676500,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-04-23T02:15:00",
+      "sport": "BASEB",
+      "id": "62629441359b006f12000170",
+      "recap_title": [
+        {
+          "content": "St Kilda  B Reserves Grabs Lead in Sixth Inning to Defeat North Coburg B Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 8,
+        "side_readable": "Top",
+        "away": 12,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 9,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-04-23T12:15:00",
+      "type": "League",
+      "save_ts": 1651817945.0,
+      "recipients": [],
+      "wl": "1-0-0",
+      "start_ts": 1650680100,
+      "other_team_id": "62629441359b006f0600016f",
+      "game_id": "62629441359b006f12000170",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6263944135fc005fdc000001",
+      "minutes_before": 60,
+      "other_team_name": "North Coburg B Reserves"
+    },
+    {
+      "play_time": "2022-04-30T12:15:00",
+      "event_type": "game",
+      "recipients": [],
+      "arrival_ts": 1651281300,
+      "minutes_before": 60,
+      "notes": "",
+      "wl": "1-0-0",
+      "start_ts": 1651284900,
+      "uses_halves": false,
+      "playstatus": "NEW",
+      "other_team_id": "6264944135320193aa000003",
+      "meta": {},
+      "location": "",
+      "timezone": 10.0,
+      "game_id": "6264944135320193b7000004",
+      "home": false,
+      "utc_start": "2022-04-30T02:15:00",
+      "sport": "BASEB",
+      "type": "League",
+      "id": "6264944135320193b7000004",
+      "other_team_name": "Croydon B Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1651886100,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "home": true,
+      "timezone": 10.0,
+      "utc_start": "2022-05-07T02:15:00",
+      "sport": "BASEB",
+      "id": "62749441358e02bde2000008",
+      "change_v": "26079452-e2b2-475f-92c3-dba7ea8590d6",
+      "recap_title": [
+        {
+          "content": "Early Lead For Doncaster B Reserves Seals Fate For St Kilda  B Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Top",
+        "away": 14,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 6,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-05-07T12:15:00",
+      "type": "League",
+      "save_ts": 1652526545.0,
+      "recipients": [],
+      "wl": "1-1-0",
+      "start_ts": 1651889700,
+      "other_team_id": "62749441358e02bddf000007",
+      "game_id": "62749441358e02bde2000008",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62759441358e02d42e000022",
+      "minutes_before": 60,
+      "other_team_name": "Doncaster B Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1652490900,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "T",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-05-14T02:15:00",
+      "sport": "BASEB",
+      "id": "627e9441359400128d000004",
+      "recap_title": [
+        {
+          "content": "Close Contest Between La Trobe Uni B Reserves and St Kilda  B Reserves Ends in a Tie",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Top",
+        "away": 10,
+        "x": "st",
+        "w": "t",
+        "half": 0,
+        "home": 10,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-05-14T12:15:00",
+      "type": "League",
+      "save_ts": 1652526610.0,
+      "recipients": [],
+      "wl": "1-1-1",
+      "start_ts": 1652494500,
+      "other_team_id": "627e9441359400128b000003",
+      "game_id": "627e9441359400128d000004",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "627f94413598000f87000005",
+      "minutes_before": 60,
+      "other_team_name": "La Trobe Uni B Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1653095700,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "home": true,
+      "timezone": 10.0,
+      "utc_start": "2022-05-21T02:15:00",
+      "sport": "BASEB",
+      "id": "628894413575010d37000002",
+      "recap_title": [
+        {
+          "content": "Pitchers Duel In Low-Scoring Affair, St Kilda  B Reserves Falls to Essendon B Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 9,
+        "side_readable": "Top",
+        "away": 2,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 1,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-05-21T12:15:00",
+      "type": "League",
+      "save_ts": 1653128118.0,
+      "recipients": [],
+      "wl": "1-2-1",
+      "start_ts": 1653099300,
+      "other_team_id": "628894413575010d35000001",
+      "game_id": "628894413575010d37000002",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62889441357501481b000003",
+      "minutes_before": 60,
+      "other_team_name": "Essendon B Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1653700500,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-05-28T02:15:00",
+      "sport": "BASEB",
+      "id": "62899441350701faa5000004",
+      "recap_title": [
+        {
+          "content": "Monash University B Reserves Runs Away With Early Lead in Victory",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 9,
+        "side_readable": "Bot",
+        "away": 0,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 3,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-05-28T12:15:00",
+      "type": "League",
+      "save_ts": 1653726974.0,
+      "recipients": [],
+      "wl": "1-3-1",
+      "start_ts": 1653704100,
+      "other_team_id": "62899441350701faa2000003",
+      "game_id": "62899441350701faa5000004",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6291944135e9018293000005",
+      "minutes_before": 60,
+      "other_team_name": "Monash University B Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1654305300,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "home": true,
+      "timezone": 10.0,
+      "utc_start": "2022-06-04T02:15:00",
+      "sport": "BASEB",
+      "id": "62999441351602beb6000002",
+      "recap_title": [
+        {
+          "content": "St Kilda  B Reserves Claims Lead in Fifth Inning to Defeat Research B Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 5,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 8,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-06-04T12:15:00",
+      "type": "League",
+      "save_ts": 1654334095.0,
+      "recipients": [],
+      "wl": "2-3-1",
+      "start_ts": 1654308900,
+      "other_team_id": "62999441351602bea7000001",
+      "game_id": "62999441351602beb6000002",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "629a9441351602de7f000180",
+      "minutes_before": 60,
+      "other_team_name": "Research B Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1655514900,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "home": true,
+      "timezone": 10.0,
+      "utc_start": "2022-06-18T02:15:00",
+      "sport": "BASEB",
+      "id": "62a994413516028c380003eb",
+      "recap_title": [
+        {
+          "content": "North Coburg B Reserves Runs Away With Early Lead in Victory",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 7,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 3,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-06-18T12:15:00",
+      "type": "League",
+      "save_ts": 1655617386.0,
+      "recipients": [],
+      "wl": "2-4-1",
+      "start_ts": 1655518500,
+      "other_team_id": "62629441359b006f0600016f",
+      "game_id": "62a994413516028c380003eb",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62ad9441357a0331b20003ec",
+      "minutes_before": 60,
+      "other_team_name": "North Coburg B Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1656119700,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-06-25T02:15:00",
+      "sport": "BASEB",
+      "id": "62b29441359203e57c000002",
+      "recap_title": [
+        {
+          "content": "St Kilda  B Reserves Can't Catch Up To Croydon B Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 5,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 13,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-06-25T12:15:00",
+      "type": "League",
+      "save_ts": 1656623352.0,
+      "recipients": [],
+      "wl": "2-5-1",
+      "start_ts": 1656123300,
+      "other_team_id": "6264944135320193aa000003",
+      "game_id": "62b29441359203e57c000002",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62b694413598006e70000003",
+      "minutes_before": 60,
+      "other_team_name": "Croydon B Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1656724500,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-07-02T02:15:00",
+      "sport": "BASEB",
+      "id": "62be944135560111520002b3",
+      "change_v": "26079452-e2b2-475f-92c3-dba7ea8590d6",
+      "recap_title": [
+        {
+          "content": "Fewer Hits Still Spells Win For Doncaster B Reserves Against St Kilda  B Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Bot",
+        "away": 0,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 5,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-07-02T12:15:00",
+      "type": "League",
+      "save_ts": 1657692086.0,
+      "recipients": [],
+      "wl": "2-6-1",
+      "start_ts": 1656728100,
+      "other_team_id": "62749441358e02bddf000007",
+      "game_id": "62be944135560111520002b3",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62bf9441355601a8410002b5",
+      "minutes_before": 60,
+      "other_team_name": "Doncaster B Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1657329300,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
+      "home": true,
+      "timezone": 10.0,
+      "utc_start": "2022-07-09T02:15:00",
+      "sport": "BASEB",
+      "id": "62c49441356601a6ac000002",
+      "recap_title": [
+        {
+          "content": "St Kilda  B Reserves Blows Out La Trobe Uni B Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 2,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 12,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-07-09T12:15:00",
+      "type": "League",
+      "save_ts": 1657692147.0,
+      "recipients": [],
+      "wl": "3-6-1",
+      "start_ts": 1657332900,
+      "other_team_id": "627e9441359400128b000003",
+      "game_id": "62c49441356601a6ac000002",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62c89441359600dfbd000003",
+      "minutes_before": 60,
+      "other_team_name": "La Trobe Uni B Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1657934100,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-07-16T02:15:00",
+      "sport": "BASEB",
+      "id": "62ce944135e800601b0002ad",
+      "recap_title": [
+        {
+          "content": "Essendon B Reserves Captures Lead Early to Defeat St Kilda  B Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 4,
+        "x": "st",
+        "w": "h",
+        "half": 0,
+        "home": 8,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-07-16T12:15:00",
+      "type": "League",
+      "save_ts": 1658438348.0,
+      "recipients": [],
+      "wl": "3-7-1",
+      "start_ts": 1657937700,
+      "other_team_id": "628894413575010d35000001",
+      "game_id": "62ce944135e800601b0002ad",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62d294413598001d020002ae",
+      "minutes_before": 60,
+      "other_team_name": "Essendon B Reserves"
+    },
+    {
+      "play_time": "2022-07-23T12:15:00",
+      "event_type": "game",
+      "recipients": [],
+      "arrival_ts": 1658538900,
+      "minutes_before": 60,
+      "notes": "",
+      "wl": "3-7-1",
+      "start_ts": 1658542500,
+      "uses_halves": false,
+      "playstatus": "NEW",
+      "other_team_id": "62899441350701faa2000003",
+      "meta": {},
+      "location": "",
+      "timezone": 10.0,
+      "game_id": "62d99441355701c2e7000002",
+      "home": true,
+      "utc_start": "2022-07-23T02:15:00",
+      "sport": "BASEB",
+      "type": "League",
+      "id": "62d99441355701c2e7000002",
+      "other_team_name": "Monash University B Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1659143700,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-07-30T02:15:00",
+      "sport": "BASEB",
+      "id": "62e3944135240197e3000002",
+      "recap_title": [
+        {
+          "content": "Walk-off Seals Win For Research B Reserves Against St Kilda  B Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 8,
+        "side_readable": "Bot",
+        "away": 6,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 7,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-07-30T12:15:00",
+      "type": "League",
+      "save_ts": 1659350508.0,
+      "recipients": [],
+      "wl": "3-8-1",
+      "start_ts": 1659147300,
+      "other_team_id": "62999441351602bea7000001",
+      "game_id": "62e3944135240197e3000002",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62e49441359d00936c000003",
+      "minutes_before": 60,
+      "other_team_name": "Research B Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1659748500,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-08-06T02:15:00",
+      "sport": "BASEB",
+      "id": "62ea944135af004962000002",
+      "recap_title": [
+        {
+          "content": "St Kilda  B Reserves Nabs Win Over North Coburg B Reserves Despite Early 4-Run Inning",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Top",
+        "away": 14,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 6,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-08-06T12:15:00",
+      "type": "League",
+      "save_ts": 1659770325.0,
+      "recipients": [],
+      "wl": "4-8-1",
+      "start_ts": 1659752100,
+      "other_team_id": "62629441359b006f0600016f",
+      "game_id": "62ea944135af004962000002",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62ed9441359600cd31000003",
+      "minutes_before": 60,
+      "other_team_name": "North Coburg B Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1660353300,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "home": true,
+      "timezone": 10.0,
+      "utc_start": "2022-08-13T02:15:00",
+      "sport": "BASEB",
+      "id": "62f5944135d90073e5000002",
+      "recap_title": [
+        {
+          "content": "Croydon B Reserves Captures Lead Early to Defeat St Kilda  B Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 18,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 0,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-08-13T12:15:00",
+      "type": "League",
+      "save_ts": 1660374095.0,
+      "recipients": [],
+      "wl": "4-9-1",
+      "start_ts": 1660356900,
+      "other_team_id": "6264944135320193aa000003",
+      "game_id": "62f5944135d90073e5000002",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62f79441359b00075d000003",
+      "minutes_before": 60,
+      "other_team_name": "Croydon B Reserves"
+    },
+    {
+      "sport": "BASEB",
+      "event_type": "game",
+      "recipients": [],
+      "arrival_ts": null,
+      "home": true,
+      "notes": "",
+      "wl": "4-9-1",
+      "start_ts": 1660961700,
+      "uses_halves": false,
+      "playstatus": "NEW",
+      "other_team_id": "62749441358e02bddf000007",
+      "meta": {},
+      "location": "",
+      "timezone": 10.0,
+      "game_id": "6300004cafb43f41e2000001",
+      "minutes_before": 0,
+      "utc_start": "2022-08-20T02:15:00",
+      "play_time": "2022-08-20T12:15:00",
+      "type": "League",
+      "id": "6300004cafb43f41e2000001",
+      "other_team_name": "Doncaster B Reserves"
+    }
+  ],
+  "live_game": [],
+  "team": {
+    "team_path": "/t/winter-2022/st-kilda-b-reserves-62629441359b006eee00016e",
+    "season": "Winter 2022",
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "season_id": "6274bd96c437dfda3c1cb899",
+    "opposing_teams": [
+      {
+        "code": "CRYD",
+        "_sync_d": "2022-08-07T02:09:27",
+        "entity_creation_time": 1650758570,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "6274bd9dcda06e81c30a113c",
+        "long_name": "Croydon B Reserves",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-08-13T07:01:36",
+          "last_active": "2022-08-13T07:01:36",
+          "live": true,
+          "games": 3,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "62b694413598006f54000019",
+            "lname": "Parker",
+            "num": "",
+            "pos": [],
+            "fname": "Will"
+          },
+          {
+            "player_id": "62b694413598006f6000001c",
+            "lname": "T",
+            "num": "",
+            "pos": [],
+            "fname": "Dylan"
+          },
+          {
+            "player_id": "62b694413598006f6800001f",
+            "lname": "B",
+            "num": "",
+            "pos": [],
+            "fname": "Jay"
+          },
+          {
+            "player_id": "62b694413598006f77000022",
+            "lname": "P",
+            "num": "",
+            "pos": [],
+            "fname": "Mitui"
+          },
+          {
+            "player_id": "62b694413598006f8d000025",
+            "lname": "G",
+            "num": "",
+            "pos": [],
+            "fname": "Lchlan"
+          },
+          {
+            "player_id": "62b694413598006f99000028",
+            "lname": "C",
+            "num": "",
+            "pos": [],
+            "fname": "Max"
+          },
+          {
+            "player_id": "62b694413598006fa400002b",
+            "lname": "K",
+            "num": "",
+            "pos": [],
+            "fname": "Jarrad"
+          },
+          {
+            "player_id": "62b694413598006fbc00002e",
+            "lname": "B",
+            "num": "",
+            "pos": [],
+            "fname": "Travis"
+          },
+          {
+            "player_id": "62b694413598006fc8000031",
+            "lname": "H",
+            "num": "",
+            "pos": [],
+            "fname": "Tony"
+          },
+          {
+            "player_id": "62f79441359b000852000018",
+            "lname": "Perry",
+            "num": "",
+            "pos": [],
+            "fname": "Luke"
+          },
+          {
+            "player_id": "62f79441359b00086a00001a",
+            "lname": "Perry",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          },
+          {
+            "player_id": "62f79441359b00087800001c",
+            "lname": "Parker",
+            "num": "",
+            "pos": [],
+            "fname": "W"
+          },
+          {
+            "player_id": "62f79441359b00088400001e",
+            "lname": "Berka",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "62f79441359b00088f000020",
+            "lname": "Peters",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "62f79441359b00089a000022",
+            "lname": "Black",
+            "num": "",
+            "pos": [],
+            "fname": "T"
+          },
+          {
+            "player_id": "62f79441359b0008a8000024",
+            "lname": "Keating",
+            "num": "",
+            "pos": [],
+            "fname": "C"
+          },
+          {
+            "player_id": "62f79441359b0008b0000026",
+            "lname": "Cron",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          },
+          {
+            "player_id": "62f79441359b0008c0000028",
+            "lname": "Loughman",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "62f79441359b0008ca00002a",
+            "lname": "Hickey",
+            "num": "",
+            "pos": [],
+            "fname": "T"
+          }
+        ],
+        "ts": "2022-04-24T00:02:50",
+        "save_date": "2022-08-13T07:01:36",
+        "first_save": "2022-05-06T06:18:05",
+        "access_level": "free",
+        "_change_d_ts": 682049610.840519,
+        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
+        "ot_id": "62629441359b006eee00016e",
+        "status": "OPP",
+        "_doc_version": "7f6d20438dd64cd4adad98c0abba7575",
+        "lineups": [
+          {
+            "positions": {},
+            "team_id": "6264944135320193aa000003",
+            "dhs": {},
+            "batters": []
+          }
+        ],
+        "~vc": "8.17.0.1",
+        "short_name": "Croydon B Reserves",
+        "innings": "9",
+        "season": "Winter 2022",
+        "_change_d": "2022-08-13T02:13:30",
+        "_sync_d_ts": 681530967.898628,
+        "tbd": false,
+        "mascot": "Croydon B Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Croydon B Reserves",
+        "league_id": "",
+        "age": "adult",
+        "parent_team_id": "62629441359b006eee00016e",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6264944135320193aa000003",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "DNCS",
+        "_sync_d": "2022-08-15T08:28:26",
+        "entity_creation_time": 1651817951,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "6274bde3c437dfda3c1cb89b",
+        "long_name": "Doncaster B Reserves",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-08-20T02:14:09",
+          "last_active": "2022-08-20T02:14:09",
+          "live": true,
+          "games": 3,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "Doncaster B Reserves",
+        "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "62759441358e02d4e6000037",
+            "lname": "Robertson",
+            "num": "",
+            "pos": [],
+            "fname": "L"
+          },
+          {
+            "player_id": "62759441358e02d4ef00003a",
+            "lname": "Messinger",
+            "num": "",
+            "pos": [],
+            "fname": "T"
+          },
+          {
+            "player_id": "62759441358e02d4fb00003d",
+            "lname": "Barrington",
+            "num": "",
+            "pos": [],
+            "fname": "N"
+          },
+          {
+            "player_id": "62759441358e02d50a000040",
+            "lname": "Parsonage",
+            "num": "",
+            "pos": [],
+            "fname": "L"
+          },
+          {
+            "player_id": "62759441358e02d514000043",
+            "lname": "Burgoine",
+            "num": "",
+            "pos": [],
+            "fname": "T"
+          },
+          {
+            "player_id": "62759441358e02d51b000046",
+            "lname": "Ervin",
+            "num": "",
+            "pos": [],
+            "fname": "T"
+          },
+          {
+            "player_id": "62759441358e02d527000049",
+            "lname": "Lethborg",
+            "num": "",
+            "pos": [],
+            "fname": "S"
+          },
+          {
+            "player_id": "62759441358e02d53000004c",
+            "lname": "Otter",
+            "num": "",
+            "pos": [],
+            "fname": "R"
+          },
+          {
+            "player_id": "62759441358e02d54400004f",
+            "lname": "Hasset-smith",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "62759441358e02d550000052",
+            "lname": "Medlin",
+            "num": "",
+            "pos": [],
+            "fname": "D"
+          },
+          {
+            "player_id": "62bf9441355601a92f0002c9",
+            "lname": "Marshal",
+            "num": "",
+            "pos": [],
+            "fname": "Adam"
+          },
+          {
+            "player_id": "62bf9441355601a9520002cb",
+            "lname": "Banjac",
+            "num": "",
+            "pos": [],
+            "fname": "Lucas"
+          },
+          {
+            "player_id": "62bf9441355601a9690002cd",
+            "lname": "Stafilia",
+            "num": "",
+            "pos": [],
+            "fname": "Zack"
+          },
+          {
+            "player_id": "62bf9441355601a9810002cf",
+            "lname": "Johnstone",
+            "num": "",
+            "pos": [],
+            "fname": "Ethan"
+          }
+        ],
+        "ts": "2022-05-06T06:19:11",
+        "save_date": "2022-08-20T02:14:09",
+        "first_save": "2022-05-06T06:19:15",
+        "access_level": "free",
+        "_change_d_ts": 682654050.334794,
+        "device_id": "AF4C00BD-9483-4D26-8373-4C7534736D2C",
+        "ot_id": "62629441359b006eee00016e",
+        "status": "OPP",
+        "_doc_version": "a442ad5af02d4dbab08b9b67a14cd384",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "62749441358e02bddf000007"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "prepaid": false,
+        "innings": "9",
+        "season": "Winter 2022",
+        "_change_d": "2022-08-20T02:07:30",
+        "_sync_d_ts": 682244906.480196,
+        "tbd": false,
+        "mascot": "Doncaster B Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Doncaster B Reserves",
+        "league_id": "",
+        "age": "adult",
+        "parent_team_id": "62629441359b006eee00016e",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "62749441358e02bddf000007",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "ESSN",
+        "_sync_d": "2022-07-13T06:03:35",
+        "entity_creation_time": 1653083445,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "62880d386476a5fd49fba0be",
+        "long_name": "Essendon B Reserves",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-07-21T21:19:09",
+          "last_active": "2022-07-21T21:19:09",
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "628894413575014847000004",
+            "lname": "",
+            "num": "",
+            "pos": [],
+            "fname": "Troy"
+          },
+          {
+            "player_id": "628894413575014855000007",
+            "lname": "",
+            "num": "",
+            "pos": [],
+            "fname": "Rhys"
+          },
+          {
+            "player_id": "62889441357501486000000a",
+            "lname": "",
+            "num": "",
+            "pos": [],
+            "fname": "Neil"
+          },
+          {
+            "player_id": "62889441357501486e00000d",
+            "lname": "",
+            "num": "",
+            "pos": [],
+            "fname": "Matthew"
+          },
+          {
+            "player_id": "628894413575014878000010",
+            "lname": "",
+            "num": "",
+            "pos": [],
+            "fname": "Harrison"
+          },
+          {
+            "player_id": "62889441357501487e000013",
+            "lname": "",
+            "num": "",
+            "pos": [],
+            "fname": "Blake"
+          },
+          {
+            "player_id": "628894413575014888000016",
+            "lname": "",
+            "num": "",
+            "pos": [],
+            "fname": "Ben"
+          },
+          {
+            "player_id": "628894413575014891000019",
+            "lname": "",
+            "num": "",
+            "pos": [],
+            "fname": "Chris"
+          },
+          {
+            "player_id": "62889441357501489a00001c",
+            "lname": "",
+            "num": "",
+            "pos": [],
+            "fname": "Thomas"
+          },
+          {
+            "player_id": "62d294413598001e1e0002c3",
+            "lname": "Stone",
+            "num": "",
+            "pos": [],
+            "fname": "Hamish"
+          },
+          {
+            "player_id": "62d294413598001e340002c5",
+            "lname": "Pablo III",
+            "num": "",
+            "pos": [],
+            "fname": "Benjamin"
+          },
+          {
+            "player_id": "62d294413598001e4c0002c7",
+            "lname": "Southwell",
+            "num": "",
+            "pos": [],
+            "fname": "N"
+          },
+          {
+            "player_id": "62d294413598001e5d0002c9",
+            "lname": "Colfman",
+            "num": "",
+            "pos": [],
+            "fname": "D"
+          },
+          {
+            "player_id": "62d294413598001e710002cb",
+            "lname": "Breckenridge",
+            "num": "",
+            "pos": [],
+            "fname": "P"
+          },
+          {
+            "player_id": "62d294413598001e8a0002cd",
+            "lname": "Amon",
+            "num": "L",
+            "pos": [],
+            "fname": "L"
+          },
+          {
+            "player_id": "62d294413598001e9b0002cf",
+            "lname": "Colfman",
+            "num": "",
+            "pos": [],
+            "fname": "B"
+          },
+          {
+            "player_id": "62d294413598001ea90002d1",
+            "lname": "Goodrope",
+            "num": "",
+            "pos": [],
+            "fname": "C"
+          },
+          {
+            "player_id": "62d294413598001ece0002d3",
+            "lname": "Liaw",
+            "num": "",
+            "pos": [],
+            "fname": "N"
+          }
+        ],
+        "ts": "2022-05-20T21:50:45",
+        "save_date": "2022-07-21T21:19:09",
+        "first_save": "2022-05-20T21:50:48",
+        "access_level": "free",
+        "_change_d_ts": 679630415.057898,
+        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
+        "ot_id": "62629441359b006eee00016e",
+        "status": "OPP",
+        "_doc_version": "1ae390ef47464fa2be0734523697e020",
+        "lineups": [
+          {
+            "positions": {},
+            "team_id": "628894413575010d35000001",
+            "dhs": {},
+            "batters": []
+          }
+        ],
+        "~vc": "8.17.0.1",
+        "short_name": "Essendon B Reserves",
+        "innings": "9",
+        "season": "Winter 2022",
+        "_change_d": "2022-07-16T02:13:35",
+        "_sync_d_ts": 679385015.947982,
+        "tbd": false,
+        "mascot": "Essendon B Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Essendon B Reserves",
+        "league_id": "",
+        "age": "adult",
+        "parent_team_id": "62629441359b006eee00016e",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "628894413575010d35000001",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "LTRB",
+        "_sync_d": "2022-06-30T21:10:19",
+        "entity_creation_time": 1652429451,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "627f736052254c7b76bed731",
+        "long_name": "La Trobe Uni B Reserves",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-07-13T06:02:27",
+          "last_active": "2022-07-13T06:02:27",
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "627f9441359800111b000019",
+            "lname": "",
+            "num": "",
+            "pos": [],
+            "fname": "Luke"
+          },
+          {
+            "player_id": "627f9441359800139a00003d",
+            "lname": "Herrera",
+            "num": "",
+            "pos": [],
+            "fname": "A"
+          },
+          {
+            "player_id": "627f944135980013c8000041",
+            "lname": "Heenan",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          },
+          {
+            "player_id": "627f944135980013d2000044",
+            "lname": "Smith",
+            "num": "",
+            "pos": [],
+            "fname": "N"
+          },
+          {
+            "player_id": "627f944135980013f3000048",
+            "lname": "Mcbride",
+            "num": "",
+            "pos": [],
+            "fname": "C"
+          },
+          {
+            "player_id": "627f9441359800141f00004c",
+            "lname": "Love",
+            "num": "",
+            "pos": [],
+            "fname": "S"
+          },
+          {
+            "player_id": "627f9441359800142d00004f",
+            "lname": "Cole",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "627f9441359800143c000052",
+            "lname": "Wataya",
+            "num": "",
+            "pos": [],
+            "fname": "H"
+          },
+          {
+            "player_id": "627f94413598001444000055",
+            "lname": "Owen",
+            "num": "",
+            "pos": [],
+            "fname": "S"
+          },
+          {
+            "player_id": "62c89441359600e1db00001a",
+            "lname": "Rundle",
+            "num": "",
+            "pos": [],
+            "fname": "Jordan"
+          },
+          {
+            "player_id": "62c89441359600e233000020",
+            "lname": "Ratnayake",
+            "num": "",
+            "pos": [],
+            "fname": "Chahusha"
+          },
+          {
+            "player_id": "62c89441359600e24b000024",
+            "lname": "Afu",
+            "num": "",
+            "pos": [],
+            "fname": "Noah"
+          },
+          {
+            "player_id": "62c89441359600e262000028",
+            "lname": "Brooke",
+            "num": "",
+            "pos": [],
+            "fname": "Liam"
+          },
+          {
+            "player_id": "62c89441359600e28700002c",
+            "lname": "Reyeste",
+            "num": "",
+            "pos": [],
+            "fname": "Luke"
+          },
+          {
+            "player_id": "62c89441359600e2a1000030",
+            "lname": "Deulin",
+            "num": "",
+            "pos": [],
+            "fname": "Bryce"
+          }
+        ],
+        "ts": "2022-05-13T08:10:51",
+        "save_date": "2022-07-13T06:02:27",
+        "first_save": "2022-05-14T09:16:16",
+        "access_level": "free",
+        "_change_d_ts": 679025185.783581,
+        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
+        "ot_id": "62629441359b006eee00016e",
+        "status": "OPP",
+        "_doc_version": "aae7f98d025d4a629b8a64a453657279",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "8.17.0.1",
+        "short_name": "La Trobe Uni B Reserves",
+        "innings": "9",
+        "season": "Winter 2022",
+        "_change_d": "2022-07-09T02:06:25",
+        "_sync_d_ts": 678316219.310327,
+        "tbd": false,
+        "mascot": "La Trobe Uni B Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "La Trobe Uni B Reserves",
+        "league_id": "",
+        "age": "adult",
+        "parent_team_id": "62629441359b006eee00016e",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "627e9441359400128b000003",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "MNSH",
+        "_sync_d": "2022-07-19T02:28:33",
+        "entity_creation_time": 1653209762,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "6289faa82a96af48cd5f2e1e",
+        "long_name": "Monash University B Reserves",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-05-28T08:36:14",
+          "last_active": "2022-05-28T08:36:14",
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "6291944135e901838e00001a",
+            "lname": "Stubbs",
+            "num": "",
+            "pos": [],
+            "fname": "Joel"
+          },
+          {
+            "player_id": "6291944135e901839d00001d",
+            "lname": "Lin",
+            "num": "",
+            "pos": [],
+            "fname": "Titus"
+          },
+          {
+            "player_id": "6291944135e90183a9000020",
+            "lname": "Hudson",
+            "num": "",
+            "pos": [],
+            "fname": "James"
+          },
+          {
+            "player_id": "6291944135e90183c5000023",
+            "lname": "Guerra",
+            "num": "",
+            "pos": [],
+            "fname": "Sebas"
+          },
+          {
+            "player_id": "6291944135e90183e1000026",
+            "lname": "Burridge",
+            "num": "",
+            "pos": [],
+            "fname": "Mike"
+          },
+          {
+            "player_id": "6291944135e90183fa000029",
+            "lname": "Kriel",
+            "num": "",
+            "pos": [],
+            "fname": "Rickus"
+          },
+          {
+            "player_id": "6291944135e901841100002c",
+            "lname": "Walmsley",
+            "num": "",
+            "pos": [],
+            "fname": "Jackson"
+          },
+          {
+            "player_id": "6291944135e901842700002f",
+            "lname": "Ayala",
+            "num": "",
+            "pos": [],
+            "fname": "Ricardo"
+          },
+          {
+            "player_id": "6291944135e901843a000032",
+            "lname": "Parsons",
+            "num": "",
+            "pos": [],
+            "fname": "Nathaniel"
+          },
+          {
+            "player_id": "6291944135e901844e000035",
+            "lname": "Parkin",
+            "num": "",
+            "pos": [],
+            "fname": "Dylan"
+          },
+          {
+            "player_id": "6291944135e9019f7d00016a",
+            "lname": "DeZwart",
+            "num": "",
+            "pos": [],
+            "fname": "Jonte"
+          }
+        ],
+        "ts": "2022-05-22T08:56:02",
+        "save_date": "2022-07-21T21:19:38",
+        "first_save": "2022-05-22T08:56:08",
+        "access_level": "free",
+        "_change_d_ts": 680131175.970212,
+        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
+        "ot_id": "62629441359b006eee00016e",
+        "status": "OPP",
+        "_doc_version": "f22407d8c07d40e4af1ba2c1527cf5cb",
+        "lineups": [
+          {
+            "positions": {},
+            "team_id": "62899441350701faa2000003",
+            "dhs": {},
+            "batters": []
+          }
+        ],
+        "~vc": "8.17.0.1",
+        "short_name": "Monash University B Reserves",
+        "innings": "9",
+        "season": "Winter 2022",
+        "_change_d": "2022-07-21T21:19:35",
+        "_sync_d_ts": 679890513.617705,
+        "tbd": false,
+        "mascot": "Monash University B Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Monash University B Reserves",
+        "league_id": "",
+        "age": "adult",
+        "parent_team_id": "62629441359b006eee00016e",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "62899441350701faa2000003",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "NRTH",
+        "_sync_d": "2022-08-01T10:44:02",
+        "entity_creation_time": 1650618118,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "6274bd97965c64d9cc0a111c",
+        "long_name": "North Coburg B Reserves",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-08-06T07:18:46",
+          "last_active": "2022-08-06T07:18:46",
+          "live": true,
+          "games": 3,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "North Coburg B Reserves",
+        "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "6263944135fc00605500000a",
+            "lname": "Needham",
+            "num": "",
+            "pos": [],
+            "fname": "W"
+          },
+          {
+            "player_id": "6263944135fc00606200000d",
+            "lname": "Pinches",
+            "num": "",
+            "pos": [],
+            "fname": "Z"
+          },
+          {
+            "player_id": "6263944135fc00606b000010",
+            "lname": "Sutherland",
+            "num": "",
+            "pos": [],
+            "fname": "A"
+          },
+          {
+            "player_id": "6263944135fc006099000018",
+            "lname": "Malthouse",
+            "num": "",
+            "pos": [],
+            "fname": "A"
+          },
+          {
+            "player_id": "6263944135fc0060b100001d",
+            "lname": "Burns",
+            "num": "",
+            "pos": [],
+            "fname": "B"
+          },
+          {
+            "player_id": "6263944135fc0060bb000020",
+            "lname": "Friedman",
+            "num": "",
+            "pos": [],
+            "fname": "D"
+          },
+          {
+            "player_id": "6263944135fc0060cb000023",
+            "lname": "Papadatos",
+            "num": "",
+            "pos": [],
+            "fname": "D"
+          },
+          {
+            "player_id": "6263944135fc0060db000026",
+            "lname": "Little",
+            "num": "",
+            "pos": [],
+            "fname": "K"
+          },
+          {
+            "player_id": "6263944135fc0060e9000029",
+            "lname": "White",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "62ad9441357a0332ce000401",
+            "lname": "Shanks",
+            "num": "",
+            "pos": [],
+            "fname": "R"
+          },
+          {
+            "player_id": "62ad9441357a0332dd000404",
+            "lname": "De Petro",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          },
+          {
+            "player_id": "62ad9441357a0332ea000407",
+            "lname": "Tsonis",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "62ad9441357a0332f800040a",
+            "lname": "Golledge",
+            "num": "",
+            "pos": [],
+            "fname": "F"
+          },
+          {
+            "player_id": "62ad9441357a03330800040d",
+            "lname": "Morton",
+            "num": "",
+            "pos": [],
+            "fname": "D"
+          },
+          {
+            "player_id": "62ad9441357a03333e000411",
+            "lname": "Adachi",
+            "num": "",
+            "pos": [],
+            "fname": "Y"
+          },
+          {
+            "player_id": "62ed9441359600cdce000016",
+            "lname": "Healey",
+            "num": "",
+            "pos": [],
+            "fname": "Nathan"
+          },
+          {
+            "player_id": "62ed9441359600cde8000018",
+            "lname": "Learmonth",
+            "num": "",
+            "pos": [],
+            "fname": "Craig"
+          },
+          {
+            "player_id": "62ed9441359600ce1000001a",
+            "lname": "Prescott",
+            "num": "",
+            "pos": [],
+            "fname": "Braeden"
+          },
+          {
+            "player_id": "62ed9441359600ce3600001c",
+            "lname": "Papanikalaou",
+            "num": "",
+            "pos": [],
+            "fname": "Nicolas"
+          },
+          {
+            "player_id": "62ed9441359600ce4e00001e",
+            "lname": "Naughton",
+            "num": "",
+            "pos": [],
+            "fname": "Henry"
+          },
+          {
+            "player_id": "62ed9441359600ce71000020",
+            "lname": "Cursio",
+            "num": "",
+            "pos": [],
+            "fname": "Johnathan"
+          }
+        ],
+        "ts": "2022-04-22T09:01:58",
+        "save_date": "2022-08-06T07:18:46",
+        "first_save": "2022-05-06T06:17:59",
+        "access_level": "free",
+        "_change_d_ts": 681444849.240434,
+        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
+        "ot_id": "62629441359b006eee00016e",
+        "status": "OPP",
+        "_doc_version": "d800e01306d24962bc01ece43fa837bf",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "8.17.0.1",
+        "prepaid": false,
+        "innings": "9",
+        "season": "Winter 2022",
+        "_change_d": "2022-08-06T02:14:09",
+        "_sync_d_ts": 681043442.752627,
+        "tbd": false,
+        "mascot": "North Coburg B Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "North Coburg B Reserves",
+        "league_id": "",
+        "age": "adult",
+        "parent_team_id": "62629441359b006eee00016e",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "62629441359b006f0600016f",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "RSRC",
+        "_sync_d": "2022-07-29T08:18:46",
+        "entity_creation_time": 1654242983,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "6299beb9c2353109cb89ac26",
+        "long_name": "Research B Reserves",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 2,
+          "last_scored": "2022-08-01T10:41:48",
+          "last_active": "2022-08-01T10:41:48"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "629a9441351602df9300019b",
+            "lname": "Crundwell",
+            "num": "",
+            "pos": [],
+            "fname": "Ben"
+          },
+          {
+            "player_id": "629a9441351602dfa600019e",
+            "lname": "Bride",
+            "num": "",
+            "pos": [],
+            "fname": "Josh"
+          },
+          {
+            "player_id": "629a9441351602dfbc0001a1",
+            "lname": "Dicker",
+            "num": "",
+            "pos": [],
+            "fname": "David"
+          },
+          {
+            "player_id": "629a9441351602dfd30001a4",
+            "lname": "Butler",
+            "num": "",
+            "pos": [],
+            "fname": "Matthew"
+          },
+          {
+            "player_id": "629a9441351602dfe20001a7",
+            "lname": "Dehaan",
+            "num": "",
+            "pos": [],
+            "fname": "Cooper"
+          },
+          {
+            "player_id": "629a9441351602dff10001aa",
+            "lname": "Veal",
+            "num": "",
+            "pos": [],
+            "fname": "Spencer"
+          },
+          {
+            "player_id": "629a9441351602e0120001ad",
+            "lname": "Pilapil",
+            "num": "",
+            "pos": [],
+            "fname": "Kelly"
+          },
+          {
+            "player_id": "629a9441351602e0230001b0",
+            "lname": "Gaskett",
+            "num": "",
+            "pos": [],
+            "fname": "Will"
+          },
+          {
+            "player_id": "629a9441351602e0320001b3",
+            "lname": "Hall",
+            "num": "",
+            "pos": [],
+            "fname": "Jensen"
+          },
+          {
+            "player_id": "62e49441359d00942900001b",
+            "lname": "Sertis",
+            "num": "",
+            "pos": [],
+            "fname": "E"
+          },
+          {
+            "player_id": "62e49441359d00943500001e",
+            "lname": "Flood",
+            "num": "",
+            "pos": [],
+            "fname": "R"
+          },
+          {
+            "player_id": "62e49441359d00943f000021",
+            "lname": "Brooks",
+            "num": "",
+            "pos": [],
+            "fname": "G"
+          },
+          {
+            "player_id": "62e49441359d00944d000024",
+            "lname": "Pendlebury",
+            "num": "",
+            "pos": [],
+            "fname": "F"
+          },
+          {
+            "player_id": "62e49441359d009456000027",
+            "lname": "Wingrave",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "62e49441359d00946100002a",
+            "lname": "Caldera",
+            "num": "",
+            "pos": [],
+            "fname": "A"
+          },
+          {
+            "player_id": "62e49441359d00946900002d",
+            "lname": "Butler",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          },
+          {
+            "player_id": "62e49441359d009472000030",
+            "lname": "Gaskett",
+            "num": "",
+            "pos": [],
+            "fname": "W"
+          },
+          {
+            "player_id": "62e49441359d00947b000033",
+            "lname": "Cranston",
+            "num": "",
+            "pos": [],
+            "fname": "S"
+          },
+          {
+            "player_id": "62e49441359d009486000036",
+            "lname": "Cross",
+            "num": "",
+            "pos": [],
+            "fname": "I"
+          },
+          {
+            "player_id": "62e49441359d00a885000133",
+            "lname": "Rist",
+            "num": "",
+            "pos": [],
+            "fname": "L"
+          }
+        ],
+        "ts": "2022-06-03T07:56:23",
+        "save_date": "2022-08-01T10:41:48",
+        "first_save": "2022-06-03T07:56:41",
+        "access_level": "free",
+        "_change_d_ts": 680845317.225119,
+        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
+        "ot_id": "62629441359b006eee00016e",
+        "status": "OPP",
+        "_doc_version": "698973239d8f4af5a6f7f83f4b4f0128",
+        "lineups": [
+          {
+            "positions": {},
+            "team_id": "62999441351602bea7000001",
+            "dhs": {},
+            "batters": []
+          }
+        ],
+        "~vc": "8.17.0.1",
+        "short_name": "Research B Reserves",
+        "innings": "9",
+        "season": "Winter 2022",
+        "_change_d": "2022-07-30T03:41:57",
+        "_sync_d_ts": 680775526.729513,
+        "tbd": false,
+        "mascot": "Research B Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Research B Reserves",
+        "league_id": "",
+        "age": "adult",
+        "parent_team_id": "62629441359b006eee00016e",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "62999441351602bea7000001",
+        "stat_access": "OPEN"
+      }
+    ],
+    "sport": "Baseball",
+    "league": "",
+    "name": "St Kilda ",
+    "age": "adult",
+    "mp_info": null,
+    "pc": "",
+    "_id": "62629441359b006eee00016e"
+  }
+}

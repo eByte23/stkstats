@@ -1,0 +1,2646 @@
+{
+  "create_new": false,
+  "type": "game",
+  "team_events": [
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-10-02T02:00:00",
+      "sport": "BASEB",
+      "id": "6338c462f8cb00ec0000000c",
+      "recap_title": [
+        {
+          "content": "Fitzroy Lions Runs Away With Early Lead in Victory",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 3,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 17,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-10-02T13:00:00",
+      "type": "League",
+      "save_ts": 1664705587.0,
+      "recipients": [],
+      "wl": "0-1-0",
+      "start_ts": 1664676000,
+      "other_team_id": "6338c462f8cb00ec3700000f",
+      "game_id": "6338c462f8cb00ec0000000c",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6338c462f8cb00ec3e000010",
+      "minutes_before": 0,
+      "other_team_name": "Fitzroy Lions"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-10-09T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb0066380002e0",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 2nds Defeats Preston Division 2 Reserves in Blow Out Victory Thanks to First Inning Boost",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 2,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 11,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-10-09T13:00:00",
+      "type": "League",
+      "save_ts": 1665301400.0,
+      "recipients": [],
+      "wl": "1-1-0",
+      "start_ts": 1665280800,
+      "other_team_id": "6339c462f8cb0066330002df",
+      "game_id": "6339c462f8cb0066380002e0",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6342c462f8cb0028b9000301",
+      "minutes_before": 0,
+      "other_team_name": "Preston Division 2 Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-10-16T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb0066710002e2",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 2nds Takes a Tough Blow From Williamstown Division 2 Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 1,
+        "x": "st",
+        "w": "h",
+        "half": 0,
+        "home": 7,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-10-16T13:00:00",
+      "type": "League",
+      "save_ts": 1665913778.0,
+      "recipients": [],
+      "wl": "1-2-0",
+      "start_ts": 1665885600,
+      "other_team_id": "6339c462f8cb00666e0002e1",
+      "game_id": "6339c462f8cb0066710002e2",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "634bc462f8e100643c000005",
+      "minutes_before": 0,
+      "other_team_name": "Williamstown Division 2 Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-10-23T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb0066cc0002e4",
+      "recap_title": [
+        {
+          "content": "Four RBI Day for ",
+          "type": "text"
+        },
+        {
+          "is_first_mention": true,
+          "default_name": "Matthew Garhwaite",
+          "lname": "Garhwaite",
+          "team_id": "6327d8f7ef49121ec6a406a5",
+          "fname": "Matthew",
+          "default_short_name": "Garhwaite",
+          "type": "player",
+          "id": "6338c462f8cb00ebbc00000a"
+        },
+        {
+          "content": " Seals the Deal in VSBL ST KILDA SAINTS DIVISION 2 2nds's Victory Over Ormond Division 2 Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 18,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 1,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-10-23T13:00:00",
+      "type": "League",
+      "save_ts": 1666561283.0,
+      "recipients": [],
+      "wl": "2-2-0",
+      "start_ts": 1666490400,
+      "other_team_id": "6339c462f8cb0066b90002e3",
+      "game_id": "6339c462f8cb0066cc0002e4",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6354c462f8cb0099d2000308",
+      "minutes_before": 0,
+      "other_team_name": "Ormond Division 2 Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-10-30T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb0066fc0002e6",
+      "recap_title": [
+        {
+          "content": "Doncaster Division 2 Reserves Runs Away With Early Lead in Victory",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 11,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 0,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-10-30T13:00:00",
+      "type": "League",
+      "save_ts": 1667178963.0,
+      "recipients": [],
+      "wl": "2-3-0",
+      "start_ts": 1667095200,
+      "other_team_id": "6339c462f8cb0066f70002e5",
+      "game_id": "6339c462f8cb0066fc0002e6",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "635dc462f8bb00d97e0005d1",
+      "minutes_before": 0,
+      "other_team_name": "Doncaster Division 2 Reserves"
+    },
+    {
+      "sport": "BASEB",
+      "event_type": "game",
+      "recipients": [],
+      "arrival_ts": null,
+      "home": true,
+      "notes": "",
+      "wl": "2-3-0",
+      "start_ts": 1667700000,
+      "uses_halves": false,
+      "playstatus": "NEW",
+      "other_team_id": "6339c462f8cb0067210002e7",
+      "meta": {},
+      "location": "",
+      "timezone": 11.0,
+      "game_id": "6339c462f8cb0067250002e8",
+      "minutes_before": 0,
+      "utc_start": "2022-11-06T02:00:00",
+      "play_time": "2022-11-06T13:00:00",
+      "type": "League",
+      "id": "6339c462f8cb0067250002e8",
+      "other_team_name": "Newport Division 2 Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-11-13T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb00673f0002e9",
+      "recap_title": [
+        {
+          "content": "Doncaster Division 2 Reserves Runs Away With Early Lead in Victory",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 8,
+        "side_readable": "Bot",
+        "away": 0,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 2,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-11-13T13:00:00",
+      "type": "League",
+      "save_ts": 1668941650.0,
+      "recipients": [],
+      "wl": "2-4-0",
+      "start_ts": 1668304800,
+      "other_team_id": "6339c462f8cb0066f70002e5",
+      "game_id": "6339c462f8cb00673f0002e9",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6370c462f88c014cd600017b",
+      "minutes_before": 0,
+      "other_team_name": "Doncaster Division 2 Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "T",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-11-20T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb00676c0002eb",
+      "recap_title": [
+        {
+          "content": "Close Contest Between VSBL ST KILDA SAINTS DIVISION 2 2nds and Bonbeach Division 2 Reserves Ends in a Tie",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 8,
+        "side_readable": "Top",
+        "away": 2,
+        "x": "st",
+        "w": "t",
+        "half": 0,
+        "home": 2,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-11-20T13:00:00",
+      "type": "League",
+      "save_ts": 1668941651.0,
+      "recipients": [],
+      "wl": "2-4-1",
+      "start_ts": 1668909600,
+      "other_team_id": "6339c462f8cb0067580002ea",
+      "game_id": "6339c462f8cb00676c0002eb",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6379c462f8d30086bf00042e",
+      "minutes_before": 0,
+      "other_team_name": "Bonbeach Division 2 Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-11-27T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb0067990002ed",
+      "recap_title": [
+        {
+          "content": "Eight RBI Day for ",
+          "type": "text"
+        },
+        {
+          "is_first_mention": true,
+          "default_name": "Todd Clarkson",
+          "lname": "Clarkson",
+          "team_id": "6327d8f7ef49121ec6a406a5",
+          "fname": "Todd",
+          "default_short_name": "Clarkson",
+          "type": "player",
+          "id": "6338c462f8cb00eb85000005"
+        },
+        {
+          "content": " Seals the Deal in VSBL ST KILDA SAINTS DIVISION 2 2nds's Victory Over NW Titans Division 2 Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 27,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 2,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-11-27T13:00:00",
+      "type": "League",
+      "save_ts": 1669543431.0,
+      "recipients": [],
+      "wl": "3-4-1",
+      "start_ts": 1669514400,
+      "other_team_id": "6339c462f8cb0067920002ec",
+      "game_id": "6339c462f8cb0067990002ed",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6381c462f807013b69000802",
+      "minutes_before": 0,
+      "other_team_name": "NW Titans Division 2 Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-12-04T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb0067ce0002ef",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 2nds Can't Quite Erase 7-Run Deficit in Loss to Werribee Division 2 Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Top",
+        "away": 12,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 11,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-12-04T13:00:00",
+      "type": "League",
+      "save_ts": 1670146906.0,
+      "recipients": [],
+      "wl": "3-5-1",
+      "start_ts": 1670119200,
+      "other_team_id": "6339c462f8cb0067be0002ee",
+      "game_id": "6339c462f8cb0067ce0002ef",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "638bc462f87701fc51000b08",
+      "minutes_before": 0,
+      "other_team_name": "Werribee Division 2 Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-12-11T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb0067ee0002f0",
+      "recap_title": [
+        {
+          "content": "Bonbeach Division 2 Reserves Captures Lead Early to Defeat VSBL ST KILDA SAINTS DIVISION 2 2nds",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 5,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 11,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-12-11T13:00:00",
+      "type": "League",
+      "save_ts": 1670897099.0,
+      "recipients": [],
+      "wl": "3-6-1",
+      "start_ts": 1670724000,
+      "other_team_id": "6339c462f8cb0067580002ea",
+      "game_id": "6339c462f8cb0067ee0002f0",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6395c462f8e10032b9000db1",
+      "minutes_before": 0,
+      "other_team_name": "Bonbeach Division 2 Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-12-17T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb00681d0002f2",
+      "recap_title": [
+        {
+          "content": "Cheltenham Division 2 Reserves Runs Away With Early Lead in Victory",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 1,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 23,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-12-17T13:00:00",
+      "type": "League",
+      "save_ts": 1674451126.0,
+      "recipients": [],
+      "wl": "3-7-1",
+      "start_ts": 1671242400,
+      "other_team_id": "6339c462f8cb0068150002f1",
+      "game_id": "6339c462f8cb00681d0002f2",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63ced2a47cd20018700002bc",
+      "minutes_before": 0,
+      "other_team_name": "Cheltenham Division 2 Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2023-01-22T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb0068360002f3",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 2nds Clings to Victory as Williamstown Division 2 Reserves Nearly Erases 5-Run Deficit",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Bot",
+        "away": 5,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 6,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2023-01-22T13:00:00",
+      "type": "League",
+      "save_ts": 1674450978.0,
+      "recipients": [],
+      "wl": "4-7-1",
+      "start_ts": 1674352800,
+      "other_team_id": "6339c462f8cb00666e0002e1",
+      "game_id": "6339c462f8cb0068360002f3",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63ccd2a47cd20096c6000001",
+      "minutes_before": 0,
+      "other_team_name": "Williamstown Division 2 Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2023-01-29T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb0068500002f4",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 2nds Fights Back in Loss to Ormond Division 2 Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 7,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 5,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2023-01-29T13:00:00",
+      "type": "League",
+      "save_ts": 1674986779.0,
+      "recipients": [],
+      "wl": "4-8-1",
+      "start_ts": 1674957600,
+      "other_team_id": "6339c462f8cb0066b90002e3",
+      "game_id": "6339c462f8cb0068500002f4",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63d5d2a47ce000cf0f000002",
+      "minutes_before": 0,
+      "other_team_name": "Ormond Division 2 Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2023-02-05T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb00686f0002f5",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 2nds Struggles to Find Groove Against Fitzroy Lions",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 8,
+        "side_readable": "Top",
+        "away": 9,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 3,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2023-02-05T13:00:00",
+      "type": "League",
+      "save_ts": 1675649270.0,
+      "recipients": [],
+      "wl": "4-9-1",
+      "start_ts": 1675562400,
+      "other_team_id": "6338c462f8cb00ec3700000f",
+      "game_id": "6339c462f8cb00686f0002f5",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63dfd2a47cc9000b0f000001",
+      "minutes_before": 0,
+      "other_team_name": "Fitzroy Lions"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2023-02-12T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb0068890002f6",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 2nds Takes a Tough Blow From Newport Division 2 Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 2,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 13,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2023-02-12T13:00:00",
+      "type": "League",
+      "save_ts": 1676670445.0,
+      "recipients": [],
+      "wl": "4-10-1",
+      "start_ts": 1676167200,
+      "other_team_id": "6339c462f8cb0067210002e7",
+      "game_id": "6339c462f8cb0068890002f6",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63e8d2a47cd60045fd000367",
+      "minutes_before": 0,
+      "other_team_name": "Newport Division 2 Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2023-02-18T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb0068b70002f8",
+      "recap_title": [
+        {
+          "content": "Big Fifth Inning Propels VSBL ST KILDA SAINTS DIVISION 2 2nds Win Over Port Melbourne Division 2 Reserves",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 2,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 11,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2023-02-18T13:00:00",
+      "type": "League",
+      "save_ts": 1676705587.0,
+      "recipients": [],
+      "wl": "5-10-1",
+      "start_ts": 1676685600,
+      "other_team_id": "6339c462f8cb0068b40002f7",
+      "game_id": "6339c462f8cb0068b70002f8",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63f0d2a47ce6002ea3000001",
+      "minutes_before": 0,
+      "other_team_name": "Port Melbourne Division 2 Reserves"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2023-02-26T02:00:00",
+      "sport": "BASEB",
+      "id": "6339c462f8cb0068e60002fa",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 2nds Loses Lead Early in Defeat",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 6,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 14,
+        "side": 1
+      },
+      "location": "",
+      "change_v": "584642ca-7890-49be-a15c-fe8501967e07",
+      "type": "League",
+      "save_ts": 1677650928.0,
+      "recipients": [],
+      "wl": "5-11-1",
+      "start_ts": 1677376800,
+      "other_team_id": "6339c462f8cb0068de0002f9",
+      "play_time": "2023-02-26T13:00:00",
+      "game_id": "6339c462f8cb0068e60002fa",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63fad2a47cd500bd0c0003c7",
+      "minutes_before": 0,
+      "other_team_name": "Preston Division 2 Reserves"
+    }
+  ],
+  "live_game": [],
+  "team": {
+    "team_path": "/t/summer-2022/vsbl-st-kilda-saints-division-2-2nds-6327d8f7ef49121ec6a406a5",
+    "season": "Summer 2022",
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "season_id": "6327d8f7ef49121ec6a406a3",
+    "opposing_teams": [
+      {
+        "code": "BNBC",
+        "_sync_d": "2022-12-04T20:58:06",
+        "entity_creation_time": 1664706392,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "63396777f567a70d817e40e4",
+        "long_name": "Bonbeach Division 2 Reserves",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 2,
+          "last_scored": "2022-12-13T02:04:59",
+          "last_active": "2022-12-13T02:04:59"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "Bonbeach Division 2 Reserves",
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "6379c462f8d3008938000450",
+            "lname": "George",
+            "num": "",
+            "pos": [],
+            "fname": "Angus"
+          },
+          {
+            "player_id": "6379c462f8d3008961000452",
+            "lname": "Hines Cavanah",
+            "num": "",
+            "pos": [],
+            "fname": "Horry"
+          },
+          {
+            "player_id": "6379c462f8d300897c000454",
+            "lname": "Morris",
+            "num": "",
+            "pos": [],
+            "fname": "Dave "
+          },
+          {
+            "player_id": "6379c462f8d3008987000456",
+            "lname": "Hubbard",
+            "num": "",
+            "pos": [],
+            "fname": "Cam"
+          },
+          {
+            "player_id": "6379c462f8d3008998000458",
+            "lname": "Stephens",
+            "num": "",
+            "pos": [],
+            "fname": "Daniel"
+          },
+          {
+            "player_id": "6379c462f8d30089ca00045a",
+            "lname": "Brown",
+            "num": "",
+            "pos": [],
+            "fname": "Jess"
+          },
+          {
+            "player_id": "6379c462f8d30089e000045c",
+            "lname": "Hidson",
+            "num": "",
+            "pos": [],
+            "fname": "Sebastian"
+          },
+          {
+            "player_id": "6379c462f8d30089f400045e",
+            "lname": "Gillam",
+            "num": "",
+            "pos": [],
+            "fname": "James"
+          },
+          {
+            "player_id": "6379c462f8d3008a09000460",
+            "lname": "Griffiths Smith",
+            "num": "",
+            "pos": [],
+            "fname": "Jack"
+          },
+          {
+            "player_id": "6379c462f8d3009d76000507",
+            "lname": "Curwood",
+            "num": "",
+            "pos": [],
+            "fname": "Jarad"
+          },
+          {
+            "player_id": "6395c462f8e1003722000dcc",
+            "lname": "Gillay",
+            "num": "",
+            "pos": [],
+            "fname": "James"
+          },
+          {
+            "player_id": "6395c462f8e1003737000dcd",
+            "lname": "Brown",
+            "num": "",
+            "pos": [],
+            "fname": "Dylan"
+          },
+          {
+            "player_id": "6395c462f8e1003746000dce",
+            "lname": "McDonald",
+            "num": "",
+            "pos": [],
+            "fname": "Kai"
+          },
+          {
+            "player_id": "6395c462f8e1003755000dcf",
+            "lname": "Heenan",
+            "num": "",
+            "pos": [],
+            "fname": "Rebecca"
+          },
+          {
+            "player_id": "6395c462f8e1004874000e66",
+            "lname": "Ryan-myers",
+            "num": "",
+            "pos": [],
+            "fname": "Jack"
+          }
+        ],
+        "ts": "2022-10-02T10:26:32",
+        "save_date": "2022-12-13T02:04:59",
+        "first_save": "2022-10-02T10:27:03",
+        "access_level": "free",
+        "_change_d_ts": 692420596.723231,
+        "device_id": "F862C4AB-DD95-41DB-BD81-D1FD4FC48F0F",
+        "ot_id": "6327d8f7ef49121ec6a406a5",
+        "status": "OPP",
+        "_doc_version": "8627c6ea3d1e467ea6b09f68401bee68",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6339c462f8cb0067580002ea"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "prepaid": false,
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2022-12-11T03:03:16",
+        "_sync_d_ts": 691880286.3353,
+        "tbd": false,
+        "mascot": "Bonbeach Division 2 Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Bonbeach Division 2 Reserves",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d8f7ef49121ec6a406a5",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6339c462f8cb0067580002ea",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "CHLT",
+        "_sync_d": "2022-12-13T02:06:22",
+        "entity_creation_time": 1664706581,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "63396827f567a70d817e40e5",
+        "long_name": "Cheltenham Division 2 Reserves",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-01-23T05:18:46",
+          "last_active": "2023-01-23T05:18:46",
+          "live": true,
+          "games": 1,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "639dc462f8d000221f001064",
+            "lname": "Hall",
+            "num": "",
+            "pos": [],
+            "fname": "Jarad"
+          },
+          {
+            "player_id": "639dc462f8d000222f001066",
+            "lname": "Holding",
+            "num": "",
+            "pos": [],
+            "fname": "Blake"
+          },
+          {
+            "player_id": "639dc462f8d0002251001068",
+            "lname": "Tribe",
+            "num": "",
+            "pos": [],
+            "fname": "Josh"
+          },
+          {
+            "player_id": "639dc462f8d000225e00106a",
+            "lname": "Dunne",
+            "num": "",
+            "pos": [],
+            "fname": "Sean"
+          },
+          {
+            "player_id": "639dc462f8d000227c00106c",
+            "lname": "Donhley",
+            "num": "",
+            "pos": [],
+            "fname": "Zac"
+          },
+          {
+            "player_id": "639dc462f8d000228d00106e",
+            "lname": "Stevens",
+            "num": "",
+            "pos": [],
+            "fname": "Lachlan"
+          },
+          {
+            "player_id": "639dc462f8d00022a2001070",
+            "lname": "Trewaun",
+            "num": "",
+            "pos": [],
+            "fname": "Darcy"
+          },
+          {
+            "player_id": "639dc462f8d00022b4001072",
+            "lname": "Dunhley",
+            "num": "",
+            "pos": [],
+            "fname": "Blake"
+          },
+          {
+            "player_id": "639dc462f8d00022d3001074",
+            "lname": "Messanger",
+            "num": "",
+            "pos": [],
+            "fname": "Darcy"
+          },
+          {
+            "player_id": "639dc462f8d00022e6001076",
+            "lname": "Ogilue",
+            "num": "",
+            "pos": [],
+            "fname": "John"
+          }
+        ],
+        "ts": "2022-10-02T10:29:41",
+        "save_date": "2023-01-23T05:18:46",
+        "first_save": "2022-10-02T10:29:59",
+        "access_level": "free",
+        "_change_d_ts": 692935270.258129,
+        "device_id": "F862C4AB-DD95-41DB-BD81-D1FD4FC48F0F",
+        "ot_id": "6327d8f7ef49121ec6a406a5",
+        "status": "OPP",
+        "_doc_version": "7724ea496d9b476b82dde21c8a9e4936",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6339c462f8cb0068150002f1"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "short_name": "Cheltenham Division 2 Reserves",
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2022-12-17T02:01:10",
+        "_sync_d_ts": 692589982.094614,
+        "tbd": false,
+        "mascot": "Cheltenham Division 2 Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Cheltenham Division 2 Reserves",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d8f7ef49121ec6a406a5",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6339c462f8cb0068150002f1",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "DNCS",
+        "_sync_d": "2022-10-31T03:12:56",
+        "entity_creation_time": 1664706295,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "633967054d0003a60cb7e3f0",
+        "long_name": "Doncaster Division 2 Reserves",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 2,
+          "last_scored": "2022-11-20T10:54:10",
+          "last_active": "2022-11-20T10:54:10"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "635dc462f8bb00da270005d7",
+            "lname": "Sandy",
+            "num": "",
+            "pos": [],
+            "fname": "Marc"
+          },
+          {
+            "player_id": "635dc462f8bb00da4c0005da",
+            "lname": "Mithcell",
+            "num": "",
+            "pos": [],
+            "fname": "Ryan"
+          },
+          {
+            "player_id": "635dc462f8bb00da5b0005dc",
+            "lname": "Marshall",
+            "num": "",
+            "pos": [],
+            "fname": "Adam "
+          },
+          {
+            "player_id": "635dc462f8bb00da710005de",
+            "lname": "Fitzmore",
+            "num": "",
+            "pos": [],
+            "fname": "Simon"
+          },
+          {
+            "player_id": "635dc462f8bb00da7f0005e0",
+            "lname": "Cutt",
+            "num": "",
+            "pos": [],
+            "fname": "Travis"
+          },
+          {
+            "player_id": "635dc462f8bb00da900005e2",
+            "lname": "Boyd",
+            "num": "",
+            "pos": [],
+            "fname": "Fraser"
+          },
+          {
+            "player_id": "635dc462f8bb00dab70005e4",
+            "lname": "Barrington",
+            "num": "",
+            "pos": [],
+            "fname": "Nick"
+          },
+          {
+            "player_id": "635dc462f8bb00dacb0005e6",
+            "lname": "Hutton",
+            "num": "",
+            "pos": [],
+            "fname": "Campbell"
+          },
+          {
+            "player_id": "635dc462f8bb00dadf0005e8",
+            "lname": "Dowling",
+            "num": "",
+            "pos": [],
+            "fname": "Aimon"
+          },
+          {
+            "player_id": "635dc462f8bb00e588000659",
+            "lname": "Parsonage",
+            "num": "",
+            "pos": [],
+            "fname": "Lachlan"
+          },
+          {
+            "player_id": "6370c462f88c014dc400018c",
+            "lname": "Medlin",
+            "num": "",
+            "pos": [],
+            "fname": "Derek"
+          },
+          {
+            "player_id": "6370c462f88c014de800018d",
+            "lname": "Chinslett",
+            "num": "",
+            "pos": [],
+            "fname": "Charles"
+          },
+          {
+            "player_id": "6370c462f88c014e3b000195",
+            "lname": "Utting",
+            "num": "",
+            "pos": [],
+            "fname": "Luke"
+          },
+          {
+            "player_id": "6370c462f88c016175000249",
+            "lname": "Britton",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          }
+        ],
+        "ts": "2022-10-02T10:24:55",
+        "save_date": "2022-11-20T10:54:10",
+        "first_save": "2022-10-02T10:25:09",
+        "access_level": "free",
+        "_change_d_ts": 690002165.674423,
+        "device_id": "F862C4AB-DD95-41DB-BD81-D1FD4FC48F0F",
+        "ot_id": "6327d8f7ef49121ec6a406a5",
+        "status": "OPP",
+        "_doc_version": "26d676cb46ed4303a6d04f1930f9d442",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6339c462f8cb0066f70002e5"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "short_name": "Doncaster Division 2 Reserves",
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2022-11-13T03:16:05",
+        "_sync_d_ts": 688878776.700491,
+        "tbd": false,
+        "mascot": "Doncaster Division 2 Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Doncaster Division 2 Reserves",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d8f7ef49121ec6a406a5",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6339c462f8cb0066f70002e5",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "FTZR",
+        "_sync_d": "2023-01-29T10:08:09",
+        "entity_creation_time": 1664674871,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "633964247cf937f5b97e3ba2",
+        "long_name": "Fitzroy Lions",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 2,
+          "last_scored": "2023-02-06T02:07:51",
+          "last_active": "2023-02-06T02:07:51"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "Fitzroy Lions",
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "6338c462f8cb00ef79000025",
+            "lname": "Flood",
+            "num": "",
+            "pos": [],
+            "fname": "Riley"
+          },
+          {
+            "player_id": "6338c462f8cb00ef95000027",
+            "lname": "Mills",
+            "num": "",
+            "pos": [],
+            "fname": "Darcy"
+          },
+          {
+            "player_id": "6338c462f8cb00efac000029",
+            "lname": "Preston",
+            "num": "",
+            "pos": [],
+            "fname": "Damian"
+          },
+          {
+            "player_id": "6338c462f8cb00efc700002b",
+            "lname": "Wyatt",
+            "num": "",
+            "pos": [],
+            "fname": "Patrick"
+          },
+          {
+            "player_id": "6338c462f8cb00efd900002d",
+            "lname": "Wingrave",
+            "num": "",
+            "pos": [],
+            "fname": "Jake"
+          },
+          {
+            "player_id": "6338c462f8cb00eff100002f",
+            "lname": "Mc Dowell",
+            "num": "",
+            "pos": [],
+            "fname": "Lachlann"
+          },
+          {
+            "player_id": "6338c462f8cb00f003000031",
+            "lname": "Lennox",
+            "num": "",
+            "pos": [],
+            "fname": "Connor"
+          },
+          {
+            "player_id": "6338c462f8cb00f021000033",
+            "lname": "Nguyen",
+            "num": "",
+            "pos": [],
+            "fname": "Derek"
+          },
+          {
+            "player_id": "6338c462f8cb00f039000035",
+            "lname": "Bebbere",
+            "num": "",
+            "pos": [],
+            "fname": "Allie"
+          },
+          {
+            "player_id": "6338c462f8cb00f04f000037",
+            "lname": "Bebbere",
+            "num": "",
+            "pos": [],
+            "fname": "Daniel"
+          },
+          {
+            "player_id": "63dfd2a47cc9000d15000013",
+            "lname": "Loveridge",
+            "num": "",
+            "pos": [],
+            "fname": "Josh "
+          },
+          {
+            "player_id": "63dfd2a47cc9000d43000014",
+            "lname": "Arnott",
+            "num": "",
+            "pos": [],
+            "fname": "Joel"
+          },
+          {
+            "player_id": "63dfd2a47cc9000dcc00001c",
+            "lname": "Smith",
+            "num": "",
+            "pos": [],
+            "fname": "Alec"
+          },
+          {
+            "player_id": "63dfd2a47cc9000e0a000028",
+            "lname": "Wilson",
+            "num": "",
+            "pos": [],
+            "fname": "Carl"
+          }
+        ],
+        "ts": "2022-10-02T01:41:11",
+        "save_date": "2023-02-06T02:07:51",
+        "first_save": "2022-10-02T10:12:52",
+        "access_level": "free",
+        "_change_d_ts": 697255307.770693,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6327d8f7ef49121ec6a406a5",
+        "status": "OPP",
+        "_doc_version": "676923d0ad8740f0a60d9801f17f1749",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "11.4.0.0",
+        "prepaid": false,
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2023-02-05T02:01:47",
+        "_sync_d_ts": 696679689.153995,
+        "tbd": false,
+        "mascot": "Fitzroy Lions",
+        "league": "",
+        "lineup": [],
+        "name": "Fitzroy Lions",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d8f7ef49121ec6a406a5",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6338c462f8cb00ec3700000f",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "NWPR",
+        "_sync_d": "2023-02-06T02:09:15",
+        "entity_creation_time": 1664706337,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "6339673cf567a70d817e40e3",
+        "long_name": "Newport Division 2 Reserves",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 2,
+          "last_scored": "2023-02-17T21:47:26",
+          "last_active": "2023-02-17T21:47:26"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "Newport Division 2 Reserves",
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "63e8d2a47cd60046b300037a",
+            "lname": "Schumann",
+            "num": "",
+            "pos": [],
+            "fname": "L"
+          },
+          {
+            "player_id": "63e8d2a47cd60046bd00037c",
+            "lname": "Land",
+            "num": "",
+            "pos": [],
+            "fname": "A"
+          },
+          {
+            "player_id": "63e8d2a47cd60046ca00037e",
+            "lname": "Rodriguez",
+            "num": "",
+            "pos": [],
+            "fname": "H"
+          },
+          {
+            "player_id": "63e8d2a47cd60046db000380",
+            "lname": "Hutchins",
+            "num": "",
+            "pos": [],
+            "fname": "T"
+          },
+          {
+            "player_id": "63e8d2a47cd60046e6000382",
+            "lname": "Ninnis",
+            "num": "",
+            "pos": [],
+            "fname": "D"
+          },
+          {
+            "player_id": "63e8d2a47cd6004701000384",
+            "lname": "Seipolt",
+            "num": "",
+            "pos": [],
+            "fname": "Z"
+          },
+          {
+            "player_id": "63e8d2a47cd6004710000386",
+            "lname": "Pengelly",
+            "num": "",
+            "pos": [],
+            "fname": "S"
+          },
+          {
+            "player_id": "63e8d2a47cd6004724000388",
+            "lname": "Malthouse",
+            "num": "",
+            "pos": [],
+            "fname": "T"
+          },
+          {
+            "player_id": "63e8d2a47cd600472c00038a",
+            "lname": "Doty",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          },
+          {
+            "player_id": "63e8d2a47cd600480d00038c",
+            "lname": "Condie",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          }
+        ],
+        "ts": "2022-10-02T10:25:37",
+        "save_date": "2023-02-17T21:47:26",
+        "first_save": "2022-10-02T10:26:04",
+        "access_level": "free",
+        "_change_d_ts": 697859981.773409,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6327d8f7ef49121ec6a406a5",
+        "status": "OPP",
+        "_doc_version": "22915a9a9bfa4ab8833e544cfeac6e8c",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6339c462f8cb0067210002e7"
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "prepaid": false,
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2023-02-12T01:59:41",
+        "_sync_d_ts": 697342155.606749,
+        "tbd": false,
+        "mascot": "Newport Division 2 Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Newport Division 2 Reserves",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d8f7ef49121ec6a406a5",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6339c462f8cb0067210002e7",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "NWTT",
+        "_sync_d": "2022-11-25T22:04:55",
+        "entity_creation_time": 1664706450,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "633967af4d0003a60cb7e3f4",
+        "long_name": "NW Titans Division 2 Reserves",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-11-27T10:03:51",
+          "last_active": "2022-11-27T10:03:51",
+          "live": true,
+          "games": 1,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "6381c462f807013beb000809",
+            "lname": "Guut",
+            "num": "",
+            "pos": [],
+            "fname": "D"
+          },
+          {
+            "player_id": "6382c462f80701bdbe00081a",
+            "lname": "Hodgetts",
+            "num": "",
+            "pos": [],
+            "fname": "Kyle"
+          },
+          {
+            "player_id": "6382c462f80701bdd000081c",
+            "lname": "Falzow",
+            "num": "",
+            "pos": [],
+            "fname": "Anthony"
+          },
+          {
+            "player_id": "6382c462f80701bde700081e",
+            "lname": "Hartican",
+            "num": "",
+            "pos": [],
+            "fname": "Kelvin"
+          },
+          {
+            "player_id": "6382c462f80701bdf5000820",
+            "lname": "Sell",
+            "num": "",
+            "pos": [],
+            "fname": "Scott"
+          },
+          {
+            "player_id": "6382c462f80701be0e000822",
+            "lname": "McGaughey",
+            "num": "",
+            "pos": [],
+            "fname": "Alan"
+          },
+          {
+            "player_id": "6382c462f80701be1c000824",
+            "lname": "Sell",
+            "num": "",
+            "pos": [],
+            "fname": "Brendan"
+          },
+          {
+            "player_id": "6382c462f80701be3d000826",
+            "lname": "Ciaifi",
+            "num": "",
+            "pos": [],
+            "fname": "Joe"
+          },
+          {
+            "player_id": "6382c462f80701be50000828",
+            "lname": "Fielden",
+            "num": "",
+            "pos": [],
+            "fname": "Andrew"
+          },
+          {
+            "player_id": "6382c462f80701be5e00082a",
+            "lname": "Shaeden",
+            "num": "",
+            "pos": [],
+            "fname": "Patullo"
+          },
+          {
+            "player_id": "6382c462f80701bf1300082c",
+            "lname": "Kinkade",
+            "num": "",
+            "pos": [],
+            "fname": "Ryan"
+          }
+        ],
+        "ts": "2022-10-02T10:27:30",
+        "save_date": "2022-11-27T10:03:51",
+        "first_save": "2022-10-02T10:27:59",
+        "access_level": "free",
+        "_change_d_ts": 691205779.376693,
+        "device_id": "F862C4AB-DD95-41DB-BD81-D1FD4FC48F0F",
+        "ot_id": "6327d8f7ef49121ec6a406a5",
+        "status": "OPP",
+        "_doc_version": "53368e521c0b4e30808ca45dd36acc9f",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6339c462f8cb0067920002ec"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "short_name": "NW Titans Division 2 Reserves",
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2022-11-27T01:36:19",
+        "_sync_d_ts": 691106695.970197,
+        "tbd": false,
+        "mascot": "NW Titans Division 2 Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "NW Titans Division 2 Reserves",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d8f7ef49121ec6a406a5",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6339c462f8cb0067920002ec",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "ORMN",
+        "_sync_d": "2023-01-23T05:19:15",
+        "entity_creation_time": 1664706233,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "633966cecd6cbfbae77e37fb",
+        "long_name": "Ormond Division 2 Reserves",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 2,
+          "last_scored": "2023-01-29T10:06:19",
+          "last_active": "2023-01-29T10:06:19"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "6354c462f8cb00a01400031c",
+            "lname": "Eddington",
+            "num": "",
+            "pos": [],
+            "fname": "Lachlan "
+          },
+          {
+            "player_id": "6354c462f8cb00a03200031e",
+            "lname": "Ross",
+            "num": "",
+            "pos": [],
+            "fname": "Brodie"
+          },
+          {
+            "player_id": "6354c462f8cb00a043000320",
+            "lname": "Pask",
+            "num": "",
+            "pos": [],
+            "fname": "James"
+          },
+          {
+            "player_id": "6354c462f8cb00a064000322",
+            "lname": "Carracher",
+            "num": "",
+            "pos": [],
+            "fname": "Mitch"
+          },
+          {
+            "player_id": "6354c462f8cb00a074000324",
+            "lname": "Choi",
+            "num": "",
+            "pos": [],
+            "fname": "Chango"
+          },
+          {
+            "player_id": "6354c462f8cb00a081000326",
+            "lname": "Defina",
+            "num": "",
+            "pos": [],
+            "fname": "Aiden"
+          },
+          {
+            "player_id": "6354c462f8cb00a092000328",
+            "lname": "Oh",
+            "num": "",
+            "pos": [],
+            "fname": "Eusik"
+          },
+          {
+            "player_id": "6354c462f8cb00a0a400032a",
+            "lname": "Claridge",
+            "num": "",
+            "pos": [],
+            "fname": "Alexander"
+          },
+          {
+            "player_id": "6354c462f8cb00a0d700032d",
+            "lname": "Sullivan",
+            "num": "",
+            "pos": [],
+            "fname": "Michael"
+          },
+          {
+            "player_id": "6354c462f8cb00b0200003c3",
+            "lname": "Wailes",
+            "num": "",
+            "pos": [],
+            "fname": "Scott"
+          },
+          {
+            "player_id": "63d5d2a47ce000d050000015",
+            "lname": "Dwan",
+            "num": "",
+            "pos": [],
+            "fname": "Will"
+          },
+          {
+            "player_id": "63d5d2a47ce000d05f000016",
+            "lname": "Fisher",
+            "num": "",
+            "pos": [],
+            "fname": "Ash"
+          },
+          {
+            "player_id": "63d5d2a47ce000d07e000017",
+            "lname": "Carracher",
+            "num": "",
+            "pos": [],
+            "fname": "Lachlan"
+          },
+          {
+            "player_id": "63d5d2a47ce000d08b000018",
+            "lname": "Bull",
+            "num": "",
+            "pos": [],
+            "fname": "Lucas "
+          },
+          {
+            "player_id": "63d5d2a47ce000d0a4000019",
+            "lname": "Charlesworth",
+            "num": "",
+            "pos": [],
+            "fname": "Caitlyn"
+          },
+          {
+            "player_id": "63d5d2a47ce000d0b000001a",
+            "lname": "Nicholas",
+            "num": "",
+            "pos": [],
+            "fname": "John"
+          }
+        ],
+        "ts": "2022-10-02T10:23:53",
+        "save_date": "2023-01-29T10:06:19",
+        "first_save": "2022-10-02T10:24:14",
+        "access_level": "free",
+        "_change_d_ts": 696649776.822637,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6327d8f7ef49121ec6a406a5",
+        "status": "OPP",
+        "_doc_version": "b6d267cf0fc74ae09b3d219c53c19722",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6339c462f8cb0066b90002e3"
+          }
+        ],
+        "~vc": "11.4.0.0",
+        "short_name": "Ormond Division 2 Reserves",
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2023-01-29T01:49:36",
+        "_sync_d_ts": 696143955.012971,
+        "tbd": false,
+        "mascot": "Ormond Division 2 Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Ormond Division 2 Reserves",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d8f7ef49121ec6a406a5",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6339c462f8cb0066b90002e3",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "PRTM",
+        "_sync_d": "2023-02-17T21:47:47",
+        "entity_creation_time": 1664706740,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "633968d14d0003a60cb7e3f5",
+        "long_name": "Port Melbourne Division 2 Reserves",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 1,
+          "last_scored": "2023-02-18T07:33:08",
+          "last_active": "2023-02-18T07:33:08"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "Port Melbourne Division 2 Reserves",
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "63f0d2a47c210131a100002a",
+            "lname": "PlayerA",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63f0d2a47c210131fa000045",
+            "lname": "Thomas",
+            "num": "",
+            "pos": [],
+            "fname": "Carson"
+          },
+          {
+            "player_id": "63f0d2a47c21013216000048",
+            "lname": "Tiknaz",
+            "num": "",
+            "pos": [],
+            "fname": "Gurcan"
+          },
+          {
+            "player_id": "63f0d2a47c2101326600004b",
+            "lname": "Baker",
+            "num": "",
+            "pos": [],
+            "fname": "Jack"
+          },
+          {
+            "player_id": "63f0d2a47c2101329a00004e",
+            "lname": "Velazquez",
+            "num": "",
+            "pos": [],
+            "fname": "David"
+          },
+          {
+            "player_id": "63f0d2a47c210132c3000050",
+            "lname": "O\\u2019Gorman",
+            "num": "",
+            "pos": [],
+            "fname": "Ross"
+          },
+          {
+            "player_id": "63f0d2a47c210132dc000052",
+            "lname": "Hooper",
+            "num": "",
+            "pos": [],
+            "fname": "Shaun"
+          },
+          {
+            "player_id": "63f0d2a47c210132f5000054",
+            "lname": "Cortez",
+            "num": "",
+            "pos": [],
+            "fname": "Andrei"
+          },
+          {
+            "player_id": "63f0d2a47c21013315000056",
+            "lname": "Pallay",
+            "num": "",
+            "pos": [],
+            "fname": "Eric"
+          },
+          {
+            "player_id": "63f0d2a47c2101332a000058",
+            "lname": "Pallay",
+            "num": "",
+            "pos": [],
+            "fname": "Spencer"
+          }
+        ],
+        "ts": "2022-10-02T10:32:20",
+        "save_date": "2023-02-18T07:33:08",
+        "first_save": "2022-10-02T10:32:49",
+        "access_level": "free",
+        "_change_d_ts": 698378922.365063,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6327d8f7ef49121ec6a406a5",
+        "status": "OPP",
+        "_doc_version": "b7ff43d494ad4c91b346f649e08b69bc",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6339c462f8cb0068b40002f7"
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "prepaid": false,
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2023-02-18T02:08:42",
+        "_sync_d_ts": 698363267.011442,
+        "tbd": false,
+        "mascot": "Port Melbourne Division 2 Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Port Melbourne Division 2 Reserves",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d8f7ef49121ec6a406a5",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6339c462f8cb0068b40002f7",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "PRST",
+        "_sync_d": "2022-10-02T10:33:19",
+        "entity_creation_time": 1664706099,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "63396639f567a70d817e40e1",
+        "long_name": "Preston Division 2 Reserves",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 1,
+          "last_scored": "2022-10-09T07:43:21",
+          "last_active": "2022-10-09T07:43:21"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "6342c462f8cb002a81000319",
+            "lname": "Shanks",
+            "num": "",
+            "pos": [],
+            "fname": "R"
+          },
+          {
+            "player_id": "6342c462f8cb002a9100031b",
+            "lname": "Hall",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "6342c462f8cb002aa000031d",
+            "lname": "Fesili",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "6342c462f8cb002aac00031f",
+            "lname": "Maher",
+            "num": "",
+            "pos": [],
+            "fname": "T"
+          },
+          {
+            "player_id": "6342c462f8cb002aba000321",
+            "lname": "Papadatos",
+            "num": "",
+            "pos": [],
+            "fname": "D"
+          },
+          {
+            "player_id": "6342c462f8cb002ac6000323",
+            "lname": "Cox",
+            "num": "",
+            "pos": [],
+            "fname": "R"
+          },
+          {
+            "player_id": "6342c462f8cb002ad0000325",
+            "lname": "Dodds",
+            "num": "",
+            "pos": [],
+            "fname": "B"
+          },
+          {
+            "player_id": "6342c462f8cb002adb000327",
+            "lname": "Golledge",
+            "num": "",
+            "pos": [],
+            "fname": "F"
+          },
+          {
+            "player_id": "6342c462f8cb002ae8000329",
+            "lname": "Butler",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          },
+          {
+            "player_id": "6342c462f8cb003c3f0003d9",
+            "lname": "White",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          }
+        ],
+        "ts": "2022-10-02T10:21:39",
+        "save_date": "2022-10-09T07:43:21",
+        "first_save": "2022-10-02T10:21:45",
+        "access_level": "free",
+        "_change_d_ts": 686977983.756906,
+        "device_id": "F862C4AB-DD95-41DB-BD81-D1FD4FC48F0F",
+        "ot_id": "6327d8f7ef49121ec6a406a5",
+        "status": "OPP",
+        "_doc_version": "d430e052e9af4fc485555b2f5c673bb3",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6339c462f8cb0066330002df"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "short_name": "Preston Division 2 Reserves",
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2022-10-09T03:13:03",
+        "_sync_d_ts": 686399599.690529,
+        "tbd": false,
+        "mascot": "Preston Division 2 Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Preston Division 2 Reserves",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d8f7ef49121ec6a406a5",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6339c462f8cb0066330002df",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "PRST",
+        "_sync_d": "2023-02-23T05:29:40",
+        "entity_creation_time": 1664706782,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "633968e94d0003a60cb7e3f6",
+        "long_name": "Preston Division 2 Reserves",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 1,
+          "last_scored": "2023-03-01T06:08:49",
+          "last_active": "2023-03-01T06:08:49"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "Preston Division 2 Reserves",
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "63fad2a47cd500beee0003e0",
+            "lname": "White",
+            "num": "",
+            "pos": [],
+            "fname": "Jacob"
+          },
+          {
+            "player_id": "63fad2a47cd500bf100003e2",
+            "lname": "Golledge",
+            "num": "",
+            "pos": [],
+            "fname": "Finn"
+          },
+          {
+            "player_id": "63fad2a47cd500bf860003ea",
+            "lname": "Butler",
+            "num": "",
+            "pos": [],
+            "fname": "Matthew"
+          },
+          {
+            "player_id": "63fad2a47cd500bfa40003ed",
+            "lname": "Doske",
+            "num": "",
+            "pos": [],
+            "fname": "Alex"
+          },
+          {
+            "player_id": "63fad2a47cd500bfbe0003ef",
+            "lname": "",
+            "num": "",
+            "pos": [],
+            "fname": "JakeFesili"
+          },
+          {
+            "player_id": "63fad2a47cd500c0320003f5",
+            "lname": "Papadatos",
+            "num": "",
+            "pos": [],
+            "fname": "Dennis"
+          },
+          {
+            "player_id": "63fad2a47cd500c17e000406",
+            "lname": "Grahovie",
+            "num": "",
+            "pos": [],
+            "fname": "Jamin"
+          },
+          {
+            "player_id": "63fad2a47cd500c193000408",
+            "lname": "Dodds",
+            "num": "",
+            "pos": [],
+            "fname": "Bailey"
+          },
+          {
+            "player_id": "63fad2a47cd500c282000415",
+            "lname": "Shanks",
+            "num": "",
+            "pos": [],
+            "fname": "Ryley"
+          }
+        ],
+        "ts": "2022-10-02T10:33:02",
+        "save_date": "2023-03-01T06:08:49",
+        "first_save": "2022-10-02T10:33:13",
+        "access_level": "free",
+        "_change_d_ts": 699070978.291489,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6327d8f7ef49121ec6a406a5",
+        "status": "OPP",
+        "_doc_version": "6022d567cc094069a8bd2524b714826f",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6339c462f8cb0068de0002f9"
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "prepaid": false,
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2023-02-26T02:22:58",
+        "_sync_d_ts": 698822980.181728,
+        "tbd": false,
+        "mascot": "Preston Division 2 Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Preston Division 2 Reserves",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d8f7ef49121ec6a406a5",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6339c462f8cb0068de0002f9",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "WRRB",
+        "_sync_d": "2022-11-27T10:05:43",
+        "entity_creation_time": 1664706494,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "633967e6cd6cbfbae77e37fc",
+        "long_name": "Werribee Division 2 Reserves",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-12-04T09:41:46",
+          "last_active": "2022-12-04T09:41:46",
+          "live": true,
+          "games": 1,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "638bc462f87701fd24000b19",
+            "lname": "Wilson",
+            "num": "",
+            "pos": [],
+            "fname": "F"
+          },
+          {
+            "player_id": "638bc462f87701fd35000b1b",
+            "lname": "Bishop Worn",
+            "num": "",
+            "pos": [],
+            "fname": "D"
+          },
+          {
+            "player_id": "638bc462f87701fd42000b1d",
+            "lname": "Clifford",
+            "num": "",
+            "pos": [],
+            "fname": "L"
+          },
+          {
+            "player_id": "638bc462f87701fd52000b1f",
+            "lname": "Morrison",
+            "num": "",
+            "pos": [],
+            "fname": "C"
+          },
+          {
+            "player_id": "638bc462f87701fd81000b21",
+            "lname": "Sulufaiga",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "638bc462f87701fd8e000b23",
+            "lname": "Mallia",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "638bc462f87701fda2000b25",
+            "lname": "Appeldorff",
+            "num": "",
+            "pos": [],
+            "fname": "D"
+          },
+          {
+            "player_id": "638bc462f87701fdad000b27",
+            "lname": "Packer",
+            "num": "",
+            "pos": [],
+            "fname": "L"
+          },
+          {
+            "player_id": "638bc462f87701fdbf000b29",
+            "lname": "Culhane",
+            "num": "",
+            "pos": [],
+            "fname": "D"
+          },
+          {
+            "player_id": "638cc462f877010bb2000b9d",
+            "lname": "Fergison",
+            "num": "",
+            "pos": [],
+            "fname": "E"
+          }
+        ],
+        "ts": "2022-10-02T10:28:14",
+        "save_date": "2022-12-04T09:41:46",
+        "first_save": "2022-10-02T10:28:54",
+        "access_level": "free",
+        "_change_d_ts": 691815218.220734,
+        "device_id": "F862C4AB-DD95-41DB-BD81-D1FD4FC48F0F",
+        "ot_id": "6327d8f7ef49121ec6a406a5",
+        "status": "OPP",
+        "_doc_version": "48abb014bdd84e31928750f60c78a307",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6339c462f8cb0067be0002ee"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "short_name": "Werribee Division 2 Reserves",
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2022-12-04T02:53:38",
+        "_sync_d_ts": 691236343.181804,
+        "tbd": false,
+        "mascot": "Werribee Division 2 Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Werribee Division 2 Reserves",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d8f7ef49121ec6a406a5",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6339c462f8cb0067be0002ee",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "WLLM",
+        "_sync_d": "2022-10-20T13:15:09",
+        "entity_creation_time": 1664706158,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "63396674ede789d7d1b7ddf8",
+        "long_name": "Williamstown Division 2 Reserves",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 2,
+          "last_scored": "2023-01-23T05:16:18",
+          "last_active": "2023-01-23T05:16:18"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "634bc462f8e100665900001e",
+            "lname": "",
+            "num": "",
+            "pos": [],
+            "fname": "Carter Hudson"
+          },
+          {
+            "player_id": "634bc462f8e100666a000020",
+            "lname": "Cox",
+            "num": "",
+            "pos": [],
+            "fname": "Curtis"
+          },
+          {
+            "player_id": "634bc462f8e1006694000022",
+            "lname": "Jackson",
+            "num": "",
+            "pos": [],
+            "fname": "Chris"
+          },
+          {
+            "player_id": "634bc462f8e100685d000038",
+            "lname": "Camon",
+            "num": "",
+            "pos": [],
+            "fname": "Ryan"
+          },
+          {
+            "player_id": "634bc462f8e100687900003a",
+            "lname": "Clement",
+            "num": "",
+            "pos": [],
+            "fname": "Mitch"
+          },
+          {
+            "player_id": "634bc462f8e1006a9b000054",
+            "lname": "Coota",
+            "num": "",
+            "pos": [],
+            "fname": "Ashton"
+          },
+          {
+            "player_id": "634bc462f8e1006aad000056",
+            "lname": "Neal",
+            "num": "",
+            "pos": [],
+            "fname": "Dennis"
+          },
+          {
+            "player_id": "634bc462f8e1006aba000058",
+            "lname": "Irwin",
+            "num": "",
+            "pos": [],
+            "fname": "Matt"
+          },
+          {
+            "player_id": "634bc462f8e1006acb00005a",
+            "lname": "Simpson",
+            "num": "",
+            "pos": [],
+            "fname": "Liam"
+          },
+          {
+            "player_id": "634bc462f8e100773f0000da",
+            "lname": "Rickard",
+            "num": "",
+            "pos": [],
+            "fname": "Emerson"
+          },
+          {
+            "player_id": "63ccd2a47cd2009747000006",
+            "lname": "Ashton",
+            "num": "",
+            "pos": [],
+            "fname": "Coote"
+          },
+          {
+            "player_id": "63ccd2a47cd2009757000007",
+            "lname": "Chris",
+            "num": "",
+            "pos": [],
+            "fname": "Jackson"
+          },
+          {
+            "player_id": "63ccd2a47cd200979b000008",
+            "lname": "Coote",
+            "num": "",
+            "pos": [],
+            "fname": "Roman"
+          },
+          {
+            "player_id": "63ccd2a47cd20097d900000b",
+            "lname": "Yamaoto",
+            "num": "",
+            "pos": [],
+            "fname": "Tobi"
+          }
+        ],
+        "ts": "2022-10-02T10:22:38",
+        "save_date": "2023-01-23T05:16:18",
+        "first_save": "2022-10-02T10:22:44",
+        "access_level": "free",
+        "_change_d_ts": 696045401.536361,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6327d8f7ef49121ec6a406a5",
+        "status": "OPP",
+        "_doc_version": "b5f22acf67544aaf8ed7b7755b12af5c",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6339c462f8cb00666e0002e1"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "short_name": "Williamstown Division 2 Reserves",
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2023-01-22T01:56:41",
+        "_sync_d_ts": 687964509.197723,
+        "tbd": false,
+        "mascot": "Williamstown Division 2 Reserves",
+        "league": "",
+        "lineup": [],
+        "name": "Williamstown Division 2 Reserves",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d8f7ef49121ec6a406a5",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6339c462f8cb00666e0002e1",
+        "stat_access": "CONFIRMED_FULL"
+      }
+    ],
+    "sport": "Baseball",
+    "league": "VSBL",
+    "name": "ST KILDA SAINTS",
+    "age": "adult",
+    "mp_info": null,
+    "pc": "",
+    "_id": "6327d8f7ef49121ec6a406a5"
+  }
+}

@@ -7,5 +7,6 @@ public class Player
     public string? FirstName { get; set; }
     public string? LastName { get; set; }
     public DateTime? BirthDate { get; set; }
-    
+    public Guid? CurrentClubId { get; set; }
+    public string? PrimaryPosition { get; set; }
 }

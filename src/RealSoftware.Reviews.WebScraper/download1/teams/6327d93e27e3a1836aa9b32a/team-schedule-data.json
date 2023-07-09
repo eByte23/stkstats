@@ -1,0 +1,2577 @@
+{
+  "create_new": false,
+  "type": "game",
+  "team_events": [
+    {
+      "event_type": "game",
+      "arrival_ts": 1664672400,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-10-02T02:00:00",
+      "sport": "BASEB",
+      "id": "6338944135d700c8270002fe",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 4 SOUTH Loses Lead Early in Defeat",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 4,
+        "side_readable": "Bot",
+        "away": 6,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 18,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-10-02T13:00:00",
+      "type": "League",
+      "save_ts": 1666322262.0,
+      "recipients": [],
+      "wl": "0-1-0",
+      "start_ts": 1664676000,
+      "other_team_id": "6338944135d700c86a0002ff",
+      "game_id": "6338944135d700c8270002fe",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63520f52e6aa36643cd15051",
+      "minutes_before": 60,
+      "other_team_name": "Pakenham WHITE"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1665199800,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-10-08T04:30:00",
+      "sport": "BASEB",
+      "id": "6340944135d700d9670004bb",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 4 SOUTH Defeats Chelsea white Despite Allowing 4-Run Inning",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Top",
+        "away": 6,
+        "x": "st",
+        "w": "h",
+        "half": 0,
+        "home": 14,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-10-08T15:30:00",
+      "type": "League",
+      "save_ts": 1666322254.0,
+      "recipients": [],
+      "wl": "1-1-0",
+      "start_ts": 1665203400,
+      "other_team_id": "6340944135d700d95f0004ba",
+      "game_id": "6340944135d700d9670004bb",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63520f45e6aa36643cd14d6e",
+      "minutes_before": 60,
+      "other_team_name": "Chelsea white"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1665882000,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-10-16T02:00:00",
+      "sport": "BASEB",
+      "id": "633dedaec90065b33bd1b025",
+      "recap_title": [
+        {
+          "content": "Two VSBL ST KILDA SAINTS DIVISION 4 SOUTH Pitchers Rally Together In Shutout Victory Against CHELSEA WHITE",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 20,
+        "x": "st",
+        "w": "v",
+        "half": 1,
+        "home": 0,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-10-16T13:00:00",
+      "type": "League",
+      "save_ts": 1666322260.0,
+      "recipients": [],
+      "wl": "2-1-0",
+      "start_ts": 1665885600,
+      "other_team_id": "633dedeccca599861611115c",
+      "game_id": "633dedaec90065b33bd1b025",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63520f4be6aa36643cd14ef1",
+      "minutes_before": 60,
+      "other_team_name": "CHELSEA WHITE"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-10-23T02:00:00",
+      "sport": "BASEB",
+      "id": "634e1be58fb28f9a9bb5a64d",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 4 SOUTH Loses Lead Early in Defeat",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 1,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 11,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-10-23T13:00:00",
+      "type": "League",
+      "save_ts": 1666594646.0,
+      "recipients": [],
+      "wl": "2-2-0",
+      "start_ts": 1666490400,
+      "other_team_id": "634e1be58fb28f9a9bb5a650",
+      "game_id": "634e1be58fb28f9a9bb5a64d",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63549441358d01e66f0007f6",
+      "minutes_before": 0,
+      "other_team_name": "SPRINGVALE LIONS"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "T",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-10-30T02:00:00",
+      "sport": "BASEB",
+      "id": "634e1c0e6a61316266340ecf",
+      "state": {
+        "status": "CPT",
+        "inning": 1,
+        "side_readable": "Top",
+        "away": 0,
+        "x": "st",
+        "w": "t",
+        "half": 0,
+        "home": 0,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-10-30T13:00:00",
+      "type": "League",
+      "save_ts": 1667723320.0,
+      "recipients": [],
+      "wl": "2-2-1",
+      "start_ts": 1667095200,
+      "other_team_id": "634e1c0e6a61316266340ed2",
+      "game_id": "634e1c0e6a61316266340ecf",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "INSUFFICIENT",
+      "stream_id": "63679441358d017022000920",
+      "minutes_before": 0,
+      "other_team_name": "MORNINGTON"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1667705400,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-11-06T04:30:00",
+      "sport": "BASEB",
+      "id": "634e203331b3e75533340cae",
+      "recap_title": [
+        {
+          "content": "Big Second Inning Propels VSBL ST KILDA SAINTS DIVISION 4 SOUTH to Victory Over UPWEY FERNTREE GULLY (B) ",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Top",
+        "away": 12,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 4,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-11-06T15:30:00",
+      "type": "League",
+      "save_ts": 1667727582.0,
+      "recipients": [],
+      "wl": "3-2-1",
+      "start_ts": 1667709000,
+      "other_team_id": "634e203331b3e75533340cb1",
+      "game_id": "634e203331b3e75533340cae",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63679441358d0170ab000921",
+      "minutes_before": 60,
+      "other_team_name": "UPWEY FERNTREE GULLY (B) "
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1668301200,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-11-13T02:00:00",
+      "sport": "BASEB",
+      "id": "63708c4e04ab2fc6da9b1233",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 4 SOUTH Clinches Lead in Fourth Inning to Defeat UPWEY FERNTREE GULLY ( A ) ",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Top",
+        "away": 13,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 6,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-11-13T13:00:00",
+      "type": "League",
+      "save_ts": 1668322931.0,
+      "recipients": [],
+      "wl": "4-2-1",
+      "start_ts": 1668304800,
+      "other_team_id": "634e1c58f48323a368340a9e",
+      "game_id": "63708c4e04ab2fc6da9b1233",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6370cd05e417038dad000001",
+      "minutes_before": 60,
+      "other_team_name": "UPWEY FERNTREE GULLY ( A ) "
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-11-20T04:30:00",
+      "sport": "BASEB",
+      "id": "634e20545438dc8095d0e4b8",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 4 SOUTH Falls to Pakenham BLACK  After Fourth Inning Score",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Top",
+        "away": 4,
+        "x": "st",
+        "w": "h",
+        "half": 0,
+        "home": 7,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-11-20T15:30:00",
+      "type": "League",
+      "save_ts": 1669536009.0,
+      "recipients": [],
+      "wl": "4-3-1",
+      "start_ts": 1668918600,
+      "other_team_id": "634e20545438dc8095d0e4bb",
+      "game_id": "634e20545438dc8095d0e4b8",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6383cd05e40f03126a000001",
+      "minutes_before": 0,
+      "other_team_name": "Pakenham BLACK "
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-11-27T02:00:00",
+      "sport": "BASEB",
+      "id": "634e20a76a61316266340ed3",
+      "recap_title": [
+        {
+          "content": "Early Lead For SOUTH EAST WARRIORS Seals Fate For VSBL ST KILDA SAINTS DIVISION 4 SOUTH",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 5,
+        "x": "st",
+        "w": "v",
+        "half": 1,
+        "home": 3,
+        "side": 1
+      },
+      "location": "",
+      "change_v": "82a0d2fc-3b62-4fbc-89de-0251bc100171",
+      "type": "League",
+      "save_ts": 1669538154.0,
+      "recipients": [],
+      "wl": "4-4-1",
+      "start_ts": 1669514400,
+      "other_team_id": "634e20a76a61316266340ed6",
+      "play_time": "2022-11-27T13:00:00",
+      "game_id": "634e20a76a61316266340ed3",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6383cd05e40f0319bb000123",
+      "minutes_before": 0,
+      "other_team_name": "SOUTH EAST WARRIORS"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-12-03T04:30:00",
+      "sport": "BASEB",
+      "id": "634e20c713900de55bd0e41e",
+      "recap_title": [
+        {
+          "content": "Pakenham WHITE Captures Lead Early to Defeat VSBL ST KILDA SAINTS DIVISION 4 SOUTH",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Top",
+        "away": 17,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 6,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-12-03T15:30:00",
+      "type": "League",
+      "save_ts": 1670120013.0,
+      "recipients": [],
+      "wl": "4-5-1",
+      "start_ts": 1670041800,
+      "other_team_id": "6338944135d700c86a0002ff",
+      "game_id": "634e20c713900de55bd0e41e",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "638bcd05e46f63f667000001",
+      "minutes_before": 0,
+      "other_team_name": "Pakenham WHITE"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-12-11T04:30:00",
+      "sport": "BASEB",
+      "id": "634e20e3c3acf6954ad0e36b",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 4 SOUTH Nabs Win Over CHELSEA BLUE Despite Early 3-Run Inning",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 4,
+        "side_readable": "Top",
+        "away": 11,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 4,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-12-11T15:30:00",
+      "type": "League",
+      "save_ts": 1671254969.0,
+      "recipients": [],
+      "wl": "5-5-1",
+      "start_ts": 1670733000,
+      "other_team_id": "633dedaec90065b33bd1b028",
+      "game_id": "634e20e3c3acf6954ad0e36b",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "639acd05e4cbdeb3f9000001",
+      "minutes_before": 0,
+      "other_team_name": "CHELSEA BLUE"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-12-17T02:00:00",
+      "sport": "BASEB",
+      "id": "634e20ff19037eec7934096b",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 4 SOUTH Grabs Lead in Fourth Inning to Defeat CHELSEA WHITE",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 9,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 11,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-12-17T13:00:00",
+      "type": "League",
+      "save_ts": 1671264800.0,
+      "recipients": [],
+      "wl": "6-5-1",
+      "start_ts": 1671242400,
+      "other_team_id": "633dedeccca599861611115c",
+      "game_id": "634e20ff19037eec7934096b",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "639d222921d06a6f4c000001",
+      "minutes_before": 0,
+      "other_team_name": "CHELSEA WHITE"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2023-01-28T02:15:00",
+      "sport": "BASEB",
+      "id": "63d4cd05e4af94824c000001",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 4 SOUTH Takes a Tough Blow From MORNINGTON",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 9,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 3,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2023-01-28T13:15:00",
+      "type": "League",
+      "save_ts": 1675335253.0,
+      "recipients": [],
+      "wl": "6-6-1",
+      "start_ts": 1674872100,
+      "other_team_id": "634e1c0e6a61316266340ed2",
+      "game_id": "63d4cd05e4af94824c000001",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63d4cd05e4af948252000002",
+      "minutes_before": 0,
+      "other_team_name": "MORNINGTON"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2023-02-05T02:00:00",
+      "sport": "BASEB",
+      "id": "63e00fa36c5b77b6ac42359a",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 4 SOUTH Beats UPWEY FERNTREE GULLY ( A ) ",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 5,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 3,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2023-02-05T13:00:00",
+      "type": "League",
+      "save_ts": 1675633357.0,
+      "recipients": [],
+      "wl": "7-6-1",
+      "start_ts": 1675562400,
+      "other_team_id": "634e1c58f48323a368340a9e",
+      "game_id": "63e00fa36c5b77b6ac42359a",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63e0cd05e42b2c11e9000122",
+      "minutes_before": 0,
+      "other_team_name": "UPWEY FERNTREE GULLY ( A ) "
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2023-02-11T04:30:00",
+      "sport": "BASEB",
+      "id": "63e00fce59a2eb171beed57f",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 4 SOUTH Jumps Out to Early Lead in Victory Over Pakenham BLACK ",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Top",
+        "away": 5,
+        "x": "st",
+        "w": "h",
+        "half": 0,
+        "home": 8,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2023-02-11T15:30:00",
+      "type": "League",
+      "save_ts": 1677480447.0,
+      "recipients": [],
+      "wl": "8-6-1",
+      "start_ts": 1676089800,
+      "other_team_id": "634e20545438dc8095d0e4bb",
+      "game_id": "63e00fce59a2eb171beed57f",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63f2cd05e42336b941000001",
+      "minutes_before": 0,
+      "other_team_name": "Pakenham BLACK "
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2023-02-19T04:30:00",
+      "sport": "BASEB",
+      "id": "63e00fcfed4d038fd94240c2",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 4 SOUTH Falls to UPWEY FERNTREE GULLY (B)  After Fourth Inning Score",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 8,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 13,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2023-02-19T15:30:00",
+      "type": "League",
+      "save_ts": 1677482035.0,
+      "recipients": [],
+      "wl": "8-7-1",
+      "start_ts": 1676781000,
+      "other_team_id": "634e203331b3e75533340cb1",
+      "game_id": "63e00fcfed4d038fd94240c2",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63fccd05e43d025208000133",
+      "minutes_before": 0,
+      "other_team_name": "UPWEY FERNTREE GULLY (B) "
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "T",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2023-02-26T02:00:00",
+      "sport": "BASEB",
+      "id": "63fccd05e43d025866000283",
+      "recap_title": [
+        {
+          "content": "Close Contest Between SOUTH EAST WARRIORS and VSBL ST KILDA SAINTS DIVISION 4 SOUTH Ends in a Tie",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 6,
+        "x": "st",
+        "w": "t",
+        "half": 0,
+        "home": 6,
+        "side": 0
+      },
+      "location": "",
+      "change_v": "82a0d2fc-3b62-4fbc-89de-0251bc100171",
+      "type": "League",
+      "save_ts": 1677483835.0,
+      "recipients": [],
+      "wl": "8-7-2",
+      "start_ts": 1677376800,
+      "other_team_id": "634e20a76a61316266340ed6",
+      "play_time": "2023-02-26T13:00:00",
+      "game_id": "63fccd05e43d025866000283",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63fccd05e43d02586e000287",
+      "minutes_before": 0,
+      "other_team_name": "SOUTH EAST WARRIORS"
+    }
+  ],
+  "live_game": [],
+  "team": {
+    "team_path": "/t/summer-2022/vsbl-st-kilda-saints-division-4-south-6327d93e27e3a1836aa9b32a",
+    "season": "Summer 2022",
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "season_id": "6327d93e27e3a1836aa9b328",
+    "opposing_teams": [
+      {
+        "code": "CHLS",
+        "_sync_d": "2022-12-15T05:43:20",
+        "_type": "team",
+        "alerting": {
+          "prefs": {}
+        },
+        "season_id": "633dedaec90065b33bd1b026",
+        "long_name": "CHELSEA BLUE",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-12-17T05:29:30",
+          "last_active": "2022-12-17T05:29:30",
+          "reqs": 0,
+          "live": true,
+          "games": 1,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": null,
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "intention": false,
+        "roster": [
+          {
+            "player_id": "639acd05e4cbdefa4600002b",
+            "lname": "PlayerA",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639acd05e4cbdefa4600002c",
+            "lname": "PlayerB",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639acd05e4cbdefa4600002d",
+            "lname": "PlayerC",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639acd05e4cbdefa4600002e",
+            "lname": "PlayerD",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639acd05e4cbdefa4600002f",
+            "lname": "PlayerE",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639acd05e4cbdefa46000030",
+            "lname": "PlayerF",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639acd05e4cbdefa46000031",
+            "lname": "PlayerG",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639acd05e4cbdefa46000032",
+            "lname": "PlayerH",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639acd05e4cbdefa46000033",
+            "lname": "PlayerI",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639acd05e4cbdefa46000034",
+            "lname": "PlayerJ",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639acd05e4cbdefa46000035",
+            "lname": "PlayerK",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          }
+        ],
+        "save_date": "2022-12-17T05:29:30",
+        "first_save": "2022-10-05T20:48:46",
+        "access_level": "free",
+        "_change_d_ts": 692793798.123076,
+        "device_id": "E405CD0C-BF14-4D48-B780-EFA31D5A0A55",
+        "ot_id": "6327d93e27e3a1836aa9b32a",
+        "status": "OPP",
+        "division": null,
+        "_doc_version": "2fa77dd5b6694508b1b515eacdd31897",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "633dedaec90065b33bd1b028"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "users": [],
+        "short_name": "CHELSEA BLUE",
+        "innings": "9",
+        "season": "Summer 2022",
+        "school_name": null,
+        "stats_meta": {
+          "save_ts": 1665002926.556922,
+          "version": 0
+        },
+        "_change_d": "2022-12-15T10:43:18",
+        "organization": null,
+        "_sync_d_ts": 692775800.001952,
+        "association": null,
+        "mascot": null,
+        "league": "VSBL",
+        "lineup": [],
+        "name": "CHELSEA BLUE",
+        "league_id": "633dedaec90065b33bd1b027",
+        "age": "adult",
+        "age_desc": null,
+        "parent_team_id": "6327d93e27e3a1836aa9b32a",
+        "teamgroups": [],
+        "_id": "633dedaec90065b33bd1b028",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "CHLS",
+        "entity_creation_time": 1665194335,
+        "league": "",
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "6341f8379782e337d24a54bb",
+        "long_name": "Chelsea white",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 1,
+          "last_scored": "2022-10-08T22:23:06",
+          "last_active": "2022-10-08T22:23:06"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "sport": "Baseball",
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "_change_d": "2022-10-08T04:26:08",
+        "short_name": "Chelsea white",
+        "age_desc": "adult",
+        "ts": "2022-10-08T01:58:55",
+        "save_date": "2022-10-08T22:23:06",
+        "first_save": "2022-10-08T22:22:47",
+        "access_level": "free",
+        "_change_d_ts": 686895968.319601,
+        "mascot": "Chelsea white",
+        "ot_id": "6327d93e27e3a1836aa9b32a",
+        "status": "OPP",
+        "_doc_version": "e61fd06314a44df8bae6ab71dc176fce",
+        "~vc": "8.17.0.1",
+        "prepaid": false,
+        "roster": [
+          {
+            "player_id": "63409441354901fb2b0004e9",
+            "lname": "Ellingsen",
+            "num": "8",
+            "pos": [],
+            "fname": "Darren"
+          },
+          {
+            "player_id": "63409441354901fb470004ec",
+            "lname": "Davies",
+            "num": "6",
+            "pos": [],
+            "fname": "Lachlan"
+          },
+          {
+            "player_id": "63409441354901fb750004ef",
+            "lname": "Deighton",
+            "num": "2",
+            "pos": [],
+            "fname": "Matthew"
+          },
+          {
+            "player_id": "63409441354901fb860004f2",
+            "lname": "Vags",
+            "num": "1",
+            "pos": [],
+            "fname": "Matt"
+          },
+          {
+            "player_id": "63409441354901fba20004f5",
+            "lname": "Ellingsen",
+            "num": "5",
+            "pos": [],
+            "fname": "Conner"
+          },
+          {
+            "player_id": "63409441354901fbb50004f8",
+            "lname": "Tomkins",
+            "num": "3",
+            "pos": [],
+            "fname": "Drew"
+          },
+          {
+            "player_id": "63409441354901fbcf0004fb",
+            "lname": "Sweet",
+            "num": "7",
+            "pos": [],
+            "fname": "Brendan"
+          },
+          {
+            "player_id": "63409441354901fbe00004fe",
+            "lname": "Ramsey",
+            "num": "4",
+            "pos": [],
+            "fname": "John"
+          }
+        ],
+        "season": "Summer 2022",
+        "tbd": false,
+        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
+        "innings": "6",
+        "lineup": [],
+        "name": "Chelsea white",
+        "league_id": "",
+        "stat_access": "CONFIRMED_FULL",
+        "age": "youth",
+        "parent_team_id": "6327d93e27e3a1836aa9b32a",
+        "teamgroups": [],
+        "_id": "6340944135d700d95f0004ba",
+        "is_official": false
+      },
+      {
+        "code": "CHLS",
+        "_sync_d": "2022-12-17T05:29:38",
+        "_type": "team",
+        "alerting": {
+          "prefs": {}
+        },
+        "season_id": "633dedeccca599861611115a",
+        "long_name": "CHELSEA WHITE",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-12-17T08:13:20",
+          "last_active": "2022-12-17T08:13:20",
+          "reqs": 0,
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": null,
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "intention": false,
+        "roster": [
+          {
+            "player_id": "634b9441358d01abbf00065a",
+            "lname": "Cauldwell",
+            "num": "",
+            "pos": [],
+            "fname": "James"
+          },
+          {
+            "player_id": "634b9441358d01abbf00065d",
+            "lname": "Beatie",
+            "num": "",
+            "pos": [],
+            "fname": "Matt"
+          },
+          {
+            "player_id": "634b9441358d01abbf000660",
+            "lname": "Stephens",
+            "num": "",
+            "pos": [],
+            "fname": "Tom"
+          },
+          {
+            "player_id": "634b9441358d01abbf000663",
+            "lname": "Matrin",
+            "num": "",
+            "pos": [],
+            "fname": "Luke"
+          },
+          {
+            "player_id": "634b9441358d01abbf000666",
+            "lname": "Deighton",
+            "num": "",
+            "pos": [],
+            "fname": "Matt"
+          },
+          {
+            "player_id": "634b9441358d01abbf000669",
+            "lname": "Nicolopos",
+            "num": "",
+            "pos": [],
+            "fname": "Nick"
+          },
+          {
+            "player_id": "634b9441358d01abbf00066c",
+            "lname": "Dillakali",
+            "num": "",
+            "pos": [],
+            "fname": "Sirish"
+          },
+          {
+            "player_id": "634b9441358d01abbf00066f",
+            "lname": "Seddon",
+            "num": "",
+            "pos": [],
+            "fname": "Josh"
+          },
+          {
+            "player_id": "634b9441358d01abbf000672",
+            "lname": "James",
+            "num": "",
+            "pos": [],
+            "fname": "Callum"
+          },
+          {
+            "player_id": "639dcd05e431ef55a8000118",
+            "lname": "PlayerA",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639dcd05e431ef55a8000119",
+            "lname": "PlayerB",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639dcd05e431ef55a800011a",
+            "lname": "PlayerC",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639dcd05e431ef55a800011b",
+            "lname": "PlayerD",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639dcd05e431ef55a800011c",
+            "lname": "PlayerE",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639dcd05e431ef55a800011d",
+            "lname": "PlayerF",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639dcd05e431ef55a800011e",
+            "lname": "PlayerG",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639dcd05e431ef55a800011f",
+            "lname": "PlayerH",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "639dcd05e431ef55a8000120",
+            "lname": "PlayerI",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          }
+        ],
+        "save_date": "2022-12-17T08:13:20",
+        "first_save": "2022-10-05T20:49:48",
+        "access_level": "free",
+        "_change_d_ts": 692948264.962028,
+        "device_id": "E405CD0C-BF14-4D48-B780-EFA31D5A0A55",
+        "ot_id": "6327d93e27e3a1836aa9b32a",
+        "status": "OPP",
+        "division": null,
+        "_doc_version": "f97193cc36894d08a86b81ecbc510a18",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "633dedeccca599861611115c"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "users": [],
+        "short_name": "CHELSEA WHITE",
+        "innings": "9",
+        "season": "Summer 2022",
+        "school_name": null,
+        "stats_meta": {
+          "save_ts": 1665002988.202765,
+          "version": 0
+        },
+        "_change_d": "2022-12-17T05:37:44",
+        "organization": null,
+        "_sync_d_ts": 692947778.580914,
+        "association": null,
+        "mascot": null,
+        "league": "VSBL",
+        "lineup": [],
+        "name": "CHELSEA WHITE",
+        "league_id": "633dedeccca599861611115b",
+        "age": "adult",
+        "age_desc": null,
+        "parent_team_id": "6327d93e27e3a1836aa9b32a",
+        "teamgroups": [],
+        "_id": "633dedeccca599861611115c",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "MRNG",
+        "_sync_d": "2023-01-30T01:48:50",
+        "_type": "team",
+        "alerting": {
+          "prefs": {}
+        },
+        "season_id": "634e1c0e6a61316266340ed0",
+        "long_name": "MORNINGTON",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-02-02T10:54:13",
+          "last_active": "2023-02-02T10:54:13",
+          "reqs": 0,
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": null,
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "access_level": "free",
+        "roster": [
+          {
+            "player_id": "63d7cd05e477b72219000010",
+            "lname": "PlayerA",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63d7cd05e477b72219000011",
+            "lname": "PlayerB",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63d7cd05e477b72219000012",
+            "lname": "PlayerC",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63d7cd05e477b72219000013",
+            "lname": "PlayerD",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63d7cd05e477b72219000014",
+            "lname": "PlayerE",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63d7cd05e477b72219000015",
+            "lname": "PlayerF",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63d7cd05e477b72219000016",
+            "lname": "PlayerG",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63d7cd05e477b72219000017",
+            "lname": "PlayerH",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          }
+        ],
+        "save_date": "2023-02-02T10:54:13",
+        "first_save": "2022-10-18T03:22:54",
+        "intention": false,
+        "_change_d_ts": 696736153.939324,
+        "device_id": "E405CD0C-BF14-4D48-B780-EFA31D5A0A55",
+        "ot_id": "6327d93e27e3a1836aa9b32a",
+        "status": "OPP",
+        "division": null,
+        "_doc_version": "bfe667148c3c470bb8bd8e60335f0b72",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "634e1c0e6a61316266340ed2"
+          }
+        ],
+        "~vc": "11.4.0.0",
+        "users": [],
+        "short_name": "MORNINGTON",
+        "innings": "9",
+        "season": "Summer 2022",
+        "school_name": null,
+        "stats_meta": {
+          "save_ts": 1666063374.225496,
+          "version": 0
+        },
+        "_change_d": "2023-01-30T01:49:13",
+        "organization": null,
+        "_sync_d_ts": 696736130.803015,
+        "association": null,
+        "mascot": null,
+        "league": "VSBL",
+        "lineup": [],
+        "name": "MORNINGTON",
+        "league_id": "634e1c0e6a61316266340ed1",
+        "age": "adult",
+        "age_desc": null,
+        "parent_team_id": "6327d93e27e3a1836aa9b32a",
+        "teamgroups": [],
+        "_id": "634e1c0e6a61316266340ed2",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "PKNH",
+        "_sync_d": "2023-02-20T00:05:21",
+        "_type": "team",
+        "alerting": {
+          "prefs": {}
+        },
+        "season_id": "634e20545438dc8095d0e4b9",
+        "long_name": "Pakenham BLACK ",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-02-27T06:47:28",
+          "last_active": "2023-02-27T06:47:28",
+          "reqs": 0,
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": null,
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "Pakenham BLACK ",
+        "access_level": "free",
+        "roster": [
+          {
+            "player_id": "6383cd05e40f031395000032",
+            "lname": "PlayerA",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f031395000033",
+            "lname": "PlayerB",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f031395000034",
+            "lname": "PlayerC",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f031395000035",
+            "lname": "PlayerD",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f031395000036",
+            "lname": "PlayerE",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f031395000037",
+            "lname": "PlayerF",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f031395000038",
+            "lname": "PlayerG",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f031395000039",
+            "lname": "PlayerH",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f03139500003a",
+            "lname": "PlayerI",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63f2cd05e42336b95c000004",
+            "lname": "PlayerJ",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63f2cd05e42336b95c000005",
+            "lname": "PlayerK",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63f2cd05e42336b95c000006",
+            "lname": "PlayerL",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63f2cd05e42336b95c000007",
+            "lname": "PlayerM",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63f2cd05e42336b95c000008",
+            "lname": "PlayerN",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63f2cd05e42336b95c000009",
+            "lname": "PlayerO",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63f2cd05e42336b95c00000a",
+            "lname": "PlayerP",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63f2cd05e42336b95c00000b",
+            "lname": "PlayerQ",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63f2cd05e42336b95c00000c",
+            "lname": "PlayerR",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63f2cd05e42336b95c00000d",
+            "lname": "PlayerS",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          }
+        ],
+        "save_date": "2023-02-27T06:47:28",
+        "first_save": "2022-10-18T03:41:08",
+        "intention": false,
+        "_change_d_ts": 698544348.82327,
+        "device_id": "E405CD0C-BF14-4D48-B780-EFA31D5A0A55",
+        "ot_id": "6327d93e27e3a1836aa9b32a",
+        "status": "OPP",
+        "division": null,
+        "_doc_version": "eda36f259afd49209489c8f2eb8f78f1",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "634e20545438dc8095d0e4bb"
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "users": [],
+        "prepaid": false,
+        "innings": "9",
+        "season": "Summer 2022",
+        "school_name": null,
+        "stats_meta": {
+          "save_ts": 1666064468.372188,
+          "version": 0
+        },
+        "_change_d": "2023-02-20T00:05:48",
+        "organization": null,
+        "_sync_d_ts": 698544321.455465,
+        "association": null,
+        "mascot": null,
+        "league": "VSBL",
+        "lineup": [],
+        "name": "Pakenham BLACK ",
+        "league_id": "634e20545438dc8095d0e4ba",
+        "age": "adult",
+        "age_desc": null,
+        "parent_team_id": "6327d93e27e3a1836aa9b32a",
+        "teamgroups": [],
+        "_id": "634e20545438dc8095d0e4bb",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "PKNH",
+        "_sync_d": "2022-12-04T01:22:46",
+        "entity_creation_time": 1664665706,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "6338c87bcd6cbfbae77e3783",
+        "long_name": "Pakenham WHITE",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-12-04T02:13:34",
+          "last_active": "2022-12-04T02:13:34",
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "6339944135d7003630000371",
+            "lname": "Newton",
+            "num": "",
+            "pos": [],
+            "fname": "Rick"
+          },
+          {
+            "player_id": "6339944135d7003646000374",
+            "lname": "Moran",
+            "num": "",
+            "pos": [],
+            "fname": "Andrew"
+          },
+          {
+            "player_id": "6339944135d700365c000377",
+            "lname": "Eldridge",
+            "num": "",
+            "pos": [],
+            "fname": "Dylan"
+          },
+          {
+            "player_id": "6339944135d700384300037a",
+            "lname": "Jones",
+            "num": "",
+            "pos": [],
+            "fname": "Bradley"
+          },
+          {
+            "player_id": "6339944135d700384f00037d",
+            "lname": "Marks",
+            "num": "",
+            "pos": [],
+            "fname": "William"
+          },
+          {
+            "player_id": "6339944135d700385b000380",
+            "lname": "Stockdale",
+            "num": "",
+            "pos": [],
+            "fname": "Tim"
+          },
+          {
+            "player_id": "6339944135d7003869000383",
+            "lname": "Ryland",
+            "num": "",
+            "pos": [],
+            "fname": "Dylan"
+          },
+          {
+            "player_id": "6339944135d700387c000386",
+            "lname": "Thom",
+            "num": "",
+            "pos": [],
+            "fname": "Alex"
+          },
+          {
+            "player_id": "6339944135d7003889000389",
+            "lname": "Howden",
+            "num": "",
+            "pos": [],
+            "fname": "Matthew"
+          },
+          {
+            "player_id": "6339944135d70038e0000391",
+            "lname": "Boyce",
+            "num": "",
+            "pos": [],
+            "fname": "Jo"
+          },
+          {
+            "player_id": "6339944135d70038ec000394",
+            "lname": "Tulley",
+            "num": "",
+            "pos": [],
+            "fname": "Brice"
+          },
+          {
+            "player_id": "638bcd05e46f63f78300000e",
+            "lname": "PlayerA",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "638bcd05e46f63f78300000f",
+            "lname": "PlayerB",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "638bcd05e46f63f783000010",
+            "lname": "PlayerC",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "638bcd05e46f63f783000011",
+            "lname": "PlayerD",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "638bcd05e46f63f783000012",
+            "lname": "PlayerE",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "638bcd05e46f63f783000013",
+            "lname": "PlayerF",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "638bcd05e46f63f783000014",
+            "lname": "PlayerG",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "638bcd05e46f63f783000015",
+            "lname": "PlayerH",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "638bcd05e46f63f783000016",
+            "lname": "PlayerI",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "638bcd05e46f63f783000017",
+            "lname": "PlayerJ",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          }
+        ],
+        "ts": "2022-10-01T23:08:26",
+        "save_date": "2022-12-04T02:13:34",
+        "first_save": "2022-10-01T23:08:43",
+        "access_level": "free",
+        "_change_d_ts": 691810051.441108,
+        "device_id": "E405CD0C-BF14-4D48-B780-EFA31D5A0A55",
+        "ot_id": "6327d93e27e3a1836aa9b32a",
+        "status": "OPP",
+        "_doc_version": "0a3f3452232f41b2a1f4482225bb330f",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6338944135d700c86a0002ff"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "short_name": "Pakenham WHITE",
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2022-12-04T01:27:31",
+        "_sync_d_ts": 691809766.97646,
+        "tbd": false,
+        "mascot": "Pakenham WHITE",
+        "league": "",
+        "lineup": [],
+        "name": "Pakenham WHITE",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d93e27e3a1836aa9b32a",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6338944135d700c86a0002ff",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "STHW",
+        "_sync_d": "2023-02-27T07:14:52",
+        "_type": "team",
+        "alerting": {
+          "prefs": {}
+        },
+        "season_id": "634e20a76a61316266340ed4",
+        "long_name": "SOUTH EAST WARRIORS",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-02-27T07:43:56",
+          "last_active": "2023-02-27T07:43:56",
+          "reqs": 0,
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": null,
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "intention": false,
+        "roster": [
+          {
+            "player_id": "6383cd05e40f0319cb000126",
+            "lname": "PlayerA",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f0319cb000127",
+            "lname": "PlayerB",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f0319cb000128",
+            "lname": "PlayerC",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f0319cb000129",
+            "lname": "PlayerD",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f0319cb00012a",
+            "lname": "PlayerE",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f0319cb00012b",
+            "lname": "PlayerF",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f0319cb00012c",
+            "lname": "PlayerG",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f0319cb00012d",
+            "lname": "PlayerH",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f0319cb00012e",
+            "lname": "PlayerI",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "6383cd05e40f0319cb00012f",
+            "lname": "PlayerJ",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d025907000298",
+            "lname": "PlayerK",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d025907000299",
+            "lname": "PlayerL",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d02590700029a",
+            "lname": "PlayerM",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d02590700029b",
+            "lname": "PlayerN",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d02590700029c",
+            "lname": "PlayerO",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d02590700029d",
+            "lname": "PlayerP",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d02590700029e",
+            "lname": "PlayerQ",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d02590700029f",
+            "lname": "PlayerR",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d0259070002a0",
+            "lname": "PlayerS",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          }
+        ],
+        "save_date": "2023-02-27T07:43:56",
+        "first_save": "2022-10-18T03:42:31",
+        "access_level": "free",
+        "_change_d_ts": 699175047.292845,
+        "device_id": "E405CD0C-BF14-4D48-B780-EFA31D5A0A55",
+        "ot_id": "6327d93e27e3a1836aa9b32a",
+        "status": "OPP",
+        "division": null,
+        "_doc_version": "d45465c044ea4df5b8ce714a3389bc08",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "634e20a76a61316266340ed6"
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "users": [],
+        "short_name": "SOUTH EAST WARRIORS",
+        "innings": "9",
+        "season": "Summer 2022",
+        "school_name": null,
+        "stats_meta": {
+          "save_ts": 1666064551.442456,
+          "version": 0
+        },
+        "_change_d": "2023-02-27T07:17:27",
+        "organization": null,
+        "_sync_d_ts": 699174892.619321,
+        "association": null,
+        "mascot": null,
+        "league": "VSBL",
+        "lineup": [],
+        "name": "SOUTH EAST WARRIORS",
+        "league_id": "634e20a76a61316266340ed5",
+        "age": "adult",
+        "age_desc": null,
+        "parent_team_id": "6327d93e27e3a1836aa9b32a",
+        "teamgroups": [],
+        "_id": "634e20a76a61316266340ed6",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "SPRN",
+        "_sync_d": "2022-10-23T07:02:20",
+        "_type": "team",
+        "alerting": {
+          "prefs": {}
+        },
+        "season_id": "634e1be58fb28f9a9bb5a64e",
+        "long_name": "SPRINGVALE LIONS",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-10-24T06:57:27",
+          "last_active": "2022-10-24T06:57:27",
+          "reqs": 0,
+          "games": 1,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": null,
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "SPRINGVALE LIONS",
+        "access_level": "free",
+        "roster": [
+          {
+            "player_id": "63549441358d01e6d900080a",
+            "lname": "Stubbs",
+            "num": "",
+            "pos": [],
+            "fname": "Joel"
+          },
+          {
+            "player_id": "63549441358d01e6e200080d",
+            "lname": "Chew",
+            "num": "",
+            "pos": [],
+            "fname": "Max"
+          },
+          {
+            "player_id": "63559441358d0191f1000810",
+            "lname": "Anderson",
+            "num": "",
+            "pos": [],
+            "fname": "Lucas"
+          },
+          {
+            "player_id": "63559441358d019207000813",
+            "lname": "Anserton",
+            "num": "",
+            "pos": [],
+            "fname": "Mark"
+          },
+          {
+            "player_id": "63559441358d019210000816",
+            "lname": "Chapel",
+            "num": "",
+            "pos": [],
+            "fname": "Stuart"
+          },
+          {
+            "player_id": "63559441358d01923000081a",
+            "lname": "Hall",
+            "num": "",
+            "pos": [],
+            "fname": "Rowan"
+          },
+          {
+            "player_id": "63559441358d01928000081e",
+            "lname": "Wearne",
+            "num": "",
+            "pos": [],
+            "fname": "Mick"
+          },
+          {
+            "player_id": "63559441358d0192d1000821",
+            "lname": "Makin",
+            "num": "",
+            "pos": [],
+            "fname": "Trent"
+          },
+          {
+            "player_id": "63559441358d0192e6000824",
+            "lname": "Degabnelle",
+            "num": "",
+            "pos": [],
+            "fname": "Adam"
+          }
+        ],
+        "save_date": "2022-10-24T06:57:27",
+        "first_save": "2022-10-18T03:22:13",
+        "intention": false,
+        "_change_d_ts": 688245350.685172,
+        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
+        "ot_id": "6327d93e27e3a1836aa9b32a",
+        "status": "OPP",
+        "division": null,
+        "_doc_version": "e54b8c6306384caeb24f93288ceb7fa2",
+        "lineups": [
+          {
+            "positions": {},
+            "team_id": "634e1be58fb28f9a9bb5a650",
+            "dhs": {},
+            "batters": []
+          }
+        ],
+        "~vc": "8.17.0.1",
+        "users": [],
+        "prepaid": false,
+        "innings": "9",
+        "season": "Summer 2022",
+        "school_name": null,
+        "stats_meta": {
+          "save_ts": 1666063333.517744,
+          "version": 0
+        },
+        "_change_d": "2022-10-23T19:15:50",
+        "organization": null,
+        "_sync_d_ts": 688201340.750355,
+        "association": null,
+        "mascot": null,
+        "league": "VSBL",
+        "lineup": [],
+        "name": "SPRINGVALE LIONS",
+        "league_id": "634e1be58fb28f9a9bb5a64f",
+        "age": "adult",
+        "age_desc": null,
+        "parent_team_id": "6327d93e27e3a1836aa9b32a",
+        "teamgroups": [],
+        "_id": "634e1be58fb28f9a9bb5a650",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "UPWY",
+        "_sync_d": "2023-02-05T20:30:32",
+        "_type": "team",
+        "alerting": {
+          "prefs": {}
+        },
+        "season_id": "634e1c58f48323a368340a9c",
+        "long_name": "UPWEY FERNTREE GULLY ( A ) ",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-02-05T21:42:37",
+          "last_active": "2023-02-05T21:42:37",
+          "reqs": 0,
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": null,
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "UPWEY FERNTREE GULLY ( A ) ",
+        "intention": false,
+        "roster": [
+          {
+            "player_id": "6370cd05e417038e29000010",
+            "lname": "Chalmers",
+            "num": "",
+            "pos": [],
+            "fname": "Chris"
+          },
+          {
+            "player_id": "6370cd05e417038e3a000012",
+            "lname": "Gallego",
+            "num": "",
+            "pos": [],
+            "fname": "Fausto"
+          },
+          {
+            "player_id": "6370cd05e417038e43000014",
+            "lname": "Smith",
+            "num": "",
+            "pos": [],
+            "fname": "Matt"
+          },
+          {
+            "player_id": "6370cd05e417038e4d000016",
+            "lname": "Schmitt",
+            "num": "",
+            "pos": [],
+            "fname": "Andy"
+          },
+          {
+            "player_id": "6370cd05e417038e68000018",
+            "lname": "Smith",
+            "num": "",
+            "pos": [],
+            "fname": "Byron "
+          },
+          {
+            "player_id": "6370cd05e417038e8500001c",
+            "lname": "Archer",
+            "num": "",
+            "pos": [],
+            "fname": "Glenn"
+          },
+          {
+            "player_id": "6370cd05e417038e9600001e",
+            "lname": "Hurley",
+            "num": "",
+            "pos": [],
+            "fname": "Tom"
+          },
+          {
+            "player_id": "6370cd05e417038eab000020",
+            "lname": "McGiven",
+            "num": "",
+            "pos": [],
+            "fname": "Byron"
+          },
+          {
+            "player_id": "6370cd05e417038ec1000022",
+            "lname": "Yakimov",
+            "num": "",
+            "pos": [],
+            "fname": "Peter "
+          },
+          {
+            "player_id": "6370cd05e417038ed1000024",
+            "lname": "Thomas",
+            "num": "",
+            "pos": [],
+            "fname": "Nick "
+          },
+          {
+            "player_id": "63e0cd05e42b2c12bb000142",
+            "lname": "PlayerA",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63e0cd05e42b2c12bb000143",
+            "lname": "PlayerB",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63e0cd05e42b2c12bb000144",
+            "lname": "PlayerC",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63e0cd05e42b2c12bb000145",
+            "lname": "PlayerD",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63e0cd05e42b2c12bb000146",
+            "lname": "PlayerE",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63e0cd05e42b2c12bb000147",
+            "lname": "PlayerF",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63e0cd05e42b2c12bb000148",
+            "lname": "PlayerG",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63e0cd05e42b2c12bb000149",
+            "lname": "PlayerH",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          }
+        ],
+        "save_date": "2023-02-05T21:42:37",
+        "first_save": "2022-10-18T03:24:08",
+        "access_level": "free",
+        "_change_d_ts": 697322043.948662,
+        "device_id": "E405CD0C-BF14-4D48-B780-EFA31D5A0A55",
+        "ot_id": "6327d93e27e3a1836aa9b32a",
+        "status": "OPP",
+        "division": null,
+        "_doc_version": "e2d354dc2b7242a2a59cec4b87eb00be",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "634e1c58f48323a368340a9e"
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "users": [],
+        "prepaid": false,
+        "innings": "9",
+        "season": "Summer 2022",
+        "school_name": null,
+        "stats_meta": {
+          "save_ts": 1666063448.47819,
+          "version": 0
+        },
+        "_change_d": "2023-02-05T20:34:03",
+        "organization": null,
+        "_sync_d_ts": 697321832.760146,
+        "association": null,
+        "mascot": null,
+        "league": "VSBL",
+        "lineup": [],
+        "name": "UPWEY FERNTREE GULLY ( A ) ",
+        "league_id": "634e1c58f48323a368340a9d",
+        "age": "adult",
+        "age_desc": null,
+        "parent_team_id": "6327d93e27e3a1836aa9b32a",
+        "teamgroups": [],
+        "_id": "634e1c58f48323a368340a9e",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "UPWY",
+        "_sync_d": "2023-02-27T06:47:36",
+        "_type": "team",
+        "alerting": {
+          "prefs": {}
+        },
+        "season_id": "634e203331b3e75533340caf",
+        "long_name": "UPWEY FERNTREE GULLY (B) ",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-02-27T07:13:55",
+          "last_active": "2023-02-27T07:13:55",
+          "reqs": 0,
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": null,
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "intention": false,
+        "roster": [
+          {
+            "player_id": "63679441358d01710200092d",
+            "lname": "Maggs",
+            "num": "",
+            "pos": [],
+            "fname": "Steven"
+          },
+          {
+            "player_id": "63679441358d01716c000933",
+            "lname": "Halureci",
+            "num": "",
+            "pos": [],
+            "fname": "Blake"
+          },
+          {
+            "player_id": "63679441358d017200000938",
+            "lname": "Johnson",
+            "num": "",
+            "pos": [],
+            "fname": "Riley"
+          },
+          {
+            "player_id": "63679441358d01721300093b",
+            "lname": "Young",
+            "num": "",
+            "pos": [],
+            "fname": "Tim"
+          },
+          {
+            "player_id": "63679441358d01722100093e",
+            "lname": "Williams",
+            "num": "",
+            "pos": [],
+            "fname": "Daniel"
+          },
+          {
+            "player_id": "63679441358d017234000941",
+            "lname": "Skillen",
+            "num": "",
+            "pos": [],
+            "fname": "Riley"
+          },
+          {
+            "player_id": "63679441358d017247000944",
+            "lname": "Smith",
+            "num": "",
+            "pos": [],
+            "fname": "Bryan"
+          },
+          {
+            "player_id": "63679441358d017255000947",
+            "lname": "Casey",
+            "num": "",
+            "pos": [],
+            "fname": "Ben"
+          },
+          {
+            "player_id": "63679441358d01726500094a",
+            "lname": "Everitt",
+            "num": "",
+            "pos": [],
+            "fname": "Corey"
+          },
+          {
+            "player_id": "63679441358d01727f00094d",
+            "lname": "Reid",
+            "num": "",
+            "pos": [],
+            "fname": "Christian"
+          },
+          {
+            "player_id": "63fccd05e43d02532f00016e",
+            "lname": "PlayerA",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d02532f00016f",
+            "lname": "PlayerB",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d02532f000170",
+            "lname": "PlayerC",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d02532f000171",
+            "lname": "PlayerD",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d02532f000172",
+            "lname": "PlayerE",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d02532f000173",
+            "lname": "PlayerF",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d02532f000174",
+            "lname": "PlayerG",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d02532f000175",
+            "lname": "PlayerH",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          },
+          {
+            "player_id": "63fccd05e43d02532f000176",
+            "lname": "PlayerI",
+            "num": "",
+            "pos": [],
+            "fname": ""
+          }
+        ],
+        "save_date": "2023-02-27T07:13:55",
+        "first_save": "2022-10-18T03:40:35",
+        "access_level": "free",
+        "_change_d_ts": 699173551.950489,
+        "device_id": "E405CD0C-BF14-4D48-B780-EFA31D5A0A55",
+        "ot_id": "6327d93e27e3a1836aa9b32a",
+        "status": "OPP",
+        "division": null,
+        "_doc_version": "e317277723e24fa195dfe665444f1c72",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "634e203331b3e75533340cb1"
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "users": [],
+        "short_name": "UPWEY FERNTREE GULLY (B) ",
+        "innings": "9",
+        "season": "Summer 2022",
+        "school_name": null,
+        "stats_meta": {
+          "save_ts": 1666064435.197583,
+          "version": 0
+        },
+        "_change_d": "2023-02-27T06:52:31",
+        "organization": null,
+        "_sync_d_ts": 699173256.513848,
+        "association": null,
+        "mascot": null,
+        "league": "VSBL",
+        "lineup": [],
+        "name": "UPWEY FERNTREE GULLY (B) ",
+        "league_id": "634e203331b3e75533340cb0",
+        "age": "adult",
+        "age_desc": null,
+        "parent_team_id": "6327d93e27e3a1836aa9b32a",
+        "teamgroups": [],
+        "_id": "634e203331b3e75533340cb1",
+        "stat_access": "OPEN"
+      }
+    ],
+    "sport": "Baseball",
+    "league": "VSBL",
+    "name": "ST KILDA SAINTS",
+    "age": "adult",
+    "mp_info": null,
+    "pc": "",
+    "_id": "6327d93e27e3a1836aa9b32a"
+  }
+}

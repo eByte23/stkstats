@@ -1,0 +1,239 @@
+{
+  "create_new": false,
+  "type": "game",
+  "team_events": [
+    {
+      "event_type": "game",
+      "arrival_ts": 1682126100,
+      "playstatus": "NEW",
+      "meta": {},
+      "timezone": 10.0,
+      "home": false,
+      "utc_start": "2023-04-22T02:15:00",
+      "sport": "BASEB",
+      "id": "64420d5869473147ce33dfdd",
+      "location": "Elder Reserve (Monash Home)",
+      "change_v": "01d11aa1-ce3c-4941-98f5-df11dbf95afa",
+      "type": "League",
+      "recipients": [],
+      "wl": "0-0-0",
+      "start_ts": 1682129700,
+      "other_team_id": "64420d5869473147ce33dfe0",
+      "play_time": "2023-04-22T12:15:00",
+      "game_id": "64420d5869473147ce33dfdd",
+      "uses_halves": false,
+      "notes": "",
+      "minutes_before": 60,
+      "other_team_name": "Monash University"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 10.0,
+      "home": true,
+      "utc_start": "2023-07-01T02:15:00",
+      "sport": "BASEB",
+      "id": "649fd2a47c8f0154840000b8",
+      "recap_title": [
+        {
+          "content": "MWBL ST KILDA B RESERVES Can't Catch Up To Monash University",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Top",
+        "away": 20,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 4,
+        "side": 0
+      },
+      "location": "",
+      "change_v": "01d11aa1-ce3c-4941-98f5-df11dbf95afa",
+      "type": "League",
+      "save_ts": 1688193909.0,
+      "recipients": [],
+      "wl": "0-1-0",
+      "start_ts": 1688177700,
+      "other_team_id": "64420d5869473147ce33dfe0",
+      "play_time": "2023-07-01T12:15:00",
+      "game_id": "649fd2a47c8f0154840000b8",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "649fd2a47c8f018d7d0000ba",
+      "minutes_before": 0,
+      "other_team_name": "Monash University"
+    }
+  ],
+  "live_game": [],
+  "team": {
+    "team_path": "/t/winter-2023/mwbl-st-kilda-b-reserves-644204e069473147ce33dfd5",
+    "season": "Winter 2023",
+    "locations": [
+      "Elder Reserve (Monash Home)",
+      ""
+    ],
+    "season_id": "644204e069473147ce33dfd3",
+    "opposing_teams": [
+      {
+        "code": "MNSH",
+        "_sync_d": "2023-06-30T22:18:54",
+        "_type": "team",
+        "alerting": {
+          "prefs": {}
+        },
+        "season_id": "64420d5869473147ce33dfde",
+        "long_name": "Monash University",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-07-01T06:45:09",
+          "last_active": "2023-07-01T06:45:09",
+          "reqs": 0,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": null,
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "intention": false,
+        "roster": [
+          {
+            "player_id": "649fd2a47c8f018e9b0000cb",
+            "lname": "Morgan ",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          },
+          {
+            "player_id": "649fd2a47c8f018eae0000cd",
+            "lname": "Lau",
+            "num": "",
+            "pos": [],
+            "fname": "H"
+          },
+          {
+            "player_id": "649fd2a47c8f018ec20000cf",
+            "lname": "Varlet Parkin",
+            "num": "",
+            "pos": [],
+            "fname": "K"
+          },
+          {
+            "player_id": "649fd2a47c8f018ef20000d1",
+            "lname": "Chew",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          },
+          {
+            "player_id": "649fd2a47c8f018f010000d3",
+            "lname": "Lin",
+            "num": "",
+            "pos": [],
+            "fname": "T"
+          },
+          {
+            "player_id": "649fd2a47c8f018f140000d5",
+            "lname": "Gibson",
+            "num": "",
+            "pos": [],
+            "fname": "R"
+          },
+          {
+            "player_id": "649fd2a47c8f018f270000d7",
+            "lname": "Shimizu",
+            "num": "",
+            "pos": [],
+            "fname": "K"
+          },
+          {
+            "player_id": "649fd2a47c8f018f390000d9",
+            "lname": "Kriel",
+            "num": "",
+            "pos": [],
+            "fname": "R"
+          },
+          {
+            "player_id": "649fd2a47c8f018f460000db",
+            "lname": "Tang",
+            "num": "",
+            "pos": [],
+            "fname": "T"
+          },
+          {
+            "player_id": "649fd2a47c8f01a3750001be",
+            "lname": "Somaratne",
+            "num": "41",
+            "pos": [],
+            "fname": "Dylan"
+          }
+        ],
+        "save_date": "2023-07-01T06:45:09",
+        "first_save": "2023-04-21T04:13:12",
+        "access_level": "free",
+        "_change_d_ts": 709876469.369594,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "644204e069473147ce33dfd5",
+        "status": "OPP",
+        "division": null,
+        "_doc_version": "3e74090471b0485fb281e77d22119530",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "64420d5869473147ce33dfe0"
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "users": [],
+        "short_name": "Monash University",
+        "innings": "9",
+        "season": "Winter 2023",
+        "school_name": null,
+        "stats_meta": {
+          "save_ts": 1682050392.832705,
+          "version": 0
+        },
+        "_change_d": "2023-07-01T03:54:29",
+        "organization": null,
+        "_sync_d_ts": 709856334.59524,
+        "association": null,
+        "mascot": null,
+        "league": "MWBL",
+        "lineup": [],
+        "name": "Monash University",
+        "league_id": "64420d5869473147ce33dfdf",
+        "age": "adult",
+        "age_desc": null,
+        "parent_team_id": "644204e069473147ce33dfd5",
+        "teamgroups": [],
+        "_id": "64420d5869473147ce33dfe0",
+        "stat_access": "OPEN"
+      }
+    ],
+    "sport": "Baseball",
+    "league": "MWBL",
+    "name": "ST KILDA SAINTS",
+    "age": "adult",
+    "mp_info": null,
+    "pc": "",
+    "_id": "644204e069473147ce33dfd5"
+  }
+}

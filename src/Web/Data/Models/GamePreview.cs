@@ -6,6 +6,7 @@ namespace STKBC.Stats.Data.Models
         public Guid? GradeId { get; set; }
         public TeamPreview? HomeTeam { get; set; }
         public TeamPreview? AwayTeam { get; set; }
+        public Guid? LeagueId { get; set; }
     }
 
     public class TeamPreview

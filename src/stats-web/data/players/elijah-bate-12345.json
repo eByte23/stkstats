@@ -1,0 +1,21 @@
+{
+    "uniqueId": "",
+    "id": "elijah-bate-12345sf",
+    "name": "Elijah Bate",
+    "totals": {
+        "hitting": {},
+        "pitching": {}
+    },
+    "games": [
+        {
+            "gameId": "",
+            "date": "",
+            "opponent": "",
+            "location": "",
+            "totals": {
+                "hitting": {},
+                "pitching": {}
+            }
+        }
+    ]
+}

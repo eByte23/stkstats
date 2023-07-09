@@ -1,0 +1,1996 @@
+{
+  "create_new": false,
+  "type": "game",
+  "team_events": [
+    {
+      "event_type": "game",
+      "arrival_ts": 1650685200,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-04-23T04:40:00",
+      "sport": "BASEB",
+      "id": "62629441359b006e7700016d",
+      "recap_title": [
+        {
+          "content": "St Kilda B Grade Takes the Game Over North Coburg B Grade in a Blow-Out Victory, 17-1",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Top",
+        "away": 17,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 1,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-04-23T14:40:00",
+      "type": "League",
+      "save_ts": 1651817947.0,
+      "recipients": [],
+      "wl": "1-0-0",
+      "start_ts": 1650688800,
+      "other_team_id": "62629441359b006e6d00016c",
+      "game_id": "62629441359b006e7700016d",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62629441359b00704f000186",
+      "minutes_before": 60,
+      "other_team_name": "North Coburg B Grade"
+    },
+    {
+      "play_time": "2022-04-30T14:40:00",
+      "event_type": "game",
+      "recipients": [],
+      "arrival_ts": 1651290000,
+      "minutes_before": 60,
+      "notes": "",
+      "wl": "1-0-0",
+      "start_ts": 1651293600,
+      "uses_halves": false,
+      "playstatus": "NEW",
+      "other_team_id": "626494413532019379000001",
+      "meta": {},
+      "location": "",
+      "timezone": 10.0,
+      "game_id": "62649441353201937b000002",
+      "home": false,
+      "utc_start": "2022-04-30T04:40:00",
+      "sport": "BASEB",
+      "type": "League",
+      "id": "62649441353201937b000002",
+      "other_team_name": "Croydon B Grade"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1651894800,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "home": true,
+      "timezone": 10.0,
+      "utc_start": "2022-05-07T04:40:00",
+      "sport": "BASEB",
+      "id": "62749441358e02bda3000006",
+      "recap_title": [
+        {
+          "content": "Despite Strong Fight, St Kilda B Grade Can't Top Doncaster B Grade",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 8,
+        "side_readable": "Top",
+        "away": 9,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 8,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-05-07T14:40:00",
+      "type": "League",
+      "save_ts": 1651911668.0,
+      "recipients": [],
+      "wl": "1-1-0",
+      "start_ts": 1651898400,
+      "other_team_id": "62749441358e02bd99000005",
+      "game_id": "62749441358e02bda3000006",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62749441358e02be5800000e",
+      "minutes_before": 60,
+      "other_team_name": "Doncaster B Grade"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1652499600,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-05-14T04:40:00",
+      "sport": "BASEB",
+      "id": "627e94413594001268000002",
+      "recap_title": [
+        {
+          "content": "Kuhl Delivers Four Hits to St Kilda B Grade Victory Over La Trobe Uni B Grade",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 13,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 4,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-05-14T14:40:00",
+      "type": "League",
+      "save_ts": 1652526058.0,
+      "recipients": [],
+      "wl": "2-1-0",
+      "start_ts": 1652503200,
+      "other_team_id": "627e94413594001266000001",
+      "game_id": "627e94413594001268000002",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "627f94413598002ca400016f",
+      "minutes_before": 60,
+      "other_team_name": "La Trobe Uni B Grade"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1653104400,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "home": true,
+      "timezone": 10.0,
+      "utc_start": "2022-05-21T04:40:00",
+      "sport": "BASEB",
+      "id": "627f944135de008da80002e9",
+      "recap_title": [
+        {
+          "content": "St Kilda B Grade Grabs Lead in Fourth Inning for Victory Over Essendon B Grade",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 4,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 6,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-05-21T14:40:00",
+      "type": "League",
+      "save_ts": 1653128335.0,
+      "recipients": [],
+      "wl": "3-1-0",
+      "start_ts": 1653108000,
+      "other_team_id": "627f944135de008da50002e8",
+      "game_id": "627f944135de008da80002e9",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "628894413575016b3a00015b",
+      "minutes_before": 60,
+      "other_team_name": "Essendon B Grade"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1653709200,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-05-28T04:40:00",
+      "sport": "BASEB",
+      "id": "62899441350701fa6c000002",
+      "recap_title": [
+        {
+          "content": "St Kilda B Grade Takes the Win Over Monash University B Grade",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 4,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 1,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-05-28T14:40:00",
+      "type": "League",
+      "save_ts": 1653726285.0,
+      "recipients": [],
+      "wl": "4-1-0",
+      "start_ts": 1653712800,
+      "other_team_id": "62899441350701fa6a000001",
+      "game_id": "62899441350701fa6c000002",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6291944135e901a11300017e",
+      "minutes_before": 60,
+      "other_team_name": "Monash University B Grade"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1654314000,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "home": true,
+      "timezone": 10.0,
+      "utc_start": "2022-06-04T04:40:00",
+      "sport": "BASEB",
+      "id": "62999441351602bed9000004",
+      "change_v": "8f6eee0f-dc3e-4964-aa2d-f84bb32c7d91",
+      "recap_title": [
+        {
+          "content": "St Kilda B Grade Can't Hold Up Against Research B Grade",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 13,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 1,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-06-04T14:40:00",
+      "type": "League",
+      "save_ts": 1654421124.0,
+      "recipients": [],
+      "wl": "4-2-0",
+      "start_ts": 1654317600,
+      "other_team_id": "62999441351602bed6000003",
+      "game_id": "62999441351602bed9000004",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "629a9441351602bdcb000005",
+      "minutes_before": 60,
+      "other_team_name": "Research B Grade"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1654314000,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
+      "home": true,
+      "timezone": 10.0,
+      "utc_start": "2022-06-04T04:40:00",
+      "sport": "BASEB",
+      "id": "629c9441351602779e0002e5",
+      "change_v": "8f6eee0f-dc3e-4964-aa2d-f84bb32c7d91",
+      "recap_title": [
+        {
+          "content": "St Kilda B Grade Clinches Lead in Fifth Inning to Defeat Research B Grade",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 5,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 8,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-06-04T14:40:00",
+      "type": "League",
+      "save_ts": 1654422676.0,
+      "recipients": [],
+      "wl": "5-2-0",
+      "start_ts": 1654317600,
+      "other_team_id": "62999441351602bed6000003",
+      "game_id": "629c9441351602779e0002e5",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "629c944135160277b60002e6",
+      "minutes_before": 60,
+      "other_team_name": "Research B Grade"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1655523600,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "home": true,
+      "timezone": 10.0,
+      "utc_start": "2022-06-18T04:40:00",
+      "sport": "BASEB",
+      "id": "62a994413516028c150003ea",
+      "recap_title": [
+        {
+          "content": "St Kilda B Grade Defeats North Coburg B Grade Despite Allowing 4-Run Inning",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 7,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 10,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-06-18T14:40:00",
+      "type": "League",
+      "save_ts": 1655617349.0,
+      "recipients": [],
+      "wl": "6-2-0",
+      "start_ts": 1655527200,
+      "other_team_id": "62629441359b006e6d00016c",
+      "game_id": "62a994413516028c150003ea",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62ad9441357e0350a200054c",
+      "minutes_before": 60,
+      "other_team_name": "North Coburg B Grade"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1656128400,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-06-25T04:40:00",
+      "sport": "BASEB",
+      "id": "62b29441359203e55a000001",
+      "recap_title": [
+        {
+          "content": "St Kilda B Grade Falls to Croydon B Grade on Walk-off",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 3,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 4,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-06-25T14:40:00",
+      "type": "League",
+      "save_ts": 1656623279.0,
+      "recipients": [],
+      "wl": "6-3-0",
+      "start_ts": 1656132000,
+      "other_team_id": "626494413532019379000001",
+      "game_id": "62b29441359203e55a000001",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62b694413598008e9b000186",
+      "minutes_before": 60,
+      "other_team_name": "Croydon B Grade"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1656733200,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-07-02T04:40:00",
+      "sport": "BASEB",
+      "id": "62be9441355601116a0002b4",
+      "recap_title": [
+        {
+          "content": "St Kilda B Grade Loses Lead Early in Defeat",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 2,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 9,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-07-02T14:40:00",
+      "type": "League",
+      "save_ts": 1657692084.0,
+      "recipients": [],
+      "wl": "6-4-0",
+      "start_ts": 1656736800,
+      "other_team_id": "62749441358e02bd99000005",
+      "game_id": "62be9441355601116a0002b4",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62bf9441355601c5e1000437",
+      "minutes_before": 60,
+      "other_team_name": "Doncaster B Grade"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1657338000,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "home": true,
+      "timezone": 10.0,
+      "utc_start": "2022-07-09T04:40:00",
+      "sport": "BASEB",
+      "id": "62c49441356601a66a000001",
+      "recap_title": [
+        {
+          "content": "St Kilda B Grade Clinches Lead in Fifth Inning for Victory Over La Trobe Uni B Grade",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 2,
+        "x": "st",
+        "w": "h",
+        "half": 0,
+        "home": 6,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-07-09T14:40:00",
+      "type": "League",
+      "save_ts": 1657692088.0,
+      "recipients": [],
+      "wl": "7-4-0",
+      "start_ts": 1657341600,
+      "other_team_id": "627e94413594001266000001",
+      "game_id": "62c49441356601a66a000001",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62c9944135960001b100016e",
+      "minutes_before": 60,
+      "other_team_name": "La Trobe Uni B Grade"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1657942800,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-07-16T04:40:00",
+      "sport": "BASEB",
+      "id": "62ce944135e8005fd80002ac",
+      "recap_title": [
+        {
+          "content": "Three Pitchers Team Up as St Kilda B Grade Shuts Out Essendon B Grade",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 8,
+        "side_readable": "Top",
+        "away": 16,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 0,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-07-16T14:40:00",
+      "type": "League",
+      "save_ts": 1658197701.0,
+      "recipients": [],
+      "wl": "8-4-0",
+      "start_ts": 1657946400,
+      "other_team_id": "627f944135de008da50002e8",
+      "game_id": "62ce944135e8005fd80002ac",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62d294413598003f81000451",
+      "minutes_before": 60,
+      "other_team_name": "Essendon B Grade"
+    },
+    {
+      "play_time": "2022-07-23T14:40:00",
+      "event_type": "game",
+      "recipients": [],
+      "arrival_ts": 1658547600,
+      "minutes_before": 60,
+      "notes": "",
+      "wl": "8-4-0",
+      "start_ts": 1658551200,
+      "uses_halves": false,
+      "playstatus": "NEW",
+      "other_team_id": "62899441350701fa6a000001",
+      "meta": {},
+      "location": "",
+      "timezone": 10.0,
+      "game_id": "62d99441355701c2b2000001",
+      "home": true,
+      "utc_start": "2022-07-23T04:40:00",
+      "sport": "BASEB",
+      "type": "League",
+      "id": "62d99441355701c2b2000001",
+      "other_team_name": "Monash University B Grade"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1659152400,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-07-30T04:40:00",
+      "sport": "BASEB",
+      "id": "62e3944135240197cb000001",
+      "change_v": "8f6eee0f-dc3e-4964-aa2d-f84bb32c7d91",
+      "recap_title": [
+        {
+          "content": "St Kilda B Grade Drops Game to Research B Grade After Late Score",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Top",
+        "away": 6,
+        "x": "st",
+        "w": "h",
+        "half": 0,
+        "home": 10,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-07-30T14:40:00",
+      "type": "League",
+      "save_ts": 1659350506.0,
+      "recipients": [],
+      "wl": "8-5-0",
+      "start_ts": 1659156000,
+      "other_team_id": "62999441351602bed6000003",
+      "game_id": "62e3944135240197cb000001",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62e49441359d00b3760001b5",
+      "minutes_before": 60,
+      "other_team_name": "Research B Grade"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1659757200,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "home": false,
+      "timezone": 10.0,
+      "utc_start": "2022-08-06T04:40:00",
+      "sport": "BASEB",
+      "id": "62ea944135af00494b000001",
+      "recap_title": [
+        {
+          "content": "St Kilda B Grade Nabs Win Over North Coburg B Grade Despite Early 5-Run Inning",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Top",
+        "away": 15,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 9,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-08-06T14:40:00",
+      "type": "League",
+      "save_ts": 1659770324.0,
+      "recipients": [],
+      "wl": "9-5-0",
+      "start_ts": 1659760800,
+      "other_team_id": "62629441359b006e6d00016c",
+      "game_id": "62ea944135af00494b000001",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62ed9441359600ecd7000195",
+      "minutes_before": 60,
+      "other_team_name": "North Coburg B Grade"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1660362000,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "home": true,
+      "timezone": 10.0,
+      "utc_start": "2022-08-13T04:40:00",
+      "sport": "BASEB",
+      "id": "62f5944135d90073d0000001",
+      "recap_title": [
+        {
+          "content": "St Kilda B Grade Loses Lead Early in Defeat",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 14,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 1,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-08-13T14:40:00",
+      "type": "League",
+      "save_ts": 1660374097.0,
+      "recipients": [],
+      "wl": "9-6-0",
+      "start_ts": 1660365600,
+      "other_team_id": "626494413532019379000001",
+      "game_id": "62f5944135d90073d0000001",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "62f79441359b0029d900017e",
+      "minutes_before": 60,
+      "other_team_name": "Croydon B Grade"
+    },
+    {
+      "play_time": "2022-08-20T14:40:00",
+      "event_type": "game",
+      "recipients": [],
+      "arrival_ts": null,
+      "minutes_before": 0,
+      "notes": "",
+      "wl": "9-6-0",
+      "start_ts": 1660970400,
+      "uses_halves": false,
+      "playstatus": "NEW",
+      "other_team_id": "62749441358e02bd99000005",
+      "meta": {},
+      "location": "",
+      "timezone": 10.0,
+      "game_id": "6300004cafb43f4274000002",
+      "home": true,
+      "utc_start": "2022-08-20T04:40:00",
+      "sport": "BASEB",
+      "type": "League",
+      "id": "6300004cafb43f4274000002",
+      "other_team_name": "Doncaster B Grade"
+    },
+    {
+      "sport": "BASEB",
+      "event_type": "game",
+      "recipients": [],
+      "arrival_ts": null,
+      "home": true,
+      "notes": "",
+      "wl": "9-6-0",
+      "start_ts": 1685768100,
+      "uses_halves": false,
+      "playstatus": "NEW",
+      "other_team_id": "62999441351602bed6000003",
+      "meta": {},
+      "location": "",
+      "timezone": 10.0,
+      "game_id": "647ad2a47ce900c5220004da",
+      "minutes_before": 0,
+      "utc_start": "2023-06-03T04:55:00",
+      "play_time": "2023-06-03T14:55:00",
+      "type": "League",
+      "id": "647ad2a47ce900c5220004da",
+      "other_team_name": "Research B Grade"
+    }
+  ],
+  "live_game": [],
+  "team": {
+    "team_path": "/t/winter-2022/st-kilda-b-grade-62629441359b006e4e00016b",
+    "season": "Winter 2022",
+    "locations": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "season_id": "6274bd981c83a091aa0a1119",
+    "opposing_teams": [
+      {
+        "code": "CRYD",
+        "_sync_d": "2022-08-13T07:01:06",
+        "entity_creation_time": 1650758521,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "6274bd9c60e2a1f9791cb8ab",
+        "long_name": "Croydon B Grade",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 3,
+          "last_scored": "2022-08-13T07:01:37",
+          "last_active": "2022-08-13T07:01:37"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "62b694413598008f7100019c",
+            "lname": "Legge",
+            "num": "",
+            "pos": [],
+            "fname": "Mitch"
+          },
+          {
+            "player_id": "62b694413598008f9700019f",
+            "lname": "Coutts",
+            "num": "",
+            "pos": [],
+            "fname": "Travis"
+          },
+          {
+            "player_id": "62b694413598008fa40001a2",
+            "lname": "Mathers",
+            "num": "",
+            "pos": [],
+            "fname": "Sam"
+          },
+          {
+            "player_id": "62b694413598008fb10001a5",
+            "lname": "Ryan",
+            "num": "",
+            "pos": [],
+            "fname": "Steve"
+          },
+          {
+            "player_id": "62b694413598008fc20001a8",
+            "lname": "Masters",
+            "num": "",
+            "pos": [],
+            "fname": "Ryan"
+          },
+          {
+            "player_id": "62b694413598008fd10001ab",
+            "lname": "Vogt",
+            "num": "",
+            "pos": [],
+            "fname": "Michael"
+          },
+          {
+            "player_id": "62b694413598008fe30001ae",
+            "lname": "Garland",
+            "num": "",
+            "pos": [],
+            "fname": "Ben"
+          },
+          {
+            "player_id": "62b694413598008ff30001b1",
+            "lname": "Farrett",
+            "num": "",
+            "pos": [],
+            "fname": "Glen"
+          },
+          {
+            "player_id": "62b6944135980090050001b4",
+            "lname": "Garland",
+            "num": "",
+            "pos": [],
+            "fname": "Json"
+          },
+          {
+            "player_id": "62f79441359b002a71000181",
+            "lname": "Higgins",
+            "num": "",
+            "pos": [],
+            "fname": "Aden"
+          }
+        ],
+        "ts": "2022-04-24T00:02:01",
+        "save_date": "2022-08-13T07:01:37",
+        "first_save": "2022-05-06T06:18:04",
+        "access_level": "free",
+        "_change_d_ts": 682058225.433241,
+        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
+        "ot_id": "62629441359b006e4e00016b",
+        "status": "OPP",
+        "_doc_version": "786270ccbdb84019827af33af58173e5",
+        "lineups": [
+          {
+            "positions": {},
+            "team_id": "626494413532019379000001",
+            "dhs": {},
+            "batters": []
+          }
+        ],
+        "~vc": "8.17.0.1",
+        "short_name": "Croydon B Grade",
+        "innings": "9",
+        "season": "Winter 2022",
+        "_change_d": "2022-08-13T04:37:05",
+        "_sync_d_ts": 682066866.814873,
+        "tbd": false,
+        "mascot": "Croydon B Grade",
+        "league": "",
+        "lineup": [],
+        "name": "Croydon B Grade",
+        "league_id": "",
+        "age": "adult",
+        "parent_team_id": "62629441359b006e4e00016b",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "626494413532019379000001",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "DNCS",
+        "_sync_d": "2022-08-15T08:28:17",
+        "entity_creation_time": 1651817881,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "6274bdaa965c64d9cc0a111d",
+        "long_name": "Doncaster B Grade",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-07-13T06:01:24",
+          "games": 3,
+          "offline": true,
+          "last_active": "2022-07-13T06:01:24"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "62759441358e02f63a0001c8",
+            "lname": "Medlin",
+            "num": "",
+            "pos": [],
+            "fname": "Derek"
+          },
+          {
+            "player_id": "62759441358e02f6530001cb",
+            "lname": "D'avoine",
+            "num": "",
+            "pos": [],
+            "fname": "Marcel"
+          },
+          {
+            "player_id": "62759441358e02f6690001ce",
+            "lname": "Chen",
+            "num": "",
+            "pos": [],
+            "fname": "Brian"
+          },
+          {
+            "player_id": "62759441358e02f6860001d1",
+            "lname": "McDonald",
+            "num": "",
+            "pos": [],
+            "fname": "Brendan"
+          },
+          {
+            "player_id": "62759441358e02f6a60001d4",
+            "lname": "Alvarado",
+            "num": "",
+            "pos": [],
+            "fname": "Jean"
+          },
+          {
+            "player_id": "62759441358e02f6b20001d7",
+            "lname": "Britton",
+            "num": "",
+            "pos": [],
+            "fname": "John"
+          },
+          {
+            "player_id": "62759441358e02f6c00001da",
+            "lname": "Gibson",
+            "num": "",
+            "pos": [],
+            "fname": "Dakota"
+          },
+          {
+            "player_id": "62759441358e02f6ce0001dd",
+            "lname": "Utting",
+            "num": "",
+            "pos": [],
+            "fname": "Luke"
+          },
+          {
+            "player_id": "62759441358e02f6e40001e0",
+            "lname": "McGrath",
+            "num": "",
+            "pos": [],
+            "fname": "Daniel"
+          },
+          {
+            "player_id": "62769441358e020ab60002c2",
+            "lname": "Medlin",
+            "num": "",
+            "pos": [],
+            "fname": "Dave"
+          },
+          {
+            "player_id": "62769441358e021106000312",
+            "lname": "Robertson",
+            "num": "",
+            "pos": [],
+            "fname": "Liam"
+          },
+          {
+            "player_id": "62bf9441355601cace00044c",
+            "lname": "Messinger",
+            "num": "",
+            "pos": [],
+            "fname": "Todd"
+          },
+          {
+            "player_id": "62bf9441355601caf000044e",
+            "lname": "Boyd",
+            "num": "",
+            "pos": [],
+            "fname": "Fraser"
+          },
+          {
+            "player_id": "62bf9441355601df58000542",
+            "lname": "Parsonage",
+            "num": "",
+            "pos": [],
+            "fname": "Lachlan"
+          }
+        ],
+        "ts": "2022-05-06T06:18:01",
+        "save_date": "2022-08-20T02:09:59",
+        "first_save": "2022-05-06T06:18:18",
+        "access_level": "free",
+        "_change_d_ts": 682654196.554413,
+        "device_id": "AF4C00BD-9483-4D26-8373-4C7534736D2C",
+        "ot_id": "62629441359b006e4e00016b",
+        "status": "OPP",
+        "_doc_version": "a2ba8851d75a4cd68183a5e2a0f19c33",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "62749441358e02bd99000005"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "short_name": "Doncaster B Grade",
+        "innings": "9",
+        "season": "Winter 2022",
+        "_change_d": "2022-08-20T02:09:56",
+        "_sync_d_ts": 682244897.443341,
+        "tbd": false,
+        "mascot": "Doncaster B Grade",
+        "league": "",
+        "lineup": [],
+        "name": "Doncaster B Grade",
+        "league_id": "",
+        "age": "adult",
+        "parent_team_id": "62629441359b006e4e00016b",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "62749441358e02bd99000005",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "ESSN",
+        "_sync_d": "2022-07-13T06:03:33",
+        "entity_creation_time": 1652526501,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "627f8daa716436fb6cbed761",
+        "long_name": "Essendon B Grade",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 2,
+          "last_scored": "2022-07-19T02:28:22",
+          "last_active": "2022-07-19T02:28:22"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "Essendon B Grade",
+        "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "628894413575016b6e00015c",
+            "lname": "Byrne",
+            "num": "",
+            "pos": [],
+            "fname": "Josh"
+          },
+          {
+            "player_id": "628894413575016b7f00015f",
+            "lname": "Deeble",
+            "num": "",
+            "pos": [],
+            "fname": "Cam"
+          },
+          {
+            "player_id": "628894413575016b96000162",
+            "lname": "Mezzal",
+            "num": "",
+            "pos": [],
+            "fname": "Adam"
+          },
+          {
+            "player_id": "628894413575016ba9000165",
+            "lname": "Liaw",
+            "num": "",
+            "pos": [],
+            "fname": "Danya"
+          },
+          {
+            "player_id": "628894413575016bc0000168",
+            "lname": "Rumbelow",
+            "num": "",
+            "pos": [],
+            "fname": "Nathan"
+          },
+          {
+            "player_id": "628894413575016bd100016b",
+            "lname": "Waters",
+            "num": "",
+            "pos": [],
+            "fname": "Shane"
+          },
+          {
+            "player_id": "628894413575016be900016e",
+            "lname": "Breckinridge",
+            "num": "",
+            "pos": [],
+            "fname": "Cohen"
+          },
+          {
+            "player_id": "628894413575016bfd000171",
+            "lname": "Holmes",
+            "num": "",
+            "pos": [],
+            "fname": "Matthew"
+          },
+          {
+            "player_id": "628894413575016c1f000174",
+            "lname": "Steudle",
+            "num": "",
+            "pos": [],
+            "fname": "Hugo"
+          },
+          {
+            "player_id": "628894413575016c50000177",
+            "lname": "Amon",
+            "num": "",
+            "pos": [],
+            "fname": "Lachlan"
+          },
+          {
+            "player_id": "6288944135750178880001f5",
+            "lname": "",
+            "num": "",
+            "pos": [],
+            "fname": "Shane waters"
+          },
+          {
+            "player_id": "62889441357501825c000252",
+            "lname": "Haig",
+            "num": "",
+            "pos": [],
+            "fname": "Harrison"
+          },
+          {
+            "player_id": "6288944135750187ac00028f",
+            "lname": "Goodrow",
+            "num": "",
+            "pos": [],
+            "fname": "Chris "
+          },
+          {
+            "player_id": "62d29441359800407e000466",
+            "lname": "Williams",
+            "num": "",
+            "pos": [],
+            "fname": "Luke"
+          },
+          {
+            "player_id": "62d2944135980040e0000468",
+            "lname": "Liersch",
+            "num": "",
+            "pos": [],
+            "fname": "Alex"
+          },
+          {
+            "player_id": "62d29441359800410000046a",
+            "lname": "Davenport",
+            "num": "",
+            "pos": [],
+            "fname": "Duane"
+          },
+          {
+            "player_id": "62d29441359800411c00046c",
+            "lname": "Coleman",
+            "num": "",
+            "pos": [],
+            "fname": "Jacob"
+          }
+        ],
+        "ts": "2022-05-14T11:08:21",
+        "save_date": "2022-07-19T02:28:22",
+        "first_save": "2022-05-14T11:08:26",
+        "access_level": "free",
+        "_change_d_ts": 679639196.830122,
+        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
+        "ot_id": "62629441359b006e4e00016b",
+        "status": "OPP",
+        "_doc_version": "1dbae92152374802adc2fada63462f92",
+        "lineups": [
+          {
+            "positions": {},
+            "team_id": "627f944135de008da50002e8",
+            "dhs": {},
+            "batters": []
+          }
+        ],
+        "~vc": "8.17.0.1",
+        "prepaid": false,
+        "innings": "9",
+        "season": "Winter 2022",
+        "_change_d": "2022-07-16T04:39:56",
+        "_sync_d_ts": 679385013.56439,
+        "tbd": false,
+        "mascot": "Essendon B Grade",
+        "league": "",
+        "lineup": [],
+        "name": "Essendon B Grade",
+        "league_id": "",
+        "age": "adult",
+        "parent_team_id": "62629441359b006e4e00016b",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "627f944135de008da50002e8",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "LTRB",
+        "_sync_d": "2022-06-30T21:10:22",
+        "entity_creation_time": 1652429414,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "627f7361732061895bbed75e",
+        "long_name": "La Trobe Uni B Grade",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 2,
+          "last_scored": "2022-07-13T06:01:28",
+          "last_active": "2022-07-13T06:01:28"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "La Trobe Uni B Grade",
+        "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "627f94413598002f9f000182",
+            "lname": "Walker",
+            "num": "",
+            "pos": [],
+            "fname": "Austin"
+          },
+          {
+            "player_id": "627f94413598002fae000185",
+            "lname": "Hill",
+            "num": "",
+            "pos": [],
+            "fname": "Jordan"
+          },
+          {
+            "player_id": "627f94413598002fbd000188",
+            "lname": "Hill",
+            "num": "",
+            "pos": [],
+            "fname": "Riley"
+          },
+          {
+            "player_id": "627f94413598002fd800018b",
+            "lname": "Afu",
+            "num": "",
+            "pos": [],
+            "fname": "Noah"
+          },
+          {
+            "player_id": "627f94413598002fe900018e",
+            "lname": "McAdam",
+            "num": "",
+            "pos": [],
+            "fname": "Tom"
+          },
+          {
+            "player_id": "627f94413598002ff6000191",
+            "lname": "Lenox",
+            "num": "",
+            "pos": [],
+            "fname": "Connor"
+          },
+          {
+            "player_id": "627f94413598003005000194",
+            "lname": "Devlin",
+            "num": "",
+            "pos": [],
+            "fname": "Luke"
+          },
+          {
+            "player_id": "627f94413598003021000197",
+            "lname": "Loveridge",
+            "num": "",
+            "pos": [],
+            "fname": "Josh"
+          },
+          {
+            "player_id": "627f9441359800302f00019a",
+            "lname": "Bowe",
+            "num": "",
+            "pos": [],
+            "fname": "Adam"
+          },
+          {
+            "player_id": "627f94413598004a3b000272",
+            "lname": "Mcbride",
+            "num": "",
+            "pos": [],
+            "fname": "Chris"
+          },
+          {
+            "player_id": "62c9944135960003ec000192",
+            "lname": "Smith",
+            "num": "",
+            "pos": [],
+            "fname": "Alec"
+          },
+          {
+            "player_id": "62c99441359600042c000199",
+            "lname": "Heenen",
+            "num": "",
+            "pos": [],
+            "fname": "Mark"
+          },
+          {
+            "player_id": "62c9944135960004a40001a1",
+            "lname": "Preston",
+            "num": "",
+            "pos": [],
+            "fname": "Damian"
+          }
+        ],
+        "ts": "2022-05-13T08:10:14",
+        "save_date": "2022-07-13T06:01:28",
+        "first_save": "2022-05-14T09:16:17",
+        "access_level": "free",
+        "_change_d_ts": 679033892.894682,
+        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
+        "ot_id": "62629441359b006e4e00016b",
+        "status": "OPP",
+        "_doc_version": "8bac45f9c10b42c4bf7674d804560b5e",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "8.17.0.1",
+        "prepaid": false,
+        "innings": "9",
+        "season": "Winter 2022",
+        "_change_d": "2022-07-09T04:31:32",
+        "_sync_d_ts": 678316222.143057,
+        "tbd": false,
+        "mascot": "La Trobe Uni B Grade",
+        "league": "",
+        "lineup": [],
+        "name": "La Trobe Uni B Grade",
+        "league_id": "",
+        "age": "adult",
+        "parent_team_id": "62629441359b006e4e00016b",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "627e94413594001266000001",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "MNSH",
+        "_sync_d": "2022-07-21T21:18:27",
+        "entity_creation_time": 1653209706,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "6289fa6ebc1993675352a60d",
+        "long_name": "Monash University B Grade",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 2,
+          "last_scored": "2022-05-28T08:24:45",
+          "last_active": "2022-05-28T08:24:45"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "6291944135e901a1b0000187",
+            "lname": "Hunt",
+            "num": "",
+            "pos": [],
+            "fname": "Michael"
+          },
+          {
+            "player_id": "6291944135e901a1be00018a",
+            "lname": "Poole",
+            "num": "",
+            "pos": [],
+            "fname": "Donnie"
+          },
+          {
+            "player_id": "6291944135e901a1dd00018d",
+            "lname": "Michaud",
+            "num": "",
+            "pos": [],
+            "fname": "Joe"
+          },
+          {
+            "player_id": "6291944135e901a1fa000190",
+            "lname": "Fuda",
+            "num": "",
+            "pos": [],
+            "fname": "Lachlan"
+          },
+          {
+            "player_id": "6291944135e901a222000193",
+            "lname": "DiBattista",
+            "num": "",
+            "pos": [],
+            "fname": "Dion"
+          },
+          {
+            "player_id": "6291944135e901a23d000196",
+            "lname": "Morgan",
+            "num": "",
+            "pos": [],
+            "fname": "Michael"
+          },
+          {
+            "player_id": "6291944135e901a254000199",
+            "lname": "Beaumont",
+            "num": "",
+            "pos": [],
+            "fname": "David"
+          },
+          {
+            "player_id": "6291944135e901a26800019c",
+            "lname": "Parkin",
+            "num": "",
+            "pos": [],
+            "fname": "Dylan"
+          },
+          {
+            "player_id": "6291944135e901a27d00019f",
+            "lname": "Upton",
+            "num": "",
+            "pos": [],
+            "fname": "Mitch"
+          },
+          {
+            "player_id": "6291944135e901a2b00001a3",
+            "lname": "Young",
+            "num": "",
+            "pos": [],
+            "fname": "Mathew"
+          },
+          {
+            "player_id": "6291944135e901ba9f000270",
+            "lname": "Stubbs",
+            "num": "",
+            "pos": [],
+            "fname": "Joel"
+          }
+        ],
+        "ts": "2022-05-22T08:55:06",
+        "save_date": "2022-07-21T21:18:44",
+        "first_save": "2022-05-22T08:55:10",
+        "access_level": "free",
+        "_change_d_ts": 680131122.381885,
+        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
+        "ot_id": "62629441359b006e4e00016b",
+        "status": "OPP",
+        "_doc_version": "4be75f1fac1b4c079fa488e4ae14465e",
+        "lineups": [
+          {
+            "positions": {},
+            "team_id": "62899441350701fa6a000001",
+            "dhs": {},
+            "batters": []
+          }
+        ],
+        "~vc": "8.17.0.1",
+        "short_name": "Monash University B Grade",
+        "innings": "9",
+        "season": "Winter 2022",
+        "_change_d": "2022-07-21T21:18:42",
+        "_sync_d_ts": 680131107.90204,
+        "tbd": false,
+        "mascot": "Monash University B Grade",
+        "league": "",
+        "lineup": [],
+        "name": "Monash University B Grade",
+        "league_id": "",
+        "age": "adult",
+        "parent_team_id": "62629441359b006e4e00016b",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "62899441350701fa6a000001",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "NRTH",
+        "_sync_d": "2022-08-01T10:44:01",
+        "entity_creation_time": 1650617965,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "6274bd978b28e218781cb88a",
+        "long_name": "North Coburg B Grade",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 3,
+          "last_scored": "2022-08-06T07:18:45",
+          "last_active": "2022-08-06T07:18:45"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "6263944135fc00837b0001a5",
+            "lname": "Golledge",
+            "num": "",
+            "pos": [],
+            "fname": "Ryan"
+          },
+          {
+            "player_id": "6263944135fc0083990001a8",
+            "lname": "Karp",
+            "num": "",
+            "pos": [],
+            "fname": "Andy"
+          },
+          {
+            "player_id": "6263944135fc0083b10001ab",
+            "lname": "Learmonth",
+            "num": "",
+            "pos": [],
+            "fname": "Craig"
+          },
+          {
+            "player_id": "6263944135fc0083c20001ae",
+            "lname": "Stevens",
+            "num": "",
+            "pos": [],
+            "fname": "Harry"
+          },
+          {
+            "player_id": "6263944135fc0083d70001b1",
+            "lname": "Poole",
+            "num": "",
+            "pos": [],
+            "fname": "Mace"
+          },
+          {
+            "player_id": "6263944135fc0083f70001b4",
+            "lname": "Grahovac",
+            "num": "",
+            "pos": [],
+            "fname": "Jamin"
+          },
+          {
+            "player_id": "6263944135fc0084090001b7",
+            "lname": "Adachi",
+            "num": "",
+            "pos": [],
+            "fname": "Yoshi"
+          },
+          {
+            "player_id": "6263944135fc0084620001ba",
+            "lname": "Golledge",
+            "num": "",
+            "pos": [],
+            "fname": "Finn"
+          },
+          {
+            "player_id": "6263944135fc008e4900022e",
+            "lname": "Pinches",
+            "num": "",
+            "pos": [],
+            "fname": "Jack"
+          },
+          {
+            "player_id": "62ad9441357e0351c6000565",
+            "lname": "Maher",
+            "num": "",
+            "pos": [],
+            "fname": "Taylor"
+          },
+          {
+            "player_id": "62ad9441357e03520f000569",
+            "lname": "Holmes",
+            "num": "",
+            "pos": [],
+            "fname": "Dan"
+          },
+          {
+            "player_id": "62ad9441357e03523000056d",
+            "lname": "Fesil",
+            "num": "",
+            "pos": [],
+            "fname": "Jake"
+          },
+          {
+            "player_id": "62ad9441357e035241000570",
+            "lname": "Anderson",
+            "num": "",
+            "pos": [],
+            "fname": "Jonno"
+          },
+          {
+            "player_id": "62ad94413588036dc300066b",
+            "lname": "Papadictus",
+            "num": "",
+            "pos": [],
+            "fname": "Dennis"
+          },
+          {
+            "player_id": "62ed9441359600ee970001aa",
+            "lname": "Shanks",
+            "num": "",
+            "pos": [],
+            "fname": "Ryley"
+          },
+          {
+            "player_id": "62ed9441359600eead0001ac",
+            "lname": "Morton",
+            "num": "",
+            "pos": [],
+            "fname": "Devlin"
+          }
+        ],
+        "ts": "2022-04-22T08:59:25",
+        "save_date": "2022-08-06T07:18:45",
+        "first_save": "2022-05-06T06:17:59",
+        "access_level": "free",
+        "_change_d_ts": 681453101.861359,
+        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
+        "ot_id": "62629441359b006e4e00016b",
+        "status": "OPP",
+        "_doc_version": "7cbdb0d79cae43a6aae1b646cd4ae530",
+        "lineups": [
+          {
+            "positions": {},
+            "team_id": "62629441359b006e6d00016c",
+            "dhs": {},
+            "batters": []
+          }
+        ],
+        "~vc": "8.17.0.1",
+        "short_name": "North Coburg B Grade",
+        "innings": "9",
+        "season": "Winter 2022",
+        "_change_d": "2022-08-06T04:31:41",
+        "_sync_d_ts": 681043441.053551,
+        "tbd": false,
+        "mascot": "North Coburg B Grade",
+        "league": "",
+        "lineup": [],
+        "name": "North Coburg B Grade",
+        "league_id": "",
+        "age": "adult",
+        "parent_team_id": "62629441359b006e4e00016b",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "62629441359b006e6d00016c",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "RSRC",
+        "_sync_d": "2023-04-19T23:06:51",
+        "entity_creation_time": 1654243030,
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "6299beda4bc9867afcd38e8a",
+        "long_name": "Research B Grade",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-06-25T07:41:20",
+          "last_active": "2023-06-25T07:41:20",
+          "live": true,
+          "games": 4,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "Research B Grade",
+        "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "629a9441351602bf1b000020",
+            "lname": "Sertis",
+            "num": "",
+            "pos": [],
+            "fname": "Evan"
+          },
+          {
+            "player_id": "629a9441351602bf29000023",
+            "lname": "Lockler",
+            "num": "",
+            "pos": [],
+            "fname": "Scott"
+          },
+          {
+            "player_id": "629a9441351602bf35000026",
+            "lname": "Slape",
+            "num": "",
+            "pos": [],
+            "fname": "David"
+          },
+          {
+            "player_id": "629a9441351602bf56000029",
+            "lname": "Rist",
+            "num": "",
+            "pos": [],
+            "fname": "Lachlan"
+          },
+          {
+            "player_id": "629a9441351602bf6800002c",
+            "lname": "Pendlebuey",
+            "num": "",
+            "pos": [],
+            "fname": "Fletcher"
+          },
+          {
+            "player_id": "629a9441351602bf7400002f",
+            "lname": "Flood",
+            "num": "",
+            "pos": [],
+            "fname": "Riley"
+          },
+          {
+            "player_id": "629a9441351602bf7e000032",
+            "lname": "Gross",
+            "num": "",
+            "pos": [],
+            "fname": "Ian"
+          },
+          {
+            "player_id": "629a9441351602bf8d000035",
+            "lname": "Purchase",
+            "num": "",
+            "pos": [],
+            "fname": "Warwick"
+          },
+          {
+            "player_id": "629a9441351602bf9b000038",
+            "lname": "Brooks",
+            "num": "",
+            "pos": [],
+            "fname": "Glenn"
+          },
+          {
+            "player_id": "629c9441351602786d0002f9",
+            "lname": "Crundwell",
+            "num": "",
+            "pos": [],
+            "fname": "B"
+          },
+          {
+            "player_id": "629c944135160278770002fb",
+            "lname": "Bride",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "629c9441351602787f0002fd",
+            "lname": "Dicker",
+            "num": "",
+            "pos": [],
+            "fname": "D"
+          },
+          {
+            "player_id": "629c944135160278870002ff",
+            "lname": "Butler",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          },
+          {
+            "player_id": "629c94413516027891000301",
+            "lname": "Dehaan",
+            "num": "",
+            "pos": [],
+            "fname": "C"
+          },
+          {
+            "player_id": "629c94413516027899000303",
+            "lname": "Veal",
+            "num": "",
+            "pos": [],
+            "fname": "S"
+          },
+          {
+            "player_id": "629c944135160278b4000305",
+            "lname": "Pilapil",
+            "num": "",
+            "pos": [],
+            "fname": "K"
+          },
+          {
+            "player_id": "629c944135160278c2000307",
+            "lname": "Gaskett",
+            "num": "",
+            "pos": [],
+            "fname": "W"
+          },
+          {
+            "player_id": "629c944135160278ca000309",
+            "lname": "Hall",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "62e49441359d00b46d0001b6",
+            "lname": "Cleeve",
+            "num": "",
+            "pos": [],
+            "fname": "Riley"
+          },
+          {
+            "player_id": "62e49441359d00b4910001b9",
+            "lname": "Dicker",
+            "num": "",
+            "pos": [],
+            "fname": "Tom"
+          },
+          {
+            "player_id": "62e49441359d00b4c80001bb",
+            "lname": "Mckay",
+            "num": "",
+            "pos": [],
+            "fname": "Leigh"
+          },
+          {
+            "player_id": "62e49441359d00b4e50001bd",
+            "lname": "Whalen",
+            "num": "",
+            "pos": [],
+            "fname": "Michael"
+          }
+        ],
+        "ts": "2022-06-03T07:57:10",
+        "save_date": "2023-06-25T07:41:20",
+        "first_save": "2022-06-03T07:57:14",
+        "access_level": "free",
+        "_change_d_ts": 707460258.435552,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "62629441359b006e4e00016b",
+        "status": "OPP",
+        "_doc_version": "4b6337cf8bfe40c49d7437d43ebb11d4",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "62999441351602bed6000003"
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "prepaid": false,
+        "innings": "9",
+        "season": "Winter 2022",
+        "_change_d": "2023-06-03T04:44:18",
+        "_sync_d_ts": 703638411.456283,
+        "tbd": false,
+        "mascot": "Research B Grade",
+        "league": "",
+        "lineup": [],
+        "name": "Research B Grade",
+        "league_id": "",
+        "age": "adult",
+        "parent_team_id": "62629441359b006e4e00016b",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "62999441351602bed6000003",
+        "stat_access": "OPEN"
+      }
+    ],
+    "sport": "Baseball",
+    "league": "",
+    "name": "St Kilda",
+    "age": "adult",
+    "mp_info": null,
+    "pc": "",
+    "_id": "62629441359b006e4e00016b"
+  }
+}

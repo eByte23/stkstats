@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bsgame generated="06/26/23" source="GameChanger" source_format="Sabertooth" version="11.5.1.0">
+  <venue date="06/24/23" gameid="6493c462f8dc00b429000151" homeid="DMND" homename="Diamond Creek" leaguegame="Y" location="" schedinn="9" start="14:40 PM" visid="SNTS" visname="Saints D Grade" />
+  <team code="SNTS" id="SNTS" name="Saints D Grade" record="2-0-0" vh="V">
+    <linescore errs="0" hits="13" line="2,7,2,5" lob="4" runs="16">
+      <lineinn inn="1" score="2" />
+      <lineinn inn="2" score="7" />
+      <lineinn inn="3" score="2" />
+      <lineinn inn="4" score="5" />
+    </linescore>
+    <starters>
+      <starter name="Mat Manning" pos="SS" slot="1" />
+      <starter name="Elijah Bate" pos="CF" slot="2" />
+      <starter name="Chris Bordin" slot="3" />
+      <starter name="Pete McCourt" pos="C" slot="4" />
+      <starter name="Sean O’Halloran" pos="1B" slot="5" />
+      <starter name="Carlos Mena" pos="LF" slot="6" />
+      <starter name="Adam Cauley" pos="P" slot="7" />
+      <starter name="Glenn Wimetal" pos="2B" slot="8" />
+      <starter name="George Armstrong" pos="RF" slot="9" />
+      <starter name="Avi Lewis" pos="3B" slot="10" />
+      <starter name="Jared Drever" pos="RF" slot="11" />
+    </starters>
+    <totals>
+      <hitting ab="24" bb="5" cs="0" double="3" gdp="0" ground="0" h="13" hbp="1" hr="1" kl="1" pickoff="0" r="16" rbi="15" rchci="0" rcherr="1" sb="16" sf="0" sh="0" so="3" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="12" sba="11" />
+      <pitching ab="15" bb="5" bf="20" bk="0" er="6" fly="3" ground="3" h="3" hbp="0" hr="0" ip="4.0" picked="0" pitches="82" r="6" so="6" wp="0" />
+      <hsitsummary lob="4" rbi-2out="3" rchci="0" rcherr="1" wrbiops="17" />
+      <psitsummary fly="3" ground="3" />
+    </totals>
+    <player atpos="ss" gp="1" name="Mat Manning" pos="ss" shortname="Manning" spot="1">
+      <hitting ab="2" bb="1" cs="0" double="0" gdp="0" ground="0" h="2" hbp="0" hr="0" kl="0" pickoff="0" r="3" rbi="3" rchci="0" rcherr="0" sb="2" sf="0" sh="0" so="0" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="1" sba="0" />
+      <hsitsummary lob="0" rbi-2out="0" rchci="0" rcherr="0" wrbiops="2" />
+    </player>
+    <player atpos="cf" gp="1" name="Elijah Bate" pos="cf" shortname="Bate" spot="2">
+      <hitting ab="2" bb="1" cs="0" double="0" gdp="0" ground="0" h="2" hbp="0" hr="0" kl="0" pickoff="0" r="3" rbi="1" rchci="0" rcherr="0" sb="4" sf="0" sh="0" so="0" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="2" sba="10" />
+      <hsitsummary lob="0" rbi-2out="0" rchci="0" rcherr="0" wrbiops="2" />
+      <pitching ab="6" appear="2" bb="4" bf="10" bk="0" er="6" fly="1" ground="0" gs="0" h="3" hbp="0" hr="0" ip="1.0" picked="0" pitches="42" r="6" so="2" wp="0" />
+      <psitsummary fly="1" ground="0" />
+    </player>
+    <player gp="1" name="Chris Bordin" shortname="Bordin" spot="3">
+      <hitting ab="3" bb="0" cs="0" double="0" gdp="0" ground="0" h="1" hbp="0" hr="1" kl="0" pickoff="0" r="1" rbi="5" rchci="0" rcherr="0" sb="0" sf="0" sh="0" so="1" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="0" sba="0" />
+      <hsitsummary lob="2" rbi-2out="0" rchci="0" rcherr="0" wrbiops="3" />
+    </player>
+    <player atpos="c" gp="1" name="Pete McCourt" pos="c" shortname="McCourt" spot="4">
+      <hitting ab="3" bb="0" cs="0" double="0" gdp="0" ground="0" h="1" hbp="0" hr="0" kl="1" pickoff="0" r="0" rbi="1" rchci="0" rcherr="0" sb="1" sf="0" sh="0" so="1" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="7" sba="1" />
+      <hsitsummary lob="1" rbi-2out="0" rchci="0" rcherr="0" wrbiops="2" />
+      <pitching ab="3" appear="3" bb="1" bf="4" bk="0" er="0" fly="1" ground="2" gs="0" h="0" hbp="0" hr="0" ip="1.0" picked="0" pitches="18" r="0" so="0" wp="0" />
+      <psitsummary fly="1" ground="2" />
+    </player>
+    <player atpos="1b" gp="1" name="Sean O’Halloran" pos="1b" shortname="O’Halloran" spot="5">
+      <hitting ab="2" bb="1" cs="0" double="0" gdp="0" ground="0" h="1" hbp="0" hr="0" kl="0" pickoff="0" r="2" rbi="0" rchci="0" rcherr="0" sb="1" sf="0" sh="0" so="0" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="1" sba="0" />
+      <hsitsummary lob="1" rbi-2out="0" rchci="0" rcherr="0" wrbiops="0" />
+    </player>
+    <player atpos="lf" gp="1" name="Carlos Mena" pos="lf" shortname="Mena" spot="6">
+      <hitting ab="3" bb="0" cs="0" double="1" gdp="0" ground="0" h="1" hbp="0" hr="0" kl="0" pickoff="0" r="0" rbi="1" rchci="0" rcherr="0" sb="0" sf="0" sh="0" so="0" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="0" sba="0" />
+      <hsitsummary lob="2" rbi-2out="1" rchci="0" rcherr="0" wrbiops="2" />
+    </player>
+    <player atpos="p" gp="1" gs="1" name="Adam Cauley" pos="p" shortname="Cauley" spot="7">
+      <hitting ab="3" bb="0" cs="0" double="1" gdp="0" ground="0" h="2" hbp="0" hr="0" kl="0" pickoff="0" r="1" rbi="1" rchci="0" rcherr="0" sb="0" sf="0" sh="0" so="0" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="0" sba="0" />
+      <hsitsummary lob="0" rbi-2out="1" rchci="0" rcherr="0" wrbiops="2" />
+      <pitching ab="6" appear="1" bb="0" bf="6" bk="0" er="0" fly="1" ground="1" gs="1" h="0" hbp="0" hr="0" ip="2.0" picked="0" pitches="22" r="0" so="4" wp="0" />
+      <psitsummary fly="1" ground="1" />
+    </player>
+    <player atpos="2b" gp="1" name="Glenn Wimetal" pos="2b" shortname="Wimetal" spot="8">
+      <hitting ab="3" bb="0" cs="0" double="1" gdp="0" ground="0" h="2" hbp="0" hr="0" kl="0" pickoff="0" r="1" rbi="1" rchci="0" rcherr="0" sb="2" sf="0" sh="0" so="0" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="1" sba="0" />
+      <hsitsummary lob="2" rbi-2out="1" rchci="0" rcherr="0" wrbiops="2" />
+    </player>
+    <player atpos="rf" gp="1" name="George Armstrong" pos="rf" shortname="Armstrong" spot="9">
+      <hitting ab="2" bb="0" cs="0" double="0" gdp="0" ground="0" h="0" hbp="0" hr="0" kl="0" pickoff="0" r="1" rbi="0" rchci="0" rcherr="1" sb="1" sf="0" sh="0" so="1" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="0" sba="0" />
+      <hsitsummary lob="2" rbi-2out="0" rchci="0" rcherr="1" wrbiops="1" />
+    </player>
+    <player atpos="3b" gp="1" name="Avi Lewis" pos="3b" shortname="Lewis" spot="10">
+      <hitting ab="0" bb="2" cs="0" double="0" gdp="0" ground="0" h="0" hbp="0" hr="0" kl="0" pickoff="0" r="2" rbi="0" rchci="0" rcherr="0" sb="2" sf="0" sh="0" so="0" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="0" sba="0" />
+      <hsitsummary lob="0" rbi-2out="0" rchci="0" rcherr="0" wrbiops="0" />
+    </player>
+    <player atpos="rf" gp="1" name="Jared Drever" pos="rf" shortname="Drever" spot="11">
+      <hitting ab="1" bb="0" cs="0" double="0" gdp="0" ground="0" h="1" hbp="1" hr="0" kl="0" pickoff="0" r="2" rbi="2" rchci="0" rcherr="0" sb="3" sf="0" sh="0" so="0" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="0" sba="0" />
+      <hsitsummary lob="0" rbi-2out="0" rchci="0" rcherr="0" wrbiops="1" />
+    </player>
+  </team>
+  <team code="DMND" id="DMND" name="Diamond Creek" vh="H">
+    <linescore errs="1" hits="3" line="0,0,6,0" lob="2" runs="6">
+      <lineinn inn="1" score="0" />
+      <lineinn inn="2" score="0" />
+      <lineinn inn="3" score="6" />
+      <lineinn inn="4" score="0" />
+    </linescore>
+    <starters>
+      <starter name="Billy Harvey" pos="SS" slot="1" />
+      <starter name="Grant Stancombe" pos="P" slot="2" />
+      <starter name="James Stark" pos="CF" slot="3" />
+      <starter name="Anthony Vassallo" pos="2B" slot="4" />
+      <starter name="Jarrod Sumpter" pos="LF" slot="5" />
+      <starter name="Sherrin Medlicott" pos="1B" slot="6" />
+      <starter name="Patrick Ward" pos="RF" slot="7" />
+      <starter name="Nicole McIntyris" pos="3B" slot="8" />
+      <starter name="Dean Malcolm" pos="C" slot="9" />
+    </starters>
+    <totals>
+      <hitting ab="15" bb="5" cs="0" double="1" gdp="0" ground="0" h="3" hbp="0" hr="0" kl="3" pickoff="0" r="6" rbi="4" rchci="0" rcherr="0" sb="11" sf="0" sh="0" so="6" triple="0" />
+      <fielding a="3" ci="0" csb="0" e="1" indp="0" intp="0" pb="0" po="10" sba="16" />
+      <pitching ab="24" bb="5" bf="30" bk="0" er="15" fly="2" ground="5" h="13" hbp="1" hr="1" ip="3.1" picked="0" pitches="113" r="16" so="3" wp="0" />
+      <hsitsummary lob="2" rbi-2out="0" rchci="0" rcherr="0" wrbiops="7" />
+      <psitsummary fly="2" ground="5" />
+    </totals>
+    <player atpos="ss" gp="1" name="Billy Harvey" pos="ss" shortname="Harvey" spot="1">
+      <hitting ab="3" bb="0" cs="0" double="1" gdp="0" ground="0" h="1" hbp="0" hr="0" kl="1" pickoff="0" r="1" rbi="2" rchci="0" rcherr="0" sb="1" sf="0" sh="0" so="1" triple="0" />
+      <fielding a="1" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="1" sba="0" />
+      <hsitsummary lob="2" rbi-2out="0" rchci="0" rcherr="0" wrbiops="1" />
+    </player>
+    <player atpos="p" gp="1" gs="1" name="Grant Stancombe" pos="p" shortname="Stancombe" spot="2">
+      <hitting ab="2" bb="1" cs="0" double="0" gdp="0" ground="0" h="0" hbp="0" hr="0" kl="0" pickoff="0" r="1" rbi="0" rchci="0" rcherr="0" sb="1" sf="0" sh="0" so="0" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="0" sba="6" />
+      <hsitsummary lob="1" rbi-2out="0" rchci="0" rcherr="0" wrbiops="1" />
+      <pitching ab="13" appear="1" bb="3" bf="17" bk="0" er="9" fly="2" ground="4" gs="1" h="6" hbp="1" hr="1" ip="2.0" picked="0" pitches="56" r="10" so="0" wp="0" />
+      <psitsummary fly="2" ground="4" />
+    </player>
+    <player atpos="cf" gp="1" name="James Stark" pos="cf" shortname="Stark" spot="3">
+      <hitting ab="1" bb="1" cs="0" double="0" gdp="0" ground="0" h="0" hbp="0" hr="0" kl="0" pickoff="0" r="1" rbi="0" rchci="0" rcherr="0" sb="2" sf="0" sh="0" so="1" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="1" sba="0" />
+      <hsitsummary lob="0" rbi-2out="0" rchci="0" rcherr="0" wrbiops="0" />
+    </player>
+    <player atpos="2b" gp="1" name="Anthony Vassallo" pos="2b" shortname="Vassallo" spot="4">
+      <hitting ab="2" bb="0" cs="0" double="0" gdp="0" ground="0" h="1" hbp="0" hr="0" kl="0" pickoff="0" r="0" rbi="1" rchci="0" rcherr="0" sb="1" sf="0" sh="0" so="0" triple="0" />
+      <fielding a="1" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="1" sba="0" />
+      <hsitsummary lob="0" rbi-2out="0" rchci="0" rcherr="0" wrbiops="1" />
+    </player>
+    <player atpos="lf" gp="1" name="Jarrod Sumpter" pos="lf" shortname="Sumpter" spot="5">
+      <hitting ab="2" bb="0" cs="0" double="0" gdp="0" ground="0" h="0" hbp="0" hr="0" kl="2" pickoff="0" r="0" rbi="0" rchci="0" rcherr="0" sb="0" sf="0" sh="0" so="2" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="0" sba="0" />
+      <hsitsummary lob="3" rbi-2out="0" rchci="0" rcherr="0" wrbiops="1" />
+    </player>
+    <player atpos="1b" gp="1" name="Sherrin Medlicott" pos="1b" shortname="Medlicott" spot="6">
+      <hitting ab="2" bb="0" cs="0" double="0" gdp="0" ground="0" h="0" hbp="0" hr="0" kl="0" pickoff="0" r="0" rbi="1" rchci="0" rcherr="0" sb="0" sf="0" sh="0" so="1" triple="0" />
+      <fielding a="1" ci="0" csb="0" e="1" indp="0" intp="0" pb="0" po="3" sba="0" />
+      <hsitsummary lob="2" rbi-2out="0" rchci="0" rcherr="0" wrbiops="1" />
+    </player>
+    <player atpos="rf" gp="1" name="Patrick Ward" pos="rf" shortname="Ward" spot="7">
+      <hitting ab="1" bb="1" cs="0" double="0" gdp="0" ground="0" h="0" hbp="0" hr="0" kl="0" pickoff="0" r="1" rbi="0" rchci="0" rcherr="0" sb="2" sf="0" sh="0" so="1" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="0" sba="0" />
+      <hsitsummary lob="3" rbi-2out="0" rchci="0" rcherr="0" wrbiops="1" />
+    </player>
+    <player atpos="3b" gp="1" name="Nicole McIntyris" pos="3b" shortname="McIntyris" spot="8">
+      <hitting ab="2" bb="0" cs="0" double="0" gdp="0" ground="0" h="1" hbp="0" hr="0" kl="0" pickoff="0" r="1" rbi="0" rchci="0" rcherr="0" sb="2" sf="0" sh="0" so="0" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="1" sba="10" />
+      <hsitsummary lob="0" rbi-2out="0" rchci="0" rcherr="0" wrbiops="1" />
+      <pitching ab="11" appear="2" bb="2" bf="13" bk="0" er="6" fly="0" ground="1" gs="0" h="7" hbp="0" hr="0" ip="1.1" picked="0" pitches="57" r="6" so="3" wp="0" />
+      <psitsummary fly="0" ground="1" />
+    </player>
+    <player atpos="c" gp="1" name="Dean Malcolm" pos="c" shortname="Malcolm" spot="9">
+      <hitting ab="0" bb="2" cs="0" double="0" gdp="0" ground="0" h="0" hbp="0" hr="0" kl="0" pickoff="0" r="1" rbi="0" rchci="0" rcherr="0" sb="2" sf="0" sh="0" so="0" triple="0" />
+      <fielding a="0" ci="0" csb="0" e="0" indp="0" intp="0" pb="0" po="3" sba="0" />
+      <hsitsummary lob="0" rbi-2out="0" rchci="0" rcherr="0" wrbiops="0" />
+    </player>
+  </team>
+  <plays format="summary">
+    <inning number="1">
+      <batting id="SNTS" vh="V">
+        <play>
+          <batter name="Manning" out="0" scored="0" tobase="1" />
+          <narrative text="Manning walks, Stancombe pitching" />
+        </play>
+        <play>
+          <runner name="Manning" out="0" scored="0" tobase="2" />
+          <narrative text="Manning steals 2nd" />
+        </play>
+        <play>
+          <batter name="Bate" out="0" scored="0" tobase="1" />
+          <runner name="Manning" out="0" scored="0" tobase="3" />
+          <narrative text="Bate singles on a fly ball to center fielder Stark" />
+        </play>
+        <play>
+          <runner name="Bate" out="0" scored="0" tobase="2" />
+          <narrative text="Bate steals 2nd" />
+        </play>
+        <play>
+          <batter name="Bordin" out="1" scored="0" tobase="0" />
+          <runner name="Manning" out="0" scored="1" tobase="4" />
+          <narrative text="Bordin flies out to center fielder Stark. Manning scores" />
+        </play>
+        <play>
+          <batter name="McCourt" out="0" scored="0" tobase="1" />
+          <runner name="Bate" out="0" scored="1" tobase="4" />
+          <narrative text="McCourt singles on a line drive to right fielder Ward. Bate scores" />
+        </play>
+        <play>
+          <batter name="O’Halloran" out="1" scored="0" tobase="1" />
+          <runner name="McCourt" out="0" scored="0" tobase="2" />
+          <narrative text="O’Halloran grounds out to first baseman Medlicott" />
+        </play>
+        <play>
+          <runner name="McCourt" out="0" scored="0" tobase="3" />
+          <narrative text="McCourt steals 3rd" />
+        </play>
+        <play>
+          <batter name="Mena" out="1" scored="0" tobase="0" />
+          <narrative text="Mena flies out to shortstop Harvey" />
+        </play>
+        <innsummary e="0" h="2" lob="1" r="2" />
+      </batting>
+      <batting id="DMND" vh="H">
+        <play>
+          <batter name="Harvey" out="1" scored="0" tobase="0" />
+          <narrative text="Harvey strikes out looking, Cauley pitching" />
+        </play>
+        <play>
+          <batter name="Stancombe" out="1" scored="0" tobase="1" />
+          <narrative text="Stancombe grounds out to first baseman O’Halloran" />
+        </play>
+        <play>
+          <batter name="Stark" out="1" scored="0" tobase="0" />
+          <narrative text="Stark strikes out swinging, Cauley pitching" />
+        </play>
+        <innsummary e="0" h="0" lob="0" r="0" />
+      </batting>
+    </inning>
+    <inning number="2">
+      <batting id="SNTS" vh="V">
+        <play>
+          <batter name="Cauley" out="1" scored="0" tobase="1" />
+          <narrative text="Cauley grounds out, second baseman Vassallo to first baseman Medlicott to second baseman Vassallo to first baseman Medlicott" />
+        </play>
+        <play>
+          <batter name="Wimetal" out="0" scored="0" tobase="1" />
+          <narrative text="Wimetal singles on a fly ball to right fielder Ward" />
+        </play>
+        <play>
+          <batter name="Armstrong" out="0" scored="0" tobase="1" />
+          <runner name="Wimetal" out="0" scored="0" tobase="2" />
+          <narrative text="Armstrong hits a ground ball and reaches on an error by first baseman Medlicott" />
+        </play>
+        <play>
+          <runner name="Wimetal" out="0" scored="0" tobase="3" />
+          <narrative text="Wimetal steals 3rd" />
+        </play>
+        <play>
+          <runner name="Armstrong" out="0" scored="0" tobase="2" />
+          <narrative text="Armstrong steals 2nd" />
+        </play>
+        <play>
+          <batter name="Lewis" out="0" scored="0" tobase="1" />
+          <narrative text="Lewis walks, Stancombe pitching" />
+        </play>
+        <play>
+          <batter name="Drever" out="0" scored="0" tobase="1" />
+          <runner name="Wimetal" out="0" scored="1" tobase="4" />
+          <runner name="Armstrong" out="0" scored="0" tobase="3" />
+          <runner name="Lewis" out="0" scored="0" tobase="2" />
+          <narrative text="Drever is hit by pitch, Stancombe pitching. Wimetal scores" />
+        </play>
+        <play>
+          <batter name="Manning" out="0" scored="0" tobase="1" />
+          <runner name="Armstrong" out="0" scored="1" tobase="4" />
+          <runner name="Lewis" out="0" scored="1" tobase="4" />
+          <runner name="Drever" out="0" scored="0" tobase="2" />
+          <narrative text="Manning singles on a hard ground ball to center fielder Stark. Armstrong scores. Lewis scores" />
+        </play>
+        <play>
+          <runner name="Drever" out="0" scored="0" tobase="3" />
+          <narrative text="Drever steals 3rd" />
+        </play>
+        <play>
+          <batter name="Bate" out="0" scored="0" tobase="1" />
+          <runner name="Manning" out="0" scored="0" tobase="2" />
+          <narrative text="Bate walks, Stancombe pitching" />
+        </play>
+        <play>
+          <batter name="Bordin" out="0" scored="1" tobase="4" />
+          <runner name="Drever" out="0" scored="1" tobase="4" />
+          <runner name="Manning" out="0" scored="1" tobase="4" />
+          <runner name="Bate" out="0" scored="1" tobase="4" />
+          <narrative text="Bordin homers on a line drive to left field. Drever scores. Manning scores. Bate scores" />
+        </play>
+        <play>
+          <narrative text="Half-inning ended by scorekeeper" />
+        </play>
+        <innsummary e="1" h="3" lob="0" r="7" />
+      </batting>
+      <batting id="DMND" vh="H">
+        <play>
+          <batter name="Vassallo" out="1" scored="0" tobase="0" />
+          <narrative text="Vassallo flies out to center fielder Bate" />
+        </play>
+        <play>
+          <batter name="Sumpter" out="1" scored="0" tobase="0" />
+          <narrative text="Sumpter strikes out looking, Cauley pitching" />
+        </play>
+        <play>
+          <batter name="Medlicott" out="1" scored="0" tobase="0" />
+          <narrative text="Medlicott strikes out swinging, Cauley pitching" />
+        </play>
+        <innsummary e="0" h="0" lob="0" r="0" />
+      </batting>
+    </inning>
+    <inning number="3">
+      <batting id="SNTS" vh="V">
+        <play>
+          <batter name="McCourt" out="1" scored="0" tobase="1" />
+          <narrative text="McCourt grounds out, shortstop Harvey to first baseman Medlicott" />
+        </play>
+        <play>
+          <batter name="O’Halloran" out="0" scored="0" tobase="1" />
+          <narrative text="O’Halloran singles on a ground ball to shortstop Harvey" />
+        </play>
+        <play>
+          <batter name="Mena" out="1" scored="0" tobase="1" />
+          <runner name="O’Halloran" out="0" scored="0" tobase="2" />
+          <narrative text="Mena grounds out to second baseman Vassallo" />
+        </play>
+        <play>
+          <narrative text="Lineup changed: McIntyris in at pitcher" />
+        </play>
+        <play>
+          <narrative text="Lineup changed: Stancombe in at third baseman" />
+        </play>
+        <play>
+          <batter name="Cauley" out="0" scored="0" tobase="2" />
+          <runner name="O’Halloran" out="0" scored="1" tobase="4" />
+          <narrative text="Cauley doubles on a fly ball to left fielder Sumpter. O’Halloran scores" />
+        </play>
+        <play>
+          <batter name="Wimetal" out="0" scored="0" tobase="2" />
+          <runner name="Cauley" out="0" scored="1" tobase="4" />
+          <narrative text="Wimetal doubles on a ground ball to third baseman Stancombe. Cauley scores" />
+        </play>
+        <play>
+          <runner name="Wimetal" out="0" scored="0" tobase="3" />
+          <narrative text="Wimetal steals 3rd" />
+        </play>
+        <play>
+          <batter name="Armstrong" out="1" scored="0" tobase="0" />
+          <narrative text="Armstrong strikes out swinging, McIntyris pitching" />
+        </play>
+        <innsummary e="0" h="3" lob="1" r="2" />
+      </batting>
+      <batting id="DMND" vh="H">
+        <play>
+          <narrative text="Lineup changed: Bate in at pitcher" />
+        </play>
+        <play>
+          <narrative text="Lineup changed: Armstrong in at center fielder" />
+        </play>
+        <play>
+          <narrative text="Lineup changed: Drever in at right fielder" />
+        </play>
+        <play>
+          <batter name="Ward" out="0" scored="0" tobase="1" />
+          <narrative text="Ward walks, Bate pitching" />
+        </play>
+        <play>
+          <runner name="Ward" out="0" scored="0" tobase="2" />
+          <narrative text="Ward steals 2nd" />
+        </play>
+        <play>
+          <batter name="McIntyris" out="0" scored="0" tobase="1" />
+          <runner name="Ward" out="0" scored="0" tobase="3" />
+          <narrative text="McIntyris singles on a fly ball to center fielder Armstrong" />
+        </play>
+        <play>
+          <runner name="Ward" out="0" scored="1" tobase="4" />
+          <narrative text="Ward scores on steal of home" />
+        </play>
+        <play>
+          <runner name="McIntyris" out="0" scored="0" tobase="2" />
+          <narrative text="McIntyris steals 2nd" />
+        </play>
+        <play>
+          <batter name="Malcolm" out="0" scored="0" tobase="1" />
+          <narrative text="Malcolm walks, Bate pitching" />
+        </play>
+        <play>
+          <runner name="McIntyris" out="0" scored="0" tobase="3" />
+          <narrative text="McIntyris steals 3rd" />
+        </play>
+        <play>
+          <runner name="Malcolm" out="0" scored="0" tobase="2" />
+          <narrative text="Malcolm steals 2nd" />
+        </play>
+        <play>
+          <batter name="Harvey" out="0" scored="0" tobase="2" />
+          <runner name="McIntyris" out="0" scored="1" tobase="4" />
+          <runner name="Malcolm" out="0" scored="1" tobase="4" />
+          <narrative text="Harvey doubles on a hard ground ball to third baseman Lewis. McIntyris scores. Malcolm scores" />
+        </play>
+        <play>
+          <runner name="Harvey" out="0" scored="0" tobase="3" />
+          <narrative text="Harvey steals 3rd" />
+        </play>
+        <play>
+          <batter name="Stancombe" out="0" scored="0" tobase="1" />
+          <narrative text="Stancombe walks, Bate pitching" />
+        </play>
+        <play>
+          <runner name="Stancombe" out="0" scored="0" tobase="2" />
+          <narrative text="Stancombe steals 2nd" />
+        </play>
+        <play>
+          <batter name="Stark" out="0" scored="0" tobase="1" />
+          <narrative text="Stark walks, Bate pitching" />
+        </play>
+        <play>
+          <batter name="Vassallo" out="0" scored="0" tobase="1" />
+          <runner name="Harvey" out="0" scored="1" tobase="4" />
+          <runner name="Stancombe" out="0" scored="0" tobase="3" />
+          <runner name="Stark" out="0" scored="0" tobase="2" />
+          <narrative text="Vassallo singles on a ground ball to first baseman O’Halloran. Harvey scores" />
+        </play>
+        <play>
+          <batter name="Sumpter" out="1" scored="0" tobase="0" />
+          <narrative text="Sumpter strikes out looking, Bate pitching" />
+        </play>
+        <play>
+          <batter name="Medlicott" out="1" scored="0" tobase="0" />
+          <runner name="Stancombe" out="0" scored="1" tobase="4" />
+          <narrative text="Medlicott flies out to shortstop Manning. Stancombe scores" />
+        </play>
+        <play>
+          <runner name="Stark" out="0" scored="0" tobase="3" />
+          <narrative text="Stark steals 3rd" />
+        </play>
+        <play>
+          <runner name="Stark" out="0" scored="1" tobase="4" />
+          <narrative text="Stark scores on steal of home" />
+        </play>
+        <play>
+          <runner name="Vassallo" out="0" scored="0" tobase="3" />
+          <narrative text="Vassallo steals 3rd" />
+        </play>
+        <play>
+          <batter name="Ward" out="1" scored="0" tobase="0" />
+          <narrative text="Ward strikes out swinging, Bate pitching" />
+        </play>
+        <innsummary e="0" h="3" lob="1" r="6" />
+      </batting>
+    </inning>
+    <inning number="4">
+      <batting id="SNTS" vh="V">
+        <play>
+          <batter name="Lewis" out="0" scored="0" tobase="1" />
+          <narrative text="Lewis walks, McIntyris pitching" />
+        </play>
+        <play>
+          <runner name="Lewis" out="0" scored="0" tobase="2" />
+          <narrative text="Lewis steals 2nd" />
+        </play>
+        <play>
+          <runner name="Lewis" out="0" scored="0" tobase="3" />
+          <narrative text="Lewis steals 3rd" />
+        </play>
+        <play>
+          <batter name="Drever" out="0" scored="0" tobase="1" />
+          <runner name="Lewis" out="0" scored="1" tobase="4" />
+          <narrative text="Drever singles on a ground ball to first baseman Medlicott. Lewis scores" />
+        </play>
+        <play>
+          <runner name="Drever" out="0" scored="0" tobase="2" />
+          <narrative text="Drever steals 2nd" />
+        </play>
+        <play>
+          <runner name="Drever" out="0" scored="0" tobase="3" />
+          <narrative text="Drever steals 3rd" />
+        </play>
+        <play>
+          <batter name="Manning" out="0" scored="0" tobase="2" />
+          <runner name="Drever" out="0" scored="1" tobase="4" />
+          <narrative text="Manning singles on a fly ball to second baseman Vassallo. Drever scores" />
+        </play>
+        <play>
+          <runner name="Manning" out="0" scored="0" tobase="3" />
+          <narrative text="Manning steals 3rd" />
+        </play>
+        <play>
+          <batter name="Bate" out="0" scored="0" tobase="1" />
+          <runner name="Manning" out="0" scored="1" tobase="4" />
+          <narrative text="Bate singles on a hard ground ball to left fielder Sumpter. Manning scores" />
+        </play>
+        <play>
+          <runner name="Bate" out="0" scored="0" tobase="2" />
+          <narrative text="Bate steals 2nd" />
+        </play>
+        <play>
+          <batter name="Bordin" out="1" scored="0" tobase="0" />
+          <narrative text="Bordin is out on foul tip, McIntyris pitching" />
+        </play>
+        <play>
+          <runner name="Bate" out="0" scored="0" tobase="3" />
+          <narrative text="Bate steals 3rd" />
+        </play>
+        <play>
+          <batter name="McCourt" out="1" scored="0" tobase="0" />
+          <narrative text="McCourt strikes out looking, McIntyris pitching" />
+        </play>
+        <play>
+          <runner name="Bate" out="0" scored="1" tobase="4" />
+          <narrative text="Bate scores on steal of home" />
+        </play>
+        <play>
+          <batter name="O’Halloran" out="0" scored="0" tobase="1" />
+          <narrative text="O’Halloran walks, McIntyris pitching" />
+        </play>
+        <play>
+          <runner name="O’Halloran" out="0" scored="0" tobase="2" />
+          <narrative text="O’Halloran steals 2nd" />
+        </play>
+        <play>
+          <batter name="Mena" out="0" scored="0" tobase="2" />
+          <runner name="O’Halloran" out="0" scored="1" tobase="4" />
+          <narrative text="Mena doubles on a ground ball to third baseman Stancombe. O’Halloran scores" />
+        </play>
+        <play>
+          <batter name="Cauley" out="0" scored="0" tobase="1" />
+          <runner name="Mena" out="0" scored="0" tobase="3" />
+          <narrative text="Cauley singles on a hard ground ball to shortstop Harvey" />
+        </play>
+        <play>
+          <batter name="Wimetal" out="1" scored="0" tobase="1" />
+          <narrative text="Wimetal grounds out to pitcher McIntyris" />
+        </play>
+        <innsummary e="0" h="5" lob="2" r="5" />
+      </batting>
+      <batting id="DMND" vh="H">
+        <play>
+          <narrative text="Lineup changed: McCourt in at pitcher" />
+        </play>
+        <play>
+          <narrative text="Lineup changed: Lewis in at catcher" />
+        </play>
+        <play>
+          <narrative text="Lineup changed: Cauley in at third baseman" />
+        </play>
+        <play>
+          <narrative text="Lineup changed: Bate in at left fielder" />
+        </play>
+        <play>
+          <batter name="McIntyris" out="1" scored="0" tobase="1" />
+          <narrative text="McIntyris grounds out to second baseman Wimetal" />
+        </play>
+        <play>
+          <batter name="Malcolm" out="0" scored="0" tobase="1" />
+          <narrative text="Malcolm walks, McCourt pitching" />
+        </play>
+        <play>
+          <batter name="Harvey" out="1" scored="0" tobase="0" />
+          <narrative text="Harvey flies out to left fielder Bate" />
+        </play>
+        <play>
+          <runner name="Malcolm" out="0" scored="0" tobase="2" />
+          <narrative text="Malcolm steals 2nd" />
+        </play>
+        <play>
+          <batter name="Stancombe" out="1" scored="0" tobase="1" />
+          <narrative text="Stancombe grounds out to pitcher McCourt" />
+        </play>
+        <innsummary e="0" h="0" lob="1" r="0" />
+      </batting>
+    </inning>
+  </plays>
+  <status complete="Y" />
+</bsgame>

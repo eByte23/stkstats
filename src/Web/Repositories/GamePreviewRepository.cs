@@ -95,11 +95,11 @@ public class InMemoryGamePreviewRepository : IGamePreviewRepository
 
 
 
-public class LocalStorageFileInMemoryGamePreviewRepository : IGamePreviewRepository
+public class LocalStorageFileGamePreviewRepository : IGamePreviewRepository
 {
     private readonly RepoFileSystemStorage<GamePreview> _repoFileSystemStorageHelper;
 
-    public LocalStorageFileInMemoryGamePreviewRepository(RepoFileSystemStorageHelper storageHelper)
+    public LocalStorageFileGamePreviewRepository(RepoFileSystemStorageHelper storageHelper)
     {
         _repoFileSystemStorageHelper = storageHelper.GetRepoFileSystemStorage<GamePreview>();
     }

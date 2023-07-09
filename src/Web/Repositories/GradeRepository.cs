@@ -6,6 +6,7 @@ public interface IGradeRepository
 {
     List<Grade> GetGrades();
     bool AddGrade(Grade grade);
+    Task<Grade?> GetGradeAsync(Guid? gradeId);
 }
 
 public class InMemoryGradeRepository : IGradeRepository
@@ -60,5 +61,11 @@ public class InMemoryGradeRepository : IGradeRepository
 
 
         return new InMemoryGradeRepository();
+    }
+
+    public async Task<Grade?> GetGradeAsync(Guid? gradeId)
+    {
+
+        return _grades.SingleOrDefault(x => x.Id == gradeId);
     }
 }

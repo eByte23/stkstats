@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PuppeteerSharp" Version="10.1.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.24" />
+
+    <ProjectReference Include="/Users/elijahbate/Personal/Dev/GameChanger/src/GameChanger.Parser/GameChanger.Parser.csproj"/>
+  </ItemGroup>
+
+</Project>

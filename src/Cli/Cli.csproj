@@ -8,5 +8,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="../Web/Web.csproj" />
+    <ProjectReference Include="../CoreStats/CoreStats.csproj" />
+    <ProjectReference Include="/Users/elijahbate/Personal/Dev/GameChanger/src/GameChanger.Parser/GameChanger.Parser.csproj"/>
   </ItemGroup>
 </Project>

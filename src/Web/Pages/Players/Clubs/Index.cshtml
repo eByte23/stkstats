@@ -1,0 +1,36 @@
+@page "~/players"
+@model IndexModel
+
+
+
+<h2>Players</h2>
+<a asp-page="./New" class="btn btn-primary">New Player</a>
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Key</td>
+            <td>Short Name</td>
+            <td>...</td>
+        </tr>
+    </thead>
+
+
+    <tbody>
+        @foreach (var player in Model.Players)
+        {
+            <tr>
+                <td>
+                    <a asp-page="./View" asp-route-PlayerId="@player.Id">@player.DisplayName</a>
+                </td>
+                <td>
+                    <a asp-page="./View" asp-route-ClubId="@player.ClubId">@Model.Clubs[player.ClubId!.Value].Name</a>
+                </td>
+                <td>@player.PrimaryPosition</td>
+                <td>...</td>
+            </tr>
+        }
+    </tbody>
+</table>

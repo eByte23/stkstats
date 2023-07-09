@@ -1,0 +1,2543 @@
+{
+  "create_new": false,
+  "type": "game",
+  "team_events": [
+    {
+      "event_type": "game",
+      "arrival_ts": 1664674200,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-10-02T02:30:00",
+      "sport": "BASEB",
+      "id": "633b222921932e5da3000002",
+      "recap_title": [
+        {
+          "content": "Fitzroy Captures Lead Early to Defeat VSBL ST KILDA SAINTS DIVISION 2 4ths",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Top",
+        "away": 10,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 2,
+        "side": 0
+      },
+      "location": "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "play_time": "2022-10-02T13:30:00",
+      "type": "League",
+      "save_ts": 1664851628.0,
+      "recipients": [],
+      "wl": "0-1-0",
+      "start_ts": 1664677800,
+      "other_team_id": "633b222921932e5d9f000001",
+      "game_id": "633b222921932e5da3000002",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "633b1b0b2693019147000001",
+      "minutes_before": 60,
+      "other_team_name": "Fitzroy"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1665277200,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-10-09T02:00:00",
+      "sport": "BASEB",
+      "id": "633b222921932e5ddd000004",
+      "recap_title": [
+        {
+          "content": "Five RBI Day for ",
+          "type": "text"
+        },
+        {
+          "is_first_mention": true,
+          "default_name": "Jeff Kuhl",
+          "lname": "Kuhl",
+          "team_id": "6327d887ecee3d3b69a40665",
+          "fname": "Jeff",
+          "default_short_name": "Kuhl",
+          "type": "player",
+          "id": "633b222921932e5e38000008"
+        },
+        {
+          "content": " Seals the Deal in VSBL ST KILDA SAINTS DIVISION 2 4ths's Victory Over Preston",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Top",
+        "away": 27,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 3,
+        "side": 0
+      },
+      "location": "Parker Reserve, Mathieson Street, Coburg North VIC 3058, Australia",
+      "play_time": "2022-10-09T13:00:00",
+      "type": "League",
+      "save_ts": 1665539043.0,
+      "recipients": [],
+      "wl": "1-1-0",
+      "start_ts": 1665280800,
+      "other_team_id": "633b222921932e5dc4000003",
+      "game_id": "633b222921932e5ddd000004",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63461b0b26930110b200016e",
+      "minutes_before": 60,
+      "other_team_name": "Preston"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1665882000,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-10-16T02:00:00",
+      "sport": "BASEB",
+      "id": "634a222921e1a42679000002",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 4ths Grabs Lead in Fourth Inning for Victory Over Williamstown",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 5,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 10,
+        "side": 1
+      },
+      "location": "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "play_time": "2022-10-16T13:00:00",
+      "type": "League",
+      "save_ts": 1665980310.0,
+      "recipients": [],
+      "wl": "2-1-0",
+      "start_ts": 1665885600,
+      "other_team_id": "634a222921e1a4266d000001",
+      "game_id": "634a222921e1a42679000002",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "634c1b0b26a201cfd40002ab",
+      "minutes_before": 60,
+      "other_team_name": "Williamstown"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1666486800,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-10-23T02:00:00",
+      "sport": "BASEB",
+      "id": "634a222921e1a426a8000005",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 4ths Takes the Win Over Ormond Glenhuntley",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 5,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 7,
+        "side": 1
+      },
+      "location": "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "play_time": "2022-10-23T13:00:00",
+      "type": "League",
+      "save_ts": 1666652846.0,
+      "recipients": [],
+      "wl": "3-1-0",
+      "start_ts": 1666490400,
+      "other_team_id": "634a222921e1a4269a000004",
+      "game_id": "634a222921e1a426a8000005",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6357222921eb9e10a000000a",
+      "minutes_before": 60,
+      "other_team_name": "Ormond Glenhuntley"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1667091600,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-10-30T02:00:00",
+      "sport": "BASEB",
+      "id": "634a222921e1a426e6000007",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 4ths Goes Down on Final Play Against Doncaster",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 10,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 11,
+        "side": 1
+      },
+      "location": "Doncaster Baseball Club, 157-179 Heidelberg-Warrandyte Rd, Doncaster East VIC 3109, Australia",
+      "play_time": "2022-10-30T13:00:00",
+      "type": "League",
+      "save_ts": 1667455039.0,
+      "recipients": [],
+      "wl": "3-2-0",
+      "start_ts": 1667095200,
+      "other_team_id": "634a222921e1a426c2000006",
+      "game_id": "634a222921e1a426e6000007",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63611b0b26a201fb770003d4",
+      "minutes_before": 60,
+      "other_team_name": "Doncaster"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1667610000,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-11-05T02:00:00",
+      "sport": "BASEB",
+      "id": "634a222921e1a42707000009",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 4ths Victorious Newport Thanks to First Inning Boost",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 1,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 15,
+        "side": 1
+      },
+      "location": "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "play_time": "2022-11-05T13:00:00",
+      "type": "League",
+      "save_ts": 1669675411.0,
+      "recipients": [],
+      "wl": "4-2-0",
+      "start_ts": 1667613600,
+      "other_team_id": "634a222921e1a426f9000008",
+      "game_id": "634a222921e1a42707000009",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "638522292161fa2ce9000002",
+      "minutes_before": 60,
+      "other_team_name": "Newport"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1668301200,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "T",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-11-13T02:00:00",
+      "sport": "BASEB",
+      "id": "634a222921e1a4275500000a",
+      "recap_title": [
+        {
+          "content": "Close Contest Between VSBL ST KILDA SAINTS DIVISION 2 4ths and Doncaster Ends in a Tie",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Top",
+        "away": 9,
+        "x": "st",
+        "w": "t",
+        "half": 0,
+        "home": 9,
+        "side": 0
+      },
+      "location": "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "play_time": "2022-11-13T13:00:00",
+      "type": "League",
+      "save_ts": 1668657407.0,
+      "recipients": [],
+      "wl": "4-2-1",
+      "start_ts": 1668304800,
+      "other_team_id": "634a222921e1a426c2000006",
+      "game_id": "634a222921e1a4275500000a",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63751b0b26af90a76b000550",
+      "minutes_before": 60,
+      "other_team_name": "Doncaster"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1668906000,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-11-20T02:00:00",
+      "sport": "BASEB",
+      "id": "634a222921e1a427b200000f",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 4ths Struggles to Find Groove Against Bonbeach",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 2,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 18,
+        "side": 1
+      },
+      "location": "Bonbeach Baseball Club, Thames Promenade, Chelsea VIC 3196, Australia",
+      "play_time": "2022-11-20T13:00:00",
+      "type": "League",
+      "save_ts": 1669008959.0,
+      "recipients": [],
+      "wl": "4-3-1",
+      "start_ts": 1668909600,
+      "other_team_id": "634a222921e1a4277600000e",
+      "game_id": "634a222921e1a427b200000f",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "637b1b0b26af90053900069b",
+      "minutes_before": 60,
+      "other_team_name": "Bonbeach"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1669510800,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-11-27T02:00:00",
+      "sport": "BASEB",
+      "id": "634a222921e1a42818000011",
+      "recap_title": [
+        {
+          "content": "Seven RBI Day for ",
+          "type": "text"
+        },
+        {
+          "is_first_mention": true,
+          "default_name": "Sean O\\u2019Halloran",
+          "lname": "O\\u2019Halloran",
+          "team_id": "6327d887ecee3d3b69a40665",
+          "num": "43",
+          "fname": "Sean",
+          "default_short_name": "O\\u2019Halloran",
+          "type": "player",
+          "id": "633b222921932e5df8000005"
+        },
+        {
+          "content": " Spells Out Victory For VSBL ST KILDA SAINTS DIVISION 2 4ths Over North Western Titans",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 3,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 29,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-11-27T13:00:00",
+      "type": "League",
+      "save_ts": 1669603634.0,
+      "recipients": [],
+      "wl": "5-3-1",
+      "start_ts": 1669514400,
+      "other_team_id": "634a222921e1a4280a000010",
+      "game_id": "634a222921e1a42818000011",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63842229218fd017c2000001",
+      "minutes_before": 60,
+      "other_team_name": "North Western Titans"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1670115600,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-12-04T02:00:00",
+      "sport": "BASEB",
+      "id": "634a222921e1a4286a000013",
+      "recap_title": [
+        {
+          "content": "Six RBI Day for ",
+          "type": "text"
+        },
+        {
+          "is_first_mention": true,
+          "default_name": "Jonny Sagorin",
+          "lname": "Sagorin",
+          "team_id": "6327d887ecee3d3b69a40665",
+          "num": "67",
+          "fname": "Jonny",
+          "default_short_name": "Sagorin",
+          "type": "player",
+          "id": "633b222921932e5e44000009"
+        },
+        {
+          "content": " Seals the Deal in VSBL ST KILDA SAINTS DIVISION 2 4ths's Victory Over Werribee",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Top",
+        "away": 19,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 14,
+        "side": 0
+      },
+      "location": "Werribee Giants Baseball Club",
+      "play_time": "2022-12-04T13:00:00",
+      "type": "League",
+      "save_ts": 1670137189.0,
+      "recipients": [],
+      "wl": "6-3-1",
+      "start_ts": 1670119200,
+      "other_team_id": "634a222921e1a4283a000012",
+      "game_id": "634a222921e1a4286a000013",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "638c222921c13b3b0b00000b",
+      "minutes_before": 60,
+      "other_team_name": "Werribee"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1670720400,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-12-11T02:00:00",
+      "sport": "BASEB",
+      "id": "634a222921e1a4288d000014",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 4ths Loses Lead Early in Defeat",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Top",
+        "away": 14,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 0,
+        "side": 0
+      },
+      "location": "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "play_time": "2022-12-11T13:00:00",
+      "type": "League",
+      "save_ts": 1670807219.0,
+      "recipients": [],
+      "wl": "6-4-1",
+      "start_ts": 1670724000,
+      "other_team_id": "634a222921e1a4277600000e",
+      "game_id": "634a222921e1a4288d000014",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6396222921c69b74c6000001",
+      "minutes_before": 60,
+      "other_team_name": "Bonbeach"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1674349200,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2023-01-22T02:00:00",
+      "sport": "BASEB",
+      "id": "634a222921e1a428ea000015",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 4ths Falls to Williamstown After Fourth Inning Score",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 4,
+        "side_readable": "Bot",
+        "away": 9,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 16,
+        "side": 1
+      },
+      "location": "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "play_time": "2023-01-22T13:00:00",
+      "type": "League",
+      "save_ts": 1674378982.0,
+      "recipients": [],
+      "wl": "6-5-1",
+      "start_ts": 1674352800,
+      "other_team_id": "634a222921e1a4266d000001",
+      "game_id": "634a222921e1a428ea000015",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63cc347db3510a9292000254",
+      "minutes_before": 60,
+      "other_team_name": "Williamstown"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1674954000,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true,
+        "live": true
+      },
+      "result": "W",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2023-01-29T02:00:00",
+      "sport": "BASEB",
+      "id": "634a222921e1a4292c000016",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 4ths Clinches Lead in Sixth Inning for Victory Over Ormond Glenhuntley",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 8,
+        "side_readable": "Top",
+        "away": 14,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 8,
+        "side": 0
+      },
+      "location": "Glenhuntly Ormond Baseball Club, 37 Dorothy Ave, Glen Huntly VIC 3163, Australia",
+      "play_time": "2023-01-29T13:00:00",
+      "type": "League",
+      "save_ts": 1675307498.0,
+      "recipients": [],
+      "wl": "7-5-1",
+      "start_ts": 1674957600,
+      "other_team_id": "634a222921e1a4269a000004",
+      "game_id": "634a222921e1a4292c000016",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63d722292178848a66000001",
+      "minutes_before": 60,
+      "other_team_name": "Ormond Glenhuntley"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1675558800,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2023-02-05T02:00:00",
+      "sport": "BASEB",
+      "id": "634a222921e1a42954000017",
+      "recap_title": [
+        {
+          "content": "Fitzroy Captures Lead Early to Defeat VSBL ST KILDA SAINTS DIVISION 2 4ths",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 0,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 14,
+        "side": 1
+      },
+      "location": "Fitzroy Baseball Club",
+      "play_time": "2023-02-05T13:00:00",
+      "type": "League",
+      "save_ts": 1675831292.0,
+      "recipients": [],
+      "wl": "7-6-1",
+      "start_ts": 1675562400,
+      "other_team_id": "633b222921932e5d9f000001",
+      "game_id": "634a222921e1a42954000017",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63e31b0b2610011e17000001",
+      "minutes_before": 60,
+      "other_team_name": "Fitzroy"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1676163600,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2023-02-12T02:00:00",
+      "sport": "BASEB",
+      "id": "634a222921e1a42987000018",
+      "recap_title": [
+        {
+          "content": "Newport Runs Away With Early Lead in Victory",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 3,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 13,
+        "side": 1
+      },
+      "location": "Newport Baseball Club, KC White Reserve, 120 Park Cr, Williamstown North VIC 3016, Australia",
+      "play_time": "2023-02-12T13:00:00",
+      "type": "League",
+      "save_ts": 1676502765.0,
+      "recipients": [],
+      "wl": "7-7-1",
+      "start_ts": 1676167200,
+      "other_team_id": "634a222921e1a426f9000008",
+      "game_id": "634a222921e1a42987000018",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63ed1b0b2635015b88000001",
+      "minutes_before": 60,
+      "other_team_name": "Newport"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1676768400,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2023-02-19T02:00:00",
+      "sport": "BASEB",
+      "id": "634a222921e1a429bd00001a",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 2 4ths Can't Catch Up To Port Melbourne",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 4,
+        "side_readable": "Top",
+        "away": 2,
+        "x": "st",
+        "w": "h",
+        "half": 0,
+        "home": 22,
+        "side": 0
+      },
+      "location": "Port Melbourne Baseball Club, 351 Williamstown Rd, Port Melbourne VIC 3207, Australia",
+      "change_v": "082465f6-4f1c-4b96-b62e-f60c250248a3",
+      "type": "League",
+      "save_ts": 1677127754.0,
+      "recipients": [],
+      "wl": "7-8-1",
+      "start_ts": 1676772000,
+      "other_team_id": "634a222921e1a429ab000019",
+      "play_time": "2023-02-19T13:00:00",
+      "game_id": "634a222921e1a429bd00001a",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "63f62229217c3de6d8000001",
+      "minutes_before": 60,
+      "other_team_name": "Port Melbourne"
+    },
+    {
+      "sport": "BASEB",
+      "event_type": "game",
+      "recipients": [],
+      "arrival_ts": 1677373200,
+      "home": true,
+      "notes": "",
+      "wl": "7-8-1",
+      "start_ts": 1677376800,
+      "uses_halves": false,
+      "playstatus": "NEW",
+      "other_team_id": "633b222921932e5dc4000003",
+      "meta": {},
+      "location": "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "timezone": 11.0,
+      "game_id": "634a222921e1a429d800001b",
+      "minutes_before": 60,
+      "utc_start": "2023-02-26T02:00:00",
+      "play_time": "2023-02-26T13:00:00",
+      "type": "League",
+      "id": "634a222921e1a429d800001b",
+      "other_team_name": "Preston"
+    }
+  ],
+  "live_game": [],
+  "team": {
+    "team_path": "/t/summer-2022/vsbl-st-kilda-saints-division-2-4ths-6327d887ecee3d3b69a40665",
+    "season": "Summer 2022",
+    "locations": [
+      "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "Parker Reserve, Mathieson Street, Coburg North VIC 3058, Australia",
+      "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "Doncaster Baseball Club, 157-179 Heidelberg-Warrandyte Rd, Doncaster East VIC 3109, Australia",
+      "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "Bonbeach Baseball Club, Thames Promenade, Chelsea VIC 3196, Australia",
+      "",
+      "Werribee Giants Baseball Club",
+      "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia",
+      "Glenhuntly Ormond Baseball Club, 37 Dorothy Ave, Glen Huntly VIC 3163, Australia",
+      "Fitzroy Baseball Club",
+      "Newport Baseball Club, KC White Reserve, 120 Park Cr, Williamstown North VIC 3016, Australia",
+      "Port Melbourne Baseball Club, 351 Williamstown Rd, Port Melbourne VIC 3207, Australia",
+      "St.Kilda Baseball Club, Hockey Dr, St Kilda VIC 3182, Australia"
+    ],
+    "season_id": "6327d887ecee3d3b69a40663",
+    "opposing_teams": [
+      {
+        "code": "BNBC",
+        "_sync_d": "2022-11-21T05:03:38",
+        "entity_creation_time": 1665804150,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "634a27b31a32611b1d31c24a",
+        "long_name": "Bonbeach",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-12-12T01:06:59",
+          "last_active": "2022-12-12T01:06:59",
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "sport": "Baseball",
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "is_official": false,
+        "prepaid": false,
+        "age_desc": "adult",
+        "ts": "2022-10-15T03:22:30",
+        "save_date": "2022-12-12T01:06:59",
+        "first_save": "2022-10-15T03:23:31",
+        "access_level": "free",
+        "_change_d_ts": 690699854.464564,
+        "device_id": "260B1B1A-1D96-4B9B-8C88-FA52346E3B2C",
+        "ot_id": "6327d887ecee3d3b69a40665",
+        "status": "OPP",
+        "_doc_version": "3dff51e9673849bfa1c294d4d671f410",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "634a222921e1a4277600000e"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "short_name": "Bonbeach",
+        "roster": [
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Minty",
+            "num": "",
+            "t": "R",
+            "fname": "Gordy",
+            "player_id": "637b1b0b26af9005ec0006ab"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Smith",
+            "num": "",
+            "t": "R",
+            "fname": "Pat",
+            "player_id": "637b1b0b26af9005fe0006ad"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Rusden",
+            "num": "",
+            "t": "R",
+            "fname": "Aidan",
+            "player_id": "637b1b0b26af9006170006af"
+          },
+          {
+            "b": "L",
+            "pos": [],
+            "lname": "Bouker",
+            "num": "",
+            "t": "L",
+            "fname": "Kris",
+            "player_id": "637b1b0b26af9006290006b1"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Ellis",
+            "num": "",
+            "t": "R",
+            "fname": "Steve",
+            "player_id": "637b1b0b26af9006390006b3"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Sutton",
+            "num": "",
+            "t": "R",
+            "fname": "Paul",
+            "player_id": "637b1b0b26af9006480006b5"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "McLaughlan",
+            "num": "",
+            "t": "R",
+            "fname": "Andy",
+            "player_id": "637b1b0b26af9006680006b7"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Brodie",
+            "num": "",
+            "t": "R",
+            "fname": "Dave",
+            "player_id": "637b1b0b26af9006910006b9"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Hoad",
+            "num": "",
+            "t": "R",
+            "fname": "Blake",
+            "player_id": "637b1b0b26af9006a30006bb"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Bouker",
+            "num": "",
+            "t": "R",
+            "fname": "Joel",
+            "player_id": "637b1b0b26af9006bd0006bd"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Hoad",
+            "num": "",
+            "t": "R",
+            "fname": "Mick",
+            "player_id": "637b1b0b26af9006ce0006bf"
+          }
+        ],
+        "season": "Summer 2022",
+        "innings": "6",
+        "_change_d": "2022-11-21T05:04:14",
+        "_sync_d_ts": 690699818.874664,
+        "tbd": false,
+        "mascot": "Bonbeach",
+        "league": "",
+        "lineup": [],
+        "name": "Bonbeach",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d887ecee3d3b69a40665",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "634a222921e1a4277600000e",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "DNCS",
+        "_sync_d": "2022-10-17T04:20:53",
+        "entity_creation_time": 1665803970,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "634a26e7877ed9a4eb4a5dce",
+        "long_name": "Doncaster",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 2,
+          "last_scored": "2022-11-17T03:56:48",
+          "last_active": "2022-11-17T03:56:48"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "adult",
+        "roster": [
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Marinucci",
+            "num": "",
+            "t": "R",
+            "fname": "Daniel",
+            "player_id": "63611b0b26a201fbd80003d7"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Stapus",
+            "num": "",
+            "t": "R",
+            "fname": "Tom",
+            "player_id": "63611b0b26a201fbf00003d9"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Simpson",
+            "num": "",
+            "t": "R",
+            "fname": "Josh",
+            "player_id": "63611b0b26a201fc060003db"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Dowling",
+            "num": "",
+            "t": "R",
+            "fname": "Duffy",
+            "player_id": "63611b0b26a201fc510003dd"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Steele",
+            "num": "",
+            "t": "R",
+            "fname": "Jasper",
+            "player_id": "63611b0b26a201fc600003df"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Simpson",
+            "num": "",
+            "t": "R",
+            "fname": "Lilly",
+            "player_id": "63611b0b26a201fc7a0003e1"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Malkos",
+            "num": "",
+            "t": "R",
+            "fname": "Athon",
+            "player_id": "63611b0b26a201fc9a0003e3"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Kilby",
+            "num": "",
+            "t": "R",
+            "fname": "Tyler",
+            "player_id": "63611b0b26a201fcab0003e5"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Steele",
+            "num": "",
+            "t": "R",
+            "fname": "Sullivan",
+            "player_id": "63611b0b26a201fcce0003e7"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Antonacci",
+            "num": "",
+            "t": "R",
+            "fname": "Josh",
+            "player_id": "63611b0b26a201fce80003e9"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Watsfeld",
+            "num": "",
+            "t": "R",
+            "fname": "William",
+            "player_id": "63611b0b26a201fd0a0003eb"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Kilby",
+            "num": "",
+            "t": "R",
+            "fname": "Bailey",
+            "player_id": "63611b0b26a201fd370003ee"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Buckle",
+            "num": "",
+            "t": "R",
+            "fname": "Alex",
+            "player_id": "63611b0b26a201fd550003f1"
+          }
+        ],
+        "ts": "2022-10-15T03:19:30",
+        "save_date": "2022-11-17T03:56:48",
+        "first_save": "2022-10-15T03:20:07",
+        "access_level": "free",
+        "_change_d_ts": 689059029.079916,
+        "device_id": "260B1B1A-1D96-4B9B-8C88-FA52346E3B2C",
+        "ot_id": "6327d887ecee3d3b69a40665",
+        "status": "OPP",
+        "_doc_version": "6d714b0e09724e2aba5c8c96e9aba1fa",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "634a222921e1a426c2000006"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "short_name": "Doncaster",
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2022-11-02T05:17:09",
+        "_sync_d_ts": 687673253.047833,
+        "tbd": false,
+        "mascot": "Doncaster",
+        "league": "",
+        "lineup": [],
+        "name": "Doncaster",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d887ecee3d3b69a40665",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "634a222921e1a426c2000006",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "FTZR",
+        "_sync_d": "2023-02-02T02:44:19",
+        "entity_creation_time": 1664834975,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "633b5da5b36aab479ab7d3f9",
+        "long_name": "Fitzroy",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-02-08T04:41:32",
+          "last_active": "2023-02-08T04:41:32",
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "Fitzroy",
+        "age_desc": "adult",
+        "roster": [
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Chang",
+            "num": "",
+            "t": "R",
+            "fname": "Jack",
+            "player_id": "633b1b0b26930191df00000e"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Handler",
+            "num": "",
+            "t": "R",
+            "fname": "Kevin",
+            "player_id": "633b1b0b26930191f3000010"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Jones",
+            "num": "",
+            "t": "R",
+            "fname": "Jonathon",
+            "player_id": "633b1b0b269301920d000012"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Kirkland",
+            "num": "",
+            "t": "R",
+            "fname": "Adrian",
+            "player_id": "633b1b0b2693019229000014"
+          },
+          {
+            "player_id": "633b1b0b2693019266000016",
+            "lname": "Cresser",
+            "num": "",
+            "pos": [],
+            "fname": "Aiden"
+          },
+          {
+            "player_id": "633b1b0b2693019294000018",
+            "lname": "Regesper",
+            "num": "",
+            "pos": [],
+            "fname": "Luke"
+          },
+          {
+            "player_id": "633b1b0b26930192a700001a",
+            "lname": "Anisha",
+            "num": "",
+            "pos": [],
+            "fname": "Bunsee"
+          },
+          {
+            "player_id": "633b1b0b26930192b700001c",
+            "lname": "Lynch",
+            "num": "",
+            "pos": [],
+            "fname": "Luke"
+          },
+          {
+            "player_id": "633b1b0b26930192ef00001e",
+            "lname": "Ethenne",
+            "num": "",
+            "pos": [],
+            "fname": "Huang"
+          },
+          {
+            "player_id": "633b1b0b26930192fd000020",
+            "lname": "Hoon",
+            "num": "",
+            "pos": [],
+            "fname": "Lee Sung"
+          },
+          {
+            "player_id": "63e31b0b2610011f50000014",
+            "lname": "Biydak",
+            "num": "",
+            "pos": [],
+            "fname": "Josh"
+          },
+          {
+            "player_id": "63e31b0b2610011f60000015",
+            "lname": "Bowe",
+            "num": "",
+            "pos": [],
+            "fname": "Adan"
+          },
+          {
+            "player_id": "63e31b0b2610011f74000016",
+            "lname": "Herrera",
+            "num": "",
+            "pos": [],
+            "fname": "Andy"
+          },
+          {
+            "player_id": "63e31b0b2610011f88000017",
+            "lname": "Rodriguez",
+            "num": "",
+            "pos": [],
+            "fname": "Roberto"
+          },
+          {
+            "player_id": "63e31b0b2610011f96000018",
+            "lname": "Halley",
+            "num": "",
+            "pos": [],
+            "fname": "James"
+          },
+          {
+            "player_id": "63e31b0b2610011fc0000019",
+            "lname": "Ratnayake",
+            "num": "",
+            "pos": [],
+            "fname": "Chanusha"
+          },
+          {
+            "player_id": "63e31b0b2610011fd800001a",
+            "lname": "Calaballo",
+            "num": "",
+            "pos": [],
+            "fname": "Triel"
+          },
+          {
+            "player_id": "63e31b0b2610011fef00001b",
+            "lname": "Sherlock",
+            "num": "",
+            "pos": [],
+            "fname": "Nick"
+          },
+          {
+            "player_id": "63e31b0b2610011ffd00001c",
+            "lname": "Love",
+            "num": "",
+            "pos": [],
+            "fname": "Michelle"
+          }
+        ],
+        "ts": "2022-10-03T22:09:35",
+        "save_date": "2023-02-08T04:41:32",
+        "first_save": "2022-10-03T22:09:41",
+        "access_level": "free",
+        "_change_d_ts": 697522045.2698,
+        "device_id": "260B1B1A-1D96-4B9B-8C88-FA52346E3B2C",
+        "ot_id": "6327d887ecee3d3b69a40665",
+        "status": "OPP",
+        "_doc_version": "a09537787800490396248a03774b8554",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "633b222921932e5d9f000001"
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "prepaid": false,
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2023-02-08T04:07:25",
+        "_sync_d_ts": 696998659.521409,
+        "tbd": false,
+        "mascot": "Fitzroy",
+        "league": "",
+        "lineup": [],
+        "name": "Fitzroy",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d887ecee3d3b69a40665",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "633b222921932e5d9f000001",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "NWPR",
+        "_sync_d": "2023-02-15T22:28:21",
+        "entity_creation_time": 1665804025,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "634a270b877ed9a4eb4a5dcf",
+        "long_name": "Newport",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-02-15T23:12:45",
+          "last_active": "2023-02-15T23:12:45",
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "6365347db3ca00c183000008",
+            "lname": "Donnelly",
+            "num": "",
+            "pos": [],
+            "fname": "Drew"
+          },
+          {
+            "player_id": "6365347db3ca00c19600000b",
+            "lname": "Rose",
+            "num": "",
+            "pos": [],
+            "fname": "Peter"
+          },
+          {
+            "player_id": "6365347db3ca00c1ac00000d",
+            "lname": "Fraczek",
+            "num": "",
+            "pos": [],
+            "fname": "Peter"
+          },
+          {
+            "player_id": "6365347db3ca00c1be00000f",
+            "lname": "Bergman",
+            "num": "",
+            "pos": [],
+            "fname": "Paul"
+          },
+          {
+            "player_id": "6365347db3ca00c1cc000011",
+            "lname": "Darcy",
+            "num": "",
+            "pos": [],
+            "fname": "Noah"
+          },
+          {
+            "player_id": "6365347db3ca00c1dc000013",
+            "lname": "Land",
+            "num": "",
+            "pos": [],
+            "fname": "Sam"
+          },
+          {
+            "player_id": "6365347db3ca00c1e9000015",
+            "lname": "Ricci",
+            "num": "",
+            "pos": [],
+            "fname": "Davide"
+          },
+          {
+            "player_id": "6365347db3ca00c1f8000017",
+            "lname": "Turner",
+            "num": "",
+            "pos": [],
+            "fname": "Rhyys"
+          },
+          {
+            "player_id": "6365347db3ca00c205000019",
+            "lname": "Turner",
+            "num": "",
+            "pos": [],
+            "fname": "Brayyd"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Murphy",
+            "num": "",
+            "t": "R",
+            "fname": "Matt",
+            "player_id": "63ed1b0b2635015be4000004"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Walsh",
+            "num": "",
+            "t": "R",
+            "fname": "Josh",
+            "player_id": "63ed1b0b2635015bf4000006"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Ham",
+            "num": "",
+            "t": "R",
+            "fname": "Ayden",
+            "player_id": "63ed1b0b2635015c05000008"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Anglin",
+            "num": "",
+            "t": "R",
+            "fname": "Dean",
+            "player_id": "63ed1b0b2635015c2000000a"
+          },
+          {
+            "b": "L",
+            "pos": [],
+            "lname": "Vickory Lovegrove",
+            "num": "",
+            "t": "R",
+            "fname": "Liam",
+            "player_id": "63ed1b0b2635015c4200000c"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Anglin",
+            "num": "",
+            "t": "R",
+            "fname": "Leslie",
+            "player_id": "63ed1b0b2635015c5900000e"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Fraser",
+            "num": "",
+            "t": "R",
+            "fname": "Sam",
+            "player_id": "63ed1b0b2635015c68000010"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Alden Hoven",
+            "num": "",
+            "t": "R",
+            "fname": "Sam",
+            "player_id": "63ed1b0b2635015c82000012"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Early",
+            "num": "",
+            "t": "R",
+            "fname": "James",
+            "player_id": "63ed1b0b2635015c91000014"
+          }
+        ],
+        "ts": "2022-10-15T03:20:25",
+        "save_date": "2023-02-15T23:12:45",
+        "first_save": "2022-10-15T03:20:43",
+        "access_level": "free",
+        "_change_d_ts": 698192914.000715,
+        "device_id": "260B1B1A-1D96-4B9B-8C88-FA52346E3B2C",
+        "ot_id": "6327d887ecee3d3b69a40665",
+        "status": "OPP",
+        "_doc_version": "58f01a6e2053475286f2296d762b0dc1",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "634a222921e1a426f9000008"
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "short_name": "Newport",
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2023-02-15T22:28:34",
+        "_sync_d_ts": 698192901.810519,
+        "tbd": false,
+        "mascot": "Newport",
+        "league": "",
+        "lineup": [],
+        "name": "Newport",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d887ecee3d3b69a40665",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "634a222921e1a426f9000008",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "NRTH",
+        "_sync_d": "2022-11-28T02:11:38",
+        "entity_creation_time": 1665804298,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "634a281bc7d0a29dc44a633e",
+        "long_name": "North Western Titans",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-11-28T02:47:15",
+          "last_active": "2022-11-28T02:47:15",
+          "live": true,
+          "games": 1,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "adult",
+        "roster": [
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Mudford",
+            "num": "",
+            "t": "R",
+            "fname": "Gerald",
+            "player_id": "63842229218fd0187a000012"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Said",
+            "num": "",
+            "t": "R",
+            "fname": "Deb",
+            "player_id": "63842229218fd01888000014"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Mudford",
+            "num": "",
+            "t": "R",
+            "fname": "Daniel",
+            "player_id": "63842229218fd01896000016"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Patterson",
+            "num": "",
+            "t": "R",
+            "fname": "Daniel",
+            "player_id": "63842229218fd018a3000018"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Moore",
+            "num": "",
+            "t": "R",
+            "fname": "Brodie",
+            "player_id": "63842229218fd018ad00001a"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Tinkler",
+            "num": "",
+            "t": "R",
+            "fname": "Greg",
+            "player_id": "63842229218fd018bb00001c"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Murphy",
+            "num": "",
+            "t": "R",
+            "fname": "Belinda",
+            "player_id": "63842229218fd018ca00001e"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Ramsdale",
+            "num": "",
+            "t": "R",
+            "fname": "Emma",
+            "player_id": "63842229218fd018d9000020"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Cuthbert",
+            "num": "",
+            "t": "R",
+            "fname": "Sarah",
+            "player_id": "63842229218fd018e8000022"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Nash",
+            "num": "",
+            "t": "R",
+            "fname": "Michael",
+            "player_id": "63842229218fd018f3000024"
+          }
+        ],
+        "ts": "2022-10-15T03:24:58",
+        "save_date": "2022-11-28T02:47:15",
+        "first_save": "2022-10-15T03:25:15",
+        "access_level": "free",
+        "_change_d_ts": 691294323.052603,
+        "device_id": "212922DC-526F-46A2-AA1D-2E90CE25C284",
+        "ot_id": "6327d887ecee3d3b69a40665",
+        "status": "OPP",
+        "_doc_version": "dbd4435d423840a98fe82f1059acf06d",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "634a222921e1a4280a000010"
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "short_name": "North Western Titans",
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2022-11-28T02:12:03",
+        "_sync_d_ts": 691294298.517962,
+        "tbd": false,
+        "mascot": "North Western Titans",
+        "league": "",
+        "lineup": [],
+        "name": "North Western Titans",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d887ecee3d3b69a40665",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "634a222921e1a4280a000010",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "ORMN",
+        "_sync_d": "2023-01-22T10:53:28",
+        "entity_creation_time": 1665803930,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "634a26aaeb635d89bc31bcbe",
+        "long_name": "Ormond Glenhuntley",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-02-02T03:11:39",
+          "last_active": "2023-02-02T03:11:39",
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "adult",
+        "roster": [
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Stasinos",
+            "num": "",
+            "t": "R",
+            "fname": "Steve",
+            "player_id": "6357222921eb9e0fea000001"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Voges",
+            "num": "",
+            "t": "R",
+            "fname": "Lance",
+            "player_id": "6357222921eb9e0ff7000002"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Dawn",
+            "num": "",
+            "t": "R",
+            "fname": "Will",
+            "player_id": "6357222921eb9e1000000003"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Eason",
+            "num": "",
+            "t": "R",
+            "fname": "Cae",
+            "player_id": "6357222921eb9e100d000004"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Boustead",
+            "num": "",
+            "t": "R",
+            "fname": "Warren",
+            "player_id": "6357222921eb9e1019000005"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Thackaberry",
+            "num": "",
+            "t": "R",
+            "fname": "Michael",
+            "player_id": "6357222921eb9e1045000006"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Spanopoulos",
+            "num": "",
+            "t": "R",
+            "fname": "Cary",
+            "player_id": "6357222921eb9e1062000007"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Gardner",
+            "num": "",
+            "t": "R",
+            "fname": "Aiden",
+            "player_id": "6357222921eb9e107d000008"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Lim",
+            "num": "",
+            "t": "R",
+            "fname": "Jinhyeek",
+            "player_id": "6357222921eb9e108d000009"
+          },
+          {
+            "player_id": "63d5347db3c800cfa1000005",
+            "lname": "Claridge",
+            "num": "",
+            "pos": [],
+            "fname": "Alexander"
+          },
+          {
+            "player_id": "63d5347db3c800cfb2000006",
+            "lname": "Aqualina",
+            "num": "",
+            "pos": [],
+            "fname": "James"
+          },
+          {
+            "player_id": "63d5347db3c800cfd1000007",
+            "lname": "Hume",
+            "num": "",
+            "pos": [],
+            "fname": "Lucas"
+          },
+          {
+            "player_id": "63d5347db3c800cfde000008",
+            "lname": "Davies",
+            "num": "",
+            "pos": [],
+            "fname": "Paul"
+          }
+        ],
+        "ts": "2022-10-15T03:18:50",
+        "save_date": "2023-02-02T03:11:39",
+        "first_save": "2022-10-15T03:19:06",
+        "access_level": "free",
+        "_change_d_ts": 696649566.22944,
+        "device_id": "B37D34CF-7876-44A5-9825-4E9AB842B26E",
+        "ot_id": "6327d887ecee3d3b69a40665",
+        "status": "OPP",
+        "_doc_version": "82f0b520e1684ab98e4fc7d6da59a7e5",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "634a222921e1a4269a000004"
+          }
+        ],
+        "~vc": "11.4.0.0",
+        "short_name": "Ormond Glenhuntley",
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2023-01-29T01:46:06",
+        "_sync_d_ts": 696077608.822144,
+        "tbd": false,
+        "mascot": "Ormond Glenhuntley",
+        "league": "",
+        "lineup": [],
+        "name": "Ormond Glenhuntley",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d887ecee3d3b69a40665",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "634a222921e1a4269a000004",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "PRTM",
+        "_sync_d": "2023-02-23T04:14:03",
+        "entity_creation_time": 1665804715,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "634a29c0bdbecff6fc4a55f7",
+        "long_name": "Port Melbourne",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-02-23T04:49:14",
+          "last_active": "2023-02-23T04:49:14",
+          "live": true,
+          "games": 1,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "Port Melbourne",
+        "age_desc": "adult",
+        "roster": [
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Biyle",
+            "num": "",
+            "t": "R",
+            "fname": "Patrick ",
+            "player_id": "63f62229217c3de76d00000c"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Comac",
+            "num": "",
+            "t": "R",
+            "fname": "Phil",
+            "player_id": "63f62229217c3de78000000e"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Koganti",
+            "num": "",
+            "t": "R",
+            "fname": "Vamsi",
+            "player_id": "63f62229217c3de797000010"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Dellhamano",
+            "num": "",
+            "t": "R",
+            "fname": "Jon",
+            "player_id": "63f62229217c3de7b4000012"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Camov",
+            "num": "",
+            "t": "R",
+            "fname": "George",
+            "player_id": "63f62229217c3de7d0000014"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Carson",
+            "num": "",
+            "t": "R",
+            "fname": "Ewan",
+            "player_id": "63f62229217c3de7e1000016"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Son",
+            "num": "",
+            "t": "R",
+            "fname": "Young",
+            "player_id": "63f62229217c3de7f1000018"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Lang",
+            "num": "",
+            "t": "R",
+            "fname": "Archie",
+            "player_id": "63f62229217c3de80300001a"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Alley",
+            "num": "",
+            "t": "R",
+            "fname": "Michael",
+            "player_id": "63f62229217c3de81800001c"
+          }
+        ],
+        "ts": "2022-10-15T03:31:55",
+        "save_date": "2023-02-23T04:49:14",
+        "first_save": "2022-10-15T03:32:16",
+        "access_level": "free",
+        "_change_d_ts": 698818456.612724,
+        "device_id": "212922DC-526F-46A2-AA1D-2E90CE25C284",
+        "ot_id": "6327d887ecee3d3b69a40665",
+        "status": "OPP",
+        "_doc_version": "c06d8609ccd3492a89cdc657852945a0",
+        "~vc": "11.5.1.0",
+        "prepaid": false,
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2023-02-23T04:14:16",
+        "_sync_d_ts": 698818443.809061,
+        "tbd": false,
+        "mascot": "Port Melbourne",
+        "league": "",
+        "lineup": [],
+        "name": "Port Melbourne",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d887ecee3d3b69a40665",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "634a222921e1a429ab000019",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "PRST",
+        "_sync_d": "2022-10-15T03:25:18",
+        "entity_creation_time": 1664835012,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "633b5de0f84e844439b7d4d4",
+        "long_name": "Preston",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-10-12T01:44:03",
+          "last_active": "2022-10-12T01:44:03",
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "Preston",
+        "age_desc": "adult",
+        "roster": [
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Olissoff",
+            "num": "",
+            "t": "R",
+            "fname": "Alex",
+            "player_id": "63461b0b2693010fa1000163"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Mackenzie",
+            "num": "",
+            "t": "R",
+            "fname": "Hayden",
+            "player_id": "63461b0b2693010fb2000164"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "O\\u2019Brien",
+            "num": "",
+            "t": "R",
+            "fname": "Michael",
+            "player_id": "63461b0b2693010fc1000165"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Delaney",
+            "num": "",
+            "t": "R",
+            "fname": "Luca",
+            "player_id": "63461b0b2693010fe5000166"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Thorpe-Koumalandos",
+            "num": "",
+            "t": "R",
+            "fname": "Jesse",
+            "player_id": "63461b0b2693011024000167"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Bryant",
+            "num": "",
+            "t": "R",
+            "fname": "Justin",
+            "player_id": "63461b0b2693011036000168"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Pearce",
+            "num": "",
+            "t": "R",
+            "fname": "Sean",
+            "player_id": "63461b0b2693011044000169"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "McGeary",
+            "num": "",
+            "t": "R",
+            "fname": "Owen",
+            "player_id": "63461b0b269301105800016a"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Ray",
+            "num": "",
+            "t": "R",
+            "fname": "Neil",
+            "player_id": "63461b0b269301106800016b"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Brewer",
+            "num": "",
+            "t": "R",
+            "fname": "James",
+            "player_id": "63461b0b269301108300016c"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Kennedy",
+            "num": "",
+            "t": "R",
+            "fname": "Linton",
+            "player_id": "63461b0b269301109400016d"
+          }
+        ],
+        "ts": "2022-10-03T22:10:12",
+        "save_date": "2022-10-15T03:32:44",
+        "first_save": "2022-10-03T22:10:40",
+        "access_level": "free",
+        "_change_d_ts": 687497560.332965,
+        "device_id": "212922DC-526F-46A2-AA1D-2E90CE25C284",
+        "ot_id": "6327d887ecee3d3b69a40665",
+        "status": "OPP",
+        "_doc_version": "858717a4a47740a7937a9c7555a5db24",
+        "~vc": "11.0.3.0",
+        "prepaid": false,
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2022-10-15T03:32:40",
+        "_sync_d_ts": 687497118.318864,
+        "tbd": false,
+        "mascot": "Preston",
+        "league": "",
+        "lineup": [],
+        "name": "Preston",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d887ecee3d3b69a40665",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "633b222921932e5dc4000003",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "WRRB",
+        "_sync_d": "2022-12-04T06:14:49",
+        "entity_creation_time": 1665804346,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "634a286c4008032f1731b685",
+        "long_name": "Werribee",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-12-04T06:59:48",
+          "last_active": "2022-12-04T06:59:48",
+          "live": true,
+          "games": 1,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "sport": "Baseball",
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "is_official": false,
+        "prepaid": false,
+        "age_desc": "adult",
+        "ts": "2022-10-15T03:25:46",
+        "save_date": "2022-12-04T09:58:34",
+        "first_save": "2022-10-15T03:26:36",
+        "access_level": "free",
+        "_change_d_ts": 691827295.196773,
+        "device_id": "212922DC-526F-46A2-AA1D-2E90CE25C284",
+        "ot_id": "6327d887ecee3d3b69a40665",
+        "status": "OPP",
+        "_doc_version": "0009e33d96ed43f984776e4ba7292acb",
+        "~vc": "11.0.3.0",
+        "short_name": "Werribee",
+        "roster": [
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Carter",
+            "num": "",
+            "t": "R",
+            "fname": "Andrew",
+            "player_id": "638c222921c13b3a68000002"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Howe",
+            "num": "",
+            "t": "R",
+            "fname": "Roger",
+            "player_id": "638c222921c13b3a75000003"
+          },
+          {
+            "b": "L",
+            "pos": [],
+            "lname": "Barber",
+            "num": "",
+            "t": "R",
+            "fname": "Brian",
+            "player_id": "638c222921c13b3a92000004"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Packer",
+            "num": "",
+            "t": "R",
+            "fname": "John",
+            "player_id": "638c222921c13b3a9f000005"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Hubble",
+            "num": "",
+            "t": "R",
+            "fname": "Brendan",
+            "player_id": "638c222921c13b3aaa000006"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Fernando",
+            "num": "",
+            "t": "R",
+            "fname": "Sachi",
+            "player_id": "638c222921c13b3ab4000007"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Sigismoudi",
+            "num": "",
+            "t": "R",
+            "fname": "Travis",
+            "player_id": "638c222921c13b3ac7000008"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Myland",
+            "num": "",
+            "t": "R",
+            "fname": "Steve",
+            "player_id": "638c222921c13b3ad6000009"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Riddle",
+            "num": "",
+            "t": "R",
+            "fname": "Troy",
+            "player_id": "638c222921c13b3adf00000a"
+          }
+        ],
+        "season": "Summer 2022",
+        "innings": "6",
+        "_change_d": "2022-12-04T06:14:55",
+        "_sync_d_ts": 691827289.746973,
+        "tbd": false,
+        "mascot": "Werribee",
+        "league": "",
+        "lineup": [],
+        "name": "Werribee",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d887ecee3d3b69a40665",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "634a222921e1a4283a000012",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "WLLM",
+        "_sync_d": "2022-12-12T08:48:19",
+        "entity_creation_time": 1665803885,
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "634a267bc7d0a29dc44a6338",
+        "long_name": "Williamstown",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-01-22T09:16:21",
+          "last_active": "2023-01-22T09:16:21",
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "short_name": "Williamstown",
+        "age_desc": "adult",
+        "roster": [
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Di Blasi",
+            "num": "",
+            "t": "R",
+            "fname": "Jai",
+            "player_id": "634c1b0b26a201d01e0002ae"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Di Blasi",
+            "num": "",
+            "t": "R",
+            "fname": "Rob",
+            "player_id": "634c1b0b26a201d0370002b0"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Yeh",
+            "num": "",
+            "t": "R",
+            "fname": "Wilson",
+            "player_id": "634c1b0b26a201d0490002b2"
+          },
+          {
+            "player_id": "634c1b0b26a201d05b0002b4",
+            "lname": "Di Blasi",
+            "num": "",
+            "pos": [],
+            "fname": "Nathen"
+          },
+          {
+            "player_id": "634c1b0b26a201d07b0002b6",
+            "lname": "Hardy",
+            "num": "",
+            "pos": [],
+            "fname": "Murray"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Dobricic",
+            "num": "",
+            "t": "R",
+            "fname": "Gus",
+            "player_id": "634c1b0b26a201d09d0002b8"
+          },
+          {
+            "player_id": "634c1b0b26a201d0b90002ba",
+            "lname": "Gwin",
+            "num": "",
+            "pos": [],
+            "fname": "Mike"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Popinski",
+            "num": "",
+            "t": "R",
+            "fname": "Ed",
+            "player_id": "634c1b0b26a201d0cb0002bc"
+          },
+          {
+            "player_id": "634c1b0b26a201d0de0002be",
+            "lname": "Collison",
+            "num": "",
+            "pos": [],
+            "fname": "Dan"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Yen",
+            "num": "",
+            "t": "R",
+            "fname": "Ryan",
+            "player_id": "634c1b0b26a201d0f30002c0"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Harper",
+            "num": "",
+            "t": "R",
+            "fname": "Kyle",
+            "player_id": "634c1b0b26a201d1260002c2"
+          },
+          {
+            "player_id": "63cc347db3510a95ed000267",
+            "lname": "Lanove",
+            "num": "",
+            "pos": [],
+            "fname": "Maryanne"
+          },
+          {
+            "player_id": "63cc347db3510a9600000268",
+            "lname": "Ogjanov",
+            "num": "",
+            "pos": [],
+            "fname": "Will"
+          },
+          {
+            "player_id": "63cc347db3510a9611000269",
+            "lname": "Lacey Myers",
+            "num": "",
+            "pos": [],
+            "fname": "Lilu"
+          }
+        ],
+        "ts": "2022-10-15T03:18:05",
+        "save_date": "2023-01-22T09:16:21",
+        "first_save": "2022-10-15T03:18:19",
+        "access_level": "free",
+        "_change_d_ts": 696044945.39862,
+        "device_id": "B37D34CF-7876-44A5-9825-4E9AB842B26E",
+        "ot_id": "6327d887ecee3d3b69a40665",
+        "status": "OPP",
+        "_doc_version": "6830987a1e6242a889c6245237c5e568",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "634a222921e1a4266d000001"
+          }
+        ],
+        "~vc": "11.4.0.0",
+        "prepaid": false,
+        "innings": "6",
+        "season": "Summer 2022",
+        "_change_d": "2023-01-22T01:49:05",
+        "_sync_d_ts": 692527699.092012,
+        "tbd": false,
+        "mascot": "Williamstown",
+        "league": "",
+        "lineup": [],
+        "name": "Williamstown",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "6327d887ecee3d3b69a40665",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "634a222921e1a4266d000001",
+        "stat_access": "CONFIRMED_FULL"
+      }
+    ],
+    "sport": "Baseball",
+    "league": "VSBL",
+    "name": "ST KILDA SAINTS",
+    "age": "adult",
+    "mp_info": null,
+    "pc": "",
+    "_id": "6327d887ecee3d3b69a40665"
+  }
+}

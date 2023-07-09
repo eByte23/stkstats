@@ -1,0 +1,568 @@
+{
+  "History": [
+    {
+      "TeamId": "6442041d8ed57a0914e16648",
+      "GameId": "64420d933709d41baa98925c"
+    },
+    {
+      "TeamId": "6442041d8ed57a0914e16648",
+      "GameId": "6455d2a47cf200d699000002"
+    },
+    {
+      "TeamId": "6442041d8ed57a0914e16648",
+      "GameId": "645fd2a47cf2001403000136"
+    },
+    {
+      "TeamId": "6442041d8ed57a0914e16648",
+      "GameId": "6468d2a47ce9004c17000267"
+    },
+    {
+      "TeamId": "6442041d8ed57a0914e16648",
+      "GameId": "6471d2a47ce9008b00000393"
+    },
+    {
+      "TeamId": "6442041d8ed57a0914e16648",
+      "GameId": "647ad2a47ce900c56d0004df"
+    },
+    {
+      "TeamId": "6442041d8ed57a0914e16648",
+      "GameId": "648dd2a47c0001279e0005fa"
+    },
+    {
+      "TeamId": "6442041d8ed57a0914e16648",
+      "GameId": "6496d2a47c0001710c00071f"
+    },
+    {
+      "TeamId": "6442041d8ed57a0914e16648",
+      "GameId": "649fd2a47c8f0154c60000b9"
+    },
+    {
+      "TeamId": "644204e069473147ce33dfd5",
+      "GameId": "649fd2a47c8f0154840000b8"
+    },
+    {
+      "TeamId": "64420644e1fa981ab898929f",
+      "GameId": "6442347db3e5000e0b000037"
+    },
+    {
+      "TeamId": "64420644e1fa981ab898929f",
+      "GameId": "6454347db3ef039ebc000152"
+    },
+    {
+      "TeamId": "64420644e1fa981ab898929f",
+      "GameId": "6460347db3ef0327520002a3"
+    },
+    {
+      "TeamId": "64420644e1fa981ab898929f",
+      "GameId": "647b347db3ef03c70e0002c9"
+    },
+    {
+      "TeamId": "648dc462f8eb00129b000006",
+      "GameId": "648dc462f8eb0012b3000008"
+    },
+    {
+      "TeamId": "648dc462f8eb00129b000006",
+      "GameId": "6493c462f8dc00b429000151"
+    },
+    {
+      "TeamId": "648dc462f8eb001230000002",
+      "GameId": "6493c462f8dc00b58200015f"
+    },
+    {
+      "TeamId": "648dc462f8eb001230000002",
+      "GameId": "6497fa8c9a73903beb1c57a3"
+    },
+    {
+      "TeamId": "62629441359b006eee00016e",
+      "GameId": "62629441359b006f12000170"
+    },
+    {
+      "TeamId": "62629441359b006eee00016e",
+      "GameId": "62749441358e02bde2000008"
+    },
+    {
+      "TeamId": "62629441359b006eee00016e",
+      "GameId": "627e9441359400128d000004"
+    },
+    {
+      "TeamId": "62629441359b006eee00016e",
+      "GameId": "628894413575010d37000002"
+    },
+    {
+      "TeamId": "62629441359b006eee00016e",
+      "GameId": "62899441350701faa5000004"
+    },
+    {
+      "TeamId": "62629441359b006eee00016e",
+      "GameId": "62999441351602beb6000002"
+    },
+    {
+      "TeamId": "62629441359b006eee00016e",
+      "GameId": "62a994413516028c380003eb"
+    },
+    {
+      "TeamId": "62629441359b006eee00016e",
+      "GameId": "62b29441359203e57c000002"
+    },
+    {
+      "TeamId": "62629441359b006eee00016e",
+      "GameId": "62be944135560111520002b3"
+    },
+    {
+      "TeamId": "62629441359b006eee00016e",
+      "GameId": "62c49441356601a6ac000002"
+    },
+    {
+      "TeamId": "62629441359b006eee00016e",
+      "GameId": "62ce944135e800601b0002ad"
+    },
+    {
+      "TeamId": "62629441359b006eee00016e",
+      "GameId": "62e3944135240197e3000002"
+    },
+    {
+      "TeamId": "62629441359b006eee00016e",
+      "GameId": "62ea944135af004962000002"
+    },
+    {
+      "TeamId": "62629441359b006eee00016e",
+      "GameId": "62f5944135d90073e5000002"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "62629441359b006e7700016d"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "62749441358e02bda3000006"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "627e94413594001268000002"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "627f944135de008da80002e9"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "62899441350701fa6c000002"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "62999441351602bed9000004"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "629c9441351602779e0002e5"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "62a994413516028c150003ea"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "62b29441359203e55a000001"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "62be9441355601116a0002b4"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "62c49441356601a66a000001"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "62ce944135e8005fd80002ac"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "62e3944135240197cb000001"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "62ea944135af00494b000001"
+    },
+    {
+      "TeamId": "62629441359b006e4e00016b",
+      "GameId": "62f5944135d90073d0000001"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "6339c462f8cb000c52000142"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "6339c462f8cb0069190002fc"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "6339c462f8cb00693c0002fe"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "6339c462f8cb006aea000300"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "635dc462f8c000cff00005d0"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "6367c462f8d70035ea000175"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "6366c462f895034966000002"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "6370c462f88c01703c0002bf"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "6379c462f8d300acd500055a"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "637fc462f80701190d0006ec"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "6381c462f807013b46000801"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "638bc462f87701fc49000b07"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "6392c462f87701d939000dae"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "6392c462f87701d959000db0"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "63ccd2a47cd200b62f000155"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "63d4d2a47c6d0751e0000001"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "63dfd2a47cc9002fc6000165"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "63efd2a47cea00f5e90004ad"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "63f6d2a47cfe00f9e00002dd"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "63f9d2a47cfe0041770003c6"
+    },
+    {
+      "TeamId": "6327d3ab9386313cf8083fb5",
+      "GameId": "6402c462f8e604b3de000001"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6338c462f8cb00ec0000000c"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb0066380002e0"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb0066710002e2"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb0066cc0002e4"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb0066fc0002e6"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb00673f0002e9"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb00676c0002eb"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb0067990002ed"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb0067ce0002ef"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb0067ee0002f0"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb00681d0002f2"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb0068360002f3"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb0068500002f4"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb00686f0002f5"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb0068890002f6"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb0068b70002f8"
+    },
+    {
+      "TeamId": "6327d8f7ef49121ec6a406a5",
+      "GameId": "6339c462f8cb0068e60002fa"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6338347db3d400fde000001a"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6342347db3d1007dbb000138"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "634c347db3ed00f6ea000236"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e700344a000359"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e7007866000460"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e700788a000462"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e70078aa000463"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e70078d1000465"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e7007906000467"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e7007930000469"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e700798b00046a"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e70079b900046c"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e70079e200046d"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e7007a0400046e"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e7007a2200046f"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e7007a3d000470"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e7007a6d000472"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6356347db3e7007a84000473"
+    },
+    {
+      "TeamId": "6327d7ca3838a3b0d408407a",
+      "GameId": "6404347db3e0000202000001"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "633b222921932e5da3000002"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "633b222921932e5ddd000004"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "634a222921e1a42679000002"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "634a222921e1a426a8000005"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "634a222921e1a426e6000007"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "634a222921e1a42707000009"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "634a222921e1a4275500000a"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "634a222921e1a427b200000f"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "634a222921e1a42818000011"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "634a222921e1a4286a000013"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "634a222921e1a4288d000014"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "634a222921e1a428ea000015"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "634a222921e1a4292c000016"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "634a222921e1a42954000017"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "634a222921e1a42987000018"
+    },
+    {
+      "TeamId": "6327d887ecee3d3b69a40665",
+      "GameId": "634a222921e1a429bd00001a"
+    },
+    {
+      "TeamId": "6327da68ecee3d3b69a4066b",
+      "GameId": "6340d2a47cbb008dff000046"
+    },
+    {
+      "TeamId": "6327da68ecee3d3b69a4066b",
+      "GameId": "634ad2a47cce000832000187"
+    },
+    {
+      "TeamId": "6327da68ecee3d3b69a4066b",
+      "GameId": "635cd2a47cc800896d00000d"
+    },
+    {
+      "TeamId": "6327da68ecee3d3b69a4066b",
+      "GameId": "636ec462f8e600fc94000002"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "6338944135d700c8270002fe"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "6340944135d700d9670004bb"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "633dedaec90065b33bd1b025"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "634e1be58fb28f9a9bb5a64d"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "634e1c0e6a61316266340ecf"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "634e203331b3e75533340cae"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "63708c4e04ab2fc6da9b1233"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "634e20545438dc8095d0e4b8"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "634e20a76a61316266340ed3"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "634e20c713900de55bd0e41e"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "634e20e3c3acf6954ad0e36b"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "634e20ff19037eec7934096b"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "63d4cd05e4af94824c000001"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "63e00fa36c5b77b6ac42359a"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "63e00fce59a2eb171beed57f"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "63e00fcfed4d038fd94240c2"
+    },
+    {
+      "TeamId": "6327d93e27e3a1836aa9b32a",
+      "GameId": "63fccd05e43d025866000283"
+    }
+  ]
+}

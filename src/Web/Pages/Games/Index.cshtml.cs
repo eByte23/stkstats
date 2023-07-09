@@ -47,8 +47,14 @@ public class IndexModel : PageModel
         var grades = _gradesRepository.GetGrades();
         var leagues = _leagueRepository.GetLeagues();
         var seasons = _seasonRepository.GetSeasons();
+        var games = _gameRepository.GetGames();
 
-        return _gameRepository.GetGames().Select(game =>
+        if (games == null)
+        {
+            return new List<GameView>();
+        }
+
+        return games.Select(game =>
         {
             var grade = grades.Single(g => g.Id == game.GradeId);
             var league = leagues.Single(l => l.Id == game.LeagueId);

@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="../../src/Web/Web.csproj" />
+    <ProjectReference Include="../../src/CoreStats/CoreStats.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +27,14 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+
+    <ProjectReference Include="/Users/elijahbate/Personal/Dev/GameChanger/src/GameChanger.Parser/GameChanger.Parser.csproj"/>
+  </ItemGroup>
+
+   <ItemGroup>
+    <Content Include="test_files/*.*">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>  
   </ItemGroup>
 
 </Project>

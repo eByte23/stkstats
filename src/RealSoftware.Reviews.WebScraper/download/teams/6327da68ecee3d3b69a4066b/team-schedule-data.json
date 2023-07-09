@@ -1,0 +1,600 @@
+{
+  "create_new": false,
+  "type": "game",
+  "team_events": [
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "NEW",
+      "meta": {},
+      "timezone": 10.0,
+      "home": false,
+      "utc_start": "2022-10-01T03:00:00",
+      "sport": "BASEB",
+      "id": "6337d2a47cbb00aadd00001b",
+      "location": "Springvalle",
+      "play_time": "2022-10-01T13:00:00",
+      "type": "League",
+      "recipients": [],
+      "wl": "0-0-0",
+      "start_ts": 1664593200,
+      "other_team_id": "6337d2a47cbb00aadc00001a",
+      "game_id": "6337d2a47cbb00aadd00001b",
+      "tbd": true,
+      "uses_halves": false,
+      "notes": "",
+      "minutes_before": 0,
+      "other_team_name": "TBD"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": true,
+      "utc_start": "2022-10-08T02:00:00",
+      "sport": "BASEB",
+      "id": "6340d2a47cbb008dff000046",
+      "recap_title": [
+        {
+          "content": "Moorabbin Runs Away With Early Lead in Victory",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Top",
+        "away": 22,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 2,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-10-08T13:00:00",
+      "type": "League",
+      "save_ts": 1666271786.0,
+      "recipients": [],
+      "wl": "0-1-0",
+      "start_ts": 1665194400,
+      "other_team_id": "6340d2a47cbb008dcf000045",
+      "game_id": "6340d2a47cbb008dff000046",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6340d2a47cec00d9f900004d",
+      "minutes_before": 0,
+      "other_team_name": "Moorabbin"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-10-15T02:00:00",
+      "sport": "BASEB",
+      "id": "634ad2a47cce000832000187",
+      "recap_title": [
+        {
+          "content": "VSBL ST KILDA SAINTS DIVISION 3 SOUTH Can't Catch Up To SE Warriors",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Top",
+        "away": 5,
+        "x": "st",
+        "w": "h",
+        "half": 0,
+        "home": 18,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-10-15T13:00:00",
+      "type": "League",
+      "save_ts": 1666271950.0,
+      "recipients": [],
+      "wl": "0-2-0",
+      "start_ts": 1665799200,
+      "other_team_id": "634ad2a47cce0007fd000186",
+      "game_id": "634ad2a47cce000832000187",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "634ad2a47cce00089800018b",
+      "minutes_before": 0,
+      "other_team_name": "SE Warriors"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 11.0,
+      "home": false,
+      "utc_start": "2022-10-29T02:15:00",
+      "sport": "BASEB",
+      "id": "635cd2a47cc800896d00000d",
+      "recap_title": [
+        {
+          "content": "Early Lead For TBD Seals Fate For VSBL ST KILDA SAINTS DIVISION 3 SOUTH",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Top",
+        "away": 0,
+        "x": "st",
+        "w": "h",
+        "half": 0,
+        "home": 16,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2022-10-29T13:15:00",
+      "type": "League",
+      "save_ts": 1674450976.0,
+      "recipients": [],
+      "wl": "0-3-0",
+      "start_ts": 1667009700,
+      "other_team_id": "635cd2a47cc800896c00000c",
+      "game_id": "635cd2a47cc800896d00000d",
+      "tbd": true,
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "635cd2a47cc8008973000011",
+      "minutes_before": 0,
+      "other_team_name": "TBD"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "home": true,
+      "timezone": 11.0,
+      "utc_start": "2022-11-12T02:05:00",
+      "sport": "BASEB",
+      "id": "636ec462f8e600fc94000002",
+      "recap_title": [
+        {
+          "content": "Millikan's Walk-off Seals the Deal in VSBL ST KILDA SAINTS DIVISION 3 SOUTH Victory Over Cheltenham",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 4,
+        "side_readable": "Bot",
+        "away": 8,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 9,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2022-11-12T13:05:00",
+      "type": "League",
+      "save_ts": 1668941649.0,
+      "recipients": [],
+      "wl": "1-3-0",
+      "start_ts": 1668218700,
+      "other_team_id": "636ec462f8e600fc92000001",
+      "game_id": "636ec462f8e600fc94000002",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "636ec462f8e600fca8000003",
+      "minutes_before": 0,
+      "other_team_name": "Cheltenham"
+    }
+  ],
+  "live_game": [],
+  "team": {
+    "team_path": "/t/summer-2022/vsbl-st-kilda-saints-division-3-south-6327da68ecee3d3b69a4066b",
+    "season": "Summer 2022",
+    "locations": [
+      "Springvalle",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "season_id": "6327da68ecee3d3b69a40669",
+    "opposing_teams": [
+      {
+        "code": "CHLT",
+        "entity_creation_time": 1668218002,
+        "league": "",
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "637a07164711d1bda6679190",
+        "long_name": "Cheltenham",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 1,
+          "last_scored": "2022-11-20T10:54:09",
+          "last_active": "2022-11-20T10:54:09"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "sport": "Baseball",
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "_change_d": "2022-11-12T01:59:26",
+        "short_name": "Cheltenham",
+        "age_desc": "adult",
+        "ts": "2022-11-12T01:53:22",
+        "save_date": "2022-11-20T10:54:09",
+        "first_save": "2022-11-20T10:53:10",
+        "access_level": "free",
+        "_change_d_ts": 689911166.271974,
+        "device_id": "F862C4AB-DD95-41DB-BD81-D1FD4FC48F0F",
+        "ot_id": "6327da68ecee3d3b69a4066b",
+        "status": "OPP",
+        "_doc_version": "61151ba297b140d1bfaa1cc42ea1d168",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "prepaid": false,
+        "roster": [
+          {
+            "player_id": "636ec462f8e600fd70000014",
+            "lname": "Healy",
+            "num": "",
+            "pos": [],
+            "fname": "Denise "
+          },
+          {
+            "player_id": "636ec462f8e600fd80000016",
+            "lname": "Dunkley",
+            "num": "",
+            "pos": [],
+            "fname": "Pia"
+          },
+          {
+            "player_id": "636ec462f8e600fda2000018",
+            "lname": "Hutchenson",
+            "num": "",
+            "pos": [],
+            "fname": "Fran"
+          },
+          {
+            "player_id": "636ec462f8e600fdb200001a",
+            "lname": "Bannan",
+            "num": "",
+            "pos": [],
+            "fname": "Viv"
+          },
+          {
+            "player_id": "636ec462f8e600fdc700001c",
+            "lname": "Morey",
+            "num": "",
+            "pos": [],
+            "fname": "Tania"
+          },
+          {
+            "player_id": "636ec462f8e600fdd500001f",
+            "lname": "Daniel",
+            "num": "",
+            "pos": [],
+            "fname": "Emily"
+          },
+          {
+            "player_id": "636ec462f8e600fdea000021",
+            "lname": "Vasilaras",
+            "num": "",
+            "pos": [],
+            "fname": "Karen"
+          },
+          {
+            "player_id": "636ec462f8e600fdf7000023",
+            "lname": "Finney",
+            "num": "",
+            "pos": [],
+            "fname": "Sam"
+          },
+          {
+            "player_id": "636ec462f8e600fdfe000025",
+            "lname": "Rankin",
+            "num": "",
+            "pos": [],
+            "fname": "Lou"
+          }
+        ],
+        "season": "Summer 2022",
+        "tbd": false,
+        "mascot": "Cheltenham",
+        "innings": "6",
+        "lineup": [],
+        "name": "Cheltenham",
+        "league_id": "",
+        "stat_access": "CONFIRMED_FULL",
+        "age": "youth",
+        "parent_team_id": "6327da68ecee3d3b69a4066b",
+        "teamgroups": [],
+        "_id": "636ec462f8e600fc92000001",
+        "is_official": false
+      },
+      {
+        "code": "MRBB",
+        "entity_creation_time": 1665174991,
+        "league": "",
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "635149ac1a32611b1d31cf03",
+        "long_name": "Moorabbin",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-10-20T13:16:26",
+          "last_active": "2022-10-20T13:16:26",
+          "live": true,
+          "games": 1,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "sport": "Baseball",
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "_change_d": "2022-10-08T02:26:52",
+        "short_name": "Moorabbin",
+        "age_desc": "adult",
+        "ts": "2022-10-07T20:36:31",
+        "save_date": "2022-10-20T13:16:26",
+        "first_save": "2022-10-20T13:14:20",
+        "access_level": "free",
+        "_change_d_ts": 686888812.136067,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6327da68ecee3d3b69a4066b",
+        "status": "OPP",
+        "_doc_version": "4ef74ed8ac3347909847712f7d0620df",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "prepaid": false,
+        "roster": [
+          {
+            "player_id": "6340d2a47cec00da7d000050",
+            "lname": "Rutger",
+            "num": "",
+            "pos": [],
+            "fname": "Kendra"
+          },
+          {
+            "player_id": "6340d2a47cec00db3a000055",
+            "lname": "Fielden",
+            "num": "",
+            "pos": [],
+            "fname": "Hayley"
+          },
+          {
+            "player_id": "6340d2a47cec00dbbc00005d",
+            "lname": "Schutt",
+            "num": "",
+            "pos": [],
+            "fname": "Jo"
+          },
+          {
+            "player_id": "6340d2a47cec00dbf0000063",
+            "lname": "Fielden",
+            "num": "",
+            "pos": [],
+            "fname": "Rebecca"
+          },
+          {
+            "player_id": "6340d2a47cec00dc7b00006e",
+            "lname": "Bodey",
+            "num": "",
+            "pos": [],
+            "fname": "Bella"
+          },
+          {
+            "player_id": "6340d2a47cec00dcd9000075",
+            "lname": "Kain",
+            "num": "",
+            "pos": [],
+            "fname": "Taylor"
+          },
+          {
+            "player_id": "6340d2a47cec00dd9000007e",
+            "lname": "Morris",
+            "num": "",
+            "pos": [],
+            "fname": "Jacquie"
+          },
+          {
+            "player_id": "6340d2a47cec00dde4000088",
+            "lname": "Turnbull",
+            "num": "",
+            "pos": [],
+            "fname": "Alison"
+          },
+          {
+            "player_id": "6340d2a47cec00dfec0000a1",
+            "lname": "Campbell",
+            "num": "",
+            "pos": [],
+            "fname": "Janelle"
+          }
+        ],
+        "season": "Summer 2022",
+        "tbd": false,
+        "mascot": "Moorabbin",
+        "innings": "6",
+        "lineup": [],
+        "name": "Moorabbin",
+        "league_id": "",
+        "stat_access": "CONFIRMED_FULL",
+        "age": "youth",
+        "parent_team_id": "6327da68ecee3d3b69a4066b",
+        "teamgroups": [],
+        "_id": "6340d2a47cbb008dcf000045",
+        "is_official": false
+      },
+      {
+        "code": "SWRR",
+        "entity_creation_time": 1665796093,
+        "league": "",
+        "_type": "team",
+        "~v": "11.0.3.0",
+        "season_id": "635149ad1a32611b1d31cf04",
+        "long_name": "SE Warriors",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2022-10-20T13:19:10",
+          "games": 1,
+          "offline": true,
+          "last_active": "2022-10-20T13:19:10"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "sport": "Baseball",
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "_change_d": "2022-10-15T01:13:54",
+        "short_name": "SE Warriors",
+        "age_desc": "adult",
+        "ts": "2022-10-15T01:08:13",
+        "save_date": "2022-10-20T13:19:10",
+        "first_save": "2022-10-20T13:14:21",
+        "access_level": "free",
+        "_change_d_ts": 687489234.724651,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6327da68ecee3d3b69a4066b",
+        "status": "OPP",
+        "_doc_version": "2e4486a40168448a9988198e15b25fc7",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "11.0.3.0",
+        "prepaid": false,
+        "roster": [
+          {
+            "player_id": "634ad2a47cce0008b200018e",
+            "lname": "Raszewski",
+            "num": "",
+            "pos": [],
+            "fname": "Grace"
+          },
+          {
+            "player_id": "634ad2a47cce0008c3000190",
+            "lname": "Gottschling",
+            "num": "",
+            "pos": [],
+            "fname": "Eva"
+          },
+          {
+            "player_id": "634ad2a47cce0008de000192",
+            "lname": "Rippingale",
+            "num": "",
+            "pos": [],
+            "fname": "Monique"
+          },
+          {
+            "player_id": "634ad2a47cce0008ec000194",
+            "lname": "Donnelly",
+            "num": "",
+            "pos": [],
+            "fname": "Penny"
+          },
+          {
+            "player_id": "634ad2a47cce0008fc000196",
+            "lname": "Leeson",
+            "num": "",
+            "pos": [],
+            "fname": "Eli"
+          },
+          {
+            "player_id": "634ad2a47cce000929000198",
+            "lname": "Langham",
+            "num": "",
+            "pos": [],
+            "fname": "Robyn"
+          },
+          {
+            "player_id": "634ad2a47cce00093900019a",
+            "lname": "Kuilboer",
+            "num": "",
+            "pos": [],
+            "fname": "Stacey"
+          },
+          {
+            "player_id": "634ad2a47cce00095200019c",
+            "lname": "Zhingini",
+            "num": "",
+            "pos": [],
+            "fname": "Deeana"
+          }
+        ],
+        "season": "Summer 2022",
+        "tbd": false,
+        "mascot": "SE Warriors",
+        "innings": "6",
+        "lineup": [],
+        "name": "SE Warriors",
+        "league_id": "",
+        "stat_access": "CONFIRMED_FULL",
+        "age": "youth",
+        "parent_team_id": "6327da68ecee3d3b69a4066b",
+        "teamgroups": [],
+        "_id": "634ad2a47cce0007fd000186",
+        "is_official": false
+      }
+    ],
+    "sport": "Baseball",
+    "league": "VSBL",
+    "name": "ST KILDA SAINTS",
+    "age": "adult",
+    "mp_info": null,
+    "pc": "",
+    "_id": "6327da68ecee3d3b69a4066b"
+  }
+}

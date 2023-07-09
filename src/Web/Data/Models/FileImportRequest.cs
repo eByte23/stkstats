@@ -4,6 +4,7 @@ namespace STKBC.Stats.Data.Models;
 public class GameUpload
 {
     public Guid? Id { get; set; }
+    public Guid? GamePreviewId {get;set;}
     public DateTime? GameDate { get; set; }
     public string? ExternalRef { get; set; }
     public string? FileName { get; set; }

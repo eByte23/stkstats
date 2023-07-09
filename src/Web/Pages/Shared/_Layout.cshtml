@@ -23,13 +23,19 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Games">Games</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Clubs/Index">Clubs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Games/Index">Games</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/">Imports</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/UploadGame/New" asp-route-GameId="@Guid.NewGuid()">Game Upload</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/GameUploadRequests/Upload">Game Upload</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/GameUploadRequests/Index">Game Upload Requests</a>
                         </li>
                     </ul>
                 </div>

@@ -1,11 +1,20 @@
 @page "~/upload-game/preview"
 @model PreviewModel
 
-<h2>Home Team</h2>
-@await Html.PartialAsync("_TeamStatsPreview", Model.Game!.HomeTeam)
 
-<h2>Away Team</h2>
-@await Html.PartialAsync("_TeamStatsPreview", Model.Game!.AwayTeam)
+@if (Model.Game?.HomeTeam != null)
+{
+    <h2>Home Team</h2>
+    <h3>@Model.Game.HomeTeamName (@Model.Game.GradeName)</h3>
+    @await Html.PartialAsync("_TeamStatsPreview", Model.Game!.HomeTeam)
+}
+
+@if (Model.Game?.AwayTeam != null)
+{
+    <h2>Away Team</h2>
+    <h3>@Model.Game.AwayTeamName (@Model.Game.GradeName)</h3>
+    @await Html.PartialAsync("_TeamStatsPreview", Model.Game!.AwayTeam)
+}
 
 
 @section Scripts {

@@ -1,3 +1,6 @@
 [Bb]in/
 [Oo]bj/
 .temp*
+node_modules/
+.local-chromium/
+cache/

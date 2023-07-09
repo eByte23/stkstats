@@ -17,6 +17,7 @@ public class NewModel : PageModel
     private readonly ISeasonRepository _seasonRepository;
     private readonly ILeagueRepository _leagueRepository;
     private readonly IGradeRepository _gradeRepository;
+    private readonly IClubRepository _clubRepository;
     private readonly GameChangerImportManager gameChangerImportManager;
     private readonly ILogger<NewModel> _logger;
 
@@ -26,6 +27,7 @@ public class NewModel : PageModel
         ISeasonRepository seasonRepository,
         ILeagueRepository leagueRepository,
         IGradeRepository gradeRepository,
+        IClubRepository clubRepository,
         GameChangerImportManager gameChangerImportManager,
         ILogger<NewModel> logger
         )
@@ -35,6 +37,7 @@ public class NewModel : PageModel
         _seasonRepository = seasonRepository;
         _leagueRepository = leagueRepository;
         _gradeRepository = gradeRepository;
+        _clubRepository = clubRepository;
         this.gameChangerImportManager = gameChangerImportManager;
         _logger = logger;
     }
@@ -56,17 +59,11 @@ public class NewModel : PageModel
 
         Leagues = MapLeaguesToSelectList(_leagueRepository.GetLeagues(), LeagueId);
 
-        HomeTeams = MapTeamsToSelectList(new List<Club>(){
-            new Club(){ Id = new Guid("a797916c-d0e3-4b37-82c2-8c1a210928bd"), Name = "Team 1" },
-            new Club(){ Id = new Guid("646bfb15-885c-45ec-a16f-a749bf5491fa"), Name = "Team 2" },
-            new Club(){ Id = new Guid("e0c76b43-988b-4d75-9106-381eb3ec5c32"), Name = "Team 3" },
-        }, HomeTeamId);
+        var clubs = await _clubRepository.GetClubsAsync();
 
-        AwayTeams = MapTeamsToSelectList(new List<Club>(){
-            new Club(){ Id = new Guid("d0f1a26e-ef2e-4e5a-9513-6efed8776a48"), Name = "Team 1" },
-            new Club(){ Id = new Guid("842821f4-15ba-40b6-8ab9-c7c756146f5a"), Name = "Team 2" },
-            new Club(){ Id = new Guid("b403e947-be3a-4d42-92b3-71acf08bf516"), Name = "Team 3" },
-        }, AwayTeamId);
+        HomeTeams = MapTeamsToSelectList(clubs, HomeTeamId);
+
+        AwayTeams = MapTeamsToSelectList(clubs, AwayTeamId);
 
         Grades = MapGradesToSelectList(_gradeRepository.GetGrades(), GradeId);
 
@@ -87,21 +84,27 @@ public class NewModel : PageModel
         await _gamePreviewRepository.CreateGamePreviewAsync(new GamePreview
         {
             GameId = id,
+            GradeId = GradeId,
+            LeagueId = LeagueId,
             AwayTeam = new TeamPreview
             {
-                TeamId = a.AwayTeam.Id,
+                TeamId = AwayTeamId,
                 TeamName = a.AwayTeam.Name,
                 Players = MapToPlayers(a.AwayTeam)
 
             },
             HomeTeam = new TeamPreview
             {
-                TeamId = a.HomeTeam.Id,
+                TeamId = HomeTeamId,
                 TeamName = a.HomeTeam.Name,
                 Players = MapToPlayers(a.HomeTeam)
 
             },
         });
+
+        gameUpload.GamePreviewId = id;
+
+        await _gameUploadRepository.UpdateGameUploadAsync(gameUpload);
 
         return RedirectToPage("./Preview", new { GameId = id });
     }

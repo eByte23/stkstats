@@ -1,0 +1,20 @@
+{
+  "create_new": false,
+  "type": "game",
+  "team_events": [],
+  "live_game": [],
+  "team": {
+    "team_path": "/t/winter-2023/mwbl-st-kilda-e-grade-64420520e1fa981ab898929b",
+    "season": "Winter 2023",
+    "locations": [],
+    "season_id": "64420520e1fa981ab8989299",
+    "opposing_teams": [],
+    "sport": "Baseball",
+    "league": "MWBL",
+    "name": "ST KILDA SAINTS",
+    "age": "adult",
+    "mp_info": null,
+    "pc": "",
+    "_id": "64420520e1fa981ab898929b"
+  }
+}

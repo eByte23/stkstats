@@ -31,3 +31,36 @@ public class InMemoryPlayerRepository : IPlayerRepository
         return Task.CompletedTask;
     }
 }
+
+
+public class LocalStorageFilePlayerRepository : IPlayerRepository
+{
+    private readonly RepoFileSystemStorage<Player> _repoFileSystemStorageHelper;
+
+    public LocalStorageFilePlayerRepository(RepoFileSystemStorageHelper storageHelper)
+    {
+        _repoFileSystemStorageHelper = storageHelper.GetRepoFileSystemStorage<Player>();
+    }
+
+    public async Task<Player?> GetPlayerAsync(Guid id)
+    {
+        var players = await _repoFileSystemStorageHelper.GetAllAsync();
+
+
+        return players.SingleOrDefault(x=> x.Id == id);
+    }
+
+    public async Task<List<Player>?> GetPlayersAsync()
+    {
+        return await _repoFileSystemStorageHelper.GetAllAsync();
+    }
+
+    public async Task CreatePlayerAsync(Player player)
+    {
+        var players = await _repoFileSystemStorageHelper.GetAllAsync();
+
+        players.Add(player);
+
+        await _repoFileSystemStorageHelper.SaveAllAsync(players);
+    }
+}

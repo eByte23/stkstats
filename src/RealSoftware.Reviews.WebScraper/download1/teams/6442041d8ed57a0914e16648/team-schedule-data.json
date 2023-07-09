@@ -1,0 +1,1544 @@
+{
+  "create_new": false,
+  "type": "game",
+  "team_events": [
+    {
+      "event_type": "game",
+      "arrival_ts": 1682134800,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 10.0,
+      "home": false,
+      "utc_start": "2023-04-22T04:40:00",
+      "sport": "BASEB",
+      "id": "64420d933709d41baa98925c",
+      "recap_title": [
+        {
+          "content": "MWBL ST KILDA B GRADE Jumps Out to Early Lead in Victory Over Monash University",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 8,
+        "side_readable": "Top",
+        "away": 5,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 3,
+        "side": 0
+      },
+      "location": "Elder Reserve (Monash Home)",
+      "change_v": "b95d7227-7552-4561-b858-897c58a0e3d4",
+      "type": "League",
+      "save_ts": 1682397044.0,
+      "recipients": [],
+      "wl": "1-0-0",
+      "start_ts": 1682138400,
+      "other_team_id": "64420d933709d41baa98925f",
+      "play_time": "2023-04-22T14:40:00",
+      "game_id": "64420d933709d41baa98925c",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6443d2a47cbd006060000001",
+      "minutes_before": 60,
+      "other_team_name": "Monash University"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 10.0,
+      "home": false,
+      "utc_start": "2023-05-06T04:40:00",
+      "sport": "BASEB",
+      "id": "6455d2a47cf200d699000002",
+      "recap_title": [
+        {
+          "content": "Three MWBL ST KILDA B GRADE Pitchers Rally Together to Shutout LaTrobe",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Top",
+        "away": 16,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 0,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2023-05-06T14:40:00",
+      "type": "League",
+      "save_ts": 1683549501.0,
+      "recipients": [],
+      "wl": "2-0-0",
+      "start_ts": 1683348000,
+      "other_team_id": "6455d2a47cf200d696000001",
+      "game_id": "6455d2a47cf200d699000002",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6455d2a47cf200d6a2000006",
+      "minutes_before": 0,
+      "other_team_name": "LaTrobe"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 10.0,
+      "home": true,
+      "utc_start": "2023-05-13T04:50:00",
+      "sport": "BASEB",
+      "id": "645fd2a47cf2001403000136",
+      "recap_title": [
+        {
+          "content": "Adam Throws Shutout as MWBL ST KILDA B GRADE Defeats Knox",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 8,
+        "side_readable": "Bot",
+        "away": 0,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 3,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2023-05-13T14:50:00",
+      "type": "League",
+      "save_ts": 1684723782.0,
+      "recipients": [],
+      "wl": "3-0-0",
+      "start_ts": 1683953400,
+      "other_team_id": "645fd2a47cf20013fe000135",
+      "game_id": "645fd2a47cf2001403000136",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "645fd2a47cf2001409000137",
+      "minutes_before": 0,
+      "other_team_name": "Knox"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 10.0,
+      "home": false,
+      "utc_start": "2023-05-20T04:40:00",
+      "sport": "BASEB",
+      "id": "6468d2a47ce9004c17000267",
+      "recap_title": [
+        {
+          "content": "Walk-off Seals Win For Essendon Against MWBL ST KILDA B GRADE",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 4,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 5,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2023-05-20T14:40:00",
+      "type": "League",
+      "save_ts": 1684723783.0,
+      "recipients": [],
+      "wl": "3-1-0",
+      "start_ts": 1684557600,
+      "other_team_id": "6468d2a47ce9004c10000266",
+      "game_id": "6468d2a47ce9004c17000267",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6468d2a47ce9004c2800026b",
+      "minutes_before": 0,
+      "other_team_name": "Essendon"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 10.0,
+      "home": false,
+      "utc_start": "2023-05-27T05:00:00",
+      "sport": "BASEB",
+      "id": "6471d2a47ce9008b00000393",
+      "recap_title": [
+        {
+          "content": "Guzman Shines at the Plate in MWBL ST KILDA B GRADE Victory Over Mitchell Majors",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 8,
+        "side_readable": "Top",
+        "away": 9,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 1,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2023-05-27T15:00:00",
+      "type": "League",
+      "save_ts": 1687681623.0,
+      "recipients": [],
+      "wl": "4-1-0",
+      "start_ts": 1685163600,
+      "other_team_id": "6471d2a47ce9008afb000392",
+      "game_id": "6471d2a47ce9008b00000393",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6471d2a47ce9008b08000397",
+      "minutes_before": 0,
+      "other_team_name": "Mitchell Majors"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 10.0,
+      "home": true,
+      "utc_start": "2023-06-03T05:00:00",
+      "sport": "BASEB",
+      "id": "647ad2a47ce900c56d0004df",
+      "recap_title": [
+        {
+          "content": "4-Hit Day for Guzman As MWBL ST KILDA B GRADE Skirts Past Research",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 8,
+        "side_readable": "Bot",
+        "away": 3,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 7,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2023-06-03T15:00:00",
+      "type": "League",
+      "save_ts": 1687678881.0,
+      "recipients": [],
+      "wl": "5-1-0",
+      "start_ts": 1685768400,
+      "other_team_id": "647ad2a47ce900c56a0004de",
+      "game_id": "647ad2a47ce900c56d0004df",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "647ad2a47ce900c5710004e0",
+      "minutes_before": 0,
+      "other_team_name": "Research"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 10.0,
+      "home": false,
+      "utc_start": "2023-06-17T03:35:00",
+      "sport": "BASEB",
+      "id": "648dd2a47c0001279e0005fa",
+      "recap_title": [
+        {
+          "content": "MWBL ST KILDA B GRADE Slides Into a Blow-Out Win Over North Coburg",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 9,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 1,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2023-06-17T13:35:00",
+      "type": "League",
+      "save_ts": 1687678882.0,
+      "recipients": [],
+      "wl": "6-1-0",
+      "start_ts": 1686972900,
+      "other_team_id": "648dd2a47c0001274c0005f9",
+      "game_id": "648dd2a47c0001279e0005fa",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "648dd2a47c000127a70005fb",
+      "minutes_before": 0,
+      "other_team_name": "North Coburg"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 10.0,
+      "home": true,
+      "utc_start": "2023-06-24T04:40:00",
+      "sport": "BASEB",
+      "id": "6496d2a47c0001710c00071f",
+      "recap_title": [
+        {
+          "content": "Adam Throws Shutout as MWBL ST KILDA B GRADE Defeats Croydon",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 6,
+        "side_readable": "Bot",
+        "away": 0,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 1,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2023-06-24T14:40:00",
+      "type": "League",
+      "save_ts": 1687678882.0,
+      "recipients": [],
+      "wl": "7-1-0",
+      "start_ts": 1687581600,
+      "other_team_id": "6496d2a47c0001710700071e",
+      "game_id": "6496d2a47c0001710c00071f",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "6496d2a47c00017111000720",
+      "minutes_before": 0,
+      "other_team_name": "Croydon"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 10.0,
+      "home": true,
+      "utc_start": "2023-07-01T04:40:00",
+      "sport": "BASEB",
+      "id": "649fd2a47c8f0154c60000b9",
+      "recap_title": [
+        {
+          "content": "4-Hit Day for Guzman Leads MWBL ST KILDA B GRADE Past Monash University",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Bot",
+        "away": 1,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 8,
+        "side": 1
+      },
+      "location": "Tom O'Halloran Field, Hockey Dr, St Kilda VIC 3182, Australia",
+      "change_v": "b95d7227-7552-4561-b858-897c58a0e3d4",
+      "type": "League",
+      "save_ts": 1688200543.0,
+      "recipients": [],
+      "wl": "8-1-0",
+      "start_ts": 1688186400,
+      "other_team_id": "64420d933709d41baa98925f",
+      "play_time": "2023-07-01T14:40:00",
+      "game_id": "649fd2a47c8f0154c60000b9",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "649fd2a47c8f01ab0b0001df",
+      "minutes_before": 0,
+      "other_team_name": "Monash University"
+    }
+  ],
+  "live_game": [],
+  "team": {
+    "team_path": "/t/winter-2023/mwbl-st-kilda-b-grade-6442041d8ed57a0914e16648",
+    "season": "Winter 2023",
+    "locations": [
+      "Elder Reserve (Monash Home)",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Tom O'Halloran Field, Hockey Dr, St Kilda VIC 3182, Australia"
+    ],
+    "season_id": "6442041d8ed57a0914e16646",
+    "opposing_teams": [
+      {
+        "code": "CRYD",
+        "entity_creation_time": 1687580935,
+        "league": "",
+        "_type": "team",
+        "~v": "11.5.1.0",
+        "season_id": "6497ef876293251ddd22a6cc",
+        "long_name": "Croydon",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 1,
+          "last_scored": "2023-06-25T07:41:23",
+          "last_active": "2023-06-25T07:41:23"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "sport": "Baseball",
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "_change_d": "2023-06-24T06:17:25",
+        "short_name": "Croydon",
+        "age_desc": "adult",
+        "ts": "2023-06-24T04:28:55",
+        "save_date": "2023-06-25T07:41:23",
+        "first_save": "2023-06-25T07:40:55",
+        "access_level": "free",
+        "_change_d_ts": 709280245.697254,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6442041d8ed57a0914e16648",
+        "status": "OPP",
+        "_doc_version": "4df2a809c1624d228cb0bf26df98a235",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "prepaid": false,
+        "roster": [
+          {
+            "player_id": "6496d2a47c00017243000738",
+            "lname": "Legge",
+            "num": "",
+            "pos": [],
+            "fname": "Mitch"
+          },
+          {
+            "player_id": "6496d2a47c0001725600073a",
+            "lname": "Couhs",
+            "num": "",
+            "pos": [],
+            "fname": "Travis"
+          },
+          {
+            "player_id": "6496d2a47c0001727d00073c",
+            "lname": "Farell",
+            "num": "",
+            "pos": [],
+            "fname": "Glenn"
+          },
+          {
+            "player_id": "6496d2a47c0001729e00073e",
+            "lname": "Huggins",
+            "num": "",
+            "pos": [],
+            "fname": "Aden "
+          },
+          {
+            "player_id": "6496d2a47c000172b2000740",
+            "lname": "Oconnel",
+            "num": "",
+            "pos": [],
+            "fname": "Tom"
+          },
+          {
+            "player_id": "6496d2a47c000172c4000742",
+            "lname": "Masters",
+            "num": "",
+            "pos": [],
+            "fname": "Ryan "
+          },
+          {
+            "player_id": "6496d2a47c000172d3000744",
+            "lname": "Garland",
+            "num": "",
+            "pos": [],
+            "fname": "Hen"
+          },
+          {
+            "player_id": "6496d2a47c000172e0000746",
+            "lname": "Mather",
+            "num": "",
+            "pos": [],
+            "fname": "Sam "
+          },
+          {
+            "player_id": "6496d2a47c000172ef000748",
+            "lname": "Garland",
+            "num": "",
+            "pos": [],
+            "fname": "Jason"
+          },
+          {
+            "player_id": "6496d2a47ce7008a75000074",
+            "lname": "Lachman",
+            "num": "",
+            "pos": [],
+            "fname": "Jarrod"
+          }
+        ],
+        "season": "Winter 2023",
+        "tbd": false,
+        "mascot": "Croydon",
+        "innings": "6",
+        "lineup": [],
+        "name": "Croydon",
+        "league_id": "",
+        "stat_access": "CONFIRMED_FULL",
+        "age": "youth",
+        "parent_team_id": "6442041d8ed57a0914e16648",
+        "teamgroups": [],
+        "_id": "6496d2a47c0001710700071e",
+        "is_official": false
+      },
+      {
+        "code": "ESSN",
+        "entity_creation_time": 1684556816,
+        "league": "",
+        "_type": "team",
+        "~v": "11.5.1.0",
+        "season_id": "646ad838f38c513623c20f12",
+        "long_name": "Essendon",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-05-22T02:49:43",
+          "games": 1,
+          "offline": true,
+          "last_active": "2023-05-22T02:49:43"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "sport": "Baseball",
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "_change_d": "2023-05-20T06:39:26",
+        "short_name": "Essendon",
+        "age_desc": "adult",
+        "ts": "2023-05-20T04:26:56",
+        "save_date": "2023-05-22T02:49:43",
+        "first_save": "2023-05-22T02:49:28",
+        "access_level": "free",
+        "_change_d_ts": 706257566.64153,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6442041d8ed57a0914e16648",
+        "status": "OPP",
+        "_doc_version": "2c19b10f77334612bf1c98ccf3a45309",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "prepaid": false,
+        "roster": [
+          {
+            "player_id": "6468d2a47ce9004e83000284",
+            "lname": "Condie",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          },
+          {
+            "player_id": "6468d2a47ce9004ea9000286",
+            "lname": "Prpic",
+            "num": "",
+            "pos": [],
+            "fname": "J"
+          },
+          {
+            "player_id": "6468d2a47ce9004ecc000288",
+            "lname": "Merzel",
+            "num": "",
+            "pos": [],
+            "fname": "A"
+          },
+          {
+            "player_id": "6468d2a47ce9004ee500028a",
+            "lname": "Condie",
+            "num": "",
+            "pos": [],
+            "fname": "L"
+          },
+          {
+            "player_id": "6468d2a47ce9004f0000028c",
+            "lname": "Danya",
+            "num": "",
+            "pos": [],
+            "fname": "L "
+          },
+          {
+            "player_id": "6468d2a47ce9004f2f00028e",
+            "lname": "Hemmerijckx",
+            "num": "",
+            "pos": [],
+            "fname": "A"
+          },
+          {
+            "player_id": "6468d2a47ce9004f51000290",
+            "lname": "Brecckennrige",
+            "num": "",
+            "pos": [],
+            "fname": "C"
+          },
+          {
+            "player_id": "6468d2a47ce9004f69000292",
+            "lname": "Haaiggh",
+            "num": "",
+            "pos": [],
+            "fname": "H "
+          },
+          {
+            "player_id": "6468d2a47ce900516e0002a8",
+            "lname": "Southwell",
+            "num": "",
+            "pos": [],
+            "fname": "R"
+          },
+          {
+            "player_id": "6468d2a47ce90052fe0002bb",
+            "lname": "Eveery",
+            "num": "",
+            "pos": [],
+            "fname": "C"
+          },
+          {
+            "player_id": "6468d2a47ce9006b1e00038e",
+            "lname": "Campbell",
+            "num": "",
+            "pos": [],
+            "fname": "L"
+          }
+        ],
+        "season": "Winter 2023",
+        "tbd": false,
+        "mascot": "Essendon",
+        "innings": "6",
+        "lineup": [],
+        "name": "Essendon",
+        "league_id": "",
+        "stat_access": "CONFIRMED_FULL",
+        "age": "youth",
+        "parent_team_id": "6442041d8ed57a0914e16648",
+        "teamgroups": [],
+        "_id": "6468d2a47ce9004c10000266",
+        "is_official": false
+      },
+      {
+        "code": "KNOX",
+        "entity_creation_time": 1683952638,
+        "league": "",
+        "_type": "team",
+        "~v": "11.5.1.0",
+        "season_id": "646ad836d2c152b378c2109e",
+        "long_name": "Knox",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 1,
+          "last_scored": "2023-05-22T02:49:42",
+          "last_active": "2023-05-22T02:49:42"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "sport": "Baseball",
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "_change_d": "2023-05-13T05:22:45",
+        "short_name": "Knox",
+        "age_desc": "adult",
+        "ts": "2023-05-13T04:37:18",
+        "save_date": "2023-05-22T02:49:42",
+        "first_save": "2023-05-22T02:49:26",
+        "access_level": "free",
+        "_change_d_ts": 705648165.262213,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6442041d8ed57a0914e16648",
+        "status": "OPP",
+        "_doc_version": "986c728e875a4304b05d3cbe5dddee71",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "prepaid": false,
+        "roster": [
+          {
+            "player_id": "645fd2a47cf20014fe000150",
+            "lname": "Rice",
+            "num": "",
+            "pos": [],
+            "fname": "Nick"
+          },
+          {
+            "player_id": "645fd2a47cf200150b000152",
+            "lname": "Archer",
+            "num": "",
+            "pos": [],
+            "fname": "Dylan"
+          },
+          {
+            "player_id": "645fd2a47cf2001515000154",
+            "lname": "Elliot",
+            "num": "",
+            "pos": [],
+            "fname": "Jordan"
+          },
+          {
+            "player_id": "645fd2a47cf2001524000156",
+            "lname": "Rogers",
+            "num": "",
+            "pos": [],
+            "fname": "Staci"
+          },
+          {
+            "player_id": "645fd2a47cf200152e000158",
+            "lname": "Turner",
+            "num": "",
+            "pos": [],
+            "fname": "Jarrod"
+          },
+          {
+            "player_id": "645fd2a47cf200153800015a",
+            "lname": "Sadler",
+            "num": "",
+            "pos": [],
+            "fname": "Todd"
+          },
+          {
+            "player_id": "645fd2a47cf200154400015c",
+            "lname": "Gawith",
+            "num": "",
+            "pos": [],
+            "fname": "Patrick"
+          },
+          {
+            "player_id": "645fd2a47cf200155100015e",
+            "lname": "Griffiths",
+            "num": "",
+            "pos": [],
+            "fname": "Sam"
+          },
+          {
+            "player_id": "645fd2a47cf2001566000160",
+            "lname": "Barnesly",
+            "num": "",
+            "pos": [],
+            "fname": "Matt"
+          },
+          {
+            "player_id": "645fd2a47cf2001e250001a9",
+            "lname": "Barsley",
+            "num": "",
+            "pos": [],
+            "fname": "Matt"
+          },
+          {
+            "player_id": "645fd2a47cf2001ea50001b5",
+            "lname": "Barnsley",
+            "num": "",
+            "pos": [],
+            "fname": "Matt"
+          }
+        ],
+        "season": "Winter 2023",
+        "tbd": false,
+        "mascot": "Knox",
+        "innings": "6",
+        "lineup": [],
+        "name": "Knox",
+        "league_id": "",
+        "stat_access": "CONFIRMED_FULL",
+        "age": "youth",
+        "parent_team_id": "6442041d8ed57a0914e16648",
+        "teamgroups": [],
+        "_id": "645fd2a47cf20013fe000135",
+        "is_official": false
+      },
+      {
+        "code": "LTRB",
+        "entity_creation_time": 1683347094,
+        "league": "",
+        "_type": "team",
+        "~v": "11.5.1.0",
+        "season_id": "6458ed3820a34356d95d281f",
+        "long_name": "LaTrobe",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-05-08T12:38:21",
+          "games": 1,
+          "offline": true,
+          "last_active": "2023-05-08T12:38:21"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "sport": "Baseball",
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "_change_d": "2023-05-06T04:31:32",
+        "short_name": "LaTrobe",
+        "age_desc": "adult",
+        "ts": "2023-05-06T04:24:54",
+        "save_date": "2023-05-08T12:38:21",
+        "first_save": "2023-05-08T12:38:16",
+        "access_level": "free",
+        "_change_d_ts": 705040292.772456,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6442041d8ed57a0914e16648",
+        "status": "OPP",
+        "_doc_version": "92c70c0cb97b4868ab327aa84cdd265b",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "prepaid": false,
+        "roster": [
+          {
+            "player_id": "6455d2a47cf200d77f00001f",
+            "lname": "Loveridge",
+            "num": "",
+            "pos": [],
+            "fname": "Josh"
+          },
+          {
+            "player_id": "6455d2a47cf200d79e000021",
+            "lname": "Bebbre",
+            "num": "",
+            "pos": [],
+            "fname": "Daniel"
+          },
+          {
+            "player_id": "6455d2a47cf200d7b0000023",
+            "lname": "Preston",
+            "num": "",
+            "pos": [],
+            "fname": "Damian"
+          },
+          {
+            "player_id": "6455d2a47cf200d7c1000025",
+            "lname": "Regester",
+            "num": "",
+            "pos": [],
+            "fname": "Kuke"
+          },
+          {
+            "player_id": "6455d2a47cf200d7da000027",
+            "lname": "McAdam",
+            "num": "",
+            "pos": [],
+            "fname": "Ton"
+          },
+          {
+            "player_id": "6455d2a47cf200d7e8000029",
+            "lname": "Hennan",
+            "num": "",
+            "pos": [],
+            "fname": "Mark"
+          },
+          {
+            "player_id": "6455d2a47cf200d80200002b",
+            "lname": "Ngyuen",
+            "num": "",
+            "pos": [],
+            "fname": "Derek"
+          },
+          {
+            "player_id": "6455d2a47cf200d81200002d",
+            "lname": "Rowe",
+            "num": "",
+            "pos": [],
+            "fname": "Adam"
+          },
+          {
+            "player_id": "6455d2a47cf200d82400002f",
+            "lname": "Halley",
+            "num": "",
+            "pos": [],
+            "fname": "James"
+          }
+        ],
+        "season": "Winter 2023",
+        "tbd": false,
+        "mascot": "LaTrobe",
+        "innings": "6",
+        "lineup": [],
+        "name": "LaTrobe",
+        "league_id": "",
+        "stat_access": "CONFIRMED_FULL",
+        "age": "youth",
+        "parent_team_id": "6442041d8ed57a0914e16648",
+        "teamgroups": [],
+        "_id": "6455d2a47cf200d696000001",
+        "is_official": false
+      },
+      {
+        "code": "MTCH",
+        "entity_creation_time": 1685162747,
+        "league": "",
+        "_type": "team",
+        "~v": "11.5.1.0",
+        "season_id": "6471d21b614e059ca0b29701",
+        "long_name": "Mitchell Majors",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-06-25T08:27:03",
+          "games": 1,
+          "offline": true,
+          "last_active": "2023-06-25T08:27:03"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "sport": "Baseball",
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "_change_d": "2023-05-27T06:39:23",
+        "short_name": "Mitchell Majors",
+        "age_desc": "adult",
+        "ts": "2023-05-27T04:45:47",
+        "save_date": "2023-06-25T08:27:03",
+        "first_save": "2023-05-27T09:49:15",
+        "access_level": "free",
+        "_change_d_ts": 706862363.280505,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6442041d8ed57a0914e16648",
+        "status": "OPP",
+        "_doc_version": "997e8b3412c54ee38abc5378e48e9c6d",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "prepaid": false,
+        "roster": [
+          {
+            "player_id": "6471d2a47ce9008bb80003ad",
+            "lname": "Harkom",
+            "num": "",
+            "pos": [],
+            "fname": "Ben "
+          },
+          {
+            "player_id": "6471d2a47ce9008bcb0003af",
+            "lname": "McPhail",
+            "num": "",
+            "pos": [],
+            "fname": "Deacon "
+          },
+          {
+            "player_id": "6471d2a47ce9008bd90003b1",
+            "lname": "Hill",
+            "num": "",
+            "pos": [],
+            "fname": "Riley"
+          },
+          {
+            "player_id": "6471d2a47ce9008beb0003b3",
+            "lname": "Ruyter",
+            "num": "",
+            "pos": [],
+            "fname": "Lachlan"
+          },
+          {
+            "player_id": "6471d2a47ce9008bfe0003b5",
+            "lname": "Keighran",
+            "num": "",
+            "pos": [],
+            "fname": "Lance"
+          },
+          {
+            "player_id": "6471d2a47ce9008c0d0003b7",
+            "lname": "Kubisch",
+            "num": "",
+            "pos": [],
+            "fname": "Chris"
+          },
+          {
+            "player_id": "6471d2a47ce9008c300003b9",
+            "lname": "Zelvys",
+            "num": "",
+            "pos": [],
+            "fname": "Leon"
+          },
+          {
+            "player_id": "6471d2a47ce9008c3a0003bb",
+            "lname": "Sims",
+            "num": "",
+            "pos": [],
+            "fname": "Nathan"
+          },
+          {
+            "player_id": "6471d2a47ce9008c470003bd",
+            "lname": "Partridge ",
+            "num": "",
+            "pos": [],
+            "fname": "Callum"
+          },
+          {
+            "player_id": "6471d2a47ce900952600042f",
+            "lname": "Partridge",
+            "num": "",
+            "pos": [],
+            "fname": "Stuart"
+          },
+          {
+            "player_id": "6471d2a47ce900a59b0004d0",
+            "lname": "Fitzgerald",
+            "num": "",
+            "pos": [],
+            "fname": "Coen"
+          }
+        ],
+        "season": "Winter 2023",
+        "tbd": false,
+        "mascot": "Mitchell Majors",
+        "innings": "6",
+        "lineup": [],
+        "name": "Mitchell Majors",
+        "league_id": "",
+        "stat_access": "CONFIRMED_FULL",
+        "age": "youth",
+        "parent_team_id": "6442041d8ed57a0914e16648",
+        "teamgroups": [],
+        "_id": "6471d2a47ce9008afb000392",
+        "is_official": false
+      },
+      {
+        "code": "MNSH",
+        "_sync_d": "2023-07-01T06:44:59",
+        "_type": "team",
+        "alerting": {
+          "prefs": {}
+        },
+        "season_id": "64420d933709d41baa98925d",
+        "long_name": "Monash University",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-07-01T08:35:43",
+          "last_active": "2023-07-01T08:35:43",
+          "reqs": 0,
+          "live": true,
+          "games": 2,
+          "offline": true
+        },
+        "dropped": [],
+        "strict_privacy_enabled": false,
+        "av": "2",
+        "is_official": false,
+        "team_type": null,
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "access_level": "free",
+        "roster": [
+          {
+            "player_id": "6443d2a47cbd006396000018",
+            "lname": "Hunt",
+            "num": "",
+            "pos": [],
+            "fname": "Michael"
+          },
+          {
+            "player_id": "6443d2a47cbd0063be00001a",
+            "lname": "Fuda",
+            "num": "",
+            "pos": [],
+            "fname": "Lachlan"
+          },
+          {
+            "player_id": "6443d2a47cbd0063dd00001c",
+            "lname": "Michaud",
+            "num": "",
+            "pos": [],
+            "fname": "Joe"
+          },
+          {
+            "player_id": "6443d2a47cbd0063fa00001e",
+            "lname": "Di Battisa",
+            "num": "",
+            "pos": [],
+            "fname": "Dion"
+          },
+          {
+            "player_id": "6443d2a47cbd006417000020",
+            "lname": "Poole",
+            "num": "",
+            "pos": [],
+            "fname": "Donnie"
+          },
+          {
+            "player_id": "6443d2a47cbd006450000022",
+            "lname": "Stubb",
+            "num": "",
+            "pos": [],
+            "fname": "Joel"
+          },
+          {
+            "player_id": "6443d2a47cbd006466000024",
+            "lname": "Beaumont",
+            "num": "",
+            "pos": [],
+            "fname": "David"
+          },
+          {
+            "player_id": "6443d2a47cbd00647a000026",
+            "lname": "Burridge",
+            "num": "",
+            "pos": [],
+            "fname": "Nick"
+          },
+          {
+            "player_id": "6443d2a47cbd006497000028",
+            "lname": "Morgan",
+            "num": "",
+            "pos": [],
+            "fname": "Michael"
+          },
+          {
+            "player_id": "6443d2a47cbd0064aa00002a",
+            "lname": "Young",
+            "num": "",
+            "pos": [],
+            "fname": "Mathew"
+          },
+          {
+            "player_id": "649fd2a47c8f01acbb0001ef",
+            "lname": "Guerra",
+            "num": "",
+            "pos": [],
+            "fname": "Sebastian"
+          },
+          {
+            "player_id": "649fd2a47c8f01acdb0001f1",
+            "lname": "Varlet Parkin",
+            "num": "",
+            "pos": [],
+            "fname": "Dylan"
+          },
+          {
+            "player_id": "649fd2a47c8f01acf30001f2",
+            "lname": "Walmsley",
+            "num": "",
+            "pos": [],
+            "fname": "Jackson"
+          },
+          {
+            "player_id": "649fd2a47c8f01c9f2000301",
+            "lname": "Lin",
+            "num": "",
+            "pos": [],
+            "fname": "Titus"
+          }
+        ],
+        "save_date": "2023-07-01T08:35:43",
+        "first_save": "2023-04-21T04:14:11",
+        "intention": false,
+        "_change_d_ts": 709886322.673425,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6442041d8ed57a0914e16648",
+        "status": "OPP",
+        "division": null,
+        "_doc_version": "0a12a693720a4ec98853671a1b3803d8",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "64420d933709d41baa98925f"
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "users": [],
+        "short_name": "Monash University",
+        "innings": "9",
+        "season": "Winter 2023",
+        "school_name": null,
+        "stats_meta": {
+          "save_ts": 1682050451.35379,
+          "version": 0
+        },
+        "_change_d": "2023-07-01T06:38:42",
+        "organization": null,
+        "_sync_d_ts": 709886699.650905,
+        "association": null,
+        "mascot": null,
+        "league": "MWBL",
+        "lineup": [],
+        "name": "Monash University",
+        "league_id": "64420d933709d41baa98925e",
+        "age": "adult",
+        "age_desc": null,
+        "parent_team_id": "6442041d8ed57a0914e16648",
+        "teamgroups": [],
+        "_id": "64420d933709d41baa98925f",
+        "stat_access": "OPEN"
+      },
+      {
+        "code": "NRTH",
+        "entity_creation_time": 1686972236,
+        "league": "",
+        "_type": "team",
+        "~v": "11.5.1.0",
+        "season_id": "6497ef86dc236183d53af4a6",
+        "long_name": "North Coburg",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 1,
+          "last_scored": "2023-06-25T07:41:22",
+          "last_active": "2023-06-25T07:41:22"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "sport": "Baseball",
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "_change_d": "2023-06-17T06:41:50",
+        "short_name": "North Coburg",
+        "age_desc": "adult",
+        "ts": "2023-06-17T03:23:56",
+        "save_date": "2023-06-25T07:41:22",
+        "first_save": "2023-06-25T07:40:54",
+        "access_level": "free",
+        "_change_d_ts": 708676910.709704,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6442041d8ed57a0914e16648",
+        "status": "OPP",
+        "_doc_version": "dcace267da0944a1a8508d0ee74987aa",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "prepaid": false,
+        "roster": [
+          {
+            "player_id": "648dd2a47c0001355b000607",
+            "lname": "Golledge",
+            "num": "",
+            "pos": [],
+            "fname": "Ryan"
+          },
+          {
+            "player_id": "648dd2a47c00013576000609",
+            "lname": "Shanks",
+            "num": "",
+            "pos": [],
+            "fname": "Ryley"
+          },
+          {
+            "player_id": "648dd2a47c0001358b00060b",
+            "lname": "Karp",
+            "num": "",
+            "pos": [],
+            "fname": "Andy"
+          },
+          {
+            "player_id": "648dd2a47c000135a200060d",
+            "lname": "Hadlow",
+            "num": "",
+            "pos": [],
+            "fname": "Harvey"
+          },
+          {
+            "player_id": "648dd2a47c000135b900060f",
+            "lname": "Sutherland",
+            "num": "",
+            "pos": [],
+            "fname": "Charlie"
+          },
+          {
+            "player_id": "648dd2a47c000135cc000611",
+            "lname": "Stevens",
+            "num": "",
+            "pos": [],
+            "fname": "Harry"
+          },
+          {
+            "player_id": "648dd2a47c000135dc000613",
+            "lname": "Golledge",
+            "num": "",
+            "pos": [],
+            "fname": "Finn"
+          },
+          {
+            "player_id": "648dd2a47c0001360a000615",
+            "lname": "Grahavoc",
+            "num": "",
+            "pos": [],
+            "fname": "Jay"
+          },
+          {
+            "player_id": "648dd2a47c0001361d000617",
+            "lname": "White",
+            "num": "",
+            "pos": [],
+            "fname": "Jacob"
+          },
+          {
+            "player_id": "648dd2a47c000155ae000705",
+            "lname": "",
+            "num": "Dennis",
+            "pos": [],
+            "fname": "Papadatos"
+          }
+        ],
+        "season": "Winter 2023",
+        "tbd": false,
+        "mascot": "North Coburg",
+        "innings": "6",
+        "lineup": [],
+        "name": "North Coburg",
+        "league_id": "",
+        "stat_access": "CONFIRMED_FULL",
+        "age": "youth",
+        "parent_team_id": "6442041d8ed57a0914e16648",
+        "teamgroups": [],
+        "_id": "648dd2a47c0001274c0005f9",
+        "is_official": false
+      },
+      {
+        "code": "RSRC",
+        "entity_creation_time": 1685767530,
+        "league": "",
+        "_type": "team",
+        "~v": "11.5.1.0",
+        "season_id": "6497ef86c9061ccbf922ace5",
+        "long_name": "Research",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 1,
+          "last_scored": "2023-06-25T07:41:21",
+          "last_active": "2023-06-25T07:41:21"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "sport": "Baseball",
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "_change_d": "2023-06-03T06:29:04",
+        "short_name": "Research",
+        "age_desc": "adult",
+        "ts": "2023-06-03T04:45:30",
+        "save_date": "2023-06-25T07:41:21",
+        "first_save": "2023-06-25T07:40:54",
+        "access_level": "free",
+        "_change_d_ts": 707466544.670156,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6442041d8ed57a0914e16648",
+        "status": "OPP",
+        "_doc_version": "a4843e446b1d4e74a175248dfe7c23f7",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "11.5.1.0",
+        "prepaid": false,
+        "roster": [
+          {
+            "player_id": "647ad2a47ce900c61b0004ec",
+            "lname": "Crundwell",
+            "num": "",
+            "pos": [],
+            "fname": "Ben"
+          },
+          {
+            "player_id": "647ad2a47ce900c62c0004ee",
+            "lname": "Harty",
+            "num": "",
+            "pos": [],
+            "fname": "Steve"
+          },
+          {
+            "player_id": "647ad2a47ce900c6350004f0",
+            "lname": "Bride",
+            "num": "",
+            "pos": [],
+            "fname": "Joshua"
+          },
+          {
+            "player_id": "647ad2a47ce900c6420004f2",
+            "lname": "Veal",
+            "num": "",
+            "pos": [],
+            "fname": "Spencer"
+          },
+          {
+            "player_id": "647ad2a47ce900c64f0004f4",
+            "lname": "Wingrave",
+            "num": "",
+            "pos": [],
+            "fname": "Jake"
+          },
+          {
+            "player_id": "647ad2a47ce900c65c0004f6",
+            "lname": "Tanaka",
+            "num": "",
+            "pos": [],
+            "fname": "Takumi"
+          },
+          {
+            "player_id": "647ad2a47ce900c6670004f8",
+            "lname": "De Haan",
+            "num": "",
+            "pos": [],
+            "fname": "Cooper"
+          },
+          {
+            "player_id": "647ad2a47ce900c6780004fa",
+            "lname": "Sertis",
+            "num": "",
+            "pos": [],
+            "fname": "Evan"
+          },
+          {
+            "player_id": "647ad2a47ce900c68a0004fc",
+            "lname": "Pilapil",
+            "num": "",
+            "pos": [],
+            "fname": "Kelly"
+          },
+          {
+            "player_id": "647ad2a47ce900dd7d0005c5",
+            "lname": "Hall",
+            "num": "",
+            "pos": [],
+            "fname": "Jensen"
+          }
+        ],
+        "season": "Winter 2023",
+        "tbd": false,
+        "mascot": "Research",
+        "innings": "6",
+        "lineup": [],
+        "name": "Research",
+        "league_id": "",
+        "stat_access": "CONFIRMED_FULL",
+        "age": "youth",
+        "parent_team_id": "6442041d8ed57a0914e16648",
+        "teamgroups": [],
+        "_id": "647ad2a47ce900c56a0004de",
+        "is_official": false
+      }
+    ],
+    "sport": "Baseball",
+    "league": "MWBL",
+    "name": "ST KILDA SAINTS",
+    "age": "adult",
+    "mp_info": null,
+    "pc": "",
+    "_id": "6442041d8ed57a0914e16648"
+  }
+}

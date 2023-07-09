@@ -10,16 +10,22 @@ public class PreviewModel : PageModel
 {
     private readonly IGamePreviewRepository _gamePreviewRepository;
     private readonly IPlayerRepository _playerRepository;
+    private readonly IClubRepository _clubRepository;
+    private readonly IGradeRepository _gradeRepository;
     private readonly ILogger<PreviewModel> _logger;
 
     public PreviewModel(
         IGamePreviewRepository gamePreviewRepository,
         IPlayerRepository playerRepository,
+        IClubRepository clubRepository,
+        IGradeRepository gradeRepository,
         ILogger<PreviewModel> logger
     )
     {
         _gamePreviewRepository = gamePreviewRepository;
         _playerRepository = playerRepository;
+        this._clubRepository = clubRepository;
+        this._gradeRepository = gradeRepository;
         _logger = logger;
     }
 
@@ -118,10 +124,19 @@ public class PreviewModel : PageModel
             return null;
         }
 
+
+        var grade = await _gradeRepository.GetGradeAsync(gamePreview.GradeId);
+
+        var homeClub = await _clubRepository.GetClubAsync(gamePreview.HomeTeam!.TeamId);
+        var awayClub = await _clubRepository.GetClubAsync(gamePreview.AwayTeam!.TeamId);
+
         return new GamePreviewView
         {
             GameId = gamePreview.GameId,
             GradeId = gamePreview.GradeId,
+            GradeName = grade?.Name,
+            HomeTeamName = homeClub?.ShortName,
+            AwayTeamName = awayClub?.ShortName,
             HomeTeam = new TeamPreviewView
             {
                 GameId = gamePreview.GameId,

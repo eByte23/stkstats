@@ -1,0 +1,30 @@
+{
+    "team": "Team 1",
+    "grade": "D Res",
+    "homeAway": "H",
+    "opposition": "Team 2",
+    "location": "",
+    "date": "2017-04-01",
+    "result": "W",
+    "homeRuns": 2,
+    "awayRuns": 1,
+    "players": [
+        {
+            "id": "elijah-bate-12345sf",
+            "name": "Elijah Bate",
+            "hitting": {
+                "pa": 3,
+                "atBats": 3,
+                "runs": 1,
+                "hits": 2,
+                "rbi": 1,
+                "walks": 0,
+                "strikeouts": 0,
+                "avg": 0.667,
+                "obp": 0.667,
+                "slg": 0.667,
+                "ops": 1.333
+            }
+        }
+    ]
+}

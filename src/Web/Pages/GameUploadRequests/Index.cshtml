@@ -23,7 +23,15 @@
                 <td>@item.FileName</td>
                 <td>@item.FileName</td>
                 <td>
-                    <a asp-page="../UploadGame/New" asp-route-ImportRequestId="@item.Id">Upload</a>
+                    @if (item.GamePreviewId.HasValue)
+                    {
+                        <a asp-page="../UploadGame/Preview" asp-route-GameId="@item.GamePreviewId">Upload</a>
+
+                    }
+                    else
+                    {
+                        <a asp-page="../UploadGame/New" asp-route-ImportRequestId="@item.Id">Upload</a>
+                    }
                 </td>
             </tr>
 

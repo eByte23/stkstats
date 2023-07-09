@@ -22,19 +22,6 @@ var uniqueIdGenerator = new UniqueIdGenerator();
 
 var gameRepository = new InMemoryGameRepository(new List<STKBC.Stats.Data.Models.Game>
 {
-    new STKBC.Stats.Data.Models.Game{
-        Id = uniqueIdGenerator.NewDeterministicId("game1").Id,
-        HomeTeamId = uniqueIdGenerator.NewDeterministicId("home-team-1").Id,
-        HomeTeam = "Home Team 1",
-        HomeTeamRuns = 10,
-        AwayTeamId = uniqueIdGenerator.NewDeterministicId("away-team-2").Id,
-        AwayTeam = "Away Team 2",
-        AwayTeamRuns = 5,
-        LeagueId = uniqueIdGenerator.NewDeterministicId("league-1").Id,
-        SeasonId = uniqueIdGenerator.NewDeterministicId("season-1").Id,
-        GradeId = uniqueIdGenerator.NewDeterministicId("grade-1").Id,
-        GameDate = new DateTime(2023, 5, 4)
-    }
 });
 
 var seasonRepository = new InMemorySeasonRepository(new List<STKBC.Stats.Data.Models.Season>
@@ -169,19 +156,22 @@ var playerRepository = new InMemoryPlayerRepository();
 #endregion
 
 builder.Services.AddScoped<GameChangerImportManager>();
-builder.Services.AddScoped<IPlayerRepository>(s => playerRepository);
-builder.Services.AddScoped<IClubRepository>(s => clubRepository);
+builder.Services.AddScoped<IPlayerRepository,LocalStorageFilePlayerRepository>();
+// builder.Services.AddScoped<IPlayerRepository>(s => playerRepository);
+// builder.Services.AddScoped<IClubRepository>(s => clubRepository);
+builder.Services.AddScoped<IClubRepository, LocalStorageClubRepository>();
 builder.Services.AddScoped<IGameRepository>(s => gameRepository);
-builder.Services.AddScoped<IGamePreviewRepository, LocalStorageFileInMemoryGamePreviewRepository>();
+builder.Services.AddScoped<IGamePreviewRepository, LocalStorageFileGamePreviewRepository>();
 // builder.Services.AddScoped<IGamePreviewRepository>(s => gamePreviewRepository);
 builder.Services.AddScoped<ISeasonRepository>(s => seasonRepository);
 builder.Services.AddScoped<ILeagueRepository>(s => leagueRepository);
 builder.Services.AddScoped<IGradeRepository>(s => gradesRepository);
 builder.Services.AddScoped<IIdGenerator>(s => uniqueIdGenerator);
-builder.Services.AddScoped<IGameUploadRepository>(s => gameUploadRepository);
+// builder.Services.AddScoped<IGameUploadRepository>(s => gameUploadRepository);
+builder.Services.AddScoped<IGameUploadRepository, LocalStorageFileGameUploadRepository>();
 builder.Services.AddScoped<IFileUploadRepository, LocalStorageFileUploadRepository>();
 // builder.Services.AddScoped<IFileUploadRepository>(s => fileUploadRepository);
-builder.Services.AddScoped<RepoFileSystemStorageHelper>(s=> new RepoFileSystemStorageHelper("/Users/elijahbate/Personal/Dev/stats/.temp-files"));
+builder.Services.AddScoped<RepoFileSystemStorageHelper>(s => new RepoFileSystemStorageHelper("/Users/elijahbate/Personal/Dev/stats/.temp-files"));
 
 
 builder.Services.AddScoped<IFileUploadService, FileUploadService>();
