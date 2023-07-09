@@ -5,6 +5,7 @@ import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import fs from 'fs'
 import path from 'path'
 import { Game, RecentGames } from '@/types'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,12 +14,12 @@ type HomeProps = {
 }
 
 const Home = (props: HomeProps) => {
-  console.debug("--Props",props);
+  console.debug("--Props", props);
   return (
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
-      <RecentGamesList games={props.recentGames} />  
+      <RecentGamesList games={props.recentGames} />
     </main>
   )
 }
@@ -32,6 +33,31 @@ const getScore = (game: Game): number[] => ([
   game.HomeAway !== 'Home' ? game.HomeRuns : game.AwayRuns,
 ])
 
+const ResultHeading = ({ game }: { game: Game }) => {
+
+  const score = getScore(game)
+
+  switch (game.Result) {
+    case 'W':
+      return (
+        <h2>
+          <span className="text-green-500">{game.Result}</span> {score[0]} - {score[1]}
+        </h2>
+      )
+    case 'L':
+      return (
+        <h2>
+          <span className="text-red-500">{game.Result}</span> {score[0]} - {score[1]}
+        </h2>
+      )
+    case 'D':
+    default:
+      return (
+        <h2>{game.Result} {score[0]} - {score[1]}</h2>
+      )
+  }
+}
+
 const RecentGamesList = ({ games }: RecentGamesProps) => {
 
 
@@ -43,10 +69,12 @@ const RecentGamesList = ({ games }: RecentGamesProps) => {
         const score = getScore(game)
 
         return (
-          <div key={game.GameId}>
-            <h2>{score[0]} - {score[1]}</h2>
-            <h3>{game.TeamName} vs. {game.OppositionName}</h3>
-          </div>
+          <Link href={`games/${game.GameShortId}`}>
+            <div key={game.GameId}>
+              <ResultHeading game={game} />
+              <h3>{game.TeamName} vs. {game.OppositionName}</h3>
+            </div>
+          </Link>
         )
       })}
     </div>
