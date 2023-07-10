@@ -86,6 +86,8 @@ public class Program
             File.WriteAllText($"game-output/{outputGameData.GameShortId}.json", JsonConvert.SerializeObject(outputGameData));
         }
 
+        teams = teams.OrderBy(x => x.Value.TeamName).OrderByDescending(x => x.Value.SeasonName).ToDictionary(x => x.Key, x => x.Value);
+
         File.WriteAllText("teams.json", JsonConvert.SerializeObject(teams));
 
 

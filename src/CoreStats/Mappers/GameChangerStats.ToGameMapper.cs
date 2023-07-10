@@ -151,7 +151,7 @@ public class ToGameMapper
             UnqiueTeamId = teamOfInterestUid,
             TeamShortId = GetShortId(teamOfInterestUid, teamOfInterest.LongName),
             GameChangerTeamId = teamOfInterest.Id,
-            TeamName = teamOfInterest.LongName,
+            TeamName = teamOfInterest.LongName.Replace("  ", " "),
             IsHome = teamOfInterest.IsHome,
             Runs = teamOfInterest.Stats.Offense.R,
             Result = isDraw ? "D" : (teamOfInterest.Stats.Offense.R > oppositionTeam.Stats.Offense.R ? "W" : "L")
@@ -162,7 +162,7 @@ public class ToGameMapper
             UnqiueTeamId = oppositionTeamUid,
             TeamShortId = GetShortId(oppositionTeamUid, oppositionTeam.LongName),
             GameChangerTeamId = oppositionTeam.Id,
-            TeamName = oppositionTeam.LongName,
+            TeamName = oppositionTeam.LongName.Replace("  ", " "),
             IsHome = oppositionTeam.IsHome,
             Runs = oppositionTeam.Stats.Offense.R,
             Result = isDraw ? "D" : (teamOfInterest.Stats.Offense.R < oppositionTeam.Stats.Offense.R ? "W" : "L")
