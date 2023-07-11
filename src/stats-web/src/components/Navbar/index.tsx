@@ -43,7 +43,7 @@ export const Navbar = () => {
                             <NavBarLink href="/players" linkText="Players" />
                             <NavBarLink href="/games" linkText="Games" />
                             <NavBarLink href="/teams" linkText="Teams" />
-                            <NavBarLink href="/seasons" linkText="Seasons" />
+                            {/* <NavBarLink href="/seasons" linkText="Seasons" /> */}
 
                             {/* <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
                                 <button type="button" className="flex items-center w-full text-gray-500 hover:text-gray-400 font-medium dark:text-gray-400 dark:hover:text-gray-500">

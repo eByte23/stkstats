@@ -68,9 +68,34 @@ export type BasicHitting = {
     R: string
     BB: string
     SO: string
+    SF: string
+    HBP: string
     SOL: string
     AVG: string
     SLG: string
     OPS: string
     OBP: string
 }
+
+export type IndividualPlayer = {
+    Name: string
+    ShortId: string
+    UniqueId: string
+    GameChangerIds: string[]
+    GamesPlayed: Game[]
+    SeasonTotals: SeasonTotal[]
+    TotalHitting: BasicHitting
+}
+
+export type SeasonTotal =
+    {
+        SeasonId: string,
+        SeasonName: string,
+        GamesPlayed: number,
+        Hitting: BasicHitting,
+    }
+
+
+
+
+export type PlayerShortIds = string[]

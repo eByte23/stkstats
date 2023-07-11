@@ -1,7 +1,8 @@
 import { GetStaticProps } from "next"
 import fs from "fs"
-import { Game, Teams } from "@/types"
+import { Game, Player, Teams } from "@/types"
 import Link from "next/link"
+import { HittingStatsTable } from "@/components/HittingStatsTable"
 
 type GamePageProps = {
     game: Game
@@ -64,59 +65,7 @@ const GamePage = ({ game }: GamePageProps) => {
 
             <div>
                 <h2 className="text-xl">Roster</h2>
-                <table className="table-auto">
-                    <thead>
-                        <tr>
-                            <th className="px-2 py-1 text-left">Name</th>
-                            <th className="px-2 py-1">PA</th>
-                            <th className="px-2 py-1">AB</th>
-                            <th className="px-2 py-1">H</th>
-                            <th className="px-2 py-1">TB</th>
-                            <th className="px-2 py-1">Singles</th>
-                            <th className="px-2 py-1">Doubles</th>
-                            <th className="px-2 py-1">Triples</th>
-                            <th className="px-2 py-1">HR</th>
-                            <th className="px-2 py-1">RBI</th>
-                            <th className="px-2 py-1">R</th>
-                            <th className="px-2 py-1">BB</th>
-                            <th className="px-2 py-1">SO</th>
-                            <th className="px-2 py-1">SOL</th>
-                            <th className="px-2 py-1">AVG</th>
-                            <th className="px-2 py-1">SLG</th>
-                            <th className="px-2 py-1">OPS</th>
-                            <th className="px-2 py-1">OBP</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-                        {game.Players?.map((player) => (
-                            <tr key={player.UniqueId}>
-                                <td className="border px-4 py-2">
-                                    <Link href={`/players/${player.ShortId}`} className="underline hover:text-blue-500">
-                                        {player.Name}
-                                    </Link>
-                                </td>
-                                <td className="border px-2 py-1">{player.Hitting.PA}</td>
-                                <td className="border px-2 py-1">{player.Hitting.AB}</td>
-                                <td className="border px-2 py-1">{player.Hitting.H}</td>
-                                <td className="border px-2 py-1">{player.Hitting.TB}</td>
-                                <td className="border px-2 py-1">{player.Hitting.Singles}</td>
-                                <td className="border px-2 py-1">{player.Hitting.Doubles}</td>
-                                <td className="border px-2 py-1">{player.Hitting.Triples}</td>
-                                <td className="border px-2 py-1">{player.Hitting.HR}</td>
-                                <td className="border px-2 py-1">{player.Hitting.RBI}</td>
-                                <td className="border px-2 py-1">{player.Hitting.R}</td>
-                                <td className="border px-2 py-1">{player.Hitting.BB}</td>
-                                <td className="border px-2 py-1">{player.Hitting.SO}</td>
-                                <td className="border px-2 py-1">{player.Hitting.SOL}</td>
-                                <td className="border px-2 py-1">{player.Hitting.AVG}</td>
-                                <td className="border px-2 py-1">{player.Hitting.SLG}</td>
-                                <td className="border px-2 py-1">{player.Hitting.OPS}</td>
-                                <td className="border px-2 py-1">{player.Hitting.OBP}</td>
-                            </tr>
-                        ))}
-                    </tbody>
-                </table>
+                <HittingStatsTable players={game.Players} showNameColumn={true} />
             </div>
         </div>
     )
@@ -199,4 +148,5 @@ const BoxScoreShort = ({ away, home }: { away: BoxScoreShortT, home: BoxScoreSho
         </tbody>
     </table>
 }
+
 

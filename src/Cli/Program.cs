@@ -95,6 +95,16 @@ public class Program
 
         File.WriteAllText("recent-games.json", JsonConvert.SerializeObject(recentGames));
 
+
+        var players = new GamesToIndividualPlayersStatsMapper().Map(gameOverviews);
+
+        foreach (var player in players)
+        {
+            File.WriteAllText($"player-output/{player.ShortId}.json", JsonConvert.SerializeObject(player));
+        }
+
+        File.WriteAllText("players.json", JsonConvert.SerializeObject(players.Select(x => x.ShortId).ToList()));
+
         // serialize the game stats
         // map game stats to output style
         // write to file

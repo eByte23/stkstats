@@ -81,10 +81,10 @@ public class ToGameMapper
 
         foreach (var player in team.Players)
         {
-            string fullName = $"{player.Fname} {player.Lname}";
+            string fullName = $"{player.Fname} {player.Lname}".Split(' ', StringSplitOptions.RemoveEmptyEntries).Aggregate((x, y) => $"{x} {y}");
 
             var uniqueGuid = clubId.NewGuid(fullName.ToLower()).Id;
-            var shortId = GetShortId(uniqueGuid, player.Fname.ToLower(), player.Lname.ToLower());
+            var shortId = GetShortId(uniqueGuid, fullName.ToLower());
 
             PlayerData newPlayer = new PlayerData
             {
@@ -94,19 +94,21 @@ public class ToGameMapper
                 Name = fullName,
                 Hitting = new HittingData
                 {
-                    PA = player.Stats.Offense.PA.ToString(),
-                    AB = player.Stats.Offense.AB.ToString(),
-                    H = player.Stats.Offense.H.ToString(),
-                    TB = player.Stats.Offense.TB.ToString(),
-                    _1B = player.Stats.Offense._1B.ToString(),
-                    _2B = player.Stats.Offense._2B.ToString(),
-                    _3B = player.Stats.Offense._3B.ToString(),
-                    HR = player.Stats.Offense.HR.ToString(),
-                    RBI = player.Stats.Offense.RBI.ToString(),
-                    R = player.Stats.Offense.R.ToString(),
-                    BB = player.Stats.Offense.BB.ToString(),
-                    SO = player.Stats.Offense.SO.ToString(),
-                    KL = player.Stats.Offense.SOL.ToString(),
+                    PA = player.Stats.Offense.PA,
+                    AB = player.Stats.Offense.AB,
+                    H = player.Stats.Offense.H,
+                    TB = player.Stats.Offense.TB,
+                    Singles = player.Stats.Offense._1B,
+                    Doubles = player.Stats.Offense._2B,
+                    Triples = player.Stats.Offense._3B,
+                    HR = player.Stats.Offense.HR,
+                    RBI = player.Stats.Offense.RBI,
+                    R = player.Stats.Offense.R,
+                    BB = player.Stats.Offense.BB,
+                    SO = player.Stats.Offense.SO,
+                    SF = player.Stats.Offense.SHF,
+                    KL = player.Stats.Offense.SOL,
+                    HBP = player.Stats.Offense.HBP,
                     AVG = player.Stats.Offense.AVG.ToString(),
                     SLG = player.Stats.Offense.SLG.ToString(),
                     OPS = player.Stats.Offense.OPS.ToString(),
@@ -118,7 +120,7 @@ public class ToGameMapper
             {
                 var existingPlayer = players.Single(x => x.UniqueId == uniqueGuid);
 
-                if (existingPlayer.Hitting.PA == "0")
+                if (existingPlayer.Hitting.PA == 0)
                 {
                     players.Remove(existingPlayer);
                 }
@@ -134,7 +136,7 @@ public class ToGameMapper
             players.Add(newPlayer);
         }
 
-        return players.Where(x => x.Hitting.PA != "0").ToList();
+        return players.Where(x => x.Hitting.PA != 0).ToList();
     }
 
     private (TeamGameInfo teamOfInterest, TeamGameInfo oppositionTeam) GetTeamsFromStats(GameChangerApiStats.Game stats, string teamId)
