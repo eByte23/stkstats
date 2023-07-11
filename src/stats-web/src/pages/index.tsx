@@ -123,9 +123,6 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
   const recentGames = JSON.parse(recentGamesContent) as RecentGames
   const teams = (JSON.parse(teamsContent) as Teams || {})
 
-  console.log(recentGamesContent)
-  console.log(recentGames)
-
   return {
     props: {
       recentGames: recentGames || [],

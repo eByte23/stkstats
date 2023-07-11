@@ -41,17 +41,20 @@ export const PlayerPage = ({ player }: PlayerPageProps) => {
 
                 <div className="mt-3">
                     <div id="tabs-with-underline-1" role="tabpanel" aria-labelledby="tabs-with-underline-item-1">
-                        <HittingStatsTable players={[{ ...(currentSeasonStats! as any as Player) }]} />
+                        {currentSeasonStats && (
+
+                            <HittingStatsTable players={[{ ...(currentSeasonStats! as any as Player) }]} />
+                        )}
 
                     </div>
                     <div id="tabs-with-underline-2" className="hidden" role="tabpanel" aria-labelledby="tabs-with-underline-item-2">
                         <p className="text-gray-500 dark:text-gray-400">
-                            You're an eager beaver, aren't you? Well so am I... <em className="font-semibold text-gray-800 dark:text-gray-200">Fielding</em> stats are coming right up!
+                            {"You're an eager beaver, aren't you? Well so am I... "}<em className="font-semibold text-gray-800 dark:text-gray-200">Fielding</em> stats are coming right up!
                         </p>
                     </div>
                     <div id="tabs-with-underline-3" className="hidden" role="tabpanel" aria-labelledby="tabs-with-underline-item-3">
                         <p className="text-gray-500 dark:text-gray-400">
-                            You're an eager beaver, aren't you? Well so am I... <em className="font-semibold text-gray-800 dark:text-gray-200">Pitching</em> stats are coming right up!
+                            {"You're an eager beaver, aren't you? Well so am I... "}<em className="font-semibold text-gray-800 dark:text-gray-200">Pitching</em> stats are coming right up!
                         </p>
                     </div>
                 </div>
@@ -67,7 +70,6 @@ export default PlayerPage
 export const getStaticProps: GetStaticProps<PlayerPageProps, { playerShortId?: string }> = async ({ params }) => {
 
     const gameShortId = params?.["playerShortId"]
-    console.log("getStaticProps", { shortId: gameShortId })
 
     const content = fs.readFileSync(process.cwd() + `/data/player-output/${gameShortId}.json`).toString()
 
