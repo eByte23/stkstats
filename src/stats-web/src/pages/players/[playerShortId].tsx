@@ -62,7 +62,7 @@ export const PlayerPage = ({ player }: PlayerPageProps) => {
         </div>
     )
 }
-
+export const runtime = 'edge';
 export default PlayerPage
 
 

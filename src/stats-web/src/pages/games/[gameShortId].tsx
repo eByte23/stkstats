@@ -71,6 +71,7 @@ const GamePage = ({ game }: GamePageProps) => {
     )
 }
 
+export const runtime = 'edge';
 export default GamePage
 
 export const getStaticProps: GetStaticProps<GamePageProps, { gameShortId?: string }> = async ({ params }) => {
