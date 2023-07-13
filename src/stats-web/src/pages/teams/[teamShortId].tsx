@@ -15,7 +15,7 @@ const TeamPage = () => {
 
 
 
-export const runtime = 'edge';
+export const runtime ='experimental-edge';
 export default TeamPage
 
 
