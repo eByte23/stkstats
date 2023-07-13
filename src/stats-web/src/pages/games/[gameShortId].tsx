@@ -1,6 +1,6 @@
 import { GetStaticProps } from "next"
 import fs from "fs"
-import { Game, Player, Teams } from "@/types"
+import { Game, GameShortIds } from "@/types"
 import Link from "next/link"
 import { HittingStatsTable } from "@/components/HittingStatsTable"
 
@@ -74,6 +74,7 @@ const GamePage = ({ game }: GamePageProps) => {
 // export const runtime ='experimental-edge';
 export default GamePage
 
+
 export const getStaticProps: GetStaticProps<GamePageProps, { gameShortId?: string }> = async ({ params }) => {
 
     const gameShortId = params?.["gameShortId"]
@@ -91,15 +92,11 @@ export const getStaticProps: GetStaticProps<GamePageProps, { gameShortId?: strin
 }
 
 export const getStaticPaths = async () => {
-    const content = fs.readFileSync(process.cwd() + "/data/recent-games.json").toString()
+    const content = fs.readFileSync(process.cwd() + "/data/games.json").toString()
 
-    const teams = JSON.parse(content) as Teams || {}
+    const games = JSON.parse(content) as GameShortIds || []
 
-    const paths = Object.keys(teams).map((teamId) => {
-        const team = teams[teamId]
-        return team.Games?.map((game) => game.Item1) || []
-    })
-        .flat()
+    const paths = games
         .map((gameShortId) => ({ params: { gameShortId: gameShortId } }))
 
     return {

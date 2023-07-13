@@ -99,3 +99,4 @@ export type SeasonTotal =
 
 
 export type PlayerShortIds = string[]
+export type GameShortIds = string[]

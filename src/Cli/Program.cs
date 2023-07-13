@@ -104,6 +104,7 @@ public class Program
         }
 
         File.WriteAllText("players.json", JsonConvert.SerializeObject(players.Select(x => x.ShortId).ToList()));
+        File.WriteAllText("games.json", JsonConvert.SerializeObject(gameOverviews.Select(x => x.GameShortId).ToList()));
 
         // serialize the game stats
         // map game stats to output style
