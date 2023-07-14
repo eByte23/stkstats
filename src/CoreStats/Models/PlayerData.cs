@@ -12,6 +12,9 @@ public class PlayerData
 
     // fname lname
     public string? Name { get; set; }
+
+    public string FirstName {get;set;}
+    public string LastName {get;set;}
     public List<string> GameChangerIds { get; set; } = new();
     public HittingData Hitting { get; set; } = new();
 

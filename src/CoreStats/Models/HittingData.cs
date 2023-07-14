@@ -84,6 +84,33 @@ public class HittingData
         RecalculatePercentages();
     }
 
+    public HittingData AddGame2(HittingData game)
+    {
+
+        var newData = new HittingData
+        {
+            PA = this.PA + game.PA,
+            AB = this.AB + game.AB,
+            H = this.H + game.H,
+            TB = this.TB + game.TB,
+            Singles = this.Singles + game.Singles,
+            Doubles = this.Doubles + game.Doubles,
+            Triples = this.Triples + game.Triples,
+            HR = this.HR + game.HR,
+            RBI = this.RBI + game.RBI,
+            R = this.R + game.R,
+            BB = this.BB + game.BB,
+            SO = this.SO + game.SO,
+            KL = this.KL + game.KL,
+            SF = this.SF + game.SF,
+            HBP = this.HBP + game.HBP,
+        };
+
+        newData.RecalculatePercentages();
+
+        return newData;
+    }
+
     private void RecalculatePercentages()
     {
         AVG = GetPercentageString(GetBattingAvg(this));

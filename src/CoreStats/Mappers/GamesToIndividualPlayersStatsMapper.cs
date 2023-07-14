@@ -1,6 +1,7 @@
 using System.Linq;
 using GameChanger.Parser;
 using Newtonsoft.Json;
+using StatSys.CoreStats.Builders;
 using StatSys.CoreStats.Models;
 
 namespace StatSys.CoreStats.Mappers;
@@ -15,7 +16,7 @@ public class GamesToIndividualPlayersStatsMapper
         clubId = _idGenerator.NewDeterministicId("STKBC");
     }
 
-    public List<IndividualPlayerStats> Map(List<GameData> games)
+    public List<PlayerProfile> Map(List<GameData> games)
     {
 
 
@@ -43,104 +44,108 @@ public class GamesToIndividualPlayersStatsMapper
         // })
         // .ToList();
 
-        var individualPlayers = new List<IndividualPlayerStats>();
+        var individualPlayers = new List<PlayerProfile>();
 
         foreach (var player in gamesPlayedByPlayers)
         {
             var gpPlayer = player.First().Player;
 
-            if (gpPlayer == null)
-            {
-                throw new Exception("Player not found in game");
-            }
+            var builder = PlayerProfileBuilder.New(clubId, gpPlayer.FirstName, gpPlayer.LastName, gpPlayer.GameChangerIds);
 
-            var playerStas = new IndividualPlayerStats
-            {
-                GamesPlayed = new(),
-                UniqueId = player.Key,
-                Name = gpPlayer.Name,
-                ShortId = gpPlayer.ShortId,
-                GameChangerIds = gpPlayer.GameChangerIds,
-                SeasonTotals = new(),
-                TotalHitting = new(),
-            };
+            // if (gpPlayer == null)
+            // {
+            //     throw new Exception("Player not found in game");
+            // }
 
-            var gamesPlayed = player.Select(x => x.Game).ToList();
+            // var playerStas = new IndividualPlayerStats
+            // {
+            //     GamesPlayed = new(),
+            //     UniqueId = player.Key,
+            //     Name = gpPlayer.Name,
+            //     ShortId = gpPlayer.ShortId,
+            //     GameChangerIds = gpPlayer.GameChangerIds,
+            //     SeasonTotals = new(),
+            //     TotalHitting = new(),
+            // };
 
-            foreach (var gamePlayed in gamesPlayed)
-            {
+            // var gamesPlayed = player.Select(x => x.Game).ToList();
 
-                if (gamePlayed.GameChangerGameId == "647b347db3ef03c70e0002c9" && playerStas.ShortId == "zoe-pow-7480f5249776")
-                {
-                    Console.WriteLine("Found it");
-                }
+            // foreach (var gamePlayed in gamesPlayed)
+            // {
 
-                var hitting = gpPlayer.Hitting;
+            //     if (gamePlayed.GameChangerGameId == "647b347db3ef03c70e0002c9" && playerStas.ShortId == "zoe-pow-7480f5249776")
+            //     {
+            //         Console.WriteLine("Found it");
+            //     }
 
-                var battingAvg = HittingData.GetBattingAvg(hitting);
+            //     var hitting = gpPlayer.Hitting;
 
-                if (CompareAverage(hitting.AVG, battingAvg))
-                {
-                    throw new Exception("Batting average does not match");
-                }
+            //     var battingAvg = HittingData.GetBattingAvg(hitting);
 
-                var battingObp = HittingData.GetBattingObpPercentage(hitting);
+            //     if (CompareAverage(hitting.AVG, battingAvg))
+            //     {
+            //         throw new Exception("Batting average does not match");
+            //     }
 
-                if (CompareAverage(hitting.OBP, battingObp))
-                {
-                    throw new Exception("Batting OBP does not match");
-                }
+            //     var battingObp = HittingData.GetBattingObpPercentage(hitting);
 
-                var slg = HittingData.GetSluggingPercentage(hitting);
+            //     if (CompareAverage(hitting.OBP, battingObp))
+            //     {
+            //         throw new Exception("Batting OBP does not match");
+            //     }
 
-                if (CompareAverage(hitting.SLG, slg))
-                {
-                    throw new Exception("Batting SLG does not match");
-                }
+            //     var slg = HittingData.GetSluggingPercentage(hitting);
 
-                var ops = HittingData.GetOpsPercentage(battingObp, slg);
+            //     if (CompareAverage(hitting.SLG, slg))
+            //     {
+            //         throw new Exception("Batting SLG does not match");
+            //     }
 
-                if (CompareAverage(hitting.OPS, ops))
-                {
-                    throw new Exception("Batting OPS does not match");
-                }
+            //     var ops = HittingData.GetOpsPercentage(battingObp, slg);
 
-                playerStas.TotalHitting.AddGame(hitting);
+            //     if (CompareAverage(hitting.OPS, ops))
+            //     {
+            //         throw new Exception("Batting OPS does not match");
+            //     }
 
-                var seasonId = gamePlayed.SeasonId;
+            //     playerStas.TotalHitting.AddGame(hitting);
 
-                var seasonTotals = playerStas.SeasonTotals.FirstOrDefault(x => x.SeasonId == seasonId);
+            //     var seasonId = gamePlayed.SeasonId;
 
-                if (seasonTotals == null)
-                {
-                    seasonTotals = new SeasonTotal
-                    {
-                        SeasonId = seasonId,
-                        SeasonName = gamePlayed.SeasonName,
-                        GamesPlayed = 1,
-                        Hitting = new()
-                    };
-                    seasonTotals.Hitting.AddGame(hitting);
-                    playerStas.SeasonTotals.Add(seasonTotals);
-                }
-                else
-                {
-                    seasonTotals.GamesPlayed++;
-                    seasonTotals.Hitting.AddGame(hitting);
-                }
+            //     var seasonTotals = playerStas.SeasonTotals.FirstOrDefault(x => x.SeasonId == seasonId);
+
+            //     if (seasonTotals == null)
+            //     {
+            //         seasonTotals = new SeasonTotal
+            //         {
+            //             SeasonId = seasonId,
+            //             SeasonName = gamePlayed.SeasonName,
+            //             GamesPlayed = 1,
+            //             Hitting = new()
+            //         };
+            //         seasonTotals.Hitting.AddGame(hitting);
+            //         playerStas.SeasonTotals.Add(seasonTotals);
+            //     }
+            //     else
+            //     {
+            //         seasonTotals.GamesPlayed++;
+            //         seasonTotals.Hitting.AddGame(hitting);
+            //     }
 
 
 
 
-            }
+            // }
 
-            individualPlayers.Add(playerStas);
+            // individualPlayers.Add(playerStas);
 
 
             // var playerGames = games.Where(g => g.Players.Any(p => p.UniqueId == player.UniqueId)).ToList();
             // player.GamesPlayed = playerGames.Count;
             // player.SeasonTotals = GetSeasonTotals(playerGames, currentSeasonId);
             // player.TotalHitting = GetTotalHitting(playerGames);
+
+            individualPlayers.Add(builder.Build());
         }
 
         return individualPlayers;

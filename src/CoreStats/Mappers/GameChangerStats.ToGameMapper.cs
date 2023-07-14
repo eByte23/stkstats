@@ -92,6 +92,8 @@ public class ToGameMapper
                 UniqueId = uniqueGuid,
                 GameChangerIds = new List<string> { player.PlayerId },
                 Name = fullName,
+                FirstName = player.Fname,
+                LastName = player.Lname,
                 Hitting = new HittingData
                 {
                     PA = player.Stats.Offense.PA,
