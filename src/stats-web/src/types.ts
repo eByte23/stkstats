@@ -78,10 +78,10 @@ export type BasicHitting = {
 }
 
 export type IndividualPlayer = {
-    Name: string
+    FullName: string
     ShortId: string
-    UniqueId: string
-    GameChangerIds: string[]
+    PlayerId: string
+    ReferencePlayerIds: string[]
     GamesPlayed: Game[]
     SeasonTotals: SeasonTotal[]
     TotalHitting: BasicHitting

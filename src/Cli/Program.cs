@@ -1,4 +1,5 @@
-﻿using GameChanger.Parser;
+﻿using Cli;
+using GameChanger.Parser;
 using Newtonsoft.Json;
 using StatSys.CoreStats.Mappers;
 using StatSys.CoreStats.Models;
@@ -83,28 +84,29 @@ public class Program
             var team = teams[teamId];
             team.Games.Add((outputGameData.GameShortId, outputGameData.Date));
 
-            File.WriteAllText($"game-output/{outputGameData.GameShortId}.json", JsonConvert.SerializeObject(outputGameData));
+
+
+            WriteFileUtils.FolderSafeWriteAllText($"game-output/{outputGameData.GameShortId}.json", JsonConvert.SerializeObject(outputGameData));
         }
 
         teams = teams.OrderBy(x => x.Value.TeamName).OrderByDescending(x => x.Value.SeasonName).ToDictionary(x => x.Key, x => x.Value);
 
-        File.WriteAllText("teams.json", JsonConvert.SerializeObject(teams));
+        WriteFileUtils.FolderSafeWriteAllText("teams.json", JsonConvert.SerializeObject(teams));
 
 
         var recentGames = gameOverviews.Where(x => DateTime.Parse(x.Date) > DateTime.Now.AddMonths(-2)).OrderByDescending(x => x.Date).Take(10).ToList();
-
-        File.WriteAllText("recent-games.json", JsonConvert.SerializeObject(recentGames));
+        WriteFileUtils.FolderSafeWriteAllText("recent-games.json", JsonConvert.SerializeObject(recentGames));
 
 
         var players = new GamesToIndividualPlayersStatsMapper().Map(gameOverviews);
 
         foreach (var player in players)
         {
-            File.WriteAllText($"player-output/{player.ShortId}.json", JsonConvert.SerializeObject(player));
+            WriteFileUtils.FolderSafeWriteAllText($"player-output/{player.ShortId}.json", JsonConvert.SerializeObject(player));
         }
 
-        File.WriteAllText("players.json", JsonConvert.SerializeObject(players.Select(x => x.ShortId).ToList()));
-        File.WriteAllText("games.json", JsonConvert.SerializeObject(gameOverviews.Select(x => x.GameShortId).ToList()));
+        WriteFileUtils.FolderSafeWriteAllText("players.json", JsonConvert.SerializeObject(players.Select(x => x.ShortId).ToList()));
+        WriteFileUtils.FolderSafeWriteAllText("games.json", JsonConvert.SerializeObject(gameOverviews.Select(x => x.GameShortId).ToList()));
 
         // serialize the game stats
         // map game stats to output style

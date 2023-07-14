@@ -16,13 +16,6 @@ public class ToGameMapper
     }
 
 
-    public static string GetShortId(Guid id, params string[] parts)
-    {
-        var last12 = new string(id.ToString().TakeLast(12).ToArray());
-
-        return string.Join("-", parts.Select(p => p.Replace("  ", " ").Replace(" ", "-")).Append(last12)).Replace("`", "").Replace("'", "").ToLower();
-    }
-
     public GameData Map(
         string teamId,
         string gameId,
@@ -30,11 +23,6 @@ public class ToGameMapper
         GameChanger.Parser.GameChangerApiStats.Game stats,
         GameChanger.Parser.GameChangerTeamSchedule teamSchedule)
     {
-        if (gameId == "6496d2a47c0001710c00071f")
-        {
-            Console.WriteLine("Found it");
-        }
-
 
         var (seasonId, seasonName) = GetSeasonInfoFromTeamSchedule(teamSchedule);
         var gameDate = GetGameDateFromStats(gameId, teamSchedule);
@@ -44,7 +32,7 @@ public class ToGameMapper
         Guid gameUniqueId = _idGenerator.NewDeterministicId(gameId).Id;
         return new GameData
         {
-            GameShortId = GetShortId(gameUniqueId, teamOfInterest.TeamName, oppositionTeam.TeamName, gameDate.ToString("yyyy-MM-dd")),
+            GameShortId = StringUtils.GetShortId(gameUniqueId, teamOfInterest.TeamName, oppositionTeam.TeamName, gameDate.ToString("yyyy-MM-dd")),
             GameUrl = gameAbsoluteUrl,
             GameId = gameUniqueId,
             GameChangerGameId = gameId,
@@ -74,6 +62,7 @@ public class ToGameMapper
         return game.LocalStartDateTime.Date;
     }
 
+   
     private List<PlayerData> GetTeamPlayersFromStats(GameChangerApiStats.Game stats, TeamGameInfo teamOfInterest)
     {
         var players = new List<PlayerData>();
@@ -81,10 +70,13 @@ public class ToGameMapper
 
         foreach (var player in team.Players)
         {
-            string fullName = $"{player.Fname} {player.Lname}".Split(' ', StringSplitOptions.RemoveEmptyEntries).Aggregate((x, y) => $"{x} {y}");
+
+            var firstName = StringUtils.TrimName(player.Fname);
+            var lastName = StringUtils.TrimName(player.Lname);
+            string fullName = StringUtils.BuildName(firstName, lastName);
 
             var uniqueGuid = clubId.NewGuid(fullName.ToLower()).Id;
-            var shortId = GetShortId(uniqueGuid, fullName.ToLower());
+            var shortId = StringUtils.GetShortId(uniqueGuid, fullName.ToLower());
 
             PlayerData newPlayer = new PlayerData
             {
@@ -92,8 +84,8 @@ public class ToGameMapper
                 UniqueId = uniqueGuid,
                 GameChangerIds = new List<string> { player.PlayerId },
                 Name = fullName,
-                FirstName = player.Fname,
-                LastName = player.Lname,
+                FirstName = firstName,
+                LastName = lastName,
                 Hitting = new HittingData
                 {
                     PA = player.Stats.Offense.PA,
@@ -141,6 +133,8 @@ public class ToGameMapper
         return players.Where(x => x.Hitting.PA != 0).ToList();
     }
 
+
+
     private (TeamGameInfo teamOfInterest, TeamGameInfo oppositionTeam) GetTeamsFromStats(GameChangerApiStats.Game stats, string teamId)
     {
         var teamOfInterest = stats.Teams.First(x => x.Id == teamId);
@@ -153,7 +147,7 @@ public class ToGameMapper
         var teamOfInterestInfo = new TeamGameInfo
         {
             UnqiueTeamId = teamOfInterestUid,
-            TeamShortId = GetShortId(teamOfInterestUid, teamOfInterest.LongName),
+            TeamShortId = StringUtils.GetShortId(teamOfInterestUid, teamOfInterest.LongName),
             GameChangerTeamId = teamOfInterest.Id,
             TeamName = teamOfInterest.LongName.Replace("  ", " "),
             IsHome = teamOfInterest.IsHome,
@@ -164,7 +158,7 @@ public class ToGameMapper
         var oppositionTeamInfo = new TeamGameInfo
         {
             UnqiueTeamId = oppositionTeamUid,
-            TeamShortId = GetShortId(oppositionTeamUid, oppositionTeam.LongName),
+            TeamShortId = StringUtils.GetShortId(oppositionTeamUid, oppositionTeam.LongName),
             GameChangerTeamId = oppositionTeam.Id,
             TeamName = oppositionTeam.LongName.Replace("  ", " "),
             IsHome = oppositionTeam.IsHome,

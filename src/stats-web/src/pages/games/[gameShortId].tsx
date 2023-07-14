@@ -78,7 +78,6 @@ export default GamePage
 export const getStaticProps: GetStaticProps<GamePageProps, { gameShortId?: string }> = async ({ params }) => {
 
     const gameShortId = params?.["gameShortId"]
-    console.log("getStaticProps", { shortId: gameShortId })
 
     const content = fs.readFileSync(process.cwd() + `/data/game-output/${gameShortId}.json`).toString()
 

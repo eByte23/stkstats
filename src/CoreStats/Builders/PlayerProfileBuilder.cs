@@ -44,31 +44,15 @@ public class PlayerProfileBuilder
         _referencePlayerIds = referencePlayerIds;
     }
 
-
-    internal static string TrimNames(string value)
-    {
-
-        string trimmedValue = value.Split(' ', StringSplitOptions.RemoveEmptyEntries).Aggregate((x, y) => $"{x} {y}");
-
-        return trimmedValue;
-    }
-
-    public static string GetShortId(Guid id, params string[] parts)
-    {
-        var last12 = new string(id.ToString().TakeLast(12).ToArray());
-
-        return string.Join("-", parts.Select(p => p.Replace("  ", " ").Replace(" ", "-")).Append(last12)).Replace("`", "").Replace("'", "").ToLower();
-    }
-
     public static PlayerProfileBuilder New(DeterministicGuid clubId, string firstName, string lastName, List<string> referencePlayerIds)
     {
-        var cleanFirstName = TrimNames(firstName);
-        var cleanLastName = TrimNames(lastName);
+        var cleanFirstName = StringUtils.TrimName(firstName);
+        var cleanLastName = StringUtils.TrimName(lastName);
 
-        string fullName = $"{cleanFirstName} {cleanLastName}";
-        var playerId = clubId.NewGuid(fullName);
+        string fullName = StringUtils.BuildName(cleanFirstName, cleanLastName);
+        var playerId = clubId.NewGuid(fullName.ToLower());
 
-        var shortId = GetShortId(playerId.Id, cleanFirstName, cleanLastName);
+        var shortId = StringUtils.GetShortId(playerId.Id, cleanFirstName, cleanLastName);
 
 
 
@@ -105,6 +89,7 @@ public class PlayerProfileBuilder
             PlayerId = _playerId.Id,
             ShortId = _shortId,
             ReferencePlayerIds = _referencePlayerIds,
+            TotalGamesPlayed = _gamesPlayed.Count,
             SeasonTotals = seasonTotals,
             TotalHitting = _totalHitting,
             GamesPlayed = _gamesPlayed.OrderByDescending(x => x.Date).ToList(),
@@ -200,13 +185,14 @@ public class PlayerProfile
 {
     public Guid PlayerId { get; set; }
     public List<string> ReferencePlayerIds = new();
-
     public string? FirstName { get; set; }
     public string? LastName { get; set; }
     public string? FullName { get; set; }
     public string? ShortId { get; set; }
+
+
     public List<PlayerProfileBuilder.GamePlayed> GamesPlayed { get; set; } = new();
     public List<Models.SeasonTotal> SeasonTotals { get; set; } = new();
     public Models.HittingData TotalHitting { get; set; } = new();
-
+    public int TotalGamesPlayed { get; set; }
 }

@@ -18,7 +18,7 @@ export const PlayerPage = ({ player }: PlayerPageProps) => {
             <div className="bg-gray-800 text-sm text-white rounded-md p-4 dark:bg-white dark:text-gray-800 mb-5" role="alert">
                 <span className="font-bold">WARNING!</span> This page is a work in progress. The stats on this page may be incorrect, accurate stats see the individual game pages.
             </div>
-            <h1 className="text-2xl mb-5">{player.Name}</h1>
+            <h1 className="text-2xl mb-5">{player.FullName}</h1>
 
             <div>
                 <h2 className="text-xl mb-2">Current Season</h2>
@@ -43,7 +43,7 @@ export const PlayerPage = ({ player }: PlayerPageProps) => {
                     <div id="tabs-with-underline-1" role="tabpanel" aria-labelledby="tabs-with-underline-item-1">
                         {currentSeasonStats && (
 
-                            <HittingStatsTable players={[{ ...(currentSeasonStats! as any as Player) }]} />
+                            <HittingStatsTable players={[{ ...(currentSeasonStats! as any as Player), UniqueId: currentSeasonStats.SeasonId }]} />
                         )}
 
                     </div>
