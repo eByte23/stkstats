@@ -79,14 +79,13 @@
         "side": 0
       },
       "location": "",
-      "change_v": "c9e4bed8-bb0e-428f-89d7-f44eeebb1078",
+      "play_time": "2023-06-24T14:40:00",
       "type": "League",
       "save_ts": 1687652985.0,
       "recipients": [],
       "wl": "2-0-0",
       "start_ts": 1687581600,
       "other_team_id": "6493c462f8dc00b41e000150",
-      "play_time": "2023-06-24T14:40:00",
       "game_id": "6493c462f8dc00b429000151",
       "uses_halves": false,
       "notes": "",
@@ -119,49 +118,106 @@
       "other_team_name": "Forest Hill"
     },
     {
-      "sport": "BASEB",
       "event_type": "game",
-      "recipients": [],
       "arrival_ts": null,
-      "home": true,
-      "notes": "",
-      "wl": "2-0-0",
-      "start_ts": 1688791200,
-      "uses_halves": false,
-      "playstatus": "NEW",
-      "other_team_id": "6493c462f8dc00b45f000154",
-      "meta": {},
-      "location": "",
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
       "timezone": 10.0,
-      "game_id": "6493c462f8dc00b463000155",
-      "minutes_before": 0,
+      "home": true,
       "utc_start": "2023-07-08T04:40:00",
+      "sport": "BASEB",
+      "id": "6493c462f8dc00b463000155",
+      "recap_title": [
+        {
+          "is_first_mention": true,
+          "default_name": "Mat Manning",
+          "lname": "Manning",
+          "team_id": "648dc462f8eb00129b000006",
+          "fname": "Mat",
+          "default_short_name": "Manning",
+          "type": "player",
+          "id": "648dc462f84f013676000008"
+        },
+        {
+          "content": " Drives in Four to Saints D Grade Victory Over Melbourne Uni",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 3,
+        "x": "st",
+        "w": "h",
+        "half": 0,
+        "home": 15,
+        "side": 0
+      },
+      "location": "",
       "play_time": "2023-07-08T14:40:00",
       "type": "League",
-      "id": "6493c462f8dc00b463000155",
+      "save_ts": 1688971458.0,
+      "recipients": [],
+      "wl": "3-0-0",
+      "start_ts": 1688791200,
+      "other_team_id": "6493c462f8dc00b45f000154",
+      "game_id": "6493c462f8dc00b463000155",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "64a8c462f8ec00e5ea00013d",
+      "minutes_before": 0,
       "other_team_name": "Melbourne Uni"
     },
     {
-      "sport": "BASEB",
       "event_type": "game",
-      "recipients": [],
       "arrival_ts": null,
-      "home": false,
-      "notes": "",
-      "wl": "2-0-0",
-      "start_ts": 1689396000,
-      "uses_halves": false,
-      "playstatus": "NEW",
-      "other_team_id": "6493c462f8dc00b484000156",
-      "meta": {},
-      "location": "",
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
       "timezone": 10.0,
-      "game_id": "6493c462f8dc00b488000157",
-      "minutes_before": 0,
+      "home": false,
       "utc_start": "2023-07-15T04:40:00",
-      "play_time": "2023-07-15T14:40:00",
-      "type": "League",
+      "sport": "BASEB",
       "id": "6493c462f8dc00b488000157",
+      "recap_title": [
+        {
+          "content": "Saints D Grade Overcomes Mitchell Majors In Face Of Early 3-Run Inning",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 8,
+        "side_readable": "Top",
+        "away": 8,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 4,
+        "side": 0
+      },
+      "location": "",
+      "change_v": "f8cf0866-1ed7-4def-9a00-4065c8fa00f2",
+      "type": "League",
+      "save_ts": 1689454094.0,
+      "recipients": [],
+      "wl": "4-0-0",
+      "start_ts": 1689396000,
+      "other_team_id": "6493c462f8dc00b484000156",
+      "play_time": "2023-07-15T14:40:00",
+      "game_id": "6493c462f8dc00b488000157",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "64b2c462f8d9001dfc000136",
+      "minutes_before": 0,
       "other_team_name": "Mitchell Majors"
     },
     {
@@ -171,7 +227,7 @@
       "arrival_ts": null,
       "home": true,
       "notes": "",
-      "wl": "2-0-0",
+      "wl": "4-0-0",
       "start_ts": 1690000800,
       "uses_halves": false,
       "playstatus": "NEW",
@@ -194,7 +250,7 @@
       "arrival_ts": null,
       "home": false,
       "notes": "",
-      "wl": "2-0-0",
+      "wl": "4-0-0",
       "start_ts": 1691210400,
       "uses_halves": false,
       "playstatus": "NEW",
@@ -211,27 +267,26 @@
       "other_team_name": "North Balwyn"
     },
     {
-      "event_type": "game",
-      "arrival_ts": null,
-      "playstatus": "NEW",
-      "meta": {},
-      "timezone": 10.0,
-      "home": true,
-      "utc_start": "2023-08-12T04:40:00",
       "sport": "BASEB",
-      "id": "6493c462f8dc00b50900015b",
-      "location": "",
-      "change_v": "c9e4bed8-bb0e-428f-89d7-f44eeebb1078",
-      "type": "League",
+      "event_type": "game",
       "recipients": [],
-      "wl": "2-0-0",
-      "start_ts": 1691815200,
-      "other_team_id": "6493c462f8dc00b41e000150",
-      "play_time": "2023-08-12T14:40:00",
-      "game_id": "6493c462f8dc00b50900015b",
-      "uses_halves": false,
+      "arrival_ts": null,
+      "home": true,
       "notes": "",
+      "wl": "4-0-0",
+      "start_ts": 1691815200,
+      "uses_halves": false,
+      "playstatus": "NEW",
+      "other_team_id": "6493c462f8dc00b41e000150",
+      "meta": {},
+      "location": "",
+      "timezone": 10.0,
+      "game_id": "6493c462f8dc00b50900015b",
       "minutes_before": 0,
+      "utc_start": "2023-08-12T04:40:00",
+      "play_time": "2023-08-12T14:40:00",
+      "type": "League",
+      "id": "6493c462f8dc00b50900015b",
       "other_team_name": "Diamond Creek"
     },
     {
@@ -241,7 +296,7 @@
       "arrival_ts": null,
       "home": false,
       "notes": "",
-      "wl": "2-0-0",
+      "wl": "4-0-0",
       "start_ts": 1692420000,
       "uses_halves": false,
       "playstatus": "NEW",
@@ -500,99 +555,264 @@
       },
       {
         "code": "MLBR",
+        "_sync_d": "2023-06-25T01:00:55",
         "entity_creation_time": 1687401567,
-        "league": "",
         "_type": "team",
         "~v": "11.5.1.0",
         "season_id": "6493fb0221e3302aba3af098",
         "long_name": "Melbourne Uni",
         "meta": {
-          "games": 1
+          "scoring": true,
+          "offline": true,
+          "games": 1,
+          "last_scored": "2023-07-10T06:44:17",
+          "last_active": "2023-07-10T06:44:17"
         },
         "dropped": [],
         "strict_privacy_enabled": false,
         "av": "2",
-        "sport": "Baseball",
+        "is_official": false,
         "team_type": "other",
         "loc": {
           "pc": "00000"
         },
-        "_change_d": "2023-06-22T02:39:31",
+        "sport": "Baseball",
         "short_name": "Melbourne Uni",
         "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "64a8c462f8ec00e710000150",
+            "lname": "Chu",
+            "num": "",
+            "pos": [],
+            "fname": "Bob"
+          },
+          {
+            "player_id": "64a8c462f8ec00e73d000152",
+            "lname": "Bunsee",
+            "num": "",
+            "pos": [],
+            "fname": "Anishu"
+          },
+          {
+            "player_id": "64a8c462f8ec00e751000154",
+            "lname": "Yang",
+            "num": "",
+            "pos": [],
+            "fname": "Curtis"
+          },
+          {
+            "player_id": "64a8c462f8ec00e797000156",
+            "lname": "Nikolic-Parry",
+            "num": "",
+            "pos": [],
+            "fname": "Auram"
+          },
+          {
+            "player_id": "64a8c462f8ec00e7ad000158",
+            "lname": "Sinnamen",
+            "num": "",
+            "pos": [],
+            "fname": "Jordan"
+          },
+          {
+            "player_id": "64a8c462f8ec00e7ca00015a",
+            "lname": "Salh",
+            "num": "",
+            "pos": [],
+            "fname": "Mohamed"
+          },
+          {
+            "player_id": "64a8c462f8ec00e7da00015c",
+            "lname": "Ngo",
+            "num": "",
+            "pos": [],
+            "fname": "Ben"
+          },
+          {
+            "player_id": "64a8c462f8ec00e7ed00015e",
+            "lname": "Zhung",
+            "num": "",
+            "pos": [],
+            "fname": "Fraser"
+          },
+          {
+            "player_id": "64a8c462f8ec00e7fd000160",
+            "lname": "Chen",
+            "num": "",
+            "pos": [],
+            "fname": "Calvin"
+          }
+        ],
         "ts": "2023-06-22T02:39:27",
-        "save_date": "2023-06-22T07:40:58",
+        "save_date": "2023-07-10T06:44:17",
         "first_save": "2023-06-22T07:40:50",
         "access_level": "free",
-        "_change_d_ts": 709094371.825544,
+        "_change_d_ts": 710483837.16066,
         "device_id": "F862C4AB-DD95-41DB-BD81-D1FD4FC48F0F",
         "ot_id": "648dc462f8eb00129b000006",
         "status": "OPP",
-        "_doc_version": "b08abebe6718418db1a0001152bc53a3",
+        "_doc_version": "beb48f5aa918480bb3cf7785ad624898",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6493c462f8dc00b45f000154"
+          }
+        ],
         "~vc": "11.5.1.0",
         "prepaid": false,
-        "roster": [],
+        "innings": "9",
         "season": "Winter 2023",
+        "_change_d": "2023-07-08T04:37:17",
+        "_sync_d_ts": 709347655.457133,
         "tbd": false,
         "mascot": "Melbourne Uni",
-        "innings": "9",
+        "league": "",
         "lineup": [],
         "name": "Melbourne Uni",
         "league_id": "",
-        "stat_access": "OPEN",
         "age": "adult",
         "parent_team_id": "648dc462f8eb00129b000006",
+        "league_name": "",
         "teamgroups": [],
         "_id": "6493c462f8dc00b45f000154",
-        "is_official": false
+        "stat_access": "OPEN"
       },
       {
         "code": "MTCH",
+        "_sync_d": "2023-07-10T06:45:45",
         "entity_creation_time": 1687401604,
-        "league": "",
         "_type": "team",
         "~v": "11.5.1.0",
         "season_id": "6493fb026b78fd6f3722a461",
         "long_name": "Mitchell Majors",
         "meta": {
-          "games": 1
+          "scoring": true,
+          "offline": true,
+          "games": 1,
+          "last_scored": "2023-07-15T20:48:14",
+          "last_active": "2023-07-15T20:48:14"
         },
         "dropped": [],
         "strict_privacy_enabled": false,
         "av": "2",
-        "sport": "Baseball",
+        "is_official": false,
         "team_type": "other",
         "loc": {
           "pc": "00000"
         },
-        "_change_d": "2023-06-22T02:40:08",
-        "short_name": "Mitchell Majors",
+        "sport": "Baseball",
+        "prepaid": false,
         "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "64b2c462f8d900240600014a",
+            "lname": "Harkorn",
+            "num": "",
+            "pos": [],
+            "fname": "Ben "
+          },
+          {
+            "player_id": "64b2c462f8d900241f00014c",
+            "lname": "Partridge",
+            "num": "",
+            "pos": [],
+            "fname": "Callum "
+          },
+          {
+            "player_id": "64b2c462f8d900243800014e",
+            "lname": "Ryan",
+            "num": "",
+            "pos": [],
+            "fname": "Alyssia"
+          },
+          {
+            "player_id": "64b2c462f8d9002447000150",
+            "lname": "Atkins",
+            "num": "",
+            "pos": [],
+            "fname": "Tony"
+          },
+          {
+            "player_id": "64b2c462f8d900245d000152",
+            "lname": "Proctor",
+            "num": "",
+            "pos": [],
+            "fname": "Brent"
+          },
+          {
+            "player_id": "64b2c462f8d900246c000154",
+            "lname": "Mcgowan",
+            "num": "",
+            "pos": [],
+            "fname": "Corey"
+          },
+          {
+            "player_id": "64b2c462f8d900247c000156",
+            "lname": "Burton",
+            "num": "",
+            "pos": [],
+            "fname": "Joel"
+          },
+          {
+            "player_id": "64b2c462f8d900248a000158",
+            "lname": "Partridge",
+            "num": "",
+            "pos": [],
+            "fname": "David"
+          },
+          {
+            "player_id": "64b2c462f8d900249c00015a",
+            "lname": "Mcgowan",
+            "num": "",
+            "pos": [],
+            "fname": "Riley "
+          },
+          {
+            "player_id": "64b2c462f8d90024bb00015d",
+            "lname": "Linde",
+            "num": "",
+            "pos": [],
+            "fname": "Sebastian"
+          }
+        ],
         "ts": "2023-06-22T02:40:04",
-        "save_date": "2023-06-22T07:40:59",
+        "save_date": "2023-07-15T20:48:14",
         "first_save": "2023-06-22T07:40:50",
         "access_level": "free",
-        "_change_d_ts": 709094408.192013,
+        "_change_d_ts": 711089211.574349,
         "device_id": "F862C4AB-DD95-41DB-BD81-D1FD4FC48F0F",
         "ot_id": "648dc462f8eb00129b000006",
         "status": "OPP",
-        "_doc_version": "cdc6f8defa3d40ba8799de1b41f02e68",
+        "_doc_version": "e3da6adcbdb349df87d142974ebc8485",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6493c462f8dc00b484000156"
+          }
+        ],
         "~vc": "11.5.1.0",
-        "prepaid": false,
-        "roster": [],
+        "short_name": "Mitchell Majors",
+        "innings": "9",
         "season": "Winter 2023",
+        "_change_d": "2023-07-15T04:46:51",
+        "_sync_d_ts": 710664345.437567,
         "tbd": false,
         "mascot": "Mitchell Majors",
-        "innings": "9",
+        "league": "",
         "lineup": [],
         "name": "Mitchell Majors",
         "league_id": "",
-        "stat_access": "OPEN",
         "age": "adult",
         "parent_team_id": "648dc462f8eb00129b000006",
+        "league_name": "",
         "teamgroups": [],
         "_id": "6493c462f8dc00b484000156",
-        "is_official": false
+        "stat_access": "OPEN"
       },
       {
         "code": "NRTH",

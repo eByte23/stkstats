@@ -102,7 +102,7 @@ const TeamsList = ({ teams }: { teams: Teams }) => (
             <h3>{team.TeamName}</h3>
             <div className="flex flex-row justify-between">
               <span className="text-sm">{team.SeasonName}</span>
-              <span className="text-sm">4-1</span>
+              <span className="text-sm">{team.Record}</span>
             </div>
           </Link>
         </div>

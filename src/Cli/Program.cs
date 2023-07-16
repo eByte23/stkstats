@@ -1,6 +1,9 @@
-﻿using Cli;
+﻿using System.Security.Cryptography.X509Certificates;
+using Cli;
 using GameChanger.Parser;
 using Newtonsoft.Json;
+using StatSys.CoreStats;
+using StatSys.CoreStats.Builders;
 using StatSys.CoreStats.Mappers;
 using StatSys.CoreStats.Models;
 
@@ -12,6 +15,9 @@ public class Program
 
     public static void Main(string[] args)
     {
+        var _idGenerator = new UniqueIdGenerator();
+
+        var clubId = _idGenerator.NewDeterministicId("STKBC");
         // const string Path1 = "/workspace/stats/data/old-games/c res/St.Kilda 2019 MWBL C Resv Grade vs Doncaster 05_04_19 Stats.xml";
         // var fileText = File.ReadAllText(Path1);
         // var game = Stats.Parser.ParserUtil.Deserialize(fileText);
@@ -34,10 +40,29 @@ public class Program
             filesToProcess.AddRange(files.Where(x => !processedFilePaths.Contains(x)));
         }
 
-        // var teamInfo = JsonConvert.DeserializeObject<List<TeamInfo>>(File.ReadAllText(teamsFilePath));
+        var teamInfo = JsonConvert.DeserializeObject<List<TeamInfo>>(File.ReadAllText(teamsFilePath));
+
+        var teamPageViewBuilders = teamInfo.Select(x =>
+        {
+            var teamSchedule = Path.Combine(dir, x.Id, "team-schedule-data.json");
+            var teamScheduleData = JsonConvert.DeserializeObject<GameChangerTeamSchedule>(File.ReadAllText(teamSchedule));
+
+
+            var teamPage = TeamBuilder.New(clubId, new TeamMetadata
+            {
+                SeasonId = teamScheduleData.Team.SeasonId,
+                SeasonName = teamScheduleData.Team.SeasonName,
+                ShortId = "",
+                TeamId = teamScheduleData.Team.Id,
+                TeamName = x.Name,
+            });
+
+            return teamPage;
+
+        }).ToList();
+
 
         List<GameData> gameOverviews = new List<GameData>();
-        Dictionary<string, TeamOverview> teams = new Dictionary<string, TeamOverview>();
 
 
         foreach (var gameFilePath in filesToProcess)
@@ -53,50 +78,56 @@ public class Program
 
             var stats = JsonConvert.DeserializeObject<GameChanger.Parser.GameChangerApiStats.Game>(gameInfo.StatsJson);
 
-            if (gameInfo.Id == "6496d2a47c0001710c00071f")
+
+            var game = new ToGameMapper().Map(teamId, gameInfo.Id, gameInfo.AbsoluteGameUrl, stats, teamScheduleData);
+            if (game.OppositionName == "TBD" && game.Players.Count == 0)
             {
-                Console.WriteLine("Found it");
-            }
-            var outputGameData = new ToGameMapper().Map(teamId, gameInfo.Id, gameInfo.AbsoluteGameUrl, stats, teamScheduleData);
-            if (outputGameData.OppositionName == "TBD" && outputGameData.Players.Count == 0)
-            {
-                Console.WriteLine("Game Id: '{0}', may be an incomplete game. Game Url: '{1}'", outputGameData.GameChangerGameId, outputGameData.GameUrl);
+                Console.WriteLine("Game Id: '{0}', may be an incomplete game. Game Url: '{1}'", game.GameChangerGameId, game.GameUrl);
             }
 
-            if (outputGameData == null || (outputGameData.AwayRuns == 0 && outputGameData.HomeRuns == 0 && outputGameData.Players.Count == 0)) continue;
+            if (game == null || (game.AwayRuns == 0 && game.HomeRuns == 0 && game.Players.Count == 0)) continue;
 
 
-            gameOverviews.Add(outputGameData);
+            gameOverviews.Add(game);
 
-            if (!teams.ContainsKey(teamId))
+            var teamPageBuilder = teamPageViewBuilders.FirstOrDefault(x => x.TeamReferenceId == teamId);
+
+            teamPageBuilder.AddGamePlayed(new TeamBuilder.GamePlayed
             {
-                teams.Add(teamId, new TeamOverview
+                GameDate = game.Date,
+                GameId = game.GameId,
+                GameLocation = game.Location,
+                GameOpponent = game.OppositionName,
+                GameShortId = game.GameShortId,
+                // Hitting = ,
+                Players = game.Players.Select(x => new TeamBuilder.PlayerGamePlayed
                 {
-                    TeamId = teamId,
-                    TeamName = outputGameData.TeamName,
-                    ShortId = outputGameData.TeamShortId,
-                    SeasonId = outputGameData.SeasonId,
-                    SeasonName = outputGameData.SeasonName,
+                    Name = x.Name,
+                    ShortId = x.ShortId,
+                    Hitting = x.Hitting,
+                    PlayerId = x.UniqueId
+                }).ToList(),
+                OppositionRuns = game.HomeAway == "Home" ? game.AwayRuns : game.HomeRuns,
+                Runs = game.HomeAway == "Home" ? game.HomeRuns : game.AwayRuns,
+                Result = game.Result
+            });
 
-                });
-            }
-
-            var team = teams[teamId];
-            team.Games.Add((outputGameData.GameShortId, outputGameData.Date));
-
-
-
-            WriteFileUtils.FolderSafeWriteAllText($"game-output/{outputGameData.GameShortId}.json", JsonConvert.SerializeObject(outputGameData));
+            WriteFileUtils.FolderSafeWriteAllText($"game-output/{game.GameShortId}.json", JsonConvert.SerializeObject(game));
         }
 
-        teams = teams.OrderBy(x => x.Value.TeamName).OrderByDescending(x => x.Value.SeasonName).ToDictionary(x => x.Key, x => x.Value);
+        var teams = teamPageViewBuilders
+            .Select(x => x.Build())
+            .OrderBy(x => x.TeamName)
+            .OrderByDescending(x => x.SeasonName)
+            .ToList();
 
-        WriteFileUtils.FolderSafeWriteAllText("teams.json", JsonConvert.SerializeObject(teams));
-
+        foreach (var item in teams)
+        {
+            WriteFileUtils.FolderSafeWriteAllText($"team-output/{item.TeamShortId}.json", JsonConvert.SerializeObject(item));
+        }
 
         var recentGames = gameOverviews.Where(x => DateTime.Parse(x.Date) > DateTime.Now.AddMonths(-2)).OrderByDescending(x => x.Date).Take(10).ToList();
         WriteFileUtils.FolderSafeWriteAllText("recent-games.json", JsonConvert.SerializeObject(recentGames));
-
 
         var players = new GamesToIndividualPlayersStatsMapper().Map(gameOverviews);
 
@@ -105,38 +136,33 @@ public class Program
             WriteFileUtils.FolderSafeWriteAllText($"player-output/{player.ShortId}.json", JsonConvert.SerializeObject(player));
         }
 
+        WriteFileUtils.FolderSafeWriteAllText("teams.json", JsonConvert.SerializeObject(teams.Select(x =>
+        {
+            var wins = x.Games.Count(x => x.Result == "W");
+            var losses = x.Games.Count(x => x.Result == "L");
+            var draws = x.Games.Count(x => x.Result == "D");
+
+
+            return new TeamMetadata
+            {
+                TeamId = x.ReferenceTeamId,
+                Record = draws == 0 ? $"{wins}-{losses}" : $"{wins}-{losses}-{draws}",
+                SeasonId = x.SeasonId,
+                SeasonName = x.SeasonName,
+                ShortId = x.TeamShortId,
+                TeamName = x.TeamName,
+                Games = x.Games.Select(x => (x.ShortId, x.Date)).OrderByDescending(x => x.Date).ToList()
+            };
+
+        })));
         WriteFileUtils.FolderSafeWriteAllText("players.json", JsonConvert.SerializeObject(players.Select(x => x.ShortId).ToList()));
         WriteFileUtils.FolderSafeWriteAllText("games.json", JsonConvert.SerializeObject(gameOverviews.Select(x => x.GameShortId).ToList()));
-
-        // serialize the game stats
-        // map game stats to output style
-        // write to file
-        // write to line processed.txt
-
-
-
-
-
-
-
 
 
     }
 
 
 
-}
-
-
-public class TeamOverview
-{
-    public string ShortId { get; set; }
-    public string TeamId { get; set; }
-    public string TeamName { get; set; }
-    public string SeasonName { get; set; }
-    public string SeasonId { get; set; }
-
-    public List<(string fileName, string date)> Games { get; set; } = new();
 }
 
 public class GameInfo

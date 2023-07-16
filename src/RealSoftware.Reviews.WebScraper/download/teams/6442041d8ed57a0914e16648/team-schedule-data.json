@@ -33,14 +33,13 @@
         "side": 0
       },
       "location": "Elder Reserve (Monash Home)",
-      "change_v": "b95d7227-7552-4561-b858-897c58a0e3d4",
+      "play_time": "2023-04-22T14:40:00",
       "type": "League",
       "save_ts": 1682397044.0,
       "recipients": [],
       "wl": "1-0-0",
       "start_ts": 1682138400,
       "other_team_id": "64420d933709d41baa98925f",
-      "play_time": "2023-04-22T14:40:00",
       "game_id": "64420d933709d41baa98925c",
       "uses_halves": false,
       "notes": "",
@@ -80,13 +79,14 @@
         "side": 0
       },
       "location": "",
-      "play_time": "2023-05-06T14:40:00",
+      "change_v": "d7f1b0ad-8b6a-4289-9754-34ae078bbf2c",
       "type": "League",
       "save_ts": 1683549501.0,
       "recipients": [],
       "wl": "2-0-0",
       "start_ts": 1683348000,
       "other_team_id": "6455d2a47cf200d696000001",
+      "play_time": "2023-05-06T14:40:00",
       "game_id": "6455d2a47cf200d699000002",
       "uses_halves": false,
       "notes": "",
@@ -402,14 +402,13 @@
         "side": 1
       },
       "location": "Tom O'Halloran Field, Hockey Dr, St Kilda VIC 3182, Australia",
-      "change_v": "b95d7227-7552-4561-b858-897c58a0e3d4",
+      "play_time": "2023-07-01T14:40:00",
       "type": "League",
       "save_ts": 1688200543.0,
       "recipients": [],
       "wl": "8-1-0",
       "start_ts": 1688186400,
       "other_team_id": "64420d933709d41baa98925f",
-      "play_time": "2023-07-01T14:40:00",
       "game_id": "649fd2a47c8f0154c60000b9",
       "uses_halves": false,
       "notes": "",
@@ -417,6 +416,53 @@
       "stream_id": "649fd2a47c8f01ab0b0001df",
       "minutes_before": 0,
       "other_team_name": "Monash University"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": null,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 10.0,
+      "home": true,
+      "utc_start": "2023-07-15T04:40:00",
+      "sport": "BASEB",
+      "id": "64b1d2a47c810be3b8000318",
+      "recap_title": [
+        {
+          "content": "Deilyn of MWBL ST KILDA B GRADE Shuts Out LaTrobe",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 0,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 8,
+        "side": 1
+      },
+      "location": "Tom O'Halloran Field, Hockey Dr, St Kilda VIC 3182, Australia",
+      "change_v": "d7f1b0ad-8b6a-4289-9754-34ae078bbf2c",
+      "type": "League",
+      "save_ts": 1689486107.0,
+      "recipients": [],
+      "wl": "9-1-0",
+      "start_ts": 1689396000,
+      "other_team_id": "6455d2a47cf200d696000001",
+      "play_time": "2023-07-15T14:40:00",
+      "game_id": "64b1d2a47c810be3b8000318",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "64b2d2a47c810b1f12000319",
+      "minutes_before": 0,
+      "other_team_name": "LaTrobe"
     }
   ],
   "live_game": [],
@@ -432,6 +478,7 @@
       "",
       "",
       "",
+      "Tom O'Halloran Field, Hockey Dr, St Kilda VIC 3182, Australia",
       "Tom O'Halloran Field, Hockey Dr, St Kilda VIC 3182, Australia"
     ],
     "season_id": "6442041d8ed57a0914e16646",
@@ -842,48 +889,30 @@
       },
       {
         "code": "LTRB",
+        "_sync_d": "2023-07-15T00:09:34",
         "entity_creation_time": 1683347094,
-        "league": "",
         "_type": "team",
         "~v": "11.5.1.0",
         "season_id": "6458ed3820a34356d95d281f",
         "long_name": "LaTrobe",
         "meta": {
           "scoring": true,
-          "last_scored": "2023-05-08T12:38:21",
-          "games": 1,
+          "last_scored": "2023-07-16T05:41:48",
+          "games": 2,
           "offline": true,
-          "last_active": "2023-05-08T12:38:21"
+          "last_active": "2023-07-16T05:41:48"
         },
         "dropped": [],
         "strict_privacy_enabled": true,
         "av": "2",
-        "sport": "Baseball",
+        "is_official": false,
         "team_type": "other",
         "loc": {
           "pc": "00000"
         },
-        "_change_d": "2023-05-06T04:31:32",
+        "sport": "Baseball",
         "short_name": "LaTrobe",
         "age_desc": "adult",
-        "ts": "2023-05-06T04:24:54",
-        "save_date": "2023-05-08T12:38:21",
-        "first_save": "2023-05-08T12:38:16",
-        "access_level": "free",
-        "_change_d_ts": 705040292.772456,
-        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
-        "ot_id": "6442041d8ed57a0914e16648",
-        "status": "OPP",
-        "_doc_version": "92c70c0cb97b4868ab327aa84cdd265b",
-        "lineups": [
-          {
-            "positions": {},
-            "batters": [],
-            "dhs": {}
-          }
-        ],
-        "~vc": "11.5.1.0",
-        "prepaid": false,
         "roster": [
           {
             "player_id": "6455d2a47cf200d77f00001f",
@@ -947,21 +976,84 @@
             "num": "",
             "pos": [],
             "fname": "James"
+          },
+          {
+            "player_id": "64b2d2a47c810b2093000326",
+            "lname": "Burraston",
+            "num": "",
+            "pos": [],
+            "fname": "Matthew"
+          },
+          {
+            "player_id": "64b2d2a47c810b20a6000327",
+            "lname": "Bowe",
+            "num": "",
+            "pos": [],
+            "fname": "Adam"
+          },
+          {
+            "player_id": "64b2d2a47c810b20b3000328",
+            "lname": "Smith",
+            "num": "",
+            "pos": [],
+            "fname": "Nick"
+          },
+          {
+            "player_id": "64b2d2a47c810b20c8000329",
+            "lname": "Regester",
+            "num": "",
+            "pos": [],
+            "fname": "Luke"
+          },
+          {
+            "player_id": "64b2d2a47c810b20dc00032a",
+            "lname": "McBride",
+            "num": "",
+            "pos": [],
+            "fname": "Chris"
+          },
+          {
+            "player_id": "64b2d2a47c810b39cf000410",
+            "lname": "Perkins",
+            "num": "",
+            "pos": [],
+            "fname": "Michael"
           }
         ],
+        "ts": "2023-05-06T04:24:54",
+        "save_date": "2023-07-16T05:41:48",
+        "first_save": "2023-05-08T12:38:16",
+        "access_level": "free",
+        "_change_d_ts": 711094607.32053,
+        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "ot_id": "6442041d8ed57a0914e16648",
+        "status": "OPP",
+        "_doc_version": "624bc1839fa5474ea51a577944e12f58",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "11.7.1.0",
+        "prepaid": false,
+        "innings": "6",
         "season": "Winter 2023",
+        "_change_d": "2023-07-15T06:16:47",
+        "_sync_d_ts": 711072574.187081,
         "tbd": false,
         "mascot": "LaTrobe",
-        "innings": "6",
+        "league": "",
         "lineup": [],
         "name": "LaTrobe",
         "league_id": "",
-        "stat_access": "CONFIRMED_FULL",
         "age": "youth",
         "parent_team_id": "6442041d8ed57a0914e16648",
+        "league_name": "",
         "teamgroups": [],
         "_id": "6455d2a47cf200d696000001",
-        "is_official": false
+        "stat_access": "CONFIRMED_FULL"
       },
       {
         "code": "MTCH",

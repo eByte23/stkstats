@@ -1,3 +1,4 @@
+import { type } from "os"
 
 
 export type Teams = { [teamId: string]: Team }
@@ -8,6 +9,7 @@ export type Team = {
     TeamName: string
     SeasonName: string
     SeasonId: string
+    Record: string
     Games: {
         Item1: string,
         Item2: string
@@ -51,6 +53,7 @@ export type Player = {
     ShortId: string
     UniqueId: string
     Name: string
+    GamesPlayed?: number
     GameChangerIds: string[],
     Hitting: BasicHitting,
 }
@@ -100,3 +103,29 @@ export type SeasonTotal =
 
 export type PlayerShortIds = string[]
 export type GameShortIds = string[]
+
+export type TeamViewModel = {
+    TeamId: string,
+    ReferenceTeamId: string,
+    TeamName: string,
+    TeamShortId: string,
+    Grade: null,
+    SeasonId: string,
+    SeasonName: string,
+    Games: TeamGamePlayer[]
+    Players: Player[],
+    TeamTotalHitting: {}
+}
+
+
+export type TeamGamePlayer = {
+    GameId: string,
+    ShortId: string,
+    Name: string,
+    Date: string,
+    Hittin: string,
+    OppositionTeam: string,
+    HomeRuns: number,
+    AwayRuns: number,
+    Result: string,
+}

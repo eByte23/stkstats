@@ -62,7 +62,7 @@ public class ToGameMapper
         return game.LocalStartDateTime.Date;
     }
 
-   
+
     private List<PlayerData> GetTeamPlayersFromStats(GameChangerApiStats.Game stats, TeamGameInfo teamOfInterest)
     {
         var players = new List<PlayerData>();
@@ -140,16 +140,20 @@ public class ToGameMapper
         var teamOfInterest = stats.Teams.First(x => x.Id == teamId);
         var oppositionTeam = stats.Teams.First(x => x.Id != teamId);
 
-        Guid teamOfInterestUid = clubId.NewGuid(teamOfInterest.LongName).Id;
-        Guid oppositionTeamUid = clubId.NewGuid(oppositionTeam.LongName).Id;
+        var teamOfInterestName = StringUtils.TrimName(teamOfInterest.LongName);
+        var oppositionTeamName = StringUtils.TrimName(oppositionTeam.LongName);
+
+        Guid teamOfInterestUid = clubId.NewGuid(teamOfInterestName.ToLowerInvariant()).Id;
+        Guid oppositionTeamUid = clubId.NewGuid(oppositionTeamName.ToLowerInvariant()).Id;
+
 
         var isDraw = (teamOfInterest.Stats.Offense.R == oppositionTeam.Stats.Offense.R);
         var teamOfInterestInfo = new TeamGameInfo
         {
             UnqiueTeamId = teamOfInterestUid,
-            TeamShortId = StringUtils.GetShortId(teamOfInterestUid, teamOfInterest.LongName),
+            TeamShortId = StringUtils.GetShortId(teamOfInterestUid, teamOfInterestName.ToLowerInvariant()),
             GameChangerTeamId = teamOfInterest.Id,
-            TeamName = teamOfInterest.LongName.Replace("  ", " "),
+            TeamName = teamOfInterestName,
             IsHome = teamOfInterest.IsHome,
             Runs = teamOfInterest.Stats.Offense.R,
             Result = isDraw ? "D" : (teamOfInterest.Stats.Offense.R > oppositionTeam.Stats.Offense.R ? "W" : "L")
@@ -158,9 +162,9 @@ public class ToGameMapper
         var oppositionTeamInfo = new TeamGameInfo
         {
             UnqiueTeamId = oppositionTeamUid,
-            TeamShortId = StringUtils.GetShortId(oppositionTeamUid, oppositionTeam.LongName),
+            TeamShortId = StringUtils.GetShortId(oppositionTeamUid, oppositionTeamName.ToLowerInvariant()),
             GameChangerTeamId = oppositionTeam.Id,
-            TeamName = oppositionTeam.LongName.Replace("  ", " "),
+            TeamName = oppositionTeamName,
             IsHome = oppositionTeam.IsHome,
             Runs = oppositionTeam.Stats.Offense.R,
             Result = isDraw ? "D" : (teamOfInterest.Stats.Offense.R < oppositionTeam.Stats.Offense.R ? "W" : "L")
