@@ -1,7 +1,7 @@
 import { GetStaticProps } from "next"
 import fs from "fs"
 import { TeamViewModel, Teams } from "@/types"
-import { TeamHittingStatsTable } from "./components/HittingStatsTable"
+import { TeamHittingStatsTable } from "@/components/TeamHittingStatsTable"
 
 type TeamPageProps = {
     team: TeamViewModel
