@@ -114,7 +114,7 @@ namespace RealSoftware.Reviews.WebScraper
                         SkipLogin = true,
                         TeamId = team.Id,
                         TeamLink = team.Link,
-                    }, $"game-changer-team-{team.Id}-{DateTime.Now.ToString("yyyy-MM-dd")}", "gamechanger-schedule");
+                    }, $"game-changer-team-{team.Id}-{DateTime.Now.ToString("yyyy-MM-dd")}", "gamechanger-schedule",true);
 
                     gamesToFetch.AddRange(scheduleRes.GameIds.Select((gameId) => new GameDownloadHistoryItem
                     {

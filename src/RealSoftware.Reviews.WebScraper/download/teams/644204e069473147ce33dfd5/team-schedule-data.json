@@ -3,11 +3,11 @@
   "type": "game",
   "team_events": [
     {
-      "play_time": "2023-04-22T12:15:00",
+      "sport": "BASEB",
       "event_type": "game",
       "recipients": [],
       "arrival_ts": 1682126100,
-      "minutes_before": 60,
+      "home": false,
       "notes": "",
       "wl": "0-0-0",
       "start_ts": 1682129700,
@@ -18,9 +18,9 @@
       "location": "Elder Reserve (Monash Home)",
       "timezone": 10.0,
       "game_id": "64420d5869473147ce33dfdd",
-      "home": false,
+      "minutes_before": 60,
       "utc_start": "2023-04-22T02:15:00",
-      "sport": "BASEB",
+      "play_time": "2023-04-22T12:15:00",
       "type": "League",
       "id": "64420d5869473147ce33dfdd",
       "other_team_name": "Monash University"
@@ -33,8 +33,8 @@
         "offline": true
       },
       "result": "L",
-      "home": true,
       "timezone": 10.0,
+      "home": true,
       "utc_start": "2023-07-01T02:15:00",
       "sport": "BASEB",
       "id": "649fd2a47c8f0154840000b8",
@@ -72,26 +72,50 @@
       "other_team_name": "Monash University"
     },
     {
-      "sport": "BASEB",
       "event_type": "game",
-      "recipients": [],
       "arrival_ts": null,
-      "home": true,
-      "notes": "",
-      "wl": "0-1-0",
-      "start_ts": 1689387300,
-      "uses_halves": false,
-      "playstatus": "NEW",
-      "other_team_id": "64b1d2a47c810be35b000316",
-      "meta": {},
-      "location": "Tom O'Halloran Field, Hockey Dr, St Kilda VIC 3182, Australia",
+      "playstatus": "CPT",
+      "meta": {
+        "live": true
+      },
+      "result": "W",
       "timezone": 10.0,
-      "game_id": "64b1d2a47c810be38f000317",
-      "minutes_before": 0,
+      "home": true,
       "utc_start": "2023-07-15T02:15:00",
-      "play_time": "2023-07-15T12:15:00",
-      "type": "League",
+      "sport": "BASEB",
       "id": "64b1d2a47c810be38f000317",
+      "recap_title": [
+        {
+          "content": "MWBL ST KILDA B RESERVES Clinches Lead in Third Inning to Defeat Latrobe Uni",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Top",
+        "away": 5,
+        "x": "st",
+        "w": "h",
+        "half": 0,
+        "home": 12,
+        "side": 0
+      },
+      "location": "Tom O'Halloran Field, Hockey Dr, St Kilda VIC 3182, Australia",
+      "change_v": "49a15a4e-2f07-4c80-bb9e-ce5c43cb87e9",
+      "type": "League",
+      "save_ts": 1689558610.0,
+      "recipients": [],
+      "wl": "1-1-0",
+      "start_ts": 1689387300,
+      "other_team_id": "64b1d2a47c810be35b000316",
+      "play_time": "2023-07-15T12:15:00",
+      "game_id": "64b1d2a47c810be38f000317",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "64b4e9491233048e24000001",
+      "minutes_before": 0,
       "other_team_name": "Latrobe Uni"
     }
   ],
@@ -108,51 +132,137 @@
     "opposing_teams": [
       {
         "code": "LTRB",
+        "_sync_d": "2023-07-17T00:53:21",
         "entity_creation_time": 1689379675,
-        "league": "",
         "_type": "team",
         "~v": "11.7.1.0",
         "season_id": "64b1e3922ca0d5bf22ee2335",
         "long_name": "Latrobe Uni",
         "meta": {
-          "games": 1
+          "scoring": true,
+          "last_scored": "2023-07-17T01:50:10",
+          "last_active": "2023-07-17T01:50:10",
+          "live": true,
+          "games": 1,
+          "offline": true
         },
         "dropped": [],
         "strict_privacy_enabled": true,
         "av": "2",
-        "sport": "Baseball",
+        "is_official": false,
         "team_type": "other",
         "loc": {
           "pc": "00000"
         },
-        "_change_d": "2023-07-15T00:08:47",
-        "short_name": "Latrobe Uni",
+        "sport": "Baseball",
+        "prepaid": false,
         "age_desc": "adult",
+        "roster": [
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Herrera",
+            "num": "",
+            "t": "R",
+            "fname": "Andy",
+            "player_id": "64b4e949123304901700000f"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Rundle",
+            "num": "",
+            "t": "R",
+            "fname": "Jordan",
+            "player_id": "64b4e949123304902e000011"
+          },
+          {
+            "player_id": "64b4e9491233049047000013",
+            "lname": "Caraballio",
+            "num": "",
+            "pos": [],
+            "fname": "Ariel"
+          },
+          {
+            "b": "R",
+            "pos": [],
+            "lname": "Perkins",
+            "num": "",
+            "t": "R",
+            "fname": "Michael",
+            "player_id": "64b4e949123304905f000015"
+          },
+          {
+            "player_id": "64b4e9491233049079000017",
+            "lname": "Rodeiguez",
+            "num": "",
+            "pos": [],
+            "fname": "Roberto"
+          },
+          {
+            "player_id": "64b4e9491233049097000019",
+            "lname": "Ratnayake",
+            "num": "",
+            "pos": [],
+            "fname": "Chuck"
+          },
+          {
+            "player_id": "64b4e94912330490fe00001b",
+            "lname": "Strebovis",
+            "num": "",
+            "pos": [],
+            "fname": "Nathan"
+          },
+          {
+            "player_id": "64b4e949123304910d00001d",
+            "lname": "Love",
+            "num": "",
+            "pos": [],
+            "fname": "Michelle"
+          },
+          {
+            "player_id": "64b4e949123304912600001f",
+            "lname": "Pentreath",
+            "num": "",
+            "pos": [],
+            "fname": "Alica"
+          }
+        ],
         "ts": "2023-07-15T00:07:55",
-        "save_date": "2023-07-15T00:08:50",
+        "save_date": "2023-07-17T01:50:10",
         "first_save": "2023-07-15T00:08:50",
         "access_level": "free",
-        "_change_d_ts": 711072527.759821,
-        "device_id": "7CA4D2EC-09DE-40F7-A3E3-27B811AAC623",
+        "_change_d_ts": 711248038.610317,
+        "device_id": "1249E998-EDA7-4F20-BEC2-99F8C89047D9",
         "ot_id": "644204e069473147ce33dfd5",
         "status": "OPP",
-        "_doc_version": "5de1fa44540a40dead7336f4c4d8bd1b",
+        "_doc_version": "4c6d10782eb04d21a57d620bef0f96ed",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "64b1d2a47c810be35b000316"
+          }
+        ],
         "~vc": "11.7.1.0",
-        "prepaid": false,
-        "roster": [],
+        "short_name": "Latrobe Uni",
+        "innings": "6",
         "season": "Winter 2023",
+        "_change_d": "2023-07-17T00:53:58",
+        "_sync_d_ts": 711248001.019924,
         "tbd": false,
         "mascot": "Latrobe Uni",
-        "innings": "6",
+        "league": "",
         "lineup": [],
         "name": "Latrobe Uni",
         "league_id": "",
-        "stat_access": "CONFIRMED_FULL",
         "age": "youth",
         "parent_team_id": "644204e069473147ce33dfd5",
+        "league_name": "",
         "teamgroups": [],
         "_id": "64b1d2a47c810be35b000316",
-        "is_official": false
+        "stat_access": "CONFIRMED_FULL"
       },
       {
         "code": "MNSH",
