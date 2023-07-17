@@ -20,7 +20,7 @@ public class GamesToIndividualPlayersStatsMapper
             {
                 Game = x,
                 Player = p,
-                PlayerId = p.UniqueId,
+                PlayerId = p.PlayerId,
             }))
             .GroupBy(x => x.PlayerId)
             .ToList();

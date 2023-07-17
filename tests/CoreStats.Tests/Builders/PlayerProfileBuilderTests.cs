@@ -38,7 +38,7 @@ public class PlayerProfileBuilderTests
                 new StatSys.CoreStats.Models.PlayerData{
                     Name = "John  Smith ",
                     GameChangerIds = {"1234"},
-                    UniqueId = builder.PlayerId,
+                    PlayerId = builder.PlayerId,
                     ShortId ="33333",
                     Hitting = new StatSys.CoreStats.Models.HittingData{
                         PA =  4,
@@ -90,7 +90,7 @@ public class PlayerProfileBuilderTests
                 new StatSys.CoreStats.Models.PlayerData{
                     Name = "John  Smith ",
                     GameChangerIds = {"1234"},
-                    UniqueId = builder.PlayerId,
+                    PlayerId = builder.PlayerId,
                     ShortId ="33333",
                     Hitting = new StatSys.CoreStats.Models.HittingData{
                         PA= 3,

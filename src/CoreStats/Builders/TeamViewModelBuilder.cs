@@ -161,7 +161,7 @@ namespace StatSys.CoreStats.Builders
                     Players = game.Players.Select(x => new PlayerGamePlayed
                     {
                         Name = x.Name,
-                        PlayerId = x.UniqueId,
+                        PlayerId = x.PlayerId,
                         ShortId = x.ShortId,
                         Hitting = x.Hitting
                     }).ToList()

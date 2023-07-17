@@ -30,7 +30,7 @@ const TeamPage = (props: TeamPageProps) => {
                 <div className="mt-3">
                     <div id="tabs-with-underline-1" role="tabpanel" aria-labelledby="tabs-with-underline-item-1">
                         <TeamHittingStatsTable players={props.team.Players.map((p) => ({
-                            PlayerId: p.UniqueId,
+                            PlayerId: p.PlayerId,
                             Name: p.Name,
                             ShortId: p.ShortId,
                             Hitting: ({...p.Hitting, GamesPlayed: p.GamesPlayed!}),
@@ -81,9 +81,6 @@ export default TeamPage
 export const getStaticProps: GetStaticProps<TeamPageProps, { teamShortId?: string }> = async ({ params }) => {
 
     const teamShortId = params?.["teamShortId"]
-    console.log(`teamid`, {
-        teamShortId
-    })
 
     const content = fs.readFileSync(process.cwd() + `/data/team-output/${teamShortId}.json`).toString()
 

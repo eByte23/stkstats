@@ -51,7 +51,7 @@ export type Game = {
 
 export type Player = {
     ShortId: string
-    UniqueId: string
+    PlayerId: string
     Name: string
     GamesPlayed?: number
     GameChangerIds: string[],
@@ -72,6 +72,7 @@ export type BasicHitting = {
     BB: string
     SO: string
     SF: string
+    SB: string
     HBP: string
     SOL: string
     AVG: string

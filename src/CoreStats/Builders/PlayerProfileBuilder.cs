@@ -141,7 +141,7 @@ public class PlayerProfileBuilder
 
         public static GamePlayed New(Guid playerId, Models.GameData gameData)
         {
-            var player = gameData.Players.FirstOrDefault(x => x.UniqueId == playerId);
+            var player = gameData.Players.FirstOrDefault(x => x.PlayerId == playerId);
 
             if (player == null)
             {

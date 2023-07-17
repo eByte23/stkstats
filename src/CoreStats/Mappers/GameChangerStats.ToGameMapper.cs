@@ -81,7 +81,7 @@ public class ToGameMapper
             PlayerData newPlayer = new PlayerData
             {
                 ShortId = shortId,
-                UniqueId = uniqueGuid,
+                PlayerId = uniqueGuid,
                 GameChangerIds = new List<string> { player.PlayerId },
                 Name = fullName,
                 FirstName = firstName,
@@ -99,6 +99,7 @@ public class ToGameMapper
                     RBI = player.Stats.Offense.RBI,
                     R = player.Stats.Offense.R,
                     BB = player.Stats.Offense.BB,
+                    SB = player.Stats.Offense.SB,
                     SO = player.Stats.Offense.SO,
                     SF = player.Stats.Offense.SHF,
                     KL = player.Stats.Offense.SOL,
@@ -110,9 +111,9 @@ public class ToGameMapper
                 }
             };
 
-            if (players.Any(x => x.UniqueId == uniqueGuid))
+            if (players.Any(x => x.PlayerId == uniqueGuid))
             {
-                var existingPlayer = players.Single(x => x.UniqueId == uniqueGuid);
+                var existingPlayer = players.Single(x => x.PlayerId == uniqueGuid);
 
                 if (existingPlayer.Hitting.PA == 0)
                 {

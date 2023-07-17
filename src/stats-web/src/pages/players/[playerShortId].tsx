@@ -43,7 +43,7 @@ export const PlayerPage = ({ player }: PlayerPageProps) => {
                     <div id="tabs-with-underline-1" role="tabpanel" aria-labelledby="tabs-with-underline-item-1">
                         {currentSeasonStats && (
 
-                            <HittingStatsTable players={[{ ...(currentSeasonStats! as any as Player), UniqueId: currentSeasonStats.SeasonId }]} />
+                            <HittingStatsTable players={[{ ...(currentSeasonStats! as any as Player), PlayerId: currentSeasonStats.SeasonId }]} />
                         )}
 
                     </div>

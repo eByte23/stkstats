@@ -8,7 +8,7 @@ public class PlayerData
 
 
     // GUID unqiue by club and fname-lname
-    public Guid UniqueId { get; set; }
+    public Guid PlayerId { get; set; }
 
     // fname lname
     public string? Name { get; set; }

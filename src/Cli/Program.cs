@@ -105,7 +105,7 @@ public class Program
                     Name = x.Name,
                     ShortId = x.ShortId,
                     Hitting = x.Hitting,
-                    PlayerId = x.UniqueId
+                    PlayerId = x.PlayerId
                 }).ToList(),
                 OppositionRuns = game.HomeAway == "Home" ? game.AwayRuns : game.HomeRuns,
                 Runs = game.HomeAway == "Home" ? game.HomeRuns : game.AwayRuns,

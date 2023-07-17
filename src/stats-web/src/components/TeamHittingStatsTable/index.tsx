@@ -30,6 +30,7 @@ export const TeamHittingStatsTable = ({ players }: HittingStatsTableProps) => {
                 <th className="">R</th>
                 <th className="">BB</th>
                 <th className="">SO</th>
+                <th className="">SB</th>
                 <th className="">HBP</th>
                 <th className="">SOL</th>
                 <th className="">AVG</th>
@@ -60,6 +61,7 @@ export const TeamHittingStatsTable = ({ players }: HittingStatsTableProps) => {
                     <td className="border px-3 text-center">{player.Hitting.R}</td>
                     <td className="border px-3 text-center">{player.Hitting.BB}</td>
                     <td className="border px-3 text-center">{player.Hitting.SO}</td>
+                    <td className="border px-3 text-center">{player.Hitting.SB}</td>
                     <td className="border px-3 text-center">{player.Hitting.HBP}</td>
                     <td className="border px-3 text-center">{player.Hitting.SOL}</td>
                     <td className="border px-3 text-center">{player.Hitting.AVG}</td>

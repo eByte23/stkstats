@@ -49,6 +49,9 @@ public class HittingData
     [JsonProperty("HBP")]
     public int HBP { get; set; }
 
+    [JsonProperty("SB")]
+    public int SB { get; set; }
+
     // Percentages
 
     [JsonProperty("AVG")]
@@ -63,26 +66,6 @@ public class HittingData
     [JsonProperty("OBP")]
     public string? OBP { get; set; }
 
-
-    public void AddGame(HittingData game)
-    {
-        PA += game.PA;
-        AB += game.AB;
-        H += game.H;
-        TB += game.TB;
-        Singles += game.Singles;
-        Doubles += game.Doubles;
-        Triples += game.Triples;
-        HR += game.HR;
-        RBI += game.RBI;
-        R += game.R;
-        BB += game.BB;
-        SO += game.SO;
-        KL += game.KL;
-        SF += game.SF;
-        HBP += game.HBP;
-        RecalculatePercentages();
-    }
 
     public HittingData AddGame2(HittingData game)
     {
@@ -104,6 +87,7 @@ public class HittingData
             KL = this.KL + game.KL,
             SF = this.SF + game.SF,
             HBP = this.HBP + game.HBP,
+            SB = this.SB + game.SB
         };
 
         newData.RecalculatePercentages();
