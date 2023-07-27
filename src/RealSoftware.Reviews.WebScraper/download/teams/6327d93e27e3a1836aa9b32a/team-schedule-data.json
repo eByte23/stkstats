@@ -959,6 +959,115 @@
       },
       {
         "code": "CHLS",
+        "entity_creation_time": 1665194335,
+        "league": "",
+        "_type": "team",
+        "~v": "8.17.0.1",
+        "season_id": "6341f8379782e337d24a54bb",
+        "long_name": "Chelsea white",
+        "meta": {
+          "scoring": true,
+          "offline": true,
+          "games": 1,
+          "last_scored": "2022-10-08T22:23:06",
+          "last_active": "2022-10-08T22:23:06"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "sport": "Baseball",
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "_change_d": "2022-10-08T04:26:08",
+        "short_name": "Chelsea white",
+        "age_desc": "adult",
+        "ts": "2022-10-08T01:58:55",
+        "save_date": "2022-10-08T22:23:06",
+        "first_save": "2022-10-08T22:22:47",
+        "access_level": "free",
+        "_change_d_ts": 686895968.319601,
+        "mascot": "Chelsea white",
+        "ot_id": "6327d93e27e3a1836aa9b32a",
+        "status": "OPP",
+        "_doc_version": "e61fd06314a44df8bae6ab71dc176fce",
+        "~vc": "8.17.0.1",
+        "prepaid": false,
+        "roster": [
+          {
+            "player_id": "63409441354901fb2b0004e9",
+            "lname": "Ellingsen",
+            "num": "8",
+            "pos": [],
+            "fname": "Darren"
+          },
+          {
+            "player_id": "63409441354901fb470004ec",
+            "lname": "Davies",
+            "num": "6",
+            "pos": [],
+            "fname": "Lachlan"
+          },
+          {
+            "player_id": "63409441354901fb750004ef",
+            "lname": "Deighton",
+            "num": "2",
+            "pos": [],
+            "fname": "Matthew"
+          },
+          {
+            "player_id": "63409441354901fb860004f2",
+            "lname": "Vags",
+            "num": "1",
+            "pos": [],
+            "fname": "Matt"
+          },
+          {
+            "player_id": "63409441354901fba20004f5",
+            "lname": "Ellingsen",
+            "num": "5",
+            "pos": [],
+            "fname": "Conner"
+          },
+          {
+            "player_id": "63409441354901fbb50004f8",
+            "lname": "Tomkins",
+            "num": "3",
+            "pos": [],
+            "fname": "Drew"
+          },
+          {
+            "player_id": "63409441354901fbcf0004fb",
+            "lname": "Sweet",
+            "num": "7",
+            "pos": [],
+            "fname": "Brendan"
+          },
+          {
+            "player_id": "63409441354901fbe00004fe",
+            "lname": "Ramsey",
+            "num": "4",
+            "pos": [],
+            "fname": "John"
+          }
+        ],
+        "season": "Summer 2022",
+        "tbd": false,
+        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
+        "innings": "6",
+        "lineup": [],
+        "name": "Chelsea white",
+        "league_id": "",
+        "stat_access": "CONFIRMED_FULL",
+        "age": "youth",
+        "parent_team_id": "6327d93e27e3a1836aa9b32a",
+        "teamgroups": [],
+        "_id": "6340944135d700d95f0004ba",
+        "is_official": false
+      },
+      {
+        "code": "CHLS",
         "_sync_d": "2022-12-17T05:29:38",
         "_type": "team",
         "alerting": {
@@ -1156,115 +1265,6 @@
         "teamgroups": [],
         "_id": "633dedeccca599861611115c",
         "stat_access": "OPEN"
-      },
-      {
-        "code": "CHLS",
-        "entity_creation_time": 1665194335,
-        "league": "",
-        "_type": "team",
-        "~v": "8.17.0.1",
-        "season_id": "6341f8379782e337d24a54bb",
-        "long_name": "Chelsea white",
-        "meta": {
-          "scoring": true,
-          "offline": true,
-          "games": 1,
-          "last_scored": "2022-10-08T22:23:06",
-          "last_active": "2022-10-08T22:23:06"
-        },
-        "dropped": [],
-        "strict_privacy_enabled": true,
-        "av": "2",
-        "sport": "Baseball",
-        "team_type": "other",
-        "loc": {
-          "pc": "00000"
-        },
-        "_change_d": "2022-10-08T04:26:08",
-        "short_name": "Chelsea white",
-        "age_desc": "adult",
-        "ts": "2022-10-08T01:58:55",
-        "save_date": "2022-10-08T22:23:06",
-        "first_save": "2022-10-08T22:22:47",
-        "access_level": "free",
-        "_change_d_ts": 686895968.319601,
-        "mascot": "Chelsea white",
-        "ot_id": "6327d93e27e3a1836aa9b32a",
-        "status": "OPP",
-        "_doc_version": "e61fd06314a44df8bae6ab71dc176fce",
-        "~vc": "8.17.0.1",
-        "prepaid": false,
-        "roster": [
-          {
-            "player_id": "63409441354901fb2b0004e9",
-            "lname": "Ellingsen",
-            "num": "8",
-            "pos": [],
-            "fname": "Darren"
-          },
-          {
-            "player_id": "63409441354901fb470004ec",
-            "lname": "Davies",
-            "num": "6",
-            "pos": [],
-            "fname": "Lachlan"
-          },
-          {
-            "player_id": "63409441354901fb750004ef",
-            "lname": "Deighton",
-            "num": "2",
-            "pos": [],
-            "fname": "Matthew"
-          },
-          {
-            "player_id": "63409441354901fb860004f2",
-            "lname": "Vags",
-            "num": "1",
-            "pos": [],
-            "fname": "Matt"
-          },
-          {
-            "player_id": "63409441354901fba20004f5",
-            "lname": "Ellingsen",
-            "num": "5",
-            "pos": [],
-            "fname": "Conner"
-          },
-          {
-            "player_id": "63409441354901fbb50004f8",
-            "lname": "Tomkins",
-            "num": "3",
-            "pos": [],
-            "fname": "Drew"
-          },
-          {
-            "player_id": "63409441354901fbcf0004fb",
-            "lname": "Sweet",
-            "num": "7",
-            "pos": [],
-            "fname": "Brendan"
-          },
-          {
-            "player_id": "63409441354901fbe00004fe",
-            "lname": "Ramsey",
-            "num": "4",
-            "pos": [],
-            "fname": "John"
-          }
-        ],
-        "season": "Summer 2022",
-        "tbd": false,
-        "device_id": "35419479-536E-43B3-87CC-3DBEDCC25674",
-        "innings": "6",
-        "lineup": [],
-        "name": "Chelsea white",
-        "league_id": "",
-        "stat_access": "CONFIRMED_FULL",
-        "age": "youth",
-        "parent_team_id": "6327d93e27e3a1836aa9b32a",
-        "teamgroups": [],
-        "_id": "6340944135d700d95f0004ba",
-        "is_official": false
       },
       {
         "code": "MRNG",

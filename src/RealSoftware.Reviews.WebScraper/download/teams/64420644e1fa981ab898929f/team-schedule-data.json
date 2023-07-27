@@ -113,13 +113,14 @@
         "side": 0
       },
       "location": "Police Paddock Reserve",
-      "play_time": "2023-05-14T02:30:00",
+      "change_v": "37062291-ae12-466c-97bc-c37bee646c2a",
       "type": "League",
       "save_ts": 1687036062.0,
       "recipients": [],
       "wl": "1-1-1",
       "start_ts": 1683995400,
       "other_team_id": "6460347db3ef0327230002a2",
+      "play_time": "2023-05-14T02:30:00",
       "game_id": "6460347db3ef0327520002a3",
       "uses_halves": false,
       "notes": "",
@@ -198,27 +199,221 @@
       "other_team_name": "Ringwood"
     },
     {
-      "sport": "BASEB",
       "event_type": "game",
-      "recipients": [],
       "arrival_ts": 1687050000,
-      "home": false,
-      "notes": "",
-      "wl": "2-1-1",
-      "start_ts": 1687053600,
-      "uses_halves": false,
-      "playstatus": "NEW",
-      "other_team_id": "648e347db33f02212f000001",
-      "meta": {},
-      "location": "Myrtle Park North Balwyn",
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
       "timezone": 10.0,
-      "game_id": "648e347db33f022160000002",
-      "minutes_before": 60,
+      "home": false,
       "utc_start": "2023-06-18T02:00:00",
+      "sport": "BASEB",
+      "id": "648e347db33f022160000002",
+      "recap_title": [
+        {
+          "content": "MWBL ST KILDA WOMENS Can't Hold Up Against North Balwyn Stingers.",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 1,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 12,
+        "side": 1
+      },
+      "location": "Myrtle Park North Balwyn",
       "play_time": "2023-06-18T12:00:00",
       "type": "League",
-      "id": "648e347db33f022160000002",
+      "save_ts": 1689975484.0,
+      "recipients": [],
+      "wl": "2-2-1",
+      "start_ts": 1687053600,
+      "other_team_id": "648e347db33f02212f000001",
+      "game_id": "648e347db33f022160000002",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "648e347db33f024f31000006",
+      "minutes_before": 60,
       "other_team_name": "North Balwyn Stingers."
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1687663800,
+      "playstatus": "ABD",
+      "meta": {
+        "live": true
+      },
+      "result": "L",
+      "timezone": 10.0,
+      "home": true,
+      "utc_start": "2023-06-25T04:30:00",
+      "sport": "BASEB",
+      "id": "6497347db33f026902000130",
+      "state": {
+        "status": "ABD",
+        "inning": 1,
+        "side_readable": "Bot",
+        "away": 1,
+        "x": "st",
+        "w": "v",
+        "half": 1,
+        "home": 0,
+        "side": 1
+      },
+      "location": "Tom O'Halloran Field, Hockey Dr, St Kilda VIC 3182, Australia",
+      "play_time": "2023-06-25T14:30:00",
+      "type": "League",
+      "save_ts": 1689975485.0,
+      "recipients": [],
+      "wl": "2-2-1",
+      "start_ts": 1687667400,
+      "other_team_id": "6497347db33f0268d300012f",
+      "game_id": "6497347db33f026902000130",
+      "uses_halves": false,
+      "notes": "",
+      "stream_id": "6497347db33f02690a000131",
+      "minutes_before": 60,
+      "other_team_name": "Research"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1688259600,
+      "playstatus": "ABD",
+      "meta": {
+        "offline": true
+      },
+      "result": "W",
+      "timezone": 10.0,
+      "home": true,
+      "utc_start": "2023-07-02T02:00:00",
+      "sport": "BASEB",
+      "id": "64a0347db3f600a6f5000172",
+      "state": {
+        "status": "ABD",
+        "inning": 3,
+        "side_readable": "Bot",
+        "away": 5,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 11,
+        "side": 1
+      },
+      "location": "",
+      "play_time": "2023-07-02T12:00:00",
+      "type": "League",
+      "save_ts": 1690113561.0,
+      "recipients": [],
+      "wl": "2-2-1",
+      "start_ts": 1688263200,
+      "other_team_id": "6442347db3e5000e07000036",
+      "game_id": "64a0347db3f600a6f5000172",
+      "uses_halves": false,
+      "notes": "",
+      "stream_id": "64a0347db3f600a701000173",
+      "minutes_before": 60,
+      "other_team_name": "Greensborough"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1689478200,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 10.0,
+      "home": true,
+      "utc_start": "2023-07-16T04:30:00",
+      "sport": "BASEB",
+      "id": "64b3347db3f40031f8000001",
+      "recap_title": [
+        {
+          "content": "MWBL ST KILDA WOMENS Stays Scrappy In Loss To North Balwyn Hornets",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Top",
+        "away": 12,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 11,
+        "side": 0
+      },
+      "location": "",
+      "play_time": "2023-07-16T14:30:00",
+      "type": "League",
+      "save_ts": 1689975486.0,
+      "recipients": [],
+      "wl": "2-3-1",
+      "start_ts": 1689481800,
+      "other_team_id": "6454347db3ef039ea7000151",
+      "game_id": "64b3347db3f40031f8000001",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "64b3347db3f4004624000002",
+      "minutes_before": 60,
+      "other_team_name": "North Balwyn Hornets"
+    },
+    {
+      "event_type": "game",
+      "arrival_ts": 1690083000,
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true
+      },
+      "result": "L",
+      "timezone": 10.0,
+      "home": false,
+      "utc_start": "2023-07-23T04:30:00",
+      "sport": "BASEB",
+      "id": "64ba347db3f400fafb000148",
+      "recap_title": [
+        {
+          "content": "MWBL ST KILDA WOMENS Drops Game to South East Warriors After Late Score",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 5,
+        "side_readable": "Bot",
+        "away": 5,
+        "x": "st",
+        "w": "h",
+        "half": 1,
+        "home": 10,
+        "side": 1
+      },
+      "location": "",
+      "change_v": "37062291-ae12-466c-97bc-c37bee646c2a",
+      "type": "League",
+      "save_ts": 1690113562.0,
+      "recipients": [],
+      "wl": "2-4-1",
+      "start_ts": 1690086600,
+      "other_team_id": "6460347db3ef0327230002a2",
+      "play_time": "2023-07-23T14:30:00",
+      "game_id": "64ba347db3f400fafb000148",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "64bb347db3f40006b1000149",
+      "minutes_before": 60,
+      "other_team_name": "South East Warriors"
     }
   ],
   "live_game": [],
@@ -231,13 +426,17 @@
       "Police Paddock Reserve",
       "",
       "",
-      "Myrtle Park North Balwyn"
+      "Myrtle Park North Balwyn",
+      "Tom O'Halloran Field, Hockey Dr, St Kilda VIC 3182, Australia",
+      "",
+      "",
+      ""
     ],
     "season_id": "64420644e1fa981ab898929d",
     "opposing_teams": [
       {
         "code": "GRNS",
-        "_sync_d": "2023-04-23T08:22:12",
+        "_sync_d": "2023-06-17T21:11:01",
         "entity_creation_time": 1682050567,
         "_type": "team",
         "~v": "11.4.0.0",
@@ -245,10 +444,10 @@
         "long_name": "Greensborough",
         "meta": {
           "scoring": true,
-          "last_scored": "2023-04-23T08:23:59",
-          "last_active": "2023-04-23T08:23:59",
+          "last_scored": "2023-07-23T11:59:21",
+          "last_active": "2023-07-23T11:59:21",
           "live": true,
-          "games": 1,
+          "games": 2,
           "offline": true
         },
         "dropped": [],
@@ -346,17 +545,38 @@
             "num": "",
             "pos": [],
             "fname": "Nicole dematos"
+          },
+          {
+            "player_id": "64a0347db3f600d972000180",
+            "lname": "Benn-Lawler",
+            "num": "",
+            "pos": [],
+            "fname": "Alicia"
+          },
+          {
+            "player_id": "64a0347db3f600d98d000181",
+            "lname": "Wood",
+            "num": "",
+            "pos": [],
+            "fname": "Hannah"
+          },
+          {
+            "player_id": "64a0347db3f600d9aa000182",
+            "lname": "Alexico",
+            "num": "",
+            "pos": [],
+            "fname": "Samantha "
           }
         ],
         "ts": "2023-04-21T04:16:07",
-        "save_date": "2023-04-23T08:23:59",
+        "save_date": "2023-07-23T11:59:21",
         "first_save": "2023-04-21T04:16:13",
         "access_level": "free",
-        "_change_d_ts": 703916517.368952,
+        "_change_d_ts": 709955882.953775,
         "device_id": "B37D34CF-7876-44A5-9825-4E9AB842B26E",
         "ot_id": "64420644e1fa981ab898929f",
         "status": "OPP",
-        "_doc_version": "e7c2982ac84149ff9c25e2f71e859418",
+        "_doc_version": "647600e9f36845459f97f05b98ad1683",
         "lineups": [
           {
             "positions": {},
@@ -365,12 +585,12 @@
             "team_id": "6442347db3e5000e07000036"
           }
         ],
-        "~vc": "11.5.1.0",
+        "~vc": "11.7.1.0",
         "prepaid": false,
         "innings": "6",
         "season": "Winter 2023",
-        "_change_d": "2023-04-23T04:21:57",
-        "_sync_d_ts": 703930932.272086,
+        "_change_d": "2023-07-02T01:58:02",
+        "_sync_d_ts": 708729061.458254,
         "tbd": false,
         "mascot": "Greensborough",
         "league": "",
@@ -436,7 +656,7 @@
       },
       {
         "code": "NRTH",
-        "_sync_d": "2023-05-05T06:23:19",
+        "_sync_d": "2023-06-17T21:11:01",
         "entity_creation_time": 1683267239,
         "_type": "team",
         "~v": "11.6.0.1",
@@ -444,10 +664,10 @@
         "long_name": "North Balwyn Hornets",
         "meta": {
           "scoring": true,
-          "last_scored": "2023-06-17T21:07:42",
-          "games": 1,
+          "last_scored": "2023-07-21T21:38:06",
+          "games": 2,
           "offline": true,
-          "last_active": "2023-06-17T21:07:42"
+          "last_active": "2023-07-21T21:38:06"
         },
         "dropped": [],
         "strict_privacy_enabled": true,
@@ -523,17 +743,66 @@
             "num": "",
             "pos": [],
             "fname": "Helen"
+          },
+          {
+            "player_id": "64b3347db3f40071be000015",
+            "lname": "Priamo",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          },
+          {
+            "player_id": "64b3347db3f4007298000027",
+            "lname": "Stenshot",
+            "num": "",
+            "pos": [],
+            "fname": "S"
+          },
+          {
+            "player_id": "64b3347db3f40072bb00002b",
+            "lname": "Watson",
+            "num": "",
+            "pos": [],
+            "fname": "L"
+          },
+          {
+            "player_id": "64b3347db3f4007374000037",
+            "lname": "Perks",
+            "num": "",
+            "pos": [],
+            "fname": "L"
+          },
+          {
+            "player_id": "64b3347db3f4007381000039",
+            "lname": "Stewart",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          },
+          {
+            "player_id": "64b3347db3f400740e000042",
+            "lname": "Klein",
+            "num": "",
+            "pos": [],
+            "fname": "I"
+          },
+          {
+            "player_id": "64b3347db3f4007421000044",
+            "lname": "Mills",
+            "num": "",
+            "pos": [],
+            "fname": "J"
           }
         ],
         "ts": "2023-05-05T06:13:59",
-        "save_date": "2023-06-17T21:07:42",
+        "save_date": "2023-07-21T21:38:06",
         "first_save": "2023-05-05T06:14:23",
         "access_level": "free",
-        "_change_d_ts": 705118776.813895,
+        "_change_d_ts": 711175073.443818,
         "device_id": "B37D34CF-7876-44A5-9825-4E9AB842B26E",
         "ot_id": "64420644e1fa981ab898929f",
         "status": "OPP",
-        "_doc_version": "b7eb946d40d4494eaa2d8722ea418fd5",
+        "_doc_version": "5ad8f3968c624e95b7ef893eee682b71",
         "lineups": [
           {
             "positions": {},
@@ -542,12 +811,12 @@
             "team_id": "6454347db3ef039ea7000151"
           }
         ],
-        "~vc": "11.6.0.1",
+        "~vc": "11.7.1.0",
         "prepaid": false,
         "innings": "6",
         "season": "Winter 2023",
-        "_change_d": "2023-05-07T02:19:36",
-        "_sync_d_ts": 704960599.859155,
+        "_change_d": "2023-07-16T04:37:53",
+        "_sync_d_ts": 708729061.469775,
         "tbd": false,
         "mascot": "North Balwyn Hornets",
         "league": "",
@@ -570,7 +839,11 @@
         "season_id": "648e2162d341c9ca11039483",
         "long_name": "North Balwyn Stingers.",
         "meta": {
-          "games": 1
+          "scoring": true,
+          "last_scored": "2023-07-21T21:38:04",
+          "games": 1,
+          "offline": true,
+          "last_active": "2023-07-21T21:38:04"
         },
         "dropped": [],
         "strict_privacy_enabled": true,
@@ -649,14 +922,14 @@
           }
         ],
         "ts": "2023-06-17T21:10:07",
-        "save_date": "2023-06-18T10:36:43",
+        "save_date": "2023-07-21T21:38:04",
         "first_save": "2023-06-17T21:10:58",
         "access_level": "free",
         "_change_d_ts": 708746808.454687,
         "device_id": "B37D34CF-7876-44A5-9825-4E9AB842B26E",
         "ot_id": "64420644e1fa981ab898929f",
         "status": "OPP",
-        "_doc_version": "8336d791561f4e34973ba3886351faf7",
+        "_doc_version": "55dbaacddd5d4cbab6392e4a81120c62",
         "lineups": [
           {
             "positions": {},
@@ -682,6 +955,118 @@
         "league_name": "",
         "teamgroups": [],
         "_id": "648e347db33f02212f000001",
+        "stat_access": "CONFIRMED_FULL"
+      },
+      {
+        "code": "RSRC",
+        "_sync_d": "2023-07-21T21:37:36",
+        "entity_creation_time": 1687644371,
+        "_type": "team",
+        "~v": "11.7.1.0",
+        "season_id": "64bafa9f3ef4f0f63ba4c0d6",
+        "long_name": "Research",
+        "meta": {
+          "scoring": true,
+          "last_scored": "2023-07-21T21:38:05",
+          "games": 1,
+          "live": true,
+          "last_active": "2023-07-21T21:38:05"
+        },
+        "dropped": [],
+        "strict_privacy_enabled": true,
+        "av": "2",
+        "is_official": false,
+        "team_type": "other",
+        "loc": {
+          "pc": "00000"
+        },
+        "sport": "Baseball",
+        "prepaid": false,
+        "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "6497347db33f02bfe1000144",
+            "lname": "Davis",
+            "num": "",
+            "pos": [],
+            "fname": "Kirsty"
+          },
+          {
+            "player_id": "6497347db33f02c00a000146",
+            "lname": "Ray",
+            "num": "",
+            "pos": [],
+            "fname": "Carly"
+          },
+          {
+            "player_id": "6497347db33f02c035000148",
+            "lname": "Galligan",
+            "num": "",
+            "pos": [],
+            "fname": "Georgia"
+          },
+          {
+            "player_id": "6497347db33f02c04d00014a",
+            "lname": "Trubiano",
+            "num": "",
+            "pos": [],
+            "fname": "Jessica"
+          },
+          {
+            "player_id": "6497347db33f02c06700014c",
+            "lname": "Coban",
+            "num": "",
+            "pos": [],
+            "fname": "Beatrix"
+          },
+          {
+            "player_id": "6497347db33f02c07a00014e",
+            "lname": "White",
+            "num": "",
+            "pos": [],
+            "fname": "Nicole"
+          },
+          {
+            "player_id": "6497347db33f02c090000150",
+            "lname": "Dusan",
+            "num": "",
+            "pos": [],
+            "fname": "Cindy"
+          }
+        ],
+        "ts": "2023-06-24T22:06:11",
+        "save_date": "2023-07-21T21:38:05",
+        "first_save": "2023-07-21T21:37:35",
+        "access_level": "free",
+        "_change_d_ts": 709359632.897689,
+        "device_id": "B37D34CF-7876-44A5-9825-4E9AB842B26E",
+        "ot_id": "64420644e1fa981ab898929f",
+        "status": "OPP",
+        "_doc_version": "04db1023356a40e2bb94e1f21d39c745",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {}
+          }
+        ],
+        "~vc": "11.7.1.0",
+        "short_name": "Research",
+        "innings": "6",
+        "season": "Winter 2023",
+        "_change_d": "2023-06-25T04:20:32",
+        "_sync_d_ts": 711668256.06834,
+        "tbd": false,
+        "mascot": "Research",
+        "league": "",
+        "lineup": [],
+        "name": "Research",
+        "league_id": "",
+        "age": "youth",
+        "parent_team_id": "64420644e1fa981ab898929f",
+        "league_name": "",
+        "teamgroups": [],
+        "_id": "6497347db33f0268d300012f",
         "stat_access": "CONFIRMED_FULL"
       },
       {
@@ -824,8 +1209,8 @@
       },
       {
         "code": "STHS",
+        "_sync_d": "2023-07-21T22:28:56",
         "entity_creation_time": 1684023075,
-        "league": "",
         "_type": "team",
         "~v": "11.6.0.1",
         "season_id": "648e208152946bbe4d039480",
@@ -833,46 +1218,121 @@
         "meta": {
           "scoring": true,
           "offline": true,
-          "games": 1,
-          "last_scored": "2023-06-17T21:07:43",
-          "last_active": "2023-06-17T21:07:43"
+          "games": 2,
+          "last_scored": "2023-07-23T11:59:22",
+          "last_active": "2023-07-23T11:59:22"
         },
         "dropped": [],
         "strict_privacy_enabled": true,
         "av": "2",
-        "sport": "Baseball",
+        "is_official": false,
         "team_type": "other",
         "loc": {
           "pc": "00000"
         },
-        "_change_d": "2023-05-14T00:12:02",
-        "short_name": "South East Warriors",
+        "sport": "Baseball",
+        "prepaid": false,
         "age_desc": "adult",
+        "roster": [
+          {
+            "player_id": "64bc347db3f400ac14000159",
+            "lname": "Huynh",
+            "num": "",
+            "pos": [],
+            "fname": "H"
+          },
+          {
+            "player_id": "64bc347db3f400ac4900015b",
+            "lname": "Gottschling",
+            "num": "",
+            "pos": [],
+            "fname": "Eva"
+          },
+          {
+            "player_id": "64bc347db3f400ac6300015d",
+            "lname": "Katoa",
+            "num": "",
+            "pos": [],
+            "fname": "Ash"
+          },
+          {
+            "player_id": "64bc347db3f400ac7e00015f",
+            "lname": "Leesen",
+            "num": "",
+            "pos": [],
+            "fname": "Ellie"
+          },
+          {
+            "player_id": "64bc347db3f400ac92000161",
+            "lname": "Rippingale",
+            "num": "",
+            "pos": [],
+            "fname": "M"
+          },
+          {
+            "player_id": "64bc347db3f400aca4000163",
+            "lname": "Garduce",
+            "num": "",
+            "pos": [],
+            "fname": "L"
+          },
+          {
+            "player_id": "64bc347db3f400acbd000165",
+            "lname": "Jensen",
+            "num": "",
+            "pos": [],
+            "fname": "C"
+          },
+          {
+            "player_id": "64bc347db3f400acfc00016a",
+            "lname": "Paxawis",
+            "num": "",
+            "pos": [],
+            "fname": "F"
+          },
+          {
+            "player_id": "64bc347db3f400ad1900016e",
+            "lname": "Batty",
+            "num": "",
+            "pos": [],
+            "fname": "Mel"
+          }
+        ],
         "ts": "2023-05-14T00:11:15",
-        "save_date": "2023-06-17T21:07:43",
+        "save_date": "2023-07-23T11:59:22",
         "first_save": "2023-06-17T21:07:13",
         "access_level": "free",
-        "_change_d_ts": 705715922.224345,
+        "_change_d_ts": 711779481.298514,
         "device_id": "B37D34CF-7876-44A5-9825-4E9AB842B26E",
         "ot_id": "64420644e1fa981ab898929f",
         "status": "OPP",
-        "_doc_version": "2655ecd7c4b649f789eb1df93a43aed4",
-        "~vc": "11.6.0.1",
-        "prepaid": false,
-        "roster": [],
+        "_doc_version": "49ddeaa6fe60490ebc3bb9772adb89f9",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6460347db3ef0327230002a2"
+          }
+        ],
+        "~vc": "11.7.1.0",
+        "short_name": "South East Warriors",
+        "innings": "6",
         "season": "Winter 2023",
+        "_change_d": "2023-07-23T04:31:21",
+        "_sync_d_ts": 711671336.202039,
         "tbd": false,
         "mascot": "South East Warriors",
-        "innings": "6",
+        "league": "",
         "lineup": [],
         "name": "South East Warriors",
         "league_id": "",
-        "stat_access": "CONFIRMED_FULL",
         "age": "youth",
         "parent_team_id": "64420644e1fa981ab898929f",
+        "league_name": "",
         "teamgroups": [],
         "_id": "6460347db3ef0327230002a2",
-        "is_official": false
+        "stat_access": "CONFIRMED_FULL"
       }
     ],
     "sport": "Baseball",

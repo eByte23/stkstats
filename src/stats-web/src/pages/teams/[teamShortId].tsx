@@ -1,6 +1,6 @@
 import { GetStaticProps } from "next"
 import fs from "fs"
-import { TeamViewModel, Teams } from "@/types"
+import { Team, TeamViewModel, Teams } from "@/types"
 import { TeamHittingStatsTable } from "@/components/TeamHittingStatsTable"
 
 type TeamPageProps = {
@@ -33,14 +33,14 @@ const TeamPage = (props: TeamPageProps) => {
                             PlayerId: p.PlayerId,
                             Name: p.Name,
                             ShortId: p.ShortId,
-                            Hitting: ({...p.Hitting, GamesPlayed: p.GamesPlayed!}),
+                            Hitting: ({ ...p.Hitting, GamesPlayed: p.GamesPlayed! }),
                         }))}
-                        teamTotals={({}) as any}
+                            teamTotals={({}) as any}
                         />
 
                     </div>
                     <div id="tabs-with-underline-2" className="hidden" role="tabpanel" aria-labelledby="tabs-with-underline-item-2">
-                       <table>
+                        <table>
                             <thead>
                                 <tr>
                                     <th>Date</th>
@@ -63,7 +63,7 @@ const TeamPage = (props: TeamPageProps) => {
                                     </tr>
                                 ))}
                             </tbody>
-                       </table>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -96,12 +96,11 @@ export const getStaticProps: GetStaticProps<TeamPageProps, { teamShortId?: strin
 export const getStaticPaths = async () => {
     const content = fs.readFileSync(process.cwd() + "/data/teams.json").toString()
 
-    const teams = JSON.parse(content) as Teams || {};
+    const teams = JSON.parse(content) as Team[] || []
 
     // console.log(teams);
 
-    const paths = Object.keys(teams)
-        .map((teamShortId) => ({ params: { teamShortId: teams[teamShortId].ShortId } }))
+    const paths = teams.map((team) => ({ params: { teamShortId: team.ShortId } }))
 
     return {
         paths: paths,

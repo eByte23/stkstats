@@ -204,14 +204,13 @@
         "side": 0
       },
       "location": "",
-      "change_v": "f8cf0866-1ed7-4def-9a00-4065c8fa00f2",
+      "play_time": "2023-07-15T14:40:00",
       "type": "League",
       "save_ts": 1689454094.0,
       "recipients": [],
       "wl": "4-0-0",
       "start_ts": 1689396000,
       "other_team_id": "6493c462f8dc00b484000156",
-      "play_time": "2023-07-15T14:40:00",
       "game_id": "6493c462f8dc00b488000157",
       "uses_halves": false,
       "notes": "",
@@ -221,26 +220,51 @@
       "other_team_name": "Mitchell Majors"
     },
     {
-      "sport": "BASEB",
       "event_type": "game",
-      "recipients": [],
       "arrival_ts": null,
-      "home": true,
-      "notes": "",
-      "wl": "4-0-0",
-      "start_ts": 1690000800,
-      "uses_halves": false,
-      "playstatus": "NEW",
-      "other_team_id": "6493c462f8dc00b4b9000158",
-      "meta": {},
-      "location": "",
+      "playstatus": "CPT",
+      "meta": {
+        "offline": true,
+        "live": true
+      },
+      "result": "L",
       "timezone": 10.0,
-      "game_id": "6493c462f8dc00b4c1000159",
-      "minutes_before": 0,
+      "home": true,
       "utc_start": "2023-07-22T04:40:00",
-      "play_time": "2023-07-22T14:40:00",
-      "type": "League",
+      "sport": "BASEB",
       "id": "6493c462f8dc00b4c1000159",
+      "recap_title": [
+        {
+          "content": "Saints D Grade Falls to Greensborough After Sixth Inning Score",
+          "type": "text"
+        }
+      ],
+      "state": {
+        "status": "CPT",
+        "inning": 7,
+        "side_readable": "Top",
+        "away": 9,
+        "x": "st",
+        "w": "v",
+        "half": 0,
+        "home": 7,
+        "side": 0
+      },
+      "location": "",
+      "change_v": "d3340772-f025-48a5-8154-e82e8efc63cd",
+      "type": "League",
+      "save_ts": 1690439527.0,
+      "recipients": [],
+      "wl": "4-1-0",
+      "start_ts": 1690000800,
+      "other_team_id": "6493c462f8dc00b4b9000158",
+      "play_time": "2023-07-22T14:40:00",
+      "game_id": "6493c462f8dc00b4c1000159",
+      "uses_halves": false,
+      "notes": "",
+      "recapstatus": "CPT",
+      "stream_id": "64c22229214c060ef4000001",
+      "minutes_before": 0,
       "other_team_name": "Greensborough"
     },
     {
@@ -250,7 +274,7 @@
       "arrival_ts": null,
       "home": false,
       "notes": "",
-      "wl": "4-0-0",
+      "wl": "4-1-0",
       "start_ts": 1691210400,
       "uses_halves": false,
       "playstatus": "NEW",
@@ -273,7 +297,7 @@
       "arrival_ts": null,
       "home": true,
       "notes": "",
-      "wl": "4-0-0",
+      "wl": "4-1-0",
       "start_ts": 1691815200,
       "uses_halves": false,
       "playstatus": "NEW",
@@ -296,7 +320,7 @@
       "arrival_ts": null,
       "home": false,
       "notes": "",
-      "wl": "4-0-0",
+      "wl": "4-1-0",
       "start_ts": 1692420000,
       "uses_halves": false,
       "playstatus": "NEW",
@@ -507,51 +531,138 @@
       },
       {
         "code": "GRNS",
+        "_sync_d": "2023-07-17T23:35:55",
         "entity_creation_time": 1687401657,
-        "league": "",
         "_type": "team",
         "~v": "11.5.1.0",
         "season_id": "6493fb0321e3302aba3af099",
         "long_name": "Greensborough",
         "meta": {
-          "games": 1
+          "scoring": true,
+          "last_scored": "2023-07-27T06:32:07",
+          "last_active": "2023-07-27T06:32:07",
+          "live": true,
+          "games": 1,
+          "offline": true
         },
         "dropped": [],
         "strict_privacy_enabled": false,
         "av": "2",
-        "sport": "Baseball",
+        "is_official": false,
         "team_type": "other",
         "loc": {
           "pc": "00000"
         },
-        "_change_d": "2023-06-22T02:41:05",
-        "short_name": "Greensborough",
+        "sport": "Baseball",
+        "prepaid": false,
         "age_desc": "Adult",
+        "roster": [
+          {
+            "player_id": "64bbc462f8e4005e7b00043e",
+            "lname": "Fox",
+            "num": "",
+            "pos": [],
+            "fname": "Pat "
+          },
+          {
+            "player_id": "64bbc462f8e4005ea0000440",
+            "lname": "Decesaris",
+            "num": "",
+            "pos": [],
+            "fname": "Carlo"
+          },
+          {
+            "player_id": "64bbc462f8e4005eb3000442",
+            "lname": "Sullivan",
+            "num": "",
+            "pos": [],
+            "fname": "Mick"
+          },
+          {
+            "player_id": "64bbc462f8e4005ee7000445",
+            "lname": "Whyte",
+            "num": "",
+            "pos": [],
+            "fname": "Matt"
+          },
+          {
+            "player_id": "64bbc462f8e4005ef5000447",
+            "lname": "Davine",
+            "num": "",
+            "pos": [],
+            "fname": "Ryan"
+          },
+          {
+            "player_id": "64bbc462f8e4005f05000449",
+            "lname": "Wolstencroft",
+            "num": "",
+            "pos": [],
+            "fname": "James"
+          },
+          {
+            "player_id": "64bbc462f8e4005f1900044b",
+            "lname": "Ellyn",
+            "num": "",
+            "pos": [],
+            "fname": "Grant"
+          },
+          {
+            "player_id": "64bbc462f8e4005f45000450",
+            "lname": "Whyte",
+            "num": "",
+            "pos": [],
+            "fname": "Ben"
+          },
+          {
+            "player_id": "64bbc462f8e400601f000461",
+            "lname": "Dimarco",
+            "num": "",
+            "pos": [],
+            "fname": "Phoenix"
+          },
+          {
+            "player_id": "64bbc462f8e4006075000465",
+            "lname": "Paine",
+            "num": "",
+            "pos": [],
+            "fname": "Joshua"
+          }
+        ],
         "ts": "2023-06-22T02:40:57",
-        "save_date": "2023-06-22T07:41:00",
+        "save_date": "2023-07-27T06:32:07",
         "first_save": "2023-06-22T07:40:51",
         "access_level": "free",
-        "_change_d_ts": 709094465.09768,
+        "_change_d_ts": 711694325.391138,
         "device_id": "F862C4AB-DD95-41DB-BD81-D1FD4FC48F0F",
         "ot_id": "648dc462f8eb00129b000006",
         "status": "OPP",
-        "_doc_version": "d248c33d7dfa41b59af10ae888104547",
-        "~vc": "11.5.1.0",
-        "prepaid": false,
-        "roster": [],
+        "_doc_version": "7228f0eb3f5f41e7b0168afa43537a3c",
+        "lineups": [
+          {
+            "positions": {},
+            "batters": [],
+            "dhs": {},
+            "team_id": "6493c462f8dc00b4b9000158"
+          }
+        ],
+        "~vc": "11.7.1.0",
+        "short_name": "Greensborough",
+        "innings": "9",
         "season": "Winter 2023",
+        "_change_d": "2023-07-22T04:52:05",
+        "_sync_d_ts": 711329755.447562,
         "tbd": false,
         "mascot": "Greensborough",
-        "innings": "9",
+        "league": "",
         "lineup": [],
         "name": "Greensborough",
         "league_id": "",
-        "stat_access": "OPEN",
         "age": "adult",
         "parent_team_id": "648dc462f8eb00129b000006",
+        "league_name": "",
         "teamgroups": [],
         "_id": "6493c462f8dc00b4b9000158",
-        "is_official": false
+        "stat_access": "OPEN"
       },
       {
         "code": "MLBR",
